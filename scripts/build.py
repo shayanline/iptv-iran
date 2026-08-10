@@ -184,8 +184,13 @@ def collect():
         channel["best"] = best
         channel["tags"] = taxonomy.tags(channel)
 
+    # Channels listed under `order` in curated.json lead their category, in that order.
+    # The rest follow alphabetically.
+    pinned = {cid: i for i, cid in enumerate(curated.get("order", []))}
     ordered = sorted(channels.values(),
-                     key=lambda c: (taxonomy.ORDER.get(c["category"], 99), c["name_en"].lower()))
+                     key=lambda c: (taxonomy.ORDER.get(c["category"], 99),
+                                    pinned.get(c["id"], len(pinned)),
+                                    c["name_en"].lower()))
     log(f"{len(ordered)} channels publishable "
         f"({sum(1 for c in ordered if c['reach'] == 'global')} global, "
         f"{sum(1 for c in ordered if c['reach'] == 'iran-only')} Iran only), "

@@ -1,5 +1,498 @@
 [
   {
+    "id": "IRIB1.ir",
+    "name_en": "IRIB TV1",
+    "name_fa": "شبکه یک",
+    "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRIB1.ir.png",
+    "country": "IR",
+    "languages": [
+      "fas"
+    ],
+    "website": "https://tv1.ir/",
+    "category": "irib-national",
+    "province_en": "",
+    "province_fa": "",
+    "note_en": "",
+    "note_fa": "",
+    "source_local": false,
+    "streams": [
+      {
+        "url": "https://ncdn.telewebion.ir/tv1/live/1080p/index.m3u8",
+        "state": "ok",
+        "resolution": null,
+        "height": 1080,
+        "bandwidth": null,
+        "variants": null,
+        "kind": "hls",
+        "ms": 1831,
+        "uptime": 1.0,
+        "checks": 4,
+        "user_agent": null,
+        "referrer": null,
+        "sources": [
+          "discovery/telewebion"
+        ],
+        "first_seen": "2026-08-10T22:33:51+00:00",
+        "last_ok": "2026-08-10T23:03:22+00:00",
+        "format": "576i",
+        "defects": [],
+        "score": 161.779
+      },
+      {
+        "url": "https://ncdn.telewebion.ir/tv1/live/playlist.m3u8",
+        "state": "ok",
+        "resolution": "1920x1080",
+        "height": 1080,
+        "bandwidth": 2756600,
+        "variants": 4,
+        "kind": "hls",
+        "ms": 994,
+        "uptime": 1.0,
+        "checks": 6,
+        "user_agent": null,
+        "referrer": null,
+        "sources": [
+          "iptv-org",
+          "iptv-org/ir",
+          "iptv-org/fas",
+          "nexa",
+          "discovery/telewebion"
+        ],
+        "first_seen": "2026-08-10T22:11:33+00:00",
+        "last_ok": "2026-08-10T23:03:22+00:00",
+        "format": "576i",
+        "defects": [
+          "tag-missing-hash"
+        ],
+        "score": 137.837
+      },
+      {
+        "url": "https://s1-cloud.irib.ir/securelive3/tv1hd/tv1hd.m3u8",
+        "state": "iran_only",
+        "resolution": null,
+        "height": 576,
+        "bandwidth": null,
+        "variants": null,
+        "kind": null,
+        "ms": 24021,
+        "uptime": 1.0,
+        "checks": 6,
+        "user_agent": null,
+        "referrer": null,
+        "sources": [
+          "free-tv/md"
+        ],
+        "first_seen": "2026-08-10T22:11:33+00:00",
+        "last_ok": null,
+        "format": "576i",
+        "defects": [],
+        "score": 98.167
+      }
+    ],
+    "reach": "global",
+    "height": 1080,
+    "resolution": "1920x1080",
+    "quality": "FHD",
+    "tags": [
+      "irib",
+      "national",
+      "worldwide",
+      "fhd",
+      "fas",
+      "has-backup"
+    ]
+  },
+  {
+    "id": "IRIB2.ir",
+    "name_en": "IRIB TV2",
+    "name_fa": "شبکه دو",
+    "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRIB2.ir.png",
+    "country": "IR",
+    "languages": [
+      "fas"
+    ],
+    "website": "",
+    "category": "irib-national",
+    "province_en": "",
+    "province_fa": "",
+    "note_en": "",
+    "note_fa": "",
+    "source_local": false,
+    "streams": [
+      {
+        "url": "https://ncdn.telewebion.ir/tv2/live/1080p/index.m3u8",
+        "state": "ok",
+        "resolution": null,
+        "height": 1080,
+        "bandwidth": null,
+        "variants": null,
+        "kind": "hls",
+        "ms": 1714,
+        "uptime": 1.0,
+        "checks": 4,
+        "user_agent": null,
+        "referrer": null,
+        "sources": [
+          "discovery/telewebion"
+        ],
+        "first_seen": "2026-08-10T22:33:51+00:00",
+        "last_ok": "2026-08-10T23:03:22+00:00",
+        "format": "576i",
+        "defects": [],
+        "score": 161.857
+      },
+      {
+        "url": "https://ncdn.telewebion.ir/tv2/live/playlist.m3u8",
+        "state": "ok",
+        "resolution": "1920x1080",
+        "height": 1080,
+        "bandwidth": 2756600,
+        "variants": 4,
+        "kind": "hls",
+        "ms": 983,
+        "uptime": 1.0,
+        "checks": 6,
+        "user_agent": null,
+        "referrer": null,
+        "sources": [
+          "iptv-org",
+          "iptv-org/ir",
+          "iptv-org/fas",
+          "nexa",
+          "discovery/telewebion"
+        ],
+        "first_seen": "2026-08-10T22:11:33+00:00",
+        "last_ok": "2026-08-10T23:03:22+00:00",
+        "format": "576i",
+        "defects": [
+          "tag-missing-hash"
+        ],
+        "score": 137.845
+      },
+      {
+        "url": "https://s1-cloud.irib.ir/securelive3/tv2hd/tv2hd.m3u8",
+        "state": "iran_only",
+        "resolution": null,
+        "height": 576,
+        "bandwidth": null,
+        "variants": null,
+        "kind": null,
+        "ms": 24024,
+        "uptime": 1.0,
+        "checks": 6,
+        "user_agent": null,
+        "referrer": null,
+        "sources": [
+          "free-tv/md"
+        ],
+        "first_seen": "2026-08-10T22:11:33+00:00",
+        "last_ok": null,
+        "format": "576i",
+        "defects": [],
+        "score": 98.167
+      }
+    ],
+    "reach": "global",
+    "height": 1080,
+    "resolution": "1920x1080",
+    "quality": "FHD",
+    "tags": [
+      "irib",
+      "national",
+      "worldwide",
+      "fhd",
+      "fas",
+      "has-backup"
+    ]
+  },
+  {
+    "id": "IRIB3.ir",
+    "name_en": "IRIB TV3",
+    "name_fa": "شبکه سه",
+    "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRIB3.ir.png",
+    "country": "IR",
+    "languages": [
+      "fas"
+    ],
+    "website": "https://tv3.ir/",
+    "category": "irib-national",
+    "province_en": "",
+    "province_fa": "",
+    "note_en": "",
+    "note_fa": "",
+    "source_local": false,
+    "streams": [
+      {
+        "url": "https://ncdn.telewebion.ir/tv3/live/108050p/index.m3u8",
+        "state": "ok",
+        "resolution": null,
+        "height": 1082,
+        "bandwidth": null,
+        "variants": null,
+        "kind": "hls",
+        "ms": 2009,
+        "uptime": 1.0,
+        "checks": 4,
+        "user_agent": null,
+        "referrer": null,
+        "sources": [
+          "discovery/telewebion"
+        ],
+        "first_seen": "2026-08-10T22:33:51+00:00",
+        "last_ok": "2026-08-10T23:03:22+00:00",
+        "format": "576i",
+        "defects": [],
+        "score": 165.661
+      },
+      {
+        "url": "https://ncdn.telewebion.ir/tv3/live/playlist.m3u8",
+        "state": "ok",
+        "resolution": "1920x1082",
+        "height": 1082,
+        "bandwidth": 6881600,
+        "variants": 5,
+        "kind": "hls",
+        "ms": 983,
+        "uptime": 1.0,
+        "checks": 6,
+        "user_agent": null,
+        "referrer": null,
+        "sources": [
+          "iptv-org",
+          "iptv-org/ir",
+          "iptv-org/fas",
+          "nexa",
+          "discovery/telewebion"
+        ],
+        "first_seen": "2026-08-10T22:11:33+00:00",
+        "last_ok": "2026-08-10T23:03:22+00:00",
+        "format": "576i",
+        "defects": [
+          "tag-missing-hash"
+        ],
+        "score": 141.845
+      },
+      {
+        "url": "https://s1-cloud.irib.ir/securelive3/tv3hd/tv3hd.m3u8",
+        "state": "iran_only",
+        "resolution": null,
+        "height": 576,
+        "bandwidth": null,
+        "variants": null,
+        "kind": null,
+        "ms": 24024,
+        "uptime": 1.0,
+        "checks": 6,
+        "user_agent": null,
+        "referrer": null,
+        "sources": [
+          "free-tv/md"
+        ],
+        "first_seen": "2026-08-10T22:11:33+00:00",
+        "last_ok": null,
+        "format": "576i",
+        "defects": [],
+        "score": 98.167
+      }
+    ],
+    "reach": "global",
+    "height": 1082,
+    "resolution": "1920x1082",
+    "quality": "FHD",
+    "tags": [
+      "irib",
+      "national",
+      "worldwide",
+      "fhd",
+      "fas",
+      "has-backup"
+    ]
+  },
+  {
+    "id": "IRIB4.ir",
+    "name_en": "IRIB TV4",
+    "name_fa": "شبکه چهار",
+    "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRIB4.ir.png",
+    "country": "IR",
+    "languages": [
+      "fas"
+    ],
+    "website": "https://tv4.ir/",
+    "category": "irib-national",
+    "province_en": "",
+    "province_fa": "",
+    "note_en": "",
+    "note_fa": "",
+    "source_local": false,
+    "streams": [
+      {
+        "url": "https://ncdn.telewebion.ir/tv4/live/576p/index.m3u8",
+        "state": "ok",
+        "resolution": null,
+        "height": 576,
+        "bandwidth": null,
+        "variants": null,
+        "kind": "hls",
+        "ms": 1755,
+        "uptime": 1.0,
+        "checks": 4,
+        "user_agent": null,
+        "referrer": null,
+        "sources": [
+          "discovery/telewebion"
+        ],
+        "first_seen": "2026-08-10T22:33:51+00:00",
+        "last_ok": "2026-08-10T23:03:22+00:00",
+        "format": "576i",
+        "defects": [],
+        "score": 152.497
+      },
+      {
+        "url": "https://ncdn.telewebion.ir/tv4/live/playlist.m3u8",
+        "state": "ok",
+        "resolution": "720x576",
+        "height": 576,
+        "bandwidth": 1515800,
+        "variants": 2,
+        "kind": "hls",
+        "ms": 995,
+        "uptime": 1.0,
+        "checks": 6,
+        "user_agent": null,
+        "referrer": null,
+        "sources": [
+          "iptv-org",
+          "iptv-org/ir",
+          "iptv-org/fas",
+          "nexa",
+          "discovery/telewebion"
+        ],
+        "first_seen": "2026-08-10T22:11:33+00:00",
+        "last_ok": "2026-08-10T23:03:22+00:00",
+        "format": "576i",
+        "defects": [
+          "tag-missing-hash"
+        ],
+        "score": 128.503
+      },
+      {
+        "url": "https://s1-cloud.irib.ir/securelive3/tv4sd/tv4sd.m3u8",
+        "state": "iran_only",
+        "resolution": null,
+        "height": 576,
+        "bandwidth": null,
+        "variants": null,
+        "kind": null,
+        "ms": 24024,
+        "uptime": 1.0,
+        "checks": 6,
+        "user_agent": null,
+        "referrer": null,
+        "sources": [
+          "free-tv/md"
+        ],
+        "first_seen": "2026-08-10T22:11:33+00:00",
+        "last_ok": null,
+        "format": "576i",
+        "defects": [],
+        "score": 98.167
+      }
+    ],
+    "reach": "global",
+    "height": 576,
+    "resolution": "720x576",
+    "quality": "SD",
+    "tags": [
+      "irib",
+      "national",
+      "worldwide",
+      "sd",
+      "fas",
+      "has-backup"
+    ]
+  },
+  {
+    "id": "TehranTV.ir",
+    "name_en": "IRIB TV5 (Tehran)",
+    "name_fa": "شبکه پنج (تهران)",
+    "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/TehranTV.ir.png",
+    "country": "IR",
+    "languages": [
+      "fas"
+    ],
+    "website": "https://tv5.ir/",
+    "category": "irib-national",
+    "province_en": "",
+    "province_fa": "",
+    "note_en": "IRIB TV5, also the Tehran provincial network",
+    "note_fa": "شبکه پنج، شبکه استانی تهران",
+    "source_local": false,
+    "streams": [
+      {
+        "url": "https://ncdn.telewebion.ir/tehran/live/1080p/index.m3u8",
+        "state": "ok",
+        "resolution": null,
+        "height": 1080,
+        "bandwidth": null,
+        "variants": null,
+        "kind": "hls",
+        "ms": 1741,
+        "uptime": 1.0,
+        "checks": 4,
+        "user_agent": null,
+        "referrer": null,
+        "sources": [
+          "discovery/telewebion"
+        ],
+        "first_seen": "2026-08-10T22:33:51+00:00",
+        "last_ok": "2026-08-10T23:03:22+00:00",
+        "format": "576i",
+        "defects": [],
+        "score": 161.839
+      },
+      {
+        "url": "https://ncdn.telewebion.ir/tehran/live/playlist.m3u8",
+        "state": "ok",
+        "resolution": "1920x1080",
+        "height": 1080,
+        "bandwidth": 2756600,
+        "variants": 4,
+        "kind": "hls",
+        "ms": 988,
+        "uptime": 1.0,
+        "checks": 6,
+        "user_agent": null,
+        "referrer": null,
+        "sources": [
+          "iptv-org",
+          "iptv-org/ir",
+          "iptv-org/fas",
+          "nexa",
+          "discovery/telewebion"
+        ],
+        "first_seen": "2026-08-10T22:11:33+00:00",
+        "last_ok": "2026-08-10T23:03:22+00:00",
+        "format": "576i",
+        "defects": [
+          "tag-missing-hash"
+        ],
+        "score": 137.841
+      }
+    ],
+    "reach": "global",
+    "height": 1080,
+    "resolution": "1920x1080",
+    "quality": "FHD",
+    "tags": [
+      "irib",
+      "national",
+      "worldwide",
+      "fhd",
+      "fas",
+      "has-backup"
+    ]
+  },
+  {
     "id": "GolkhaneTv.ir",
     "name_en": "Golkhane",
     "name_fa": "شبکه گلخانه",
@@ -1314,109 +1807,6 @@
     ]
   },
   {
-    "id": "IRIB1.ir",
-    "name_en": "IRIB TV1",
-    "name_fa": "شبکه یک",
-    "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRIB1.ir.png",
-    "country": "IR",
-    "languages": [
-      "fas"
-    ],
-    "website": "https://tv1.ir/",
-    "category": "irib-national",
-    "province_en": "",
-    "province_fa": "",
-    "note_en": "",
-    "note_fa": "",
-    "source_local": false,
-    "streams": [
-      {
-        "url": "https://ncdn.telewebion.ir/tv1/live/1080p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 1080,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1831,
-        "uptime": 1.0,
-        "checks": 4,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T22:33:51+00:00",
-        "last_ok": "2026-08-10T23:03:22+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 161.779
-      },
-      {
-        "url": "https://ncdn.telewebion.ir/tv1/live/playlist.m3u8",
-        "state": "ok",
-        "resolution": "1920x1080",
-        "height": 1080,
-        "bandwidth": 2756600,
-        "variants": 4,
-        "kind": "hls",
-        "ms": 994,
-        "uptime": 1.0,
-        "checks": 6,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "iptv-org",
-          "iptv-org/ir",
-          "iptv-org/fas",
-          "nexa",
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T23:03:22+00:00",
-        "format": "576i",
-        "defects": [
-          "tag-missing-hash"
-        ],
-        "score": 137.837
-      },
-      {
-        "url": "https://s1-cloud.irib.ir/securelive3/tv1hd/tv1hd.m3u8",
-        "state": "iran_only",
-        "resolution": null,
-        "height": 576,
-        "bandwidth": null,
-        "variants": null,
-        "kind": null,
-        "ms": 24021,
-        "uptime": 1.0,
-        "checks": 6,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "free-tv/md"
-        ],
-        "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": null,
-        "format": "576i",
-        "defects": [],
-        "score": 98.167
-      }
-    ],
-    "reach": "global",
-    "height": 1080,
-    "resolution": "1920x1080",
-    "quality": "FHD",
-    "tags": [
-      "irib",
-      "national",
-      "worldwide",
-      "fhd",
-      "fas",
-      "has-backup"
-    ]
-  },
-  {
     "id": "IRIB1Plus.ir",
     "name_en": "IRIB TV1 +",
     "name_fa": "شبکه یک پلاس",
@@ -1478,396 +1868,6 @@
           "tag-missing-hash"
         ],
         "score": 137.839
-      }
-    ],
-    "reach": "global",
-    "height": 1080,
-    "resolution": "1920x1080",
-    "quality": "FHD",
-    "tags": [
-      "irib",
-      "national",
-      "worldwide",
-      "fhd",
-      "fas",
-      "has-backup"
-    ]
-  },
-  {
-    "id": "IRIB2.ir",
-    "name_en": "IRIB TV2",
-    "name_fa": "شبکه دو",
-    "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRIB2.ir.png",
-    "country": "IR",
-    "languages": [
-      "fas"
-    ],
-    "website": "",
-    "category": "irib-national",
-    "province_en": "",
-    "province_fa": "",
-    "note_en": "",
-    "note_fa": "",
-    "source_local": false,
-    "streams": [
-      {
-        "url": "https://ncdn.telewebion.ir/tv2/live/1080p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 1080,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1714,
-        "uptime": 1.0,
-        "checks": 4,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T22:33:51+00:00",
-        "last_ok": "2026-08-10T23:03:22+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 161.857
-      },
-      {
-        "url": "https://ncdn.telewebion.ir/tv2/live/playlist.m3u8",
-        "state": "ok",
-        "resolution": "1920x1080",
-        "height": 1080,
-        "bandwidth": 2756600,
-        "variants": 4,
-        "kind": "hls",
-        "ms": 983,
-        "uptime": 1.0,
-        "checks": 6,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "iptv-org",
-          "iptv-org/ir",
-          "iptv-org/fas",
-          "nexa",
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T23:03:22+00:00",
-        "format": "576i",
-        "defects": [
-          "tag-missing-hash"
-        ],
-        "score": 137.845
-      },
-      {
-        "url": "https://s1-cloud.irib.ir/securelive3/tv2hd/tv2hd.m3u8",
-        "state": "iran_only",
-        "resolution": null,
-        "height": 576,
-        "bandwidth": null,
-        "variants": null,
-        "kind": null,
-        "ms": 24024,
-        "uptime": 1.0,
-        "checks": 6,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "free-tv/md"
-        ],
-        "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": null,
-        "format": "576i",
-        "defects": [],
-        "score": 98.167
-      }
-    ],
-    "reach": "global",
-    "height": 1080,
-    "resolution": "1920x1080",
-    "quality": "FHD",
-    "tags": [
-      "irib",
-      "national",
-      "worldwide",
-      "fhd",
-      "fas",
-      "has-backup"
-    ]
-  },
-  {
-    "id": "IRIB3.ir",
-    "name_en": "IRIB TV3",
-    "name_fa": "شبکه سه",
-    "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRIB3.ir.png",
-    "country": "IR",
-    "languages": [
-      "fas"
-    ],
-    "website": "https://tv3.ir/",
-    "category": "irib-national",
-    "province_en": "",
-    "province_fa": "",
-    "note_en": "",
-    "note_fa": "",
-    "source_local": false,
-    "streams": [
-      {
-        "url": "https://ncdn.telewebion.ir/tv3/live/108050p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 1082,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 2009,
-        "uptime": 1.0,
-        "checks": 4,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T22:33:51+00:00",
-        "last_ok": "2026-08-10T23:03:22+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 165.661
-      },
-      {
-        "url": "https://ncdn.telewebion.ir/tv3/live/playlist.m3u8",
-        "state": "ok",
-        "resolution": "1920x1082",
-        "height": 1082,
-        "bandwidth": 6881600,
-        "variants": 5,
-        "kind": "hls",
-        "ms": 983,
-        "uptime": 1.0,
-        "checks": 6,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "iptv-org",
-          "iptv-org/ir",
-          "iptv-org/fas",
-          "nexa",
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T23:03:22+00:00",
-        "format": "576i",
-        "defects": [
-          "tag-missing-hash"
-        ],
-        "score": 141.845
-      },
-      {
-        "url": "https://s1-cloud.irib.ir/securelive3/tv3hd/tv3hd.m3u8",
-        "state": "iran_only",
-        "resolution": null,
-        "height": 576,
-        "bandwidth": null,
-        "variants": null,
-        "kind": null,
-        "ms": 24024,
-        "uptime": 1.0,
-        "checks": 6,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "free-tv/md"
-        ],
-        "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": null,
-        "format": "576i",
-        "defects": [],
-        "score": 98.167
-      }
-    ],
-    "reach": "global",
-    "height": 1082,
-    "resolution": "1920x1082",
-    "quality": "FHD",
-    "tags": [
-      "irib",
-      "national",
-      "worldwide",
-      "fhd",
-      "fas",
-      "has-backup"
-    ]
-  },
-  {
-    "id": "IRIB4.ir",
-    "name_en": "IRIB TV4",
-    "name_fa": "شبکه چهار",
-    "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRIB4.ir.png",
-    "country": "IR",
-    "languages": [
-      "fas"
-    ],
-    "website": "https://tv4.ir/",
-    "category": "irib-national",
-    "province_en": "",
-    "province_fa": "",
-    "note_en": "",
-    "note_fa": "",
-    "source_local": false,
-    "streams": [
-      {
-        "url": "https://ncdn.telewebion.ir/tv4/live/576p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 576,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1755,
-        "uptime": 1.0,
-        "checks": 4,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T22:33:51+00:00",
-        "last_ok": "2026-08-10T23:03:22+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 152.497
-      },
-      {
-        "url": "https://ncdn.telewebion.ir/tv4/live/playlist.m3u8",
-        "state": "ok",
-        "resolution": "720x576",
-        "height": 576,
-        "bandwidth": 1515800,
-        "variants": 2,
-        "kind": "hls",
-        "ms": 995,
-        "uptime": 1.0,
-        "checks": 6,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "iptv-org",
-          "iptv-org/ir",
-          "iptv-org/fas",
-          "nexa",
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T23:03:22+00:00",
-        "format": "576i",
-        "defects": [
-          "tag-missing-hash"
-        ],
-        "score": 128.503
-      },
-      {
-        "url": "https://s1-cloud.irib.ir/securelive3/tv4sd/tv4sd.m3u8",
-        "state": "iran_only",
-        "resolution": null,
-        "height": 576,
-        "bandwidth": null,
-        "variants": null,
-        "kind": null,
-        "ms": 24024,
-        "uptime": 1.0,
-        "checks": 6,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "free-tv/md"
-        ],
-        "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": null,
-        "format": "576i",
-        "defects": [],
-        "score": 98.167
-      }
-    ],
-    "reach": "global",
-    "height": 576,
-    "resolution": "720x576",
-    "quality": "SD",
-    "tags": [
-      "irib",
-      "national",
-      "worldwide",
-      "sd",
-      "fas",
-      "has-backup"
-    ]
-  },
-  {
-    "id": "TehranTV.ir",
-    "name_en": "IRIB TV5 (Tehran)",
-    "name_fa": "شبکه پنج (تهران)",
-    "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/TehranTV.ir.png",
-    "country": "IR",
-    "languages": [
-      "fas"
-    ],
-    "website": "https://tv5.ir/",
-    "category": "irib-national",
-    "province_en": "",
-    "province_fa": "",
-    "note_en": "IRIB TV5, also the Tehran provincial network",
-    "note_fa": "شبکه پنج، شبکه استانی تهران",
-    "source_local": false,
-    "streams": [
-      {
-        "url": "https://ncdn.telewebion.ir/tehran/live/1080p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 1080,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1741,
-        "uptime": 1.0,
-        "checks": 4,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T22:33:51+00:00",
-        "last_ok": "2026-08-10T23:03:22+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 161.839
-      },
-      {
-        "url": "https://ncdn.telewebion.ir/tehran/live/playlist.m3u8",
-        "state": "ok",
-        "resolution": "1920x1080",
-        "height": 1080,
-        "bandwidth": 2756600,
-        "variants": 4,
-        "kind": "hls",
-        "ms": 988,
-        "uptime": 1.0,
-        "checks": 6,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "iptv-org",
-          "iptv-org/ir",
-          "iptv-org/fas",
-          "nexa",
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T23:03:22+00:00",
-        "format": "576i",
-        "defects": [
-          "tag-missing-hash"
-        ],
-        "score": 137.841
       }
     ],
     "reach": "global",

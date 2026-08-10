@@ -1579,5 +1579,13 @@
     "Manoto.uk": "https://upload.wikimedia.org/wikipedia/commons/e/ee/LOGO_Manoto-Rebrand_2018.png",
     "RadioFardaTV.us": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Radio_Farda_logo.png"
   },
-  "_logos_note": "Hand checked logo overrides, tried before the upstream database. Most upstream logos are hosted on imgur, which answers 200 with a 'Content not viewable in your region' image, so scripts/logos.py verifies every logo and drops the ones that do not decode."
+  "_logos_note": "Hand checked logo overrides, tried before the upstream database. Most upstream logos are hosted on imgur, which answers 200 with a 'Content not viewable in your region' image, so scripts/logos.py verifies every logo and drops the ones that do not decode.",
+  "order": [
+    "IRIB1.ir",
+    "IRIB2.ir",
+    "IRIB3.ir",
+    "IRIB4.ir",
+    "TehranTV.ir"
+  ],
+  "_order_note": "Channel ids pinned to the top of their category, in this order. Everything not listed follows alphabetically. IRIB TV1 to TV5 are the numbered national channels, so they lead rather than sorting under I, I, I, I and T."
 }

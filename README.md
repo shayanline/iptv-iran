@@ -86,6 +86,11 @@ elsewhere, so they load wherever you are. A programme guide is wired in through
 
 | Channel | Persian name | Quality | Available |
 |:--|:--|:--|:--|
+| IRIB TV1 | شبکه یک | 1080p | Worldwide |
+| IRIB TV2 | شبکه دو | 1080p | Worldwide |
+| IRIB TV3 | شبکه سه | 1082p | Worldwide |
+| IRIB TV4 | شبکه چهار | 576p | Worldwide |
+| IRIB TV5 (Tehran) | شبکه پنج (تهران) | 1080p | Worldwide |
 | Golkhane | شبکه گلخانه | 720p | Worldwide |
 | iFilm | آی‌فیلم | 1080p | Worldwide |
 | Iran Nama | ایران نما | 576p | Worldwide |
@@ -99,12 +104,7 @@ elsewhere, so they load wherever you are. A programme guide is wired in through
 | IRIB Quran | شبکه قرآن و معارف سیما | 1080p | Worldwide |
 | IRIB Salamat | شبکه سلامت | 576p | Worldwide |
 | IRIB Tamasha | شبکه تماشا | 1080p | Worldwide |
-| IRIB TV1 | شبکه یک | 1080p | Worldwide |
 | IRIB TV1 + | شبکه یک پلاس | 1080p | Worldwide |
-| IRIB TV2 | شبکه دو | 1080p | Worldwide |
-| IRIB TV3 | شبکه سه | 1082p | Worldwide |
-| IRIB TV4 | شبکه چهار | 576p | Worldwide |
-| IRIB TV5 (Tehran) | شبکه پنج (تهران) | 1080p | Worldwide |
 | IRIB UHD | شبکه فراگیر (UHD) | 2160p | Worldwide |
 | IRIB Varzesh | شبکه ورزش | 1082p | Worldwide |
 | IRINN | شبکه خبر | 576p | Worldwide |
@@ -538,6 +538,11 @@ If you hold the rights to a channel listed here and want it removed,
 
 | نام فارسی | نام انگلیسی | کیفیت | در دسترس |
 |:--|:--|:--|:--|
+| شبکه یک | IRIB TV1 | 1080p | همه‌جا |
+| شبکه دو | IRIB TV2 | 1080p | همه‌جا |
+| شبکه سه | IRIB TV3 | 1082p | همه‌جا |
+| شبکه چهار | IRIB TV4 | 576p | همه‌جا |
+| شبکه پنج (تهران) | IRIB TV5 (Tehran) | 1080p | همه‌جا |
 | شبکه گلخانه | Golkhane | 720p | همه‌جا |
 | آی‌فیلم | iFilm | 1080p | همه‌جا |
 | ایران نما | Iran Nama | 576p | همه‌جا |
@@ -551,12 +556,7 @@ If you hold the rights to a channel listed here and want it removed,
 | شبکه قرآن و معارف سیما | IRIB Quran | 1080p | همه‌جا |
 | شبکه سلامت | IRIB Salamat | 576p | همه‌جا |
 | شبکه تماشا | IRIB Tamasha | 1080p | همه‌جا |
-| شبکه یک | IRIB TV1 | 1080p | همه‌جا |
 | شبکه یک پلاس | IRIB TV1 + | 1080p | همه‌جا |
-| شبکه دو | IRIB TV2 | 1080p | همه‌جا |
-| شبکه سه | IRIB TV3 | 1082p | همه‌جا |
-| شبکه چهار | IRIB TV4 | 576p | همه‌جا |
-| شبکه پنج (تهران) | IRIB TV5 (Tehran) | 1080p | همه‌جا |
 | شبکه فراگیر (UHD) | IRIB UHD | 2160p | همه‌جا |
 | شبکه ورزش | IRIB Varzesh | 1082p | همه‌جا |
 | شبکه خبر | IRINN | 576p | همه‌جا |

@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IR1.xml.gz"
 # Satellite · Documentary & Learning only.
-# generated 2026-08-10 23:04 UTC by shayanline/iptv-iran
+# generated 2026-08-10 23:06 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="EPlanetTV.ir" tvg-name="E Planet TV" tvg-logo="" group-title="Satellite · Documentary & Learning" tvg-language="fas" tvg-quality="HD",E Planet TV | ای‌پلنت HD
 https://eplhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PayamJavanTV.us" tvg-name="Payam Javan TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PayamJavanTV.us.png" group-title="Satellite · Documentary & Learning" tvg-language="fas" tvg-quality="HD",Payam Javan TV | پیام جوان HD

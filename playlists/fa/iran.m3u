@@ -1,6 +1,16 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IR1.xml.gz"
 # Every channel, one stream each. [IR] needs an Iranian IP address.
-# generated 2026-08-10 23:04 UTC by shayanline/iptv-iran
+# generated 2026-08-10 23:06 UTC by shayanline/iptv-iran
+#EXTINF:-1 tvg-id="IRIB1.ir" tvg-name="IRIB TV1" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRIB1.ir.png" group-title="شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",شبکه یک FHD
+https://ncdn.telewebion.ir/tv1/live/1080p/index.m3u8
+#EXTINF:-1 tvg-id="IRIB2.ir" tvg-name="IRIB TV2" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRIB2.ir.png" group-title="شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",شبکه دو FHD
+https://ncdn.telewebion.ir/tv2/live/1080p/index.m3u8
+#EXTINF:-1 tvg-id="IRIB3.ir" tvg-name="IRIB TV3" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRIB3.ir.png" group-title="شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",شبکه سه FHD
+https://ncdn.telewebion.ir/tv3/live/108050p/index.m3u8
+#EXTINF:-1 tvg-id="IRIB4.ir" tvg-name="IRIB TV4" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRIB4.ir.png" group-title="شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="SD",شبکه چهار
+https://ncdn.telewebion.ir/tv4/live/576p/index.m3u8
+#EXTINF:-1 tvg-id="TehranTV.ir" tvg-name="IRIB TV5 (Tehran)" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/TehranTV.ir.png" group-title="شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",شبکه پنج (تهران) FHD
+https://ncdn.telewebion.ir/tehran/live/1080p/index.m3u8
 #EXTINF:-1 tvg-id="GolkhaneTv.ir" tvg-name="Golkhane" tvg-logo="" group-title="شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="HD",شبکه گلخانه HD
 https://ncdn.telewebion.ir/golkhane/live/720p/index.m3u8
 #EXTINF:-1 tvg-id="iFilmPersian.ir" tvg-name="iFilm" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/iFilmPersian.ir.png" group-title="شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",آی‌فیلم FHD
@@ -27,18 +37,8 @@ https://ncdn.telewebion.ir/quran/live/1080p/index.m3u8
 https://ncdn.telewebion.ir/salamat/live/576p/index.m3u8
 #EXTINF:-1 tvg-id="Tamasha.ir" tvg-name="IRIB Tamasha" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/Tamasha.ir.png" group-title="شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",شبکه تماشا FHD
 https://ncdn.telewebion.ir/hdtest/live/1080p/index.m3u8
-#EXTINF:-1 tvg-id="IRIB1.ir" tvg-name="IRIB TV1" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRIB1.ir.png" group-title="شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",شبکه یک FHD
-https://ncdn.telewebion.ir/tv1/live/1080p/index.m3u8
 #EXTINF:-1 tvg-id="IRIB1Plus.ir" tvg-name="IRIB TV1 +" tvg-logo="" group-title="شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",شبکه یک پلاس FHD
 https://ncdn.telewebion.ir/tv1plus/live/1080p/index.m3u8
-#EXTINF:-1 tvg-id="IRIB2.ir" tvg-name="IRIB TV2" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRIB2.ir.png" group-title="شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",شبکه دو FHD
-https://ncdn.telewebion.ir/tv2/live/1080p/index.m3u8
-#EXTINF:-1 tvg-id="IRIB3.ir" tvg-name="IRIB TV3" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRIB3.ir.png" group-title="شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",شبکه سه FHD
-https://ncdn.telewebion.ir/tv3/live/108050p/index.m3u8
-#EXTINF:-1 tvg-id="IRIB4.ir" tvg-name="IRIB TV4" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRIB4.ir.png" group-title="شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="SD",شبکه چهار
-https://ncdn.telewebion.ir/tv4/live/576p/index.m3u8
-#EXTINF:-1 tvg-id="TehranTV.ir" tvg-name="IRIB TV5 (Tehran)" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/TehranTV.ir.png" group-title="شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",شبکه پنج (تهران) FHD
-https://ncdn.telewebion.ir/tehran/live/1080p/index.m3u8
 #EXTINF:-1 tvg-id="IRIBUHD.ir" tvg-name="IRIB UHD" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRIBUHD.ir.png" group-title="شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="4K",شبکه فراگیر (UHD) 4K
 https://ncdn.telewebion.ir/faratar/live/2160p/index.m3u8
 #EXTINF:-1 tvg-id="VarzeshTV.ir" tvg-name="IRIB Varzesh" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/VarzeshTV.ir.png" group-title="شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",شبکه ورزش FHD
