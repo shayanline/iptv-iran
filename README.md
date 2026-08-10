@@ -1,3 +1,5 @@
+<a id="english"></a>
+
 # IPTV Iran
 
 M3U playlists of Iranian and Persian language television channels, grouped by operator and
@@ -11,6 +13,24 @@ addresses. Every stream is re-checked automatically every two weeks.
 ![Channels](https://img.shields.io/badge/channels-202-1f6feb)
 ![Streams](https://img.shields.io/badge/verified%20streams-259-8250df)
 ![Last checked](https://img.shields.io/badge/last%20checked-10%20August%202026-2da44e)
+
+**🇮🇷 [این راهنما به فارسی هم موجود است](#persian)**
+
+## Contents
+
+- [Get the playlist](#get-the-playlist)
+- [How streams are checked](#how-streams-are-checked)
+- [How a channel's stream is chosen](#how-a-stream-is-chosen)
+- [How channels are categorised](#how-channels-are-categorised)
+- [How duplicates are removed](#how-duplicates-are-removed)
+- [How it stays current](#how-it-stays-current)
+- [Adding or fixing a channel](#adding-or-fixing-a-channel)
+- [Sources](#sources)
+- [Licence](#licence)
+- [Categories](#categories)
+- [Channel list](#channel-list)
+
+<a id="get-the-playlist"></a>
 
 ## Get the playlist
 
@@ -49,6 +69,8 @@ probe measured, and `[IR]` marks a channel that needs an Iranian IP address. Cur
 An EPG is referenced through `x-tvg-url`, so clients that support it will load a programme
 guide without further configuration.
 
+<a id="how-streams-are-checked"></a>
+
 ## How streams are checked
 
 Streams are verified rather than trusted, because a playlist entry can point at a manifest
@@ -66,6 +88,8 @@ that still exists after the video behind it has stopped.
 - **Backups are kept.** Extra working streams for a channel stay in
   `iran-all-streams.m3u`, ordered best first.
 
+<a id="how-a-stream-is-chosen"></a>
+
 ## How a channel's stream is chosen
 
 Where several streams exist for one channel, they are scored and the highest is used in the
@@ -81,6 +105,8 @@ main playlists. The score uses only measured values:
 | Response time | up to 3 | Breaks ties only, never outweighs a resolution step |
 
 Uptime is the heaviest ongoing factor, so the choice improves as history accumulates.
+
+<a id="how-channels-are-categorised"></a>
 
 ## How channels are categorised
 
@@ -99,6 +125,8 @@ Each channel also carries machine readable `tags` in
 [`data/channels.json`](data/channels.json), covering operator, distribution, resolution,
 language and whether a backup stream exists.
 
+<a id="how-duplicates-are-removed"></a>
+
 ## How duplicates are removed
 
 Two kinds of duplicate are handled separately, in `scripts/identity.py`:
@@ -109,8 +137,10 @@ Two kinds of duplicate are handled separately, in `scripts/identity.py`:
   for the same endpoint.
 - **Channels.** The iptv-org id is the identity whenever a source supplies one. Entries
   with no id, or with different ids for one service, are grouped by a normalised name key
-  that removes non-distinguishing words (`TV`, `network`, `channel`, `HD`) and folds
-  Persian spelling variants such as `ك`/`ک` and `ي`/`ی`.
+  that removes non-distinguishing words (`TV`, `channel`, `HD`) and folds Persian spelling
+  variants such as `ك`/`ک` and `ي`/`ی`.
+
+<a id="how-it-stays-current"></a>
 
 ## How it stays current
 
@@ -126,11 +156,16 @@ A GitHub Actions workflow runs on the 1st and 15th of each month:
 3. **Rebuild.** Regenerate the playlists, `data/channels.json` and the tables in this
    README, and commit only when something changed.
 
+Hostnames are resolved over DNS-over-HTTPS, so a local filter such as AdGuard Home or
+Pi-hole cannot make a working channel look dead. Set `IPTV_DNS=system` to opt out.
+
+<a id="adding-or-fixing-a-channel"></a>
+
 ## Adding or fixing a channel
 
 Names, categories, discovery templates and any stream the public sources lack live in
 [`data/curated.json`](data/curated.json), which the refresh never overwrites. Everything
-under `playlists/` and the tables above are generated, so please do not edit them by hand.
+under `playlists/` and the tables below are generated, so please do not edit them by hand.
 
 - **Wrong category:** add the iptv-org id to the correct list under `sets`, or to
   `category_overrides`.
@@ -147,6 +182,8 @@ python scripts/probe.py     # check what is live
 python scripts/build.py     # regenerate playlists and this README
 python scripts/discover.py  # list configured discovery URLs
 ```
+
+<a id="sources"></a>
 
 ## Sources
 
@@ -174,10 +211,14 @@ CDN are included, which is why a few channels carried by other lists are absent.
 To request removal of a channel you hold the rights to,
 [open an issue](https://github.com/shayanline/iptv-iran/issues).
 
+<a id="licence"></a>
+
 ## Licence
 
 [MIT](LICENSE) for the code and the curated data. The channels belong to their
 broadcasters.
+
+<a id="categories"></a>
 
 ## Categories
 
@@ -198,6 +239,8 @@ broadcasters.
 | Religious · Christian | 11 | 11 | 0 | [religious-christian](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/religious-christian.m3u) |
 | Religious · Other Faiths & Spiritual | 4 | 4 | 0 | [religious-other](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/religious-other.m3u) |
 | **Total** | **202** | **198** | **4** | |
+
+<a id="channel-list"></a>
 
 ## Channel list
 
@@ -504,21 +547,42 @@ Channels of other faiths, and spiritual or philosophical programming.
 
 ---
 
+<a id="persian"></a>
+
 <div dir="rtl" align="right">
 
-# آی‌پی‌تی‌وی ایران
+# IPTV ایران
 
-فهرست‌های پخش M3U از شبکه‌های تلویزیونی ایران و فارسی‌زبان، دسته‌بندی‌شده نخست بر پایه
-گرداننده و شیوه پخش، و سپس بر پایه موضوع برنامه‌ها.
+پلی‌لیست‌های M3U از شبکه‌های تلویزیونی ایرانی و فارسی‌زبان، دسته‌بندی‌شده بر اساس اینکه چه
+کسی شبکه را اداره می‌کند و چطور پخش می‌شود، و بعد بر اساس موضوع برنامه‌ها.
 
-202 کانال در 14 دسته، از 259 پخش راستی‌آزمایی‌شده. 198 کانال از
-هر نقطه قابل دسترس است و 4 کانال تنها از آی‌پی‌های ایران. سلامت همه پخش‌ها هر دو
-هفته یک‌بار به‌صورت خودکار بررسی می‌شود.
+در مجموع ۲۰۲ شبکه در ۱۴ دسته، از ۲۵۹
+استریم بررسی‌شده. ۱۹۸ شبکه از هر جای دنیا باز می‌شود و
+۴ شبکه فقط با IP ایران. همه استریم‌ها هر دو هفته یک‌بار به‌صورت
+خودکار دوباره بررسی می‌شوند.
 
-## دریافت فهرست پخش
+**🇬🇧 [English version](#english)**
 
-یکی از نشانی‌های زیر را در وی‌ال‌سی، IPTV Smarters، TiviMate، کدی، OTT Navigator یا هر
-برنامه دیگری که M3U می‌خواند وارد کنید. نه چیزی برای نصب لازم است و نه حسابی برای ساختن.
+## فهرست مطالب
+
+- [دریافت پلی‌لیست](#fa-download)
+- [استریم‌ها چطور بررسی می‌شوند](#fa-checking)
+- [استریم هر شبکه چطور انتخاب می‌شود](#fa-choosing)
+- [شبکه‌ها چطور دسته‌بندی می‌شوند](#fa-categories-how)
+- [لینک‌های تکراری چطور حذف می‌شوند](#fa-duplicates)
+- [چطور به‌روز می‌ماند](#fa-updates)
+- [اضافه یا اصلاح کردن یک شبکه](#fa-contributing)
+- [منابع](#fa-sources)
+- [مجوز](#fa-licence)
+- [دسته‌ها](#fa-categories)
+- [فهرست شبکه‌ها](#fa-channels)
+
+<a id="fa-download"></a>
+
+## دریافت پلی‌لیست
+
+یکی از لینک‌های زیر را در VLC، IPTV Smarters، TiviMate، Kodi، OTT Navigator یا هر برنامه
+دیگری که M3U را پشتیبانی می‌کند وارد کنید. نه چیزی برای نصب لازم است و نه حساب کاربری.
 
 ```
 https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran.m3u
@@ -527,17 +591,17 @@ https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-domes
 https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-all-streams.m3u
 ```
 
-| فهرست پخش | محتوا |
+| پلی‌لیست | محتوا |
 |:--|:--|
-| [iran.m3u](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran.m3u) | همه کانال‌ها، یک پخش برای هر کانال |
-| [iran-global.m3u](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-global.m3u) | فقط کانال‌های قابل دسترس از خارج ایران |
-| [iran-domestic.m3u](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-domestic.m3u) | فقط کانال‌هایی که به آی‌پی ایران نیاز دارند |
-| [iran-all-streams.m3u](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-all-streams.m3u) | همه پخش‌های سالم، همراه با نسخه‌های پشتیبان |
+| [iran.m3u](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran.m3u) | همه شبکه‌ها، برای هر شبکه یک استریم |
+| [iran-global.m3u](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-global.m3u) | فقط شبکه‌هایی که از خارج ایران باز می‌شوند |
+| [iran-domestic.m3u](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-domestic.m3u) | فقط شبکه‌هایی که به IP ایران نیاز دارند |
+| [iran-all-streams.m3u](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-all-streams.m3u) | همه استریم‌های سالم، همراه با نسخه‌های پشتیبان |
 
 ### زبان عنوان‌ها
 
-همان چهار فهرست در سه حالت عنوان‌گذاری منتشر می‌شود. پوشه مناسب خود را انتخاب کنید، نام
-پرونده‌ها یکسان است.
+همین چهار پلی‌لیست با سه حالت عنوان‌گذاری منتشر می‌شود. هر کدام را که می‌پسندید انتخاب
+کنید. نام فایل‌ها در هر سه پوشه یکسان است.
 
 | پوشه | عنوان‌ها | نمونه |
 |:--|:--|:--|
@@ -545,110 +609,130 @@ https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-all-s
 | [`playlists/en/`](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/en/iran.m3u) | فقط انگلیسی | `IRIB TV1 FHD` |
 | [`playlists/fa/`](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/fa/iran.m3u) | فقط فارسی، با نام دسته‌های فارسی | `شبکه یک FHD` |
 
-برچسب کیفیت (`HD`، `FHD`، `4K`) بر پایه رزولوشنی که بررسی‌کننده اندازه گرفته به عنوان
-افزوده می‌شود، و `[IR]` نشان می‌دهد کانال به آی‌پی ایران نیاز دارد. ترکیب کنونی:
-1 ۴K, 58 فول‌اچ‌دی, 45 اچ‌دی, 84 معمولی, 14 نامشخص.
+برچسب کیفیت (`HD`، `FHD`، `4K`) بر اساس رزولوشنی که هنگام بررسی اندازه‌گیری شده به عنوان
+اضافه می‌شود، و `[IR]` یعنی آن شبکه فقط با IP ایران باز می‌شود. ترکیب فعلی:
+۱ 4K، ۵۸ FHD، ۴۵ HD، ۸۴ کیفیت معمولی، ۱۴ نامشخص.
 
-نشانی راهنمای برنامه‌ها (EPG) با `x-tvg-url` در فایل آمده است، پس برنامه‌هایی که از آن
-پشتیبانی می‌کنند بدون تنظیم اضافه جدول پخش را می‌گیرند.
+آدرس EPG با `x-tvg-url` داخل فایل قرار دارد، پس برنامه‌هایی که از آن پشتیبانی می‌کنند
+جدول پخش را بدون تنظیم اضافه نشان می‌دهند.
 
-## شیوه بررسی پخش‌ها
+<a id="fa-checking"></a>
 
-پخش‌ها راستی‌آزمایی می‌شوند و به آن‌ها اعتماد نمی‌شود، چون یک ورودی می‌تواند به مانیفستی
-اشاره کند که پس از قطع شدن ویدیو هم سر جایش مانده است.
+## استریم‌ها چطور بررسی می‌شوند
 
-- **بررسی، ویدیو می‌خواند.** زنجیره HLS را دنبال می‌کند، از فهرست اصلی به فهرست کیفیت و
-  سپس به یک قطعه ویدیو، و تنها زمانی پخش را سالم می‌شمارد که بایت‌های ویدیو برگردند.
-- **ناکامی به دلیل موقعیت جغرافیایی ثبت می‌شود، نه مجازات.** برخی نشانی‌ها تنها به
-  آی‌پی‌های ایران پاسخ می‌دهند. اجراکننده GitHub Actions بیرون از ایران است، پس آن
-  درخواست‌ها به وقفه زمانی می‌خورند. این پخش‌ها با برچسب `iran_only` ثبت و در
-  `iran-domestic.m3u` منتشر می‌شوند و حذف نمی‌شوند. این موضوع سرورهای پخش داخلی صداوسیما
-  را در بر می‌گیرد و همین دلیلِ فهرست شدن 34 شبکه استانی و شبکه‌های سراسری در
-  این مخزن است.
-- **حذف، تکرار می‌خواهد.** یک پخش باید سه بررسی دوهفتگی پشت‌سرهم، نزدیک شش هفته، ناموفق
-  باشد تا کنار گذاشته شود.
-- **نسخه پشتیبان نگه داشته می‌شود.** پخش‌های سالم دیگر هر کانال در
+به هیچ لینکی اعتماد نمی‌شود و همه بررسی می‌شوند، چون ممکن است فایل مانیفست هنوز سر جایش
+باشد ولی ویدیویی پشت آن پخش نشود.
+
+- **ویدیوی واقعی خوانده می‌شود.** بررسی، کل زنجیره HLS را دنبال می‌کند، از پلی‌لیست اصلی
+  به پلی‌لیست کیفیت و بعد به یک قطعه ویدیو، و فقط وقتی استریم را سالم می‌شمارد که داده
+  ویدیو برگردد.
+- **مسدود بودن جغرافیایی به معنای مرده بودن نیست.** بعضی سرورها فقط به IP های ایران جواب
+  می‌دهند. چون این بررسی روی سرور GitHub و بیرون از ایران اجرا می‌شود، آن درخواست‌ها
+  timeout می‌خورند. این استریم‌ها با برچسب `iran_only` ثبت و در `iran-domestic.m3u`
+  منتشر می‌شوند و حذف نمی‌شوند. این موضوع شامل CDN داخلی صداوسیما می‌شود و دلیل اینکه
+  ۳۴ شبکه استانی و شبکه‌های سراسری اصلاً در این فهرست هستند همین است.
+- **برای حذف شدن، تکرار لازم است.** یک استریم باید در سه بررسی دوهفتگی پشت سر هم ناموفق
+  باشد، یعنی حدود شش هفته، تا از فهرست بیرون برود.
+- **نسخه پشتیبان نگه داشته می‌شود.** اگر شبکه‌ای چند استریم سالم داشته باشد، بقیه در
   `iran-all-streams.m3u` می‌مانند، از بهترین به پایین.
 
-## شیوه انتخاب پخش هر کانال
+<a id="fa-choosing"></a>
 
-اگر یک کانال چند پخش داشته باشد، به آن‌ها امتیاز داده می‌شود و بهترین در فهرست‌های اصلی
-می‌آید. امتیاز تنها بر پایه مقادیر اندازه‌گیری‌شده است:
+## استریم هر شبکه چطور انتخاب می‌شود
+
+وقتی یک شبکه چند استریم دارد، به هر کدام امتیاز داده می‌شود و بهترین در پلی‌لیست‌های اصلی
+قرار می‌گیرد. امتیاز فقط بر اساس چیزهایی است که واقعاً اندازه‌گیری شده‌اند:
 
 | عامل | وزن | دلیل |
 |:--|--:|:--|
-| قابل دسترس از همه‌جا | ۱۰۰ | پخشی که پاسخ می‌دهد از پخش باکیفیت‌ترِ بی‌پاسخ ارزشمندتر است |
-| سابقه سلامت در بررسی‌های پیشین | تا ۳۰ | نسبت بررسی‌های موفق به کل، متناسب با تعداد بررسی‌ها |
-| بی‌نیاز به هدر سفارشی | ۲۵ | پخشی که Referer یا User-Agent می‌خواهد تنها در برنامه‌های پشتیبان `#EXTVLCOPT` باز می‌شود |
-| رزولوشن | تا ۲۴ | اندازه‌گیری‌شده از فهرست اصلی، نه از برچسب |
-| نرخ بیت تطبیقی | ۸ | چند کیفیت به برنامه امکان هم‌سازی با پهنای باند می‌دهد |
-| زمان پاسخ | تا ۳ | تنها برای رفع تساوی، هرگز بر یک پله رزولوشن نمی‌چربد |
+| باز شدن از سراسر دنیا | ۱۰۰ | استریمی که جواب می‌دهد از استریم باکیفیت‌تری که باز نمی‌شود بهتر است |
+| سابقه سالم بودن در بررسی‌های قبلی | تا ۳۰ | نسبت بررسی‌های موفق به کل بررسی‌ها، متناسب با تعداد دفعات بررسی |
+| نیاز نداشتن به هدر خاص | ۲۵ | استریمی که Referer یا User-Agent می‌خواهد فقط در برنامه‌هایی باز می‌شود که `#EXTVLCOPT` را می‌خوانند |
+| رزولوشن | تا ۲۴ | از خود پلی‌لیست اصلی خوانده می‌شود، نه از روی برچسب |
+| کیفیت تطبیقی | ۸ | وجود چند کیفیت به برنامه اجازه می‌دهد خودش را با سرعت اینترنت هماهنگ کند |
+| زمان پاسخ | تا ۳ | فقط وقتی به کار می‌آید که بقیه عامل‌ها برابر باشند |
 
-سابقه سلامت سنگین‌ترین عامل جاری است، پس انتخاب با گذر زمان بهتر می‌شود.
+سابقه سالم بودن مهم‌ترین عامل در طول زمان است، پس هرچه بررسی‌های بیشتری انجام شود انتخاب
+دقیق‌تر می‌شود.
 
-## شیوه دسته‌بندی کانال‌ها
+<a id="fa-categories-how"></a>
 
-دسته‌ها دو چیز قابل مشاهده را توصیف می‌کنند: گرداننده کانال و شیوه پخش آن، و سپس موضوع
-برنامه‌ها. تخصیص دسته قطعی است و همیشه به این ترتیب انجام می‌شود، پس نتیجه تکرارپذیر است:
+## شبکه‌ها چطور دسته‌بندی می‌شوند
 
-۱. ورودی صریح در `category_overrides` در پرونده [`data/curated.json`](data/curated.json).
+دسته‌ها دو چیز مشخص را نشان می‌دهند: اینکه چه کسی شبکه را اداره می‌کند و چطور پخش می‌شود،
+و بعد موضوع برنامه‌ها. این کار قطعی است و همیشه با همین ترتیب انجام می‌شود، پس نتیجه
+همیشه یکسان درمی‌آید:
+
+۱. اگر برای آن شبکه در `category_overrides` داخل [`data/curated.json`](data/curated.json)
+   چیزی تعریف شده باشد، همان اعمال می‌شود.
 
 ۲. عضویت در یکی از فهرست‌های `sets`، به ترتیب `irib_provincial`، `irib_international`،
-   `religious_christian`، `religious_other`، `irib_national`.
+   `religious_christian`، `religious_other` و `irib_national`.
 
-۳. برچسب `religious` در دسته‌های iptv-org آن کانال.
+۳. وجود برچسب `religious` در دسته‌های iptv-org آن شبکه.
 
-۴. نخستین برچسب موضوعی iptv-org که در `scripts/taxonomy.py` نگاشت دارد.
+۴. اولین برچسب موضوعی iptv-org که در `scripts/taxonomy.py` معادل دارد.
 
-۵. `sat-general` به عنوان پیش‌فرض.
+۵. اگر هیچ‌کدام نبود، `sat-general`.
 
-هر کانال برچسب‌های ماشین‌خوان هم در [`data/channels.json`](data/channels.json) دارد، شامل
-گرداننده، شیوه پخش، کیفیت، زبان و وجود یا نبود پخش پشتیبان.
+هر شبکه برچسب‌های ماشین‌خوان هم در [`data/channels.json`](data/channels.json) دارد که
+گرداننده، شیوه پخش، کیفیت، زبان و داشتن یا نداشتن استریم پشتیبان را نشان می‌دهد.
 
-## شیوه حذف تکراری‌ها
+<a id="fa-duplicates"></a>
 
-دو نوع تکراری جداگانه در `scripts/identity.py` مدیریت می‌شود:
+## لینک‌های تکراری چطور حذف می‌شوند
 
-- **پخش‌ها.** یک نشانی در منابع مختلف با پروتکل، بزرگی و کوچکی حرف‌های دامنه، پورت
-  پیش‌فرض، اسلش پایانی یا پارامتر نشست متفاوت ظاهر می‌شود. هر نشانی به یک کلید یکتا
-  کاهش می‌یابد تا این‌ها در یک ورودی جمع شوند، و برای یک نشانی یکسان `https` بر `http`
-  ترجیح دارد.
-- **کانال‌ها.** شناسه iptv-org هر جا که منبعی آن را بدهد هویت اصلی است. ورودی‌های بدون
-  شناسه، یا با شناسه‌های متفاوت برای یک سرویس، با کلید نام هنجارشده گروه می‌شوند که
-  واژه‌های بی‌تمایز (`TV`، `network`، `channel`، `HD`) را حذف و گونه‌های نوشتاری فارسی
-  مانند `ك`/`ک` و `ي`/`ی` را یکسان می‌کند.
+دو نوع تکرار جداگانه در `scripts/identity.py` مدیریت می‌شود:
 
-## چگونه به‌روز می‌ماند
+- **استریم‌ها.** یک آدرس ممکن است در منابع مختلف با `http` به جای `https`، حروف بزرگ و
+  کوچک متفاوت در دامنه، پورت پیش‌فرض، اسلش اضافه در انتها یا یک پارامتر موقتی نوشته شده
+  باشد. هر آدرس به یک شکل استاندارد تبدیل می‌شود تا همه این‌ها یکی حساب شوند، و بین دو
+  شکل یکسان `https` انتخاب می‌شود.
+- **شبکه‌ها.** هر جا منبعی شناسه iptv-org داشته باشد، همان ملاک است. ورودی‌های بدون شناسه،
+  یا ورودی‌هایی که برای یک شبکه شناسه‌های متفاوت دارند، با نام استانداردشده کنار هم قرار
+  می‌گیرند. در این استانداردسازی کلمه‌هایی که تفاوتی ایجاد نمی‌کنند مثل `TV`، `channel` و
+  `HD` حذف می‌شوند و شکل‌های نوشتاری متفاوت فارسی مثل `ك`/`ک` و `ي`/`ی` یکسان می‌شوند.
 
-یک گردش‌کار GitHub Actions روز اول و پانزدهم هر ماه اجرا می‌شود:
+<a id="fa-updates"></a>
 
-۱. **گردآوری.** خواندن دوباره پایگاه داده و API پروژه iptv-org، فهرست‌های آماده ایران و
-   فارسی همان پروژه، فهرست ایران در Free-TV، و مخزن itsyebekhe/nexa. سپس گسترش الگوهای
-   `scripts/discover.py` که نشانی‌های نامزد را برای کانال‌هایی می‌سازد که فهرست‌های عمومی
-   ندارند.
+## چطور به‌روز می‌ماند
 
-۲. **بررسی.** آزمودن همه نامزدها و ادغام نتیجه در `data/status.json` که برای هر نشانی
-   تاریخ نخستین دیدار، تاریخ آخرین پخش سالم، شمار ناکامی‌های پشت‌سرهم و نسبت سلامت جاری
-   را نگه می‌دارد.
+یک workflow در GitHub Actions روز اول و پانزدهم هر ماه اجرا می‌شود:
 
-۳. **بازسازی.** ساختن دوباره فهرست‌های پخش، پرونده `data/channels.json` و جدول‌های همین
-   README، و ثبت تغییر تنها هنگامی که چیزی عوض شده باشد.
+۱. **جمع‌آوری.** خواندن دوباره پایگاه داده و API پروژه iptv-org، پلی‌لیست‌های آماده ایران
+   و فارسی همان پروژه، فهرست ایران در Free-TV و مخزن itsyebekhe/nexa. بعد الگوهای
+   `scripts/discover.py` باز می‌شوند که برای شبکه‌هایی که در فهرست‌های عمومی نیستند لینک
+   می‌سازند.
 
-## افزودن یا اصلاح یک کانال
+۲. **بررسی.** آزمایش همه لینک‌ها و ادغام نتیجه در `data/status.json` که برای هر لینک
+   تاریخ اولین بار، تاریخ آخرین باری که سالم بوده، تعداد خرابی‌های پشت سر هم و نسبت سالم
+   بودن را نگه می‌دارد.
 
-نام‌ها، دسته‌ها، الگوهای کشف و هر پخشی که در منابع عمومی نیست در
-[`data/curated.json`](data/curated.json) نگه داشته می‌شود و به‌روزرسانی خودکار هرگز روی
-آن نمی‌نویسد. هر چه در `playlists/` است و جدول‌های بالا ساخته می‌شوند، پس دستی ویرایشش
-نکنید.
+۳. **ساخت دوباره.** ساختن دوباره پلی‌لیست‌ها، فایل `data/channels.json` و جدول‌های همین
+   README، و ثبت تغییر فقط وقتی که واقعاً چیزی عوض شده باشد.
 
-- **دسته نادرست:** شناسه iptv-org را به فهرست درست در `sets` یا به `category_overrides`
-  اضافه کنید.
-- **نام نادرست یا نبودن نام:** ورودی آن را در `channels` ویرایش کنید.
-- **پخش سالمی که نیست:** آن را در `streams` بگذارید تا در بررسی بعدی سنجیده شود.
-- **کانالی که در پایگاه داده نیست:** آن را در `local_channels` توصیف کنید و شناسه
-  ارائه‌دهنده‌اش را در `discovery` بیفزایید.
+نام دامنه‌ها از طریق DNS-over-HTTPS حل می‌شوند تا فیلترهای محلی مثل AdGuard Home یا
+Pi-hole نتوانند یک شبکه سالم را مرده نشان دهند. با `IPTV_DNS=system` می‌توان این را
+غیرفعال کرد.
 
-همه چیز با پایتون ۳.۱۱ یا بالاتر و بدون هیچ بسته بیرونی اجرا می‌شود:
+<a id="fa-contributing"></a>
+
+## اضافه یا اصلاح کردن یک شبکه
+
+نام‌ها، دسته‌ها، الگوهای کشف لینک و هر استریمی که در منابع عمومی نیست در
+[`data/curated.json`](data/curated.json) نگه داشته می‌شود و به‌روزرسانی خودکار هیچ‌وقت
+روی آن نمی‌نویسد. هر چیزی که در `playlists/` است و جدول‌های پایین ساخته می‌شوند، پس آن‌ها
+را دستی ویرایش نکنید.
+
+- **دسته اشتباه است:** شناسه iptv-org آن را به فهرست درست در `sets` یا به
+  `category_overrides` اضافه کنید.
+- **نام اشتباه است یا نام فارسی ندارد:** ورودی آن را در `channels` ویرایش کنید.
+- **استریم سالمی می‌شناسید که اینجا نیست:** آن را در `streams` اضافه کنید تا در بررسی
+  بعدی آزمایش شود.
+- **شبکه‌ای که در پایگاه داده نیست:** آن را در `local_channels` معرفی کنید و شناسه
+  ارائه‌دهنده‌اش را در `discovery` بگذارید.
+
+همه چیز با Python نسخه ۳.۱۱ به بالا و بدون هیچ کتابخانه بیرونی اجرا می‌شود:
 
 ```bash
 python scripts/sources.py
@@ -657,37 +741,43 @@ python scripts/build.py
 python scripts/discover.py
 ```
 
+<a id="fa-sources"></a>
+
 ## منابع
 
-این پروژه گردآوری و راستی‌آزمایی می‌کند. هیچ ویدیویی میزبانی یا بازپخش نمی‌کند و هیچ
-پرونده رسانه‌ای ندارد. همه نشانی‌ها نقاط پایانی عمومی هستند که یا خود پخش‌کننده منتشر
-کرده یا پیش‌تر در فهرستی آزاد آمده‌اند.
+این پروژه فقط جمع‌آوری و بررسی می‌کند. هیچ ویدیویی را میزبانی یا بازپخش نمی‌کند و هیچ
+فایل ویدیویی ندارد. همه لینک‌ها آدرس‌های عمومی هستند که یا خود پخش‌کننده منتشر کرده یا از
+قبل در یک فهرست آزاد بوده‌اند.
 
 - [iptv-org](https://github.com/iptv-org/iptv) و
-  [پایگاه داده کانال‌های آن](https://github.com/iptv-org/database)، سرچشمه بیشتر
-  نشانی‌ها، نشان‌ها و اطلاعات کانال‌ها.
+  [پایگاه داده شبکه‌های آن](https://github.com/iptv-org/database)، منبع بیشتر لینک‌ها،
+  لوگوها و اطلاعات شبکه‌ها.
 - [Free-TV/IPTV](https://github.com/Free-TV/IPTV) که
-  [فهرست ایران](https://github.com/Free-TV/IPTV/blob/master/lists/iran.md) آن نشانی‌های
+  [فهرست ایران](https://github.com/Free-TV/IPTV/blob/master/lists/iran.md) آن آدرس‌های
   داخلی صداوسیما را ثبت کرده است.
-- [itsyebekhe/nexa](https://github.com/itsyebekhe/nexa)، سازنده فهرست پخش فارسی که جرقه
-  این پروژه را زد.
-- [lashkari20/iptv](https://github.com/lashkari20/iptv)، تصویری از سال ۲۰۲۲ که تنها به
-  عنوان مجموعه‌ای از نشانی‌ها برای آزمودن نگه داشته شده است.
+- [itsyebekhe/nexa](https://github.com/itsyebekhe/nexa)، یک سازنده پلی‌لیست فارسی که
+  ایده این پروژه از آن گرفته شد.
+- [lashkari20/iptv](https://github.com/lashkari20/iptv)، یک نسخه از سال ۲۰۲۲ که فقط به
+  عنوان مجموعه‌ای از لینک‌ها برای آزمایش نگه داشته شده است.
 
-برخی پخش‌کننده‌های عمومی، کانال‌هایی را که در دسترس نیستند از راه پروکسی‌های شخص ثالث باز
-می‌کنند، برای نمونه یک Cloudflare Worker که نشانی مسدود را بازارسال می‌کند. آن نشانی‌ها
-عمداً اینجا منتشر نمی‌شوند، چون کاربران این پروژه را از زیرساختی عبور می‌دهند که هزینه‌اش
-را کسی دیگر می‌پردازد و هر زمان می‌تواند آن را ببندد. تنها نشانی‌هایی می‌آیند که خود
-پخش‌کننده یا شبکه توزیع خودش ارائه می‌کند، و به همین دلیل چند کانال که در فهرست‌های دیگر
-هست اینجا نیست.
+بعضی پخش‌کننده‌های اینترنتی، شبکه‌هایی را که در دسترس نیستند از طریق پروکسی‌های شخص ثالث
+باز می‌کنند، مثلاً یک Cloudflare Worker که یک آدرس مسدود را واسطه می‌شود. آن لینک‌ها
+عمداً اینجا منتشر نشده‌اند، چون کاربران این پروژه را از زیرساختی رد می‌کنند که هزینه‌اش
+را کس دیگری می‌دهد و هر لحظه می‌تواند آن را ببندد. فقط آدرس‌هایی اینجا هستند که خود
+پخش‌کننده یا CDN خودش ارائه می‌کند، و به همین دلیل چند شبکه که در فهرست‌های دیگر هست
+اینجا نیست.
 
-برای درخواست حذف کانالی که حق پخش آن را دارید،
+اگر حق پخش شبکه‌ای در این فهرست را دارید و می‌خواهید حذف شود،
 [یک issue باز کنید](https://github.com/shayanline/iptv-iran/issues).
 
-## پروانه
+<a id="fa-licence"></a>
 
-کد و داده‌های گردآوری‌شده زیر پروانه [MIT](LICENSE) هستند. کانال‌ها به پخش‌کنندگان خود
-تعلق دارند.
+## مجوز
+
+کد و داده‌های این پروژه با مجوز [MIT](LICENSE) منتشر شده‌اند. خود شبکه‌ها متعلق به
+پخش‌کننده‌های آن‌ها هستند.
+
+<a id="fa-categories"></a>
 
 ## دسته‌ها
 
@@ -709,7 +799,9 @@ python scripts/discover.py
 | مذهبی · سایر ادیان و معنوی | 4 | 4 | 0 | [religious-other](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/religious-other.m3u) |
 | **مجموع** | **202** | **198** | **4** | |
 
-## فهرست کانال‌ها
+<a id="fa-channels"></a>
+
+## فهرست شبکه‌ها
 
 ### شبکه‌های سراسری سیما
 
