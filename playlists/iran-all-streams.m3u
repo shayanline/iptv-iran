@@ -1,14 +1,14 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IR1.xml.gz"
 # Every working stream, backups included, best first.
-# generated 2026-08-10 22:11 UTC by shayanline/iptv-iran
+# generated 2026-08-10 22:17 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="GolkhaneTv.ir" tvg-name="Golkhane" tvg-logo="https://static.telewebion.com/channelsLogo/686599d8-c1ee-4557-aa72-b1293a21906d/default" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="HD",Golkhane | شبکه گلخانه HD
 https://ncdn.telewebion.ir/golkhane/live/playlist.m3u8
 #EXTINF:-1 tvg-id="iFilmPersian.ir" tvg-name="iFilm" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="FHD",iFilm | آی‌فیلم FHD
 https://ncdn.telewebion.ir/ifilm/live/playlist.m3u8
 #EXTINF:-1 tvg-id="iFilmPersian.ir" tvg-name="iFilm" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="FHD",iFilm | آی‌فیلم FHD
-https://live.presstv.ir/hls/ifilmfa.m3u8
-#EXTINF:-1 tvg-id="iFilmPersian.ir" tvg-name="iFilm" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="FHD",iFilm | آی‌فیلم FHD
 https://live.presstv.co.uk/hls/ifilmfa.m3u8
+#EXTINF:-1 tvg-id="iFilmPersian.ir" tvg-name="iFilm" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="FHD",iFilm | آی‌فیلم FHD
+https://live.presstv.ir/hls/ifilmfa.m3u8
 #EXTINF:-1 tvg-id="iFilmPersian.ir" tvg-name="iFilm" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="FHD",iFilm | آی‌فیلم FHD
 https://s1-cloud.irib.ir/securelive3/ifilmhd/ifilmhd.m3u8
 #EXTINF:-1 tvg-id="IranNama.fr" tvg-name="Iran Nama" tvg-logo="" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="SD",Iran Nama | ایران نما
@@ -166,15 +166,15 @@ https://s1-cloud.irib.ir/securelive3/alkawtharsd/alkawtharsd.m3u8
 #EXTINF:-1 tvg-id="HispanTV.ir" tvg-name="HispanTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9f/Hispantv_logo.jpg" group-title="IRIB International Services" tvg-language="spa" tvg-quality="SD",HispanTV | هیسپان تی‌وی
 https://live.presstv.co.uk/hls/hispantv.m3u8
 #EXTINF:-1 tvg-id="iFilm2.ir" tvg-name="iFilm 2" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/c/ce/Ifilm2logo.png" group-title="IRIB International Services" tvg-language="fas" tvg-quality="SD",iFilm 2 | آی‌فیلم ۲
-https://live.presstv.ir/hls/ifilm2.m3u8
-#EXTINF:-1 tvg-id="iFilm2.ir" tvg-name="iFilm 2" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/c/ce/Ifilm2logo.png" group-title="IRIB International Services" tvg-language="fas" tvg-quality="SD",iFilm 2 | آی‌فیلم ۲
 https://live.presstv.co.uk/hls/ifilm2.m3u8
+#EXTINF:-1 tvg-id="iFilm2.ir" tvg-name="iFilm 2" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/c/ce/Ifilm2logo.png" group-title="IRIB International Services" tvg-language="fas" tvg-quality="SD",iFilm 2 | آی‌فیلم ۲
+https://live.presstv.ir/hls/ifilm2.m3u8
 #EXTINF:-1 tvg-id="iFilm2.ir" tvg-name="iFilm 2" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/c/ce/Ifilm2logo.png" group-title="IRIB International Services" tvg-language="fas" tvg-quality="SD",iFilm 2 | آی‌فیلم ۲
 https://s1-cloud.irib.ir/securelive3/ifilm2sd/ifilm2sd.m3u8
 #EXTINF:-1 tvg-id="iFilmArabic.ir" tvg-name="iFilm Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png" group-title="IRIB International Services" tvg-language="ara" tvg-quality="SD",iFilm Arabic | آی‌فیلم عربی
-https://live.presstv.ir/hls/ifilmar.m3u8
-#EXTINF:-1 tvg-id="iFilmArabic.ir" tvg-name="iFilm Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png" group-title="IRIB International Services" tvg-language="ara" tvg-quality="SD",iFilm Arabic | آی‌فیلم عربی
 https://live.presstv.co.uk/hls/ifilmar.m3u8
+#EXTINF:-1 tvg-id="iFilmArabic.ir" tvg-name="iFilm Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png" group-title="IRIB International Services" tvg-language="ara" tvg-quality="SD",iFilm Arabic | آی‌فیلم عربی
+https://live.presstv.ir/hls/ifilmar.m3u8
 #EXTINF:-1 tvg-id="iFilmArabic.ir" tvg-name="iFilm Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png" group-title="IRIB International Services" tvg-language="ara" tvg-quality="SD",iFilm Arabic | آی‌فیلم عربی
 https://s1-cloud.irib.ir/securelive3/ifilmarabsd/ifilmarabsd.m3u8
 #EXTINF:-1 tvg-id="iFilmEnglish.ir" tvg-name="iFilm English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png" group-title="IRIB International Services" tvg-language="eng" tvg-quality="SD",iFilm English | آی‌فیلم انگلیسی
@@ -188,9 +188,9 @@ https://live.presstv.ir/hls/presstv_5_482/index.m3u8
 #EXTINF:-1 tvg-id="Palestinetv.ir" tvg-name="Palestine TV" tvg-logo="https://i.ibb.co/svrZNZTX/Palestine.png" group-title="IRIB International Services" tvg-language="ara;fas" tvg-quality="HD",Palestine TV | شبکه فلسطین HD
 https://ncdn.telewebion.ir/palestine/live/playlist.m3u8
 #EXTINF:-1 tvg-id="PressTV.ir" tvg-name="Press TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Press_TV_logo.svg/960px-Press_TV_logo.svg.png" group-title="IRIB International Services" tvg-language="eng" tvg-quality="HD",Press TV | پرس تی‌وی HD
-https://live.presstv.ir/hls/presstv.m3u8
-#EXTINF:-1 tvg-id="PressTV.ir" tvg-name="Press TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Press_TV_logo.svg/960px-Press_TV_logo.svg.png" group-title="IRIB International Services" tvg-language="eng" tvg-quality="HD",Press TV | پرس تی‌وی HD
 https://live.presstv.co.uk/hls/presstv.m3u8
+#EXTINF:-1 tvg-id="PressTV.ir" tvg-name="Press TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Press_TV_logo.svg/960px-Press_TV_logo.svg.png" group-title="IRIB International Services" tvg-language="eng" tvg-quality="HD",Press TV | پرس تی‌وی HD
+https://live.presstv.ir/hls/presstv.m3u8
 #EXTINF:-1 tvg-id="PressTV.ir" tvg-name="Press TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Press_TV_logo.svg/960px-Press_TV_logo.svg.png" group-title="IRIB International Services" tvg-language="eng" tvg-quality="HD",Press TV | پرس تی‌وی HD
 https://ncdn.telewebion.ir/presstv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="PressTV.ir" tvg-name="Press TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Press_TV_logo.svg/960px-Press_TV_logo.svg.png" group-title="IRIB International Services" tvg-language="eng" tvg-quality="HD",Press TV | پرس تی‌وی HD
@@ -213,9 +213,9 @@ https://araxhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ArkoTV.ir" tvg-name="Arko TV" tvg-logo="" group-title="Satellite · General" tvg-language="fas" tvg-quality="HD",Arko TV | آرکو تی‌وی HD
 https://arkhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ArvanTV.ir" tvg-name="Arvan TV" tvg-logo="" group-title="Satellite · General" tvg-language="fas" tvg-quality="HD",Arvan TV | آروان تی‌وی HD
-https://me2hls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="ArvanTV.ir" tvg-name="Arvan TV" tvg-logo="" group-title="Satellite · General" tvg-language="fas" tvg-quality="HD",Arvan TV | آروان تی‌وی HD
 https://arvhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="ArvanTV.ir" tvg-name="Arvan TV" tvg-logo="" group-title="Satellite · General" tvg-language="fas" tvg-quality="HD",Arvan TV | آروان تی‌وی HD
+https://me2hls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AsilTV.ir" tvg-name="Asil TV" tvg-logo="https://i.imgur.com/gROQqFD.png" group-title="Satellite · General" tvg-language="ara" tvg-quality="SD",Asil TV | اصیل تی‌وی
 https://live.asil.tv/asiltv/index.m3u8
 #EXTINF:-1 tvg-id="AtrinaTV.ir" tvg-name="Atrina TV" tvg-logo="" group-title="Satellite · General" tvg-language="fas" tvg-quality="HD",Atrina TV | آترینا تی‌وی HD
@@ -291,9 +291,9 @@ https://iptv.tapesh.tv/tapesh/playlist.m3u8
 #EXTINF:-1 tvg-id="PBCTapeshTV.us" tvg-name="Tapesh TV" tvg-logo="https://i.imgur.com/50JzsmH.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="FHD",Tapesh TV | تپش تی‌وی FHD
 https://hls.tapeshtv.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="TinTV.us" tvg-name="Tin TV" tvg-logo="https://i.imgur.com/hMqGs94.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="HD",Tin TV | تین تی‌وی HD
-https://tulixcdn.akamaized.net/tintv6/tintv/tintv/playlist.m3u8
-#EXTINF:-1 tvg-id="TinTV.us" tvg-name="Tin TV" tvg-logo="https://i.imgur.com/hMqGs94.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="HD",Tin TV | تین تی‌وی HD
 https://bozztv.com/1gbw5/tintv/tintv/playlist.m3u8
+#EXTINF:-1 tvg-id="TinTV.us" tvg-name="Tin TV" tvg-logo="https://i.imgur.com/hMqGs94.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="HD",Tin TV | تین تی‌وی HD
+https://tulixcdn.akamaized.net/tintv6/tintv/tintv/playlist.m3u8
 #EXTINF:-1 tvg-id="YourTimeTV.ir" tvg-name="YourTime TV" tvg-logo="https://i.imgur.com/X38vWJ1.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="SD",YourTime TV | یورتایم تی‌وی
 https://live.yourtime.tv/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AfraFilm.ir" tvg-name="Afra Film" tvg-logo="" group-title="Satellite · Movies & Series" tvg-language="fas" tvg-quality="HD",Afra Film | آفرا فیلم HD
@@ -347,17 +347,17 @@ https://vs-hls-pushb-ww.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_per
 #EXTINF:-1 tvg-id="BBCPersian.uk" tvg-name="BBC News Persian" tvg-logo="https://i.imgur.com/4uTMnPb.png" group-title="Satellite · News" tvg-language="fas" tvg-quality="HD",BBC News Persian | بی‌بی‌سی فارسی HD
 https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2.m3u8
 #EXTINF:-1 tvg-id="BBCPersian.uk" tvg-name="BBC News Persian" tvg-logo="https://i.imgur.com/4uTMnPb.png" group-title="Satellite · News" tvg-language="fas" tvg-quality="HD",BBC News Persian | بی‌بی‌سی فارسی HD
-https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2_http.mpd
-#EXTINF:-1 tvg-id="BBCPersian.uk" tvg-name="BBC News Persian" tvg-logo="https://i.imgur.com/4uTMnPb.png" group-title="Satellite · News" tvg-language="fas" tvg-quality="HD",BBC News Persian | بی‌بی‌سی فارسی HD
-https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2.mpd
-#EXTINF:-1 tvg-id="BBCPersian.uk" tvg-name="BBC News Persian" tvg-logo="https://i.imgur.com/4uTMnPb.png" group-title="Satellite · News" tvg-language="fas" tvg-quality="HD",BBC News Persian | بی‌بی‌سی فارسی HD
-https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/hevc_iptv_mse_v0.mpd
+https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/t=3840/v=pv14/b=5070016/main.m3u8
 #EXTINF:-1 tvg-id="BBCPersian.uk" tvg-name="BBC News Persian" tvg-logo="https://i.imgur.com/4uTMnPb.png" group-title="Satellite · News" tvg-language="fas" tvg-quality="HD",BBC News Persian | بی‌بی‌سی فارسی HD
 https://vs-cmaf-pushb-ww.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2_http.mpd
 #EXTINF:-1 tvg-id="BBCPersian.uk" tvg-name="BBC News Persian" tvg-logo="https://i.imgur.com/4uTMnPb.png" group-title="Satellite · News" tvg-language="fas" tvg-quality="HD",BBC News Persian | بی‌بی‌سی فارسی HD
 https://vs-cmaf-pushb-ww.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2.mpd
 #EXTINF:-1 tvg-id="BBCPersian.uk" tvg-name="BBC News Persian" tvg-logo="https://i.imgur.com/4uTMnPb.png" group-title="Satellite · News" tvg-language="fas" tvg-quality="HD",BBC News Persian | بی‌بی‌سی فارسی HD
-https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/t=3840/v=pv14/b=5070016/main.m3u8
+https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2.mpd
+#EXTINF:-1 tvg-id="BBCPersian.uk" tvg-name="BBC News Persian" tvg-logo="https://i.imgur.com/4uTMnPb.png" group-title="Satellite · News" tvg-language="fas" tvg-quality="HD",BBC News Persian | بی‌بی‌سی فارسی HD
+https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2_http.mpd
+#EXTINF:-1 tvg-id="BBCPersian.uk" tvg-name="BBC News Persian" tvg-logo="https://i.imgur.com/4uTMnPb.png" group-title="Satellite · News" tvg-language="fas" tvg-quality="HD",BBC News Persian | بی‌بی‌سی فارسی HD
+https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/hevc_iptv_mse_v0.mpd
 #EXTINF:-1 tvg-id="ChannelOne.us" tvg-name="Channel One" tvg-logo="https://i.imgur.com/igskUo0.png" group-title="Satellite · News" tvg-language="fas" tvg-quality="SD",Channel One | شبکه یک (لس‌آنجلس)
 https://pemirateshls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="DidgahTV.us" tvg-name="Didgah TV" tvg-logo="https://i.imgur.com/3SeAyBS.png" group-title="Satellite · News" tvg-language="fas" tvg-quality="SD",Didgah TV | دیدگاه
@@ -367,13 +367,13 @@ https://mediamtx.elitelatrade.com/live/stream/main_stream.m3u8
 #EXTINF:-1 tvg-id="IranInternational.uk" tvg-name="Iran International" tvg-logo="https://i.imgur.com/55RpaF3.png" group-title="Satellite · News" tvg-language="fas" tvg-quality="FHD",Iran International | ایران اینترنشنال FHD
 https://hlspackager.akamaized.net/live/DB/IRAN_INTERNATIONAL/HLS/IRAN_INTERNATIONAL.m3u8
 #EXTINF:-1 tvg-id="IranInternational.uk" tvg-name="Iran International" tvg-logo="https://i.imgur.com/55RpaF3.png" group-title="Satellite · News" tvg-language="fas" tvg-quality="FHD",Iran International | ایران اینترنشنال FHD
-https://live.livetvstream.co.uk/LS-63503-4/index.m3u8
+https://dev-live.livetvstream.co.uk/LS-63503-4/index.m3u8
 #EXTINF:-1 tvg-id="IranInternational.uk" tvg-name="Iran International" tvg-logo="https://i.imgur.com/55RpaF3.png" group-title="Satellite · News" tvg-language="fas" tvg-quality="FHD",Iran International | ایران اینترنشنال FHD
 https://live.playstop.me/1816184091/index.m3u8
 #EXTINF:-1 tvg-id="IranInternational.uk" tvg-name="Iran International" tvg-logo="https://i.imgur.com/55RpaF3.png" group-title="Satellite · News" tvg-language="fas" tvg-quality="FHD",Iran International | ایران اینترنشنال FHD
 https://live.playstop.me/LS-63503-4/index.m3u8
 #EXTINF:-1 tvg-id="IranInternational.uk" tvg-name="Iran International" tvg-logo="https://i.imgur.com/55RpaF3.png" group-title="Satellite · News" tvg-language="fas" tvg-quality="FHD",Iran International | ایران اینترنشنال FHD
-https://dev-live.livetvstream.co.uk/LS-63503-4/index.m3u8
+https://live.livetvstream.co.uk/LS-63503-4/index.m3u8
 #EXTINF:-1 tvg-id="IranNationalRevolutionTV.us" tvg-name="Iran National Revolution TV" tvg-logo="" group-title="Satellite · News" tvg-language="fas" tvg-quality="HD",Iran National Revolution TV | تلویزیون انقلاب ملی ایران HD
 https://hls.irannrtv.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="IraneFarda.us" tvg-name="Irane Farda" tvg-logo="" group-title="Satellite · News" tvg-language="fas",Irane Farda | ایران فردا
@@ -403,9 +403,9 @@ https://voaphls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="4Kurd.fr" tvg-name="4 Kurd" tvg-logo="https://www.aparatchi.com/images/chanells-logo/4kurd.svg" group-title="Satellite · Music" tvg-language="kur;fas" tvg-quality="SD",4 Kurd | فور کورد
 https://4kuhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="4Music.fr" tvg-name="4 Music" tvg-logo="" group-title="Satellite · Music" tvg-language="fas" tvg-quality="HD",4 Music | فور موزیک HD
-https://musichls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="4Music.fr" tvg-name="4 Music" tvg-logo="" group-title="Satellite · Music" tvg-language="fas" tvg-quality="HD",4 Music | فور موزیک HD
 https://itthls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="4Music.fr" tvg-name="4 Music" tvg-logo="" group-title="Satellite · Music" tvg-language="fas" tvg-quality="HD",4 Music | فور موزیک HD
+https://musichls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AFNTV.ir" tvg-name="AFN TV" tvg-logo="https://i.imgur.com/LctanF8.png" group-title="Satellite · Music" tvg-language="fas" tvg-quality="HD",AFN TV | ای‌اف‌ان تی‌وی HD
 https://bozztv.com/1gbw5/tintv2/tintv2/playlist.m3u8
 #EXTINF:-1 tvg-id="AvangTV.us" tvg-name="Avang TV" tvg-logo="https://i.imgur.com/3I1n7fO.png" group-title="Satellite · Music" tvg-language="fas" tvg-quality="SD",Avang TV | آونگ
