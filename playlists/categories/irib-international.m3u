@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IR1.xml.gz"
 # IRIB International Services only.
-# generated 2026-08-10 22:23 UTC by shayanline/iptv-iran
+# generated 2026-08-10 22:25 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="AlKawtharTV.ir" tvg-name="Al-Kawthar TV" tvg-logo="https://i.imgur.com/x4zUmY1.png" group-title="IRIB International Services" tvg-language="ara" tvg-quality="SD",Al-Kawthar TV | شبکه الکوثر
 https://ncdn.telewebion.ir/kawthar/live/playlist.m3u8
 #EXTINF:-1 tvg-id="HispanTV.ir" tvg-name="HispanTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9f/Hispantv_logo.jpg" group-title="IRIB International Services" tvg-language="spa" tvg-quality="SD",HispanTV | هیسپان تی‌وی

@@ -1,12 +1,12 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IR1.xml.gz"
 # Satellite · General only.
-# generated 2026-08-10 22:23 UTC by shayanline/iptv-iran
+# generated 2026-08-10 22:25 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="AraxTV.ir" tvg-name="Arax TV" tvg-logo="" group-title="Satellite · General" tvg-language="fas" tvg-quality="HD",Arax TV | آراکس تی‌وی HD
 https://araxhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ArkoTV.ir" tvg-name="Arko TV" tvg-logo="" group-title="Satellite · General" tvg-language="fas" tvg-quality="HD",Arko TV | آرکو تی‌وی HD
 https://arkhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ArvanTV.ir" tvg-name="Arvan TV" tvg-logo="" group-title="Satellite · General" tvg-language="fas" tvg-quality="HD",Arvan TV | آروان تی‌وی HD
-https://arvhls.wns.live/hls/stream.m3u8
+https://me2hls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AsilTV.ir" tvg-name="Asil TV" tvg-logo="https://i.imgur.com/gROQqFD.png" group-title="Satellite · General" tvg-language="ara" tvg-quality="SD",Asil TV | اصیل تی‌وی
 https://live.asil.tv/asiltv/index.m3u8
 #EXTINF:-1 tvg-id="AtrinaTV.ir" tvg-name="Atrina TV" tvg-logo="" group-title="Satellite · General" tvg-language="fas" tvg-quality="HD",Atrina TV | آترینا تی‌وی HD

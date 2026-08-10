@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IR1.xml.gz"
 # Channels that play from anywhere in the world.
-# generated 2026-08-10 22:23 UTC by shayanline/iptv-iran
+# generated 2026-08-10 22:25 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="GolkhaneTv.ir" tvg-name="Golkhane" tvg-logo="https://static.telewebion.com/channelsLogo/686599d8-c1ee-4557-aa72-b1293a21906d/default" group-title="شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="HD",شبکه گلخانه HD
 https://ncdn.telewebion.ir/golkhane/live/playlist.m3u8
 #EXTINF:-1 tvg-id="iFilmPersian.ir" tvg-name="iFilm" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png" group-title="شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",آی‌فیلم FHD
@@ -140,7 +140,7 @@ https://araxhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ArkoTV.ir" tvg-name="Arko TV" tvg-logo="" group-title="ماهواره‌ای · عمومی" tvg-language="fas" tvg-quality="HD",آرکو تی‌وی HD
 https://arkhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ArvanTV.ir" tvg-name="Arvan TV" tvg-logo="" group-title="ماهواره‌ای · عمومی" tvg-language="fas" tvg-quality="HD",آروان تی‌وی HD
-https://arvhls.wns.live/hls/stream.m3u8
+https://me2hls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AsilTV.ir" tvg-name="Asil TV" tvg-logo="https://i.imgur.com/gROQqFD.png" group-title="ماهواره‌ای · عمومی" tvg-language="ara" tvg-quality="SD",اصیل تی‌وی
 https://live.asil.tv/asiltv/index.m3u8
 #EXTINF:-1 tvg-id="AtrinaTV.ir" tvg-name="Atrina TV" tvg-logo="" group-title="ماهواره‌ای · عمومی" tvg-language="fas" tvg-quality="HD",آترینا تی‌وی HD
@@ -294,7 +294,7 @@ https://voa-ingest.akamaized.net/hls/live/2033876/tvmc07/playlist.m3u8
 #EXTINF:-1 tvg-id="4Kurd.fr" tvg-name="4 Kurd" tvg-logo="https://www.aparatchi.com/images/chanells-logo/4kurd.svg" group-title="ماهواره‌ای · موسیقی" tvg-language="kur;fas" tvg-quality="SD",فور کورد
 https://4kuhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="4Music.fr" tvg-name="4 Music" tvg-logo="" group-title="ماهواره‌ای · موسیقی" tvg-language="fas" tvg-quality="HD",فور موزیک HD
-https://itthls.wns.live/hls/stream.m3u8
+https://musichls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AFNTV.ir" tvg-name="AFN TV" tvg-logo="https://i.imgur.com/LctanF8.png" group-title="ماهواره‌ای · موسیقی" tvg-language="fas" tvg-quality="HD",ای‌اف‌ان تی‌وی HD
 https://bozztv.com/1gbw5/tintv2/tintv2/playlist.m3u8
 #EXTINF:-1 tvg-id="AvangTV.us" tvg-name="Avang TV" tvg-logo="https://i.imgur.com/3I1n7fO.png" group-title="ماهواره‌ای · موسیقی" tvg-language="fas" tvg-quality="SD",آونگ
@@ -302,7 +302,7 @@ https://hls.avang.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="HighVisionTV.us" tvg-name="High Vision TV" tvg-logo="https://i.imgur.com/zhCgoru.png" group-title="ماهواره‌ای · موسیقی" tvg-language="fas" tvg-quality="SD",های ویژن
 https://streamer1.connectto.com/HIGHVISION_WEB_1205/index.m3u8
 #EXTINF:-1 tvg-id="NavahangTV.fi" tvg-name="Navahang TV" tvg-logo="https://i.imgur.com/YteKXJy.png" group-title="ماهواره‌ای · موسیقی" tvg-language="fas" tvg-quality="SD",نواهنگ
-https://simahls.wns.live/hls/stream.m3u8
+https://hls.navahang.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PersianaFolk.fr" tvg-name="Persiana Folk" tvg-logo="" group-title="ماهواره‌ای · موسیقی" tvg-language="fas" tvg-quality="HD",پرشیانا فولک HD
 https://sonhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PersianaNostalgia.fr" tvg-name="Persiana Nostalgia" tvg-logo="https://i.imgur.com/SWO9CKA.png" group-title="ماهواره‌ای · موسیقی" tvg-language="fas" tvg-quality="SD",پرشیانا نوستالژی
@@ -356,7 +356,7 @@ https://cdn.bestream.io:19360/elfaro4/elfaro4.m3u8
 #EXTINF:-1 tvg-id="PayameArameshTV.us" tvg-name="Payam-e Aramesh" tvg-logo="https://i.imgur.com/WaPr0t0.png" group-title="مذهبی · اسلامی" tvg-language="fas" tvg-quality="SD",پیام آرامش
 https://hls.keshishhamid.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PayvandTV.ir" tvg-name="Payvand TV" tvg-logo="https://i.imgur.com/o2Ww77N.png" group-title="مذهبی · اسلامی" tvg-language="fas" tvg-quality="HD",شبکه پیوند HD
-https://tgn.bozztv.com/cus01/ucur1/Payvand/playlist.m3u8
+https://uni6rtmp.tulix.tv/ucur1/Payvand/playlist.m3u8
 #EXTINF:-1 tvg-id="RasoulallahTv.ir" tvg-name="Rasoulallah TV" tvg-logo="https://i.imgur.com/Jh5ADee.png" group-title="مذهبی · اسلامی" tvg-language="fas" tvg-quality="FHD",شبکه رسول‌الله FHD
 https://avr.host247.net/live/rasoulallahtv/playlist.m3u8
 #EXTINF:-1 tvg-id="RazaviTV.ir" tvg-name="Razavi TV" tvg-logo="https://static.telewebion.com/channelsLogo/85f466a7-7d17-4ce8-bee6-13da4ff5deb1/default" group-title="مذهبی · اسلامی" tvg-language="fas" tvg-quality="HD",شبکه رضوی HD

@@ -24,9 +24,9 @@
         "bandwidth": 1861200,
         "variants": 3,
         "kind": "hls",
-        "ms": 990,
+        "ms": 991,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -37,9 +37,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 156.173
+        "score": 159.923
       }
     ],
     "reach": "global",
@@ -79,9 +79,9 @@
         "bandwidth": 2756600,
         "variants": 4,
         "kind": "hls",
-        "ms": 1013,
+        "ms": 990,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -90,9 +90,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 162.825
+        "score": 166.59
       },
       {
         "url": "https://live.presstv.co.uk/hls/ifilmfa.m3u8",
@@ -102,18 +102,18 @@
         "bandwidth": 888000,
         "variants": 4,
         "kind": "hls",
-        "ms": 189,
+        "ms": 137,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "curated"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 154.041
+        "score": 157.825
       },
       {
         "url": "https://live.presstv.ir/hls/ifilmfa.m3u8",
@@ -123,9 +123,9 @@
         "bandwidth": 888000,
         "variants": 4,
         "kind": "hls",
-        "ms": 525,
+        "ms": 420,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -135,9 +135,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 153.817
+        "score": 157.637
       },
       {
         "url": "https://s1-cloud.irib.ir/securelive3/ifilmhd/ifilmhd.m3u8",
@@ -147,9 +147,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": null,
-        "ms": 24025,
+        "ms": 24457,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -158,7 +158,7 @@
         "first_seen": "2026-08-10T22:11:33+00:00",
         "last_ok": null,
         "format": "576i",
-        "score": 83.167
+        "score": 86.917
       }
     ],
     "reach": "global",
@@ -199,9 +199,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 284,
+        "ms": 307,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -211,9 +211,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.977
+        "score": 149.712
       }
     ],
     "reach": "global",
@@ -253,9 +253,9 @@
         "bandwidth": 1515800,
         "variants": 2,
         "kind": "hls",
-        "ms": 985,
+        "ms": 997,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -266,9 +266,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 153.51
+        "score": 157.252
       },
       {
         "url": "https://s1-cloud.irib.ir/securelive3/amoozeshsd/amoozeshsd.m3u8",
@@ -278,9 +278,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": null,
-        "ms": 24478,
+        "ms": 24453,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -289,7 +289,7 @@
         "first_seen": "2026-08-10T22:11:33+00:00",
         "last_ok": null,
         "format": "576i",
-        "score": 83.167
+        "score": 86.917
       }
     ],
     "reach": "global",
@@ -330,9 +330,9 @@
         "bandwidth": 2756600,
         "variants": 4,
         "kind": "hls",
-        "ms": 993,
+        "ms": 1016,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -343,9 +343,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 162.838
+        "score": 166.573
       },
       {
         "url": "https://s1-cloud.irib.ir/securelive3/mostanadhd/mostanadhd.m3u8",
@@ -357,7 +357,7 @@
         "kind": null,
         "ms": 24024,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -366,7 +366,7 @@
         "first_seen": "2026-08-10T22:11:33+00:00",
         "last_ok": null,
         "format": "576i",
-        "score": 83.167
+        "score": 86.917
       }
     ],
     "reach": "global",
@@ -407,9 +407,9 @@
         "bandwidth": 2756600,
         "variants": 4,
         "kind": "hls",
-        "ms": 988,
+        "ms": 1015,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -420,9 +420,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 162.841
+        "score": 166.573
       },
       {
         "url": "https://s1-cloud.irib.ir/securelive3/namayeshhd/namayeshhd.m3u8",
@@ -432,9 +432,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": null,
-        "ms": 24022,
+        "ms": 24015,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -443,7 +443,7 @@
         "first_seen": "2026-08-10T22:11:33+00:00",
         "last_ok": null,
         "format": "576i",
-        "score": 83.167
+        "score": 86.917
       }
     ],
     "reach": "global",
@@ -484,9 +484,9 @@
         "bandwidth": 2756600,
         "variants": 4,
         "kind": "hls",
-        "ms": 1027,
+        "ms": 1019,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -497,9 +497,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 162.815
+        "score": 166.571
       },
       {
         "url": "https://s1-cloud.irib.ir/securelive3/nasimhd/nasimhd.m3u8",
@@ -509,9 +509,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": null,
-        "ms": 24035,
+        "ms": 24024,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -520,7 +520,7 @@
         "first_seen": "2026-08-10T22:11:33+00:00",
         "last_ok": null,
         "format": "576i",
-        "score": 83.167
+        "score": 86.917
       }
     ],
     "reach": "global",
@@ -561,9 +561,9 @@
         "bandwidth": 2756600,
         "variants": 4,
         "kind": "hls",
-        "ms": 993,
+        "ms": 1006,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -574,9 +574,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 162.838
+        "score": 166.579
       },
       {
         "url": "https://s1-cloud.irib.ir/securelive3/ofoghhd/ofoghhd.m3u8",
@@ -586,9 +586,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": null,
-        "ms": 24024,
+        "ms": 24018,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -597,7 +597,7 @@
         "first_seen": "2026-08-10T22:11:33+00:00",
         "last_ok": null,
         "format": "576i",
-        "score": 83.167
+        "score": 86.917
       }
     ],
     "reach": "global",
@@ -638,9 +638,9 @@
         "bandwidth": 2756600,
         "variants": 4,
         "kind": "hls",
-        "ms": 997,
+        "ms": 1011,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -651,9 +651,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 162.835
+        "score": 166.576
       },
       {
         "url": "https://s1-cloud.irib.ir/securelive3/omidsd/omidsd.m3u8",
@@ -663,9 +663,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": null,
-        "ms": 24024,
+        "ms": 24019,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -674,7 +674,7 @@
         "first_seen": "2026-08-10T22:11:33+00:00",
         "last_ok": null,
         "format": "576i",
-        "score": 83.167
+        "score": 86.917
       }
     ],
     "reach": "global",
@@ -715,9 +715,9 @@
         "bandwidth": 2756600,
         "variants": 4,
         "kind": "hls",
-        "ms": 1009,
+        "ms": 1001,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -728,9 +728,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 162.827
+        "score": 166.583
       },
       {
         "url": "https://s1-cloud.irib.ir/securelive3/pooyahd/pooyahd.m3u8",
@@ -740,9 +740,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": null,
-        "ms": 24013,
+        "ms": 24024,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -751,7 +751,7 @@
         "first_seen": "2026-08-10T22:11:33+00:00",
         "last_ok": null,
         "format": "576i",
-        "score": 83.167
+        "score": 86.917
       }
     ],
     "reach": "global",
@@ -792,9 +792,9 @@
         "bandwidth": 2756600,
         "variants": 4,
         "kind": "hls",
-        "ms": 982,
+        "ms": 996,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -805,9 +805,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 162.845
+        "score": 166.586
       },
       {
         "url": "https://s1-cloud.irib.ir/securelive3/quranhd/quranhd.m3u8",
@@ -817,9 +817,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": null,
-        "ms": 24024,
+        "ms": 24017,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -828,7 +828,7 @@
         "first_seen": "2026-08-10T22:11:33+00:00",
         "last_ok": null,
         "format": "576i",
-        "score": 83.167
+        "score": 86.917
       }
     ],
     "reach": "global",
@@ -869,9 +869,9 @@
         "bandwidth": 1515800,
         "variants": 2,
         "kind": "hls",
-        "ms": 1018,
+        "ms": 987,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -882,9 +882,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 153.488
+        "score": 157.259
       },
       {
         "url": "https://s1-cloud.irib.ir/securelive3/salamatsd/salamatsd.m3u8",
@@ -896,7 +896,7 @@
         "kind": null,
         "ms": 24025,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -905,7 +905,7 @@
         "first_seen": "2026-08-10T22:11:33+00:00",
         "last_ok": null,
         "format": "576i",
-        "score": 83.167
+        "score": 86.917
       }
     ],
     "reach": "global",
@@ -946,9 +946,9 @@
         "bandwidth": 2756600,
         "variants": 4,
         "kind": "hls",
-        "ms": 983,
+        "ms": 988,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -959,9 +959,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 162.845
+        "score": 166.591
       },
       {
         "url": "https://s1-cloud.irib.ir/securelive3/tamashahd/tamashahd.m3u8",
@@ -973,7 +973,7 @@
         "kind": null,
         "ms": 24025,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -982,7 +982,7 @@
         "first_seen": "2026-08-10T22:11:33+00:00",
         "last_ok": null,
         "format": "576i",
-        "score": 83.167
+        "score": 86.917
       }
     ],
     "reach": "global",
@@ -1023,9 +1023,9 @@
         "bandwidth": 2756600,
         "variants": 4,
         "kind": "hls",
-        "ms": 1031,
+        "ms": 1005,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -1036,9 +1036,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 162.813
+        "score": 166.58
       },
       {
         "url": "https://s1-cloud.irib.ir/securelive3/tv1hd/tv1hd.m3u8",
@@ -1048,9 +1048,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": null,
-        "ms": 24025,
+        "ms": 24010,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -1059,7 +1059,7 @@
         "first_seen": "2026-08-10T22:11:33+00:00",
         "last_ok": null,
         "format": "576i",
-        "score": 83.167
+        "score": 86.917
       }
     ],
     "reach": "global",
@@ -1100,18 +1100,18 @@
         "bandwidth": 2756600,
         "variants": 4,
         "kind": "hls",
-        "ms": 1021,
+        "ms": 991,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": null,
-        "score": 162.819
+        "score": 166.589
       }
     ],
     "reach": "global",
@@ -1151,9 +1151,9 @@
         "bandwidth": 2756600,
         "variants": 4,
         "kind": "hls",
-        "ms": 1000,
+        "ms": 993,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -1164,9 +1164,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 162.833
+        "score": 166.588
       },
       {
         "url": "https://s1-cloud.irib.ir/securelive3/tv2hd/tv2hd.m3u8",
@@ -1178,7 +1178,7 @@
         "kind": null,
         "ms": 24024,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -1187,7 +1187,7 @@
         "first_seen": "2026-08-10T22:11:33+00:00",
         "last_ok": null,
         "format": "576i",
-        "score": 83.167
+        "score": 86.917
       }
     ],
     "reach": "global",
@@ -1228,9 +1228,9 @@
         "bandwidth": 6881600,
         "variants": 5,
         "kind": "hls",
-        "ms": 1009,
+        "ms": 983,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -1241,9 +1241,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 166.827
+        "score": 170.595
       },
       {
         "url": "https://s1-cloud.irib.ir/securelive3/tv3hd/tv3hd.m3u8",
@@ -1253,9 +1253,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": null,
-        "ms": 24019,
+        "ms": 24024,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -1264,7 +1264,7 @@
         "first_seen": "2026-08-10T22:11:33+00:00",
         "last_ok": null,
         "format": "576i",
-        "score": 83.167
+        "score": 86.917
       }
     ],
     "reach": "global",
@@ -1305,9 +1305,9 @@
         "bandwidth": 1515800,
         "variants": 2,
         "kind": "hls",
-        "ms": 1012,
+        "ms": 999,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -1318,9 +1318,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 153.492
+        "score": 157.251
       },
       {
         "url": "https://s1-cloud.irib.ir/securelive3/tv4sd/tv4sd.m3u8",
@@ -1332,7 +1332,7 @@
         "kind": null,
         "ms": 24024,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -1341,7 +1341,7 @@
         "first_seen": "2026-08-10T22:11:33+00:00",
         "last_ok": null,
         "format": "576i",
-        "score": 83.167
+        "score": 86.917
       }
     ],
     "reach": "global",
@@ -1382,9 +1382,9 @@
         "bandwidth": 2756600,
         "variants": 4,
         "kind": "hls",
-        "ms": 990,
+        "ms": 1009,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -1395,9 +1395,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 162.84
+        "score": 166.577
       }
     ],
     "reach": "global",
@@ -1437,9 +1437,9 @@
         "bandwidth": 99000001,
         "variants": 5,
         "kind": "hls",
-        "ms": 1015,
+        "ms": 1000,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -1450,9 +1450,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "2160p",
-        "score": 166.823
+        "score": 170.583
       },
       {
         "url": "https://s1-cloud.irib.ir/securelive3/uhd/uhd.m3u8",
@@ -1462,9 +1462,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": null,
-        "ms": 24020,
+        "ms": 24024,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -1473,7 +1473,7 @@
         "first_seen": "2026-08-10T22:11:33+00:00",
         "last_ok": null,
         "format": "2160p",
-        "score": 96.5
+        "score": 100.25
       }
     ],
     "reach": "global",
@@ -1514,9 +1514,9 @@
         "bandwidth": 6881600,
         "variants": 5,
         "kind": "hls",
-        "ms": 1001,
+        "ms": 1048,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -1527,9 +1527,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 166.833
+        "score": 170.551
       },
       {
         "url": "https://s1-cloud.irib.ir/securelive3/varzeshhd/varzeshhd.m3u8",
@@ -1539,9 +1539,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": null,
-        "ms": 24013,
+        "ms": 24024,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -1550,7 +1550,7 @@
         "first_seen": "2026-08-10T22:11:33+00:00",
         "last_ok": null,
         "format": "576i",
-        "score": 83.167
+        "score": 86.917
       }
     ],
     "reach": "global",
@@ -1591,9 +1591,9 @@
         "bandwidth": 2756600,
         "variants": 4,
         "kind": "hls",
-        "ms": 1051,
+        "ms": 1003,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -1602,9 +1602,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 162.799
+        "score": 166.581
       },
       {
         "url": "http://185.9.2.18/chid_926/index.m3u8",
@@ -1614,9 +1614,9 @@
         "bandwidth": 2580000,
         "variants": 1,
         "kind": "hls",
-        "ms": 214,
+        "ms": 222,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -1626,9 +1626,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 146.024
+        "score": 149.769
       },
       {
         "url": "https://s1-cloud.irib.ir/securelive3/irinnhd/irinnhd.m3u8",
@@ -1638,9 +1638,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": null,
-        "ms": 24023,
+        "ms": 24024,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -1649,7 +1649,7 @@
         "first_seen": "2026-08-10T22:11:33+00:00",
         "last_ok": null,
         "format": "576i",
-        "score": 83.167
+        "score": 86.917
       }
     ],
     "reach": "global",
@@ -1690,9 +1690,9 @@
         "bandwidth": 2756600,
         "variants": 4,
         "kind": "hls",
-        "ms": 1000,
+        "ms": 1021,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -1703,9 +1703,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 162.833
+        "score": 166.569
       }
     ],
     "reach": "global",
@@ -1745,9 +1745,9 @@
         "bandwidth": 1861200,
         "variants": 3,
         "kind": "hls",
-        "ms": 1208,
+        "ms": 1000,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -1758,9 +1758,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 156.028
+        "score": 159.917
       }
     ],
     "reach": "global",
@@ -1800,9 +1800,9 @@
         "bandwidth": 2756600,
         "variants": 4,
         "kind": "hls",
-        "ms": 1072,
+        "ms": 1063,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -1813,9 +1813,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 162.785
+        "score": 166.541
       }
     ],
     "reach": "global",
@@ -1855,9 +1855,9 @@
         "bandwidth": 1515800,
         "variants": 2,
         "kind": "hls",
-        "ms": 995,
+        "ms": 1036,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -1868,9 +1868,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 153.503
+        "score": 157.226
       }
     ],
     "reach": "global",
@@ -1910,9 +1910,9 @@
         "bandwidth": 2756600,
         "variants": 4,
         "kind": "hls",
-        "ms": 1025,
+        "ms": 1024,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -1923,9 +1923,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 162.817
+        "score": 166.567
       }
     ],
     "reach": "global",
@@ -1965,9 +1965,9 @@
         "bandwidth": 2756600,
         "variants": 4,
         "kind": "hls",
-        "ms": 1025,
+        "ms": 1020,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -1978,9 +1978,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 162.817
+        "score": 166.57
       }
     ],
     "reach": "global",
@@ -2022,9 +2022,9 @@
         "bandwidth": 1515800,
         "variants": 2,
         "kind": "hls",
-        "ms": 1016,
+        "ms": 1050,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -2034,9 +2034,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 153.489
+        "score": 157.217
       }
     ],
     "reach": "global",
@@ -2078,9 +2078,9 @@
         "bandwidth": 1515800,
         "variants": 2,
         "kind": "hls",
-        "ms": 983,
+        "ms": 994,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -2091,9 +2091,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 153.511
+        "score": 157.254
       }
     ],
     "reach": "global",
@@ -2133,9 +2133,9 @@
         "bandwidth": 2756600,
         "variants": 4,
         "kind": "hls",
-        "ms": 1053,
+        "ms": 1061,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -2146,9 +2146,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 162.798
+        "score": 166.543
       }
     ],
     "reach": "global",
@@ -2188,9 +2188,9 @@
         "bandwidth": 2756600,
         "variants": 4,
         "kind": "hls",
-        "ms": 1019,
+        "ms": 984,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -2201,9 +2201,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 162.821
+        "score": 166.594
       }
     ],
     "reach": "global",
@@ -2243,9 +2243,9 @@
         "bandwidth": 2756600,
         "variants": 4,
         "kind": "hls",
-        "ms": 1009,
+        "ms": 1022,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -2256,9 +2256,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 162.827
+        "score": 166.569
       }
     ],
     "reach": "global",
@@ -2298,9 +2298,9 @@
         "bandwidth": 2756600,
         "variants": 4,
         "kind": "hls",
-        "ms": 1206,
+        "ms": 1004,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -2311,9 +2311,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 162.696
+        "score": 166.581
       }
     ],
     "reach": "global",
@@ -2353,9 +2353,9 @@
         "bandwidth": 1515800,
         "variants": 2,
         "kind": "hls",
-        "ms": 1001,
+        "ms": 995,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -2366,9 +2366,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 153.499
+        "score": 157.253
       }
     ],
     "reach": "global",
@@ -2408,9 +2408,9 @@
         "bandwidth": 2756600,
         "variants": 4,
         "kind": "hls",
-        "ms": 1029,
+        "ms": 1008,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -2421,9 +2421,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 162.814
+        "score": 166.578
       }
     ],
     "reach": "global",
@@ -2463,9 +2463,9 @@
         "bandwidth": 1515800,
         "variants": 2,
         "kind": "hls",
-        "ms": 983,
+        "ms": 1006,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -2476,9 +2476,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 153.511
+        "score": 157.246
       }
     ],
     "reach": "global",
@@ -2518,9 +2518,9 @@
         "bandwidth": 2756600,
         "variants": 4,
         "kind": "hls",
-        "ms": 993,
+        "ms": 995,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -2531,9 +2531,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 162.838
+        "score": 166.587
       }
     ],
     "reach": "global",
@@ -2573,9 +2573,9 @@
         "bandwidth": 2756600,
         "variants": 4,
         "kind": "hls",
-        "ms": 1023,
+        "ms": 1025,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -2586,9 +2586,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 162.818
+        "score": 166.567
       }
     ],
     "reach": "global",
@@ -2628,9 +2628,9 @@
         "bandwidth": 2756600,
         "variants": 4,
         "kind": "hls",
-        "ms": 1004,
+        "ms": 995,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -2641,9 +2641,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 162.831
+        "score": 166.587
       }
     ],
     "reach": "global",
@@ -2683,9 +2683,9 @@
         "bandwidth": 2756600,
         "variants": 4,
         "kind": "hls",
-        "ms": 1010,
+        "ms": 1003,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -2696,9 +2696,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 162.827
+        "score": 166.581
       }
     ],
     "reach": "global",
@@ -2738,9 +2738,9 @@
         "bandwidth": 2756600,
         "variants": 4,
         "kind": "hls",
-        "ms": 1036,
+        "ms": 1022,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -2751,9 +2751,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 162.809
+        "score": 166.569
       }
     ],
     "reach": "global",
@@ -2793,9 +2793,9 @@
         "bandwidth": 2756600,
         "variants": 4,
         "kind": "hls",
-        "ms": 1010,
+        "ms": 1026,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -2806,9 +2806,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 162.827
+        "score": 166.566
       }
     ],
     "reach": "global",
@@ -2848,9 +2848,9 @@
         "bandwidth": 1515800,
         "variants": 2,
         "kind": "hls",
-        "ms": 994,
+        "ms": 983,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -2861,9 +2861,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 153.504
+        "score": 157.261
       }
     ],
     "reach": "global",
@@ -2903,9 +2903,9 @@
         "bandwidth": 1515800,
         "variants": 2,
         "kind": "hls",
-        "ms": 1001,
+        "ms": 1012,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -2916,9 +2916,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 153.499
+        "score": 157.242
       }
     ],
     "reach": "global",
@@ -2958,9 +2958,9 @@
         "bandwidth": 2756600,
         "variants": 4,
         "kind": "hls",
-        "ms": 984,
+        "ms": 1007,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -2971,9 +2971,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 162.844
+        "score": 166.579
       }
     ],
     "reach": "global",
@@ -3013,9 +3013,9 @@
         "bandwidth": 2756600,
         "variants": 4,
         "kind": "hls",
-        "ms": 1007,
+        "ms": 994,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -3026,9 +3026,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 162.829
+        "score": 166.587
       }
     ],
     "reach": "global",
@@ -3070,16 +3070,16 @@
         "kind": "hls",
         "ms": 1030,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": null,
-        "score": 162.813
+        "score": 166.563
       }
     ],
     "reach": "global",
@@ -3119,9 +3119,9 @@
         "bandwidth": 2756600,
         "variants": 4,
         "kind": "hls",
-        "ms": 984,
+        "ms": 1005,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -3132,9 +3132,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 162.844
+        "score": 166.58
       }
     ],
     "reach": "global",
@@ -3174,9 +3174,9 @@
         "bandwidth": 2756600,
         "variants": 4,
         "kind": "hls",
-        "ms": 988,
+        "ms": 999,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -3187,9 +3187,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 162.841
+        "score": 166.584
       }
     ],
     "reach": "global",
@@ -3229,9 +3229,9 @@
         "bandwidth": 1515800,
         "variants": 2,
         "kind": "hls",
-        "ms": 991,
+        "ms": 1019,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -3242,9 +3242,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 153.506
+        "score": 157.237
       }
     ],
     "reach": "global",
@@ -3284,9 +3284,9 @@
         "bandwidth": 1515800,
         "variants": 2,
         "kind": "hls",
-        "ms": 994,
+        "ms": 984,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -3297,9 +3297,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 153.504
+        "score": 157.261
       }
     ],
     "reach": "global",
@@ -3339,9 +3339,9 @@
         "bandwidth": 2756600,
         "variants": 4,
         "kind": "hls",
-        "ms": 1007,
+        "ms": 1008,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -3352,9 +3352,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 162.829
+        "score": 166.578
       }
     ],
     "reach": "global",
@@ -3394,9 +3394,9 @@
         "bandwidth": 2756600,
         "variants": 4,
         "kind": "hls",
-        "ms": 1002,
+        "ms": 995,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -3407,9 +3407,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 162.832
+        "score": 166.587
       }
     ],
     "reach": "global",
@@ -3449,9 +3449,9 @@
         "bandwidth": 2756600,
         "variants": 4,
         "kind": "hls",
-        "ms": 993,
+        "ms": 998,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -3462,9 +3462,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 162.838
+        "score": 166.585
       }
     ],
     "reach": "global",
@@ -3508,9 +3508,9 @@
         "bandwidth": 1515800,
         "variants": 2,
         "kind": "hls",
-        "ms": 1007,
+        "ms": 1047,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -3520,9 +3520,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 153.495
+        "score": 157.219
       }
     ],
     "reach": "global",
@@ -3566,9 +3566,9 @@
         "bandwidth": 2756600,
         "variants": 4,
         "kind": "hls",
-        "ms": 998,
+        "ms": 1002,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -3577,9 +3577,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 162.835
+        "score": 166.582
       }
     ],
     "reach": "global",
@@ -3619,9 +3619,9 @@
         "bandwidth": 1515800,
         "variants": 2,
         "kind": "hls",
-        "ms": 1024,
+        "ms": 1005,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -3632,9 +3632,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 153.484
+        "score": 157.247
       }
     ],
     "reach": "global",
@@ -3674,18 +3674,18 @@
         "bandwidth": 1515800,
         "variants": 2,
         "kind": "hls",
-        "ms": 1015,
+        "ms": 1004,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 153.49
+        "score": 157.247
       },
       {
         "url": "https://s1-cloud.irib.ir/securelive3/alkawtharsd/alkawtharsd.m3u8",
@@ -3695,9 +3695,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": null,
-        "ms": 24239,
+        "ms": 24473,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -3706,7 +3706,7 @@
         "first_seen": "2026-08-10T22:11:33+00:00",
         "last_ok": null,
         "format": "576i",
-        "score": 83.167
+        "score": 86.917
       }
     ],
     "reach": "global",
@@ -3747,18 +3747,18 @@
         "bandwidth": 2048000,
         "variants": 4,
         "kind": "hls",
-        "ms": 177,
+        "ms": 320,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "curated"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 154.049
+        "score": 157.703
       }
     ],
     "reach": "global",
@@ -3798,18 +3798,18 @@
         "bandwidth": 888000,
         "variants": 4,
         "kind": "hls",
-        "ms": 179,
+        "ms": 190,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "curated"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 154.047
+        "score": 157.79
       },
       {
         "url": "https://live.presstv.ir/hls/ifilm2.m3u8",
@@ -3819,9 +3819,9 @@
         "bandwidth": 888000,
         "variants": 4,
         "kind": "hls",
-        "ms": 413,
+        "ms": 348,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -3831,9 +3831,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 153.891
+        "score": 157.685
       },
       {
         "url": "https://s1-cloud.irib.ir/securelive3/ifilm2sd/ifilm2sd.m3u8",
@@ -3843,9 +3843,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": null,
-        "ms": 24216,
+        "ms": 25337,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -3854,7 +3854,7 @@
         "first_seen": "2026-08-10T22:11:33+00:00",
         "last_ok": null,
         "format": "576i",
-        "score": 83.167
+        "score": 86.917
       }
     ],
     "reach": "global",
@@ -3895,18 +3895,18 @@
         "bandwidth": 888000,
         "variants": 4,
         "kind": "hls",
-        "ms": 335,
+        "ms": 182,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "curated"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 153.943
+        "score": 157.795
       },
       {
         "url": "https://live.presstv.ir/hls/ifilmar.m3u8",
@@ -3916,9 +3916,9 @@
         "bandwidth": 888000,
         "variants": 4,
         "kind": "hls",
-        "ms": 578,
+        "ms": 201,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -3926,9 +3926,9 @@
           "iptv-org/ir"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 153.781
+        "score": 157.783
       },
       {
         "url": "https://s1-cloud.irib.ir/securelive3/ifilmarabsd/ifilmarabsd.m3u8",
@@ -3938,9 +3938,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": null,
-        "ms": 24213,
+        "ms": 24467,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -3949,7 +3949,7 @@
         "first_seen": "2026-08-10T22:11:33+00:00",
         "last_ok": null,
         "format": "576i",
-        "score": 83.167
+        "score": 86.917
       }
     ],
     "reach": "global",
@@ -3990,18 +3990,18 @@
         "bandwidth": 888000,
         "variants": 4,
         "kind": "hls",
-        "ms": 188,
+        "ms": 186,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "curated"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 154.041
+        "score": 157.793
       },
       {
         "url": "https://live.presstv.ir/hls/ifilmen.m3u8",
@@ -4011,9 +4011,9 @@
         "bandwidth": 888000,
         "variants": 4,
         "kind": "hls",
-        "ms": 365,
+        "ms": 965,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -4021,9 +4021,9 @@
           "iptv-org/ir"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 153.923
+        "score": 157.273
       },
       {
         "url": "https://s1-cloud.irib.ir/securelive3/ifilmengsd/ifilmengsd.m3u8",
@@ -4033,9 +4033,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": null,
-        "ms": 24452,
+        "ms": 25333,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -4044,7 +4044,7 @@
         "first_seen": "2026-08-10T22:11:33+00:00",
         "last_ok": null,
         "format": "576i",
-        "score": 83.167
+        "score": 86.917
       }
     ],
     "reach": "global",
@@ -4086,9 +4086,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 398,
+        "ms": 566,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -4097,9 +4097,9 @@
           "iptv-org/fas"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.901
+        "score": 149.539
       }
     ],
     "reach": "global",
@@ -4141,9 +4141,9 @@
         "bandwidth": 1861200,
         "variants": 3,
         "kind": "hls",
-        "ms": 986,
+        "ms": 1006,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -4153,9 +4153,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 156.176
+        "score": 159.913
       }
     ],
     "reach": "global",
@@ -4196,18 +4196,18 @@
         "bandwidth": 2048000,
         "variants": 4,
         "kind": "hls",
-        "ms": 179,
+        "ms": 185,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "curated"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 154.047
+        "score": 157.793
       },
       {
         "url": "https://live.presstv.ir/hls/presstv.m3u8",
@@ -4217,18 +4217,18 @@
         "bandwidth": 2048000,
         "variants": 4,
         "kind": "hls",
-        "ms": 841,
+        "ms": 439,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "iptv-org"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 153.606
+        "score": 157.624
       },
       {
         "url": "https://ncdn.telewebion.ir/presstv/live/playlist.m3u8",
@@ -4238,18 +4238,18 @@
         "bandwidth": 1515800,
         "variants": 1,
         "kind": "hls",
-        "ms": 1006,
+        "ms": 996,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.496
+        "score": 149.253
       },
       {
         "url": "https://cloud.odysee.live/content/26bcbcc342a5b143578f27dbfaf000201f06e417/master.m3u8",
@@ -4259,9 +4259,9 @@
         "bandwidth": 4000000,
         "variants": 2,
         "kind": "hls",
-        "ms": 102,
+        "ms": 81,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": "https://odysee.com/",
         "sources": [
@@ -4269,9 +4269,9 @@
           "iptv-org/ir"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 131.765
+        "score": 135.529
       }
     ],
     "reach": "global",
@@ -4309,21 +4309,21 @@
         "state": "ok",
         "resolution": "1920x1080",
         "height": 1080,
-        "bandwidth": 1230351,
+        "bandwidth": 1215616,
         "variants": 1,
         "kind": "hls",
-        "ms": 1391,
+        "ms": 1359,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "curated"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 154.573
+        "score": 158.344
       },
       {
         "url": "https://live4.presstv.ir/live/smil:presstvfr.smil/playlist.m3u8",
@@ -4333,9 +4333,9 @@
         "bandwidth": 360000,
         "variants": 3,
         "kind": "hls",
-        "ms": 1281,
+        "ms": 1770,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -4343,9 +4343,9 @@
           "iptv-org/ir"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 153.313
+        "score": 156.737
       }
     ],
     "reach": "global",
@@ -4386,9 +4386,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": null,
-        "ms": 24022,
+        "ms": 24024,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -4397,7 +4397,7 @@
         "first_seen": "2026-08-10T22:11:33+00:00",
         "last_ok": null,
         "format": "576i",
-        "score": 83.167
+        "score": 86.917
       }
     ],
     "reach": "iran-only",
@@ -4437,9 +4437,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": null,
-        "ms": 24025,
+        "ms": 24024,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -4448,7 +4448,7 @@
         "first_seen": "2026-08-10T22:11:33+00:00",
         "last_ok": null,
         "format": "576i",
-        "score": 83.167
+        "score": 86.917
       }
     ],
     "reach": "iran-only",
@@ -4488,9 +4488,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": null,
-        "ms": 24025,
+        "ms": 24024,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -4499,7 +4499,7 @@
         "first_seen": "2026-08-10T22:11:33+00:00",
         "last_ok": null,
         "format": "576i",
-        "score": 83.167
+        "score": 86.917
       }
     ],
     "reach": "iran-only",
@@ -4541,7 +4541,7 @@
         "kind": null,
         "ms": 24025,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -4550,7 +4550,7 @@
         "first_seen": "2026-08-10T22:11:33+00:00",
         "last_ok": null,
         "format": "576i",
-        "score": 83.167
+        "score": 86.917
       }
     ],
     "reach": "iran-only",
@@ -4590,9 +4590,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 315,
+        "ms": 332,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -4602,9 +4602,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "720p",
-        "score": 148.623
+        "score": 152.362
       }
     ],
     "reach": "global",
@@ -4644,9 +4644,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 327,
+        "ms": 302,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -4656,9 +4656,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "720p",
-        "score": 148.615
+        "score": 152.382
       }
     ],
     "reach": "global",
@@ -4691,6 +4691,28 @@
     "source_local": false,
     "streams": [
       {
+        "url": "https://me2hls.wns.live/hls/stream.m3u8",
+        "state": "ok",
+        "resolution": null,
+        "height": 720,
+        "bandwidth": null,
+        "variants": null,
+        "kind": "hls",
+        "ms": 310,
+        "uptime": 1.0,
+        "checks": 3,
+        "user_agent": null,
+        "referrer": null,
+        "sources": [
+          "iptv-org",
+          "nexa"
+        ],
+        "first_seen": "2026-08-10T22:11:33+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
+        "format": "720p",
+        "score": 152.377
+      },
+      {
         "url": "https://arvhls.wns.live/hls/stream.m3u8",
         "state": "ok",
         "resolution": null,
@@ -4698,9 +4720,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 314,
+        "ms": 324,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -4710,31 +4732,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "720p",
-        "score": 148.624
-      },
-      {
-        "url": "https://me2hls.wns.live/hls/stream.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 720,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 316,
-        "uptime": 1.0,
-        "checks": 2,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "iptv-org",
-          "nexa"
-        ],
-        "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
-        "format": "720p",
-        "score": 148.623
+        "score": 152.367
       }
     ],
     "reach": "global",
@@ -4775,9 +4775,9 @@
         "bandwidth": 1260000,
         "variants": 1,
         "kind": "hls",
-        "ms": 630,
+        "ms": 643,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -4785,9 +4785,9 @@
           "iptv-org/ir"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.747
+        "score": 149.488
       }
     ],
     "reach": "global",
@@ -4827,9 +4827,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 320,
+        "ms": 334,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -4839,9 +4839,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "720p",
-        "score": 148.62
+        "score": 152.361
       }
     ],
     "reach": "global",
@@ -4881,9 +4881,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 294,
+        "ms": 290,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -4893,9 +4893,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "480i",
-        "score": 144.193
+        "score": 147.946
       }
     ],
     "reach": "global",
@@ -4935,9 +4935,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 299,
+        "ms": 293,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -4945,9 +4945,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "720p",
-        "score": 148.634
+        "score": 152.388
       }
     ],
     "reach": "global",
@@ -4987,18 +4987,18 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 287,
+        "ms": 285,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "curated"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": null,
-        "score": 135.309
+        "score": 139.06
       }
     ],
     "reach": "global",
@@ -5037,9 +5037,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 307,
+        "ms": 305,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -5047,9 +5047,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "720p",
-        "score": 148.629
+        "score": 152.38
       }
     ],
     "reach": "global",
@@ -5091,16 +5091,16 @@
         "kind": "hls",
         "ms": 305,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "curated"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": null,
-        "score": 135.297
+        "score": 139.047
       }
     ],
     "reach": "global",
@@ -5139,9 +5139,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 308,
+        "ms": 304,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -5150,9 +5150,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "720p",
-        "score": 148.628
+        "score": 152.381
       }
     ],
     "reach": "global",
@@ -5192,18 +5192,18 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 179,
+        "ms": 178,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "curated"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": null,
-        "score": 135.381
+        "score": 139.131
       }
     ],
     "reach": "global",
@@ -5242,18 +5242,18 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 355,
+        "ms": 791,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "curated"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "720p",
-        "score": 148.597
+        "score": 152.056
       }
     ],
     "reach": "global",
@@ -5293,18 +5293,18 @@
         "bandwidth": 3057207,
         "variants": 3,
         "kind": "hls",
-        "ms": 289,
+        "ms": 264,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "curated"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": null,
-        "score": 163.307
+        "score": 167.074
       }
     ],
     "reach": "global",
@@ -5344,9 +5344,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 293,
+        "ms": 306,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -5356,9 +5356,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "480i",
-        "score": 144.194
+        "score": 147.935
       }
     ],
     "reach": "global",
@@ -5398,18 +5398,18 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 288,
+        "ms": 289,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "curated"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": null,
-        "score": 135.308
+        "score": 139.057
       }
     ],
     "reach": "global",
@@ -5448,9 +5448,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 316,
+        "ms": 283,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -5458,9 +5458,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "720p",
-        "score": 148.623
+        "score": 152.395
       }
     ],
     "reach": "global",
@@ -5500,9 +5500,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 315,
+        "ms": 291,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -5512,9 +5512,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.957
+        "score": 149.723
       }
     ],
     "reach": "global",
@@ -5554,18 +5554,18 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 298,
+        "ms": 287,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "curated"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": null,
-        "score": 135.301
+        "score": 139.059
       }
     ],
     "reach": "global",
@@ -5604,9 +5604,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 312,
+        "ms": 304,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -5616,9 +5616,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.959
+        "score": 149.714
       }
     ],
     "reach": "global",
@@ -5658,9 +5658,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 467,
+        "ms": 300,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -5669,9 +5669,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.855
+        "score": 149.717
       }
     ],
     "reach": "global",
@@ -5711,9 +5711,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 315,
+        "ms": 289,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -5723,9 +5723,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.957
+        "score": 149.724
       }
     ],
     "reach": "global",
@@ -5765,9 +5765,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 313,
+        "ms": 308,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -5777,9 +5777,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.958
+        "score": 149.711
       }
     ],
     "reach": "global",
@@ -5819,9 +5819,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 322,
+        "ms": 289,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -5831,9 +5831,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.952
+        "score": 149.724
       }
     ],
     "reach": "global",
@@ -5873,9 +5873,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 311,
+        "ms": 310,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -5885,9 +5885,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.959
+        "score": 149.71
       }
     ],
     "reach": "global",
@@ -5927,9 +5927,9 @@
         "bandwidth": 2592000,
         "variants": 6,
         "kind": "hls",
-        "ms": 552,
+        "ms": 159,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -5938,9 +5938,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 163.132
+        "score": 167.144
       },
       {
         "url": "https://hls.mbcpersia.live/hls/stream.m3u8",
@@ -5950,9 +5950,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 292,
+        "ms": 302,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -5960,9 +5960,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.972
+        "score": 149.715
       }
     ],
     "reach": "global",
@@ -6003,18 +6003,18 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 303,
+        "ms": 305,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "curated"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": null,
-        "score": 135.298
+        "score": 139.047
       }
     ],
     "reach": "global",
@@ -6054,9 +6054,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 307,
+        "ms": 287,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -6065,9 +6065,9 @@
           "iptv-org/fas"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "480i",
-        "score": 144.184
+        "score": 147.948
       }
     ],
     "reach": "global",
@@ -6108,9 +6108,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 289,
+        "ms": 513,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -6120,9 +6120,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.974
+        "score": 149.575
       }
     ],
     "reach": "global",
@@ -6162,9 +6162,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 292,
+        "ms": 313,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -6174,9 +6174,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.972
+        "score": 149.708
       }
     ],
     "reach": "global",
@@ -6216,9 +6216,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 294,
+        "ms": 287,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -6228,9 +6228,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "720p",
-        "score": 148.637
+        "score": 152.392
       }
     ],
     "reach": "global",
@@ -6271,9 +6271,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 293,
+        "ms": 286,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -6282,9 +6282,9 @@
           "iptv-org/fas"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.971
+        "score": 149.726
       }
     ],
     "reach": "global",
@@ -6325,18 +6325,18 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 309,
+        "ms": 320,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "curated"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": null,
-        "score": 135.294
+        "score": 139.037
       }
     ],
     "reach": "global",
@@ -6375,9 +6375,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 285,
+        "ms": 300,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -6385,9 +6385,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.977
+        "score": 149.717
       }
     ],
     "reach": "global",
@@ -6427,9 +6427,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 304,
+        "ms": 306,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -6438,9 +6438,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "480i",
-        "score": 144.186
+        "score": 147.935
       }
     ],
     "reach": "global",
@@ -6480,9 +6480,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 287,
+        "ms": 292,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -6491,9 +6491,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "480i",
-        "score": 144.198
+        "score": 147.944
       }
     ],
     "reach": "global",
@@ -6533,18 +6533,18 @@
         "bandwidth": 2628000,
         "variants": 3,
         "kind": "hls",
-        "ms": 247,
+        "ms": 198,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "curated"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": null,
-        "score": 163.335
+        "score": 167.118
       }
     ],
     "reach": "global",
@@ -6584,9 +6584,9 @@
         "bandwidth": 2628000,
         "variants": 3,
         "kind": "hls",
-        "ms": 262,
+        "ms": 195,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -6596,9 +6596,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "480i",
-        "score": 163.325
+        "score": 167.12
       },
       {
         "url": "https://hls.tapeshtv.live/hls/stream.m3u8",
@@ -6608,18 +6608,18 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 296,
+        "ms": 298,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "curated"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "480i",
-        "score": 144.192
+        "score": 147.94
       }
     ],
     "reach": "global",
@@ -6657,12 +6657,12 @@
         "state": "ok",
         "resolution": "1280x720",
         "height": 720,
-        "bandwidth": 1885069,
+        "bandwidth": 1878180,
         "variants": 1,
         "kind": "hls",
-        "ms": 100,
+        "ms": 102,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -6670,21 +6670,21 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "480i",
-        "score": 148.767
+        "score": 152.515
       },
       {
         "url": "https://tulixcdn.akamaized.net/tintv6/tintv/tintv/playlist.m3u8",
         "state": "ok",
         "resolution": "1280x720",
         "height": 720,
-        "bandwidth": 1925161,
+        "bandwidth": 1878180,
         "variants": 1,
         "kind": "hls",
-        "ms": 246,
+        "ms": 180,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -6693,9 +6693,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "480i",
-        "score": 148.669
+        "score": 152.463
       }
     ],
     "reach": "global",
@@ -6736,9 +6736,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 364,
+        "ms": 363,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -6746,9 +6746,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.924
+        "score": 149.675
       }
     ],
     "reach": "global",
@@ -6788,9 +6788,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 396,
+        "ms": 308,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -6800,9 +6800,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "720p",
-        "score": 148.569
+        "score": 152.378
       }
     ],
     "reach": "global",
@@ -6842,9 +6842,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 297,
+        "ms": 318,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -6854,9 +6854,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.969
+        "score": 149.705
       }
     ],
     "reach": "global",
@@ -6896,9 +6896,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 302,
+        "ms": 305,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -6908,9 +6908,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.965
+        "score": 149.713
       }
     ],
     "reach": "global",
@@ -6950,9 +6950,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 312,
+        "ms": 297,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -6962,9 +6962,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "720p",
-        "score": 148.625
+        "score": 152.385
       }
     ],
     "reach": "global",
@@ -7004,9 +7004,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 289,
+        "ms": 288,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -7016,9 +7016,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "720p",
-        "score": 148.641
+        "score": 152.391
       }
     ],
     "reach": "global",
@@ -7058,9 +7058,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 373,
+        "ms": 346,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -7070,9 +7070,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.918
+        "score": 149.686
       }
     ],
     "reach": "global",
@@ -7112,9 +7112,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 309,
+        "ms": 313,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -7124,9 +7124,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "720p",
-        "score": 148.627
+        "score": 152.375
       }
     ],
     "reach": "global",
@@ -7166,9 +7166,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 287,
+        "ms": 292,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -7178,9 +7178,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.975
+        "score": 149.722
       }
     ],
     "reach": "global",
@@ -7220,9 +7220,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 294,
+        "ms": 303,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -7231,9 +7231,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "720p",
-        "score": 148.637
+        "score": 152.381
       }
     ],
     "reach": "global",
@@ -7273,9 +7273,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 289,
+        "ms": 290,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -7285,9 +7285,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.974
+        "score": 149.723
       }
     ],
     "reach": "global",
@@ -7327,9 +7327,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 293,
+        "ms": 382,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -7339,9 +7339,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.971
+        "score": 149.662
       }
     ],
     "reach": "global",
@@ -7381,9 +7381,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 309,
+        "ms": 314,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -7393,9 +7393,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.961
+        "score": 149.707
       }
     ],
     "reach": "global",
@@ -7435,9 +7435,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 293,
+        "ms": 290,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -7447,9 +7447,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "720p",
-        "score": 148.638
+        "score": 152.39
       }
     ],
     "reach": "global",
@@ -7489,9 +7489,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 305,
+        "ms": 293,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -7501,9 +7501,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.963
+        "score": 149.721
       }
     ],
     "reach": "global",
@@ -7543,9 +7543,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 312,
+        "ms": 314,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -7555,9 +7555,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.959
+        "score": 149.707
       }
     ],
     "reach": "global",
@@ -7597,9 +7597,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 306,
+        "ms": 307,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -7609,9 +7609,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.963
+        "score": 149.712
       }
     ],
     "reach": "global",
@@ -7652,9 +7652,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 310,
+        "ms": 309,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -7663,9 +7663,9 @@
           "iptv-org/fas"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.96
+        "score": 149.711
       }
     ],
     "reach": "global",
@@ -7707,9 +7707,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 312,
+        "ms": 291,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -7718,9 +7718,9 @@
           "iptv-org/fas"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.959
+        "score": 149.723
       }
     ],
     "reach": "global",
@@ -7761,9 +7761,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 292,
+        "ms": 289,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -7773,9 +7773,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.972
+        "score": 149.724
       }
     ],
     "reach": "global",
@@ -7815,9 +7815,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 295,
+        "ms": 291,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -7827,9 +7827,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "720p",
-        "score": 148.637
+        "score": 152.389
       }
     ],
     "reach": "global",
@@ -7869,9 +7869,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 310,
+        "ms": 314,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -7881,9 +7881,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.96
+        "score": 149.707
       }
     ],
     "reach": "global",
@@ -7923,9 +7923,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 311,
+        "ms": 295,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -7935,9 +7935,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.959
+        "score": 149.72
       }
     ],
     "reach": "global",
@@ -7977,9 +7977,9 @@
         "bandwidth": 5509900,
         "variants": 8,
         "kind": "hls",
-        "ms": 418,
+        "ms": 202,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -7987,9 +7987,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 156.555
+        "score": 160.449
       },
       {
         "url": "https://vs-hls-pushb-ww.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2.m3u8",
@@ -7999,9 +7999,9 @@
         "bandwidth": 1835960,
         "variants": 4,
         "kind": "hls",
-        "ms": 186,
+        "ms": 170,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -8009,9 +8009,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 153.376
+        "score": 157.137
       },
       {
         "url": "https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2.m3u8",
@@ -8021,9 +8021,9 @@
         "bandwidth": 1835960,
         "variants": 4,
         "kind": "hls",
-        "ms": 268,
+        "ms": 229,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -8031,9 +8031,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 153.321
+        "score": 157.097
       },
       {
         "url": "https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/t=3840/v=pv14/b=5070016/main.m3u8",
@@ -8043,84 +8043,18 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 124,
+        "ms": 97,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "curated"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 146.084
-      },
-      {
-        "url": "https://vs-cmaf-pushb-ww.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2_http.mpd",
-        "state": "ok",
-        "resolution": null,
-        "height": 576,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "dash",
-        "ms": 129,
-        "uptime": 1.0,
-        "checks": 2,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "iptv-org",
-          "nexa"
-        ],
-        "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
-        "format": "576i",
-        "score": 146.081
-      },
-      {
-        "url": "https://vs-cmaf-pushb-ww.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2.mpd",
-        "state": "ok",
-        "resolution": null,
-        "height": 576,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "dash",
-        "ms": 161,
-        "uptime": 1.0,
-        "checks": 2,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "iptv-org",
-          "nexa"
-        ],
-        "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
-        "format": "576i",
-        "score": 146.059
-      },
-      {
-        "url": "https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2.mpd",
-        "state": "ok",
-        "resolution": null,
-        "height": 576,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "dash",
-        "ms": 275,
-        "uptime": 1.0,
-        "checks": 2,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "iptv-org",
-          "nexa"
-        ],
-        "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
-        "format": "576i",
-        "score": 145.983
+        "score": 149.852
       },
       {
         "url": "https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2_http.mpd",
@@ -8130,9 +8064,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "dash",
-        "ms": 352,
+        "ms": 148,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -8140,9 +8074,75 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.932
+        "score": 149.818
+      },
+      {
+        "url": "https://vs-cmaf-pushb-ww.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2_http.mpd",
+        "state": "ok",
+        "resolution": null,
+        "height": 576,
+        "bandwidth": null,
+        "variants": null,
+        "kind": "dash",
+        "ms": 155,
+        "uptime": 1.0,
+        "checks": 3,
+        "user_agent": null,
+        "referrer": null,
+        "sources": [
+          "iptv-org",
+          "nexa"
+        ],
+        "first_seen": "2026-08-10T22:11:33+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
+        "format": "576i",
+        "score": 149.813
+      },
+      {
+        "url": "https://vs-cmaf-pushb-ww.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2.mpd",
+        "state": "ok",
+        "resolution": null,
+        "height": 576,
+        "bandwidth": null,
+        "variants": null,
+        "kind": "dash",
+        "ms": 184,
+        "uptime": 1.0,
+        "checks": 3,
+        "user_agent": null,
+        "referrer": null,
+        "sources": [
+          "iptv-org",
+          "nexa"
+        ],
+        "first_seen": "2026-08-10T22:11:33+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
+        "format": "576i",
+        "score": 149.794
+      },
+      {
+        "url": "https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/pc_hd_abr_v2.mpd",
+        "state": "ok",
+        "resolution": null,
+        "height": 576,
+        "bandwidth": null,
+        "variants": null,
+        "kind": "dash",
+        "ms": 264,
+        "uptime": 1.0,
+        "checks": 3,
+        "user_agent": null,
+        "referrer": null,
+        "sources": [
+          "iptv-org",
+          "nexa"
+        ],
+        "first_seen": "2026-08-10T22:11:33+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
+        "format": "576i",
+        "score": 149.741
       },
       {
         "url": "https://vs-cmaf-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/hevc_iptv_mse_v0.mpd",
@@ -8152,9 +8152,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "dash",
-        "ms": 374,
+        "ms": 297,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -8163,9 +8163,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.917
+        "score": 149.719
       }
     ],
     "reach": "global",
@@ -8206,9 +8206,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 327,
+        "ms": 298,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -8217,9 +8217,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "480i",
-        "score": 144.171
+        "score": 147.94
       }
     ],
     "reach": "global",
@@ -8256,12 +8256,12 @@
         "state": "ok",
         "resolution": "720x486",
         "height": 486,
-        "bandwidth": 6370944,
+        "bandwidth": 6372748,
         "variants": 1,
         "kind": "hls",
-        "ms": 93,
+        "ms": 86,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -8270,9 +8270,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "480i",
-        "score": 144.438
+        "score": 148.193
       }
     ],
     "reach": "global",
@@ -8312,18 +8312,18 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 325,
+        "ms": 319,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "curated"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": null,
-        "score": 135.283
+        "score": 139.037
       }
     ],
     "reach": "global",
@@ -8362,9 +8362,9 @@
         "bandwidth": 3057207,
         "variants": 3,
         "kind": "hls",
-        "ms": 260,
+        "ms": 306,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -8374,53 +8374,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 163.327
-      },
-      {
-        "url": "https://dev-live.livetvstream.co.uk/LS-63503-4/index.m3u8",
-        "state": "ok",
-        "resolution": "1280x720",
-        "height": 720,
-        "bandwidth": 1306000,
-        "variants": 3,
-        "kind": "hls",
-        "ms": 60,
-        "uptime": 1.0,
-        "checks": 2,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "iptv-org",
-          "nexa"
-        ],
-        "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
-        "format": "576i",
-        "score": 156.793
-      },
-      {
-        "url": "https://live.playstop.me/1816184091/index.m3u8",
-        "state": "ok",
-        "resolution": "1280x720",
-        "height": 720,
-        "bandwidth": 1306000,
-        "variants": 3,
-        "kind": "hls",
-        "ms": 64,
-        "uptime": 1.0,
-        "checks": 2,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "iptv-org",
-          "nexa"
-        ],
-        "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
-        "format": "576i",
-        "score": 156.791
+        "score": 167.046
       },
       {
         "url": "https://live.playstop.me/LS-63503-4/index.m3u8",
@@ -8430,9 +8386,9 @@
         "bandwidth": 1306000,
         "variants": 3,
         "kind": "hls",
-        "ms": 78,
+        "ms": 60,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -8440,9 +8396,31 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 156.781
+        "score": 160.543
+      },
+      {
+        "url": "https://dev-live.livetvstream.co.uk/LS-63503-4/index.m3u8",
+        "state": "ok",
+        "resolution": "1280x720",
+        "height": 720,
+        "bandwidth": 1306000,
+        "variants": 3,
+        "kind": "hls",
+        "ms": 71,
+        "uptime": 1.0,
+        "checks": 3,
+        "user_agent": null,
+        "referrer": null,
+        "sources": [
+          "iptv-org",
+          "nexa"
+        ],
+        "first_seen": "2026-08-10T22:11:33+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
+        "format": "576i",
+        "score": 160.536
       },
       {
         "url": "https://live.livetvstream.co.uk/LS-63503-4/index.m3u8",
@@ -8452,9 +8430,9 @@
         "bandwidth": 1306000,
         "variants": 3,
         "kind": "hls",
-        "ms": 87,
+        "ms": 73,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -8462,9 +8440,31 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 156.775
+        "score": 160.535
+      },
+      {
+        "url": "https://live.playstop.me/1816184091/index.m3u8",
+        "state": "ok",
+        "resolution": "1280x720",
+        "height": 720,
+        "bandwidth": 1306000,
+        "variants": 3,
+        "kind": "hls",
+        "ms": 80,
+        "uptime": 1.0,
+        "checks": 3,
+        "user_agent": null,
+        "referrer": null,
+        "sources": [
+          "iptv-org",
+          "nexa"
+        ],
+        "first_seen": "2026-08-10T22:11:33+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
+        "format": "576i",
+        "score": 160.53
       }
     ],
     "reach": "global",
@@ -8505,9 +8505,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 293,
+        "ms": 299,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -8517,9 +8517,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "720p",
-        "score": 148.638
+        "score": 152.384
       }
     ],
     "reach": "global",
@@ -8559,18 +8559,18 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 311,
+        "ms": 314,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "curated"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": null,
-        "score": 135.293
+        "score": 139.041
       }
     ],
     "reach": "global",
@@ -8609,18 +8609,18 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 286,
+        "ms": 308,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "curated"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": null,
-        "score": 135.309
+        "score": 139.045
       }
     ],
     "reach": "global",
@@ -8659,18 +8659,18 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 484,
+        "ms": 467,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "curated"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": null,
-        "score": 135.177
+        "score": 138.939
       }
     ],
     "reach": "global",
@@ -8706,21 +8706,21 @@
         "state": "ok",
         "resolution": "640x360",
         "height": 360,
-        "bandwidth": 562527,
+        "bandwidth": 568482,
         "variants": 1,
         "kind": "hls",
-        "ms": 309,
+        "ms": 314,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "curated"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 141.961
+        "score": 145.707
       }
     ],
     "reach": "global",
@@ -8760,9 +8760,9 @@
         "bandwidth": 2628000,
         "variants": 3,
         "kind": "hls",
-        "ms": 259,
+        "ms": 228,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -8772,9 +8772,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 163.327
+        "score": 167.098
       }
     ],
     "reach": "global",
@@ -8814,9 +8814,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 664,
+        "ms": 652,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -8826,9 +8826,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "720p",
-        "score": 148.391
+        "score": 152.149
       }
     ],
     "reach": "global",
@@ -8865,21 +8865,21 @@
         "state": "ok",
         "resolution": "1280x720",
         "height": 720,
-        "bandwidth": 1800982,
+        "bandwidth": 1369259,
         "variants": 1,
         "kind": "hls",
-        "ms": 232,
+        "ms": 280,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "curated"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "480i",
-        "score": 148.679
+        "score": 152.397
       },
       {
         "url": "https://parshls.wns.live/hls/stream.m3u8",
@@ -8891,7 +8891,7 @@
         "kind": "hls",
         "ms": 289,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -8901,9 +8901,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "480i",
-        "score": 144.196
+        "score": 147.946
       }
     ],
     "reach": "global",
@@ -8944,18 +8944,18 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 288,
+        "ms": 307,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "curated"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": null,
-        "score": 135.308
+        "score": 139.045
       }
     ],
     "reach": "global",
@@ -8994,18 +8994,18 @@
         "bandwidth": 3097600,
         "variants": 3,
         "kind": "hls",
-        "ms": 160,
+        "ms": 221,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "curated"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "480i",
-        "score": 154.06
+        "score": 157.769
       }
     ],
     "reach": "global",
@@ -9045,9 +9045,9 @@
         "bandwidth": 5772800,
         "variants": 5,
         "kind": "hls",
-        "ms": 58,
+        "ms": 49,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -9056,9 +9056,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "480i",
-        "score": 163.461
+        "score": 167.217
       },
       {
         "url": "https://voaphls.wns.live/hls/stream.m3u8",
@@ -9068,9 +9068,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 306,
+        "ms": 302,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -9078,9 +9078,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "480i",
-        "score": 144.185
+        "score": 147.938
       }
     ],
     "reach": "global",
@@ -9122,9 +9122,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 331,
+        "ms": 316,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -9133,9 +9133,9 @@
           "iptv-org/fas"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.946
+        "score": 149.706
       }
     ],
     "reach": "global",
@@ -9169,28 +9169,6 @@
     "source_local": false,
     "streams": [
       {
-        "url": "https://itthls.wns.live/hls/stream.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 720,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 293,
-        "uptime": 1.0,
-        "checks": 2,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "iptv-org",
-          "nexa"
-        ],
-        "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
-        "format": "720p",
-        "score": 148.638
-      },
-      {
         "url": "https://musichls.persiana.live/hls/stream.m3u8",
         "state": "ok",
         "resolution": null,
@@ -9198,9 +9176,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 314,
+        "ms": 286,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -9210,9 +9188,31 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "720p",
-        "score": 148.624
+        "score": 152.393
+      },
+      {
+        "url": "https://itthls.wns.live/hls/stream.m3u8",
+        "state": "ok",
+        "resolution": null,
+        "height": 720,
+        "bandwidth": null,
+        "variants": null,
+        "kind": "hls",
+        "ms": 305,
+        "uptime": 1.0,
+        "checks": 3,
+        "user_agent": null,
+        "referrer": null,
+        "sources": [
+          "iptv-org",
+          "nexa"
+        ],
+        "first_seen": "2026-08-10T22:11:33+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
+        "format": "720p",
+        "score": 152.38
       }
     ],
     "reach": "global",
@@ -9250,12 +9250,12 @@
         "state": "ok",
         "resolution": "1280x720",
         "height": 720,
-        "bandwidth": 1856511,
+        "bandwidth": 1811344,
         "variants": 1,
         "kind": "hls",
-        "ms": 86,
+        "ms": 92,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -9265,9 +9265,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 148.776
+        "score": 152.522
       }
     ],
     "reach": "global",
@@ -9307,9 +9307,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 308,
+        "ms": 312,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -9319,9 +9319,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "480i",
-        "score": 144.184
+        "score": 147.931
       }
     ],
     "reach": "global",
@@ -9361,9 +9361,9 @@
         "bandwidth": 2320000,
         "variants": 1,
         "kind": "hls",
-        "ms": 333,
+        "ms": 266,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -9373,9 +9373,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "480i",
-        "score": 145.945
+        "score": 149.739
       },
       {
         "url": "https://streamer1.connectto.com/HIGHVISION_WEB_1205/playlist.m3u8",
@@ -9385,18 +9385,18 @@
         "bandwidth": 2320000,
         "variants": 1,
         "kind": "hls",
-        "ms": 351,
+        "ms": 352,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "curated"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "480i",
-        "score": 145.933
+        "score": 149.682
       }
     ],
     "reach": "global",
@@ -9430,28 +9430,6 @@
     "source_local": false,
     "streams": [
       {
-        "url": "https://simahls.wns.live/hls/stream.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 576,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 296,
-        "uptime": 1.0,
-        "checks": 2,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "iptv-org",
-          "nexa"
-        ],
-        "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
-        "format": "576i",
-        "score": 145.969
-      },
-      {
         "url": "https://hls.navahang.live/hls/stream.m3u8",
         "state": "ok",
         "resolution": null,
@@ -9459,9 +9437,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 397,
+        "ms": 299,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -9470,9 +9448,31 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.902
+        "score": 149.717
+      },
+      {
+        "url": "https://simahls.wns.live/hls/stream.m3u8",
+        "state": "ok",
+        "resolution": null,
+        "height": 576,
+        "bandwidth": null,
+        "variants": null,
+        "kind": "hls",
+        "ms": 299,
+        "uptime": 1.0,
+        "checks": 3,
+        "user_agent": null,
+        "referrer": null,
+        "sources": [
+          "iptv-org",
+          "nexa"
+        ],
+        "first_seen": "2026-08-10T22:11:33+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
+        "format": "576i",
+        "score": 149.717
       }
     ],
     "reach": "global",
@@ -9513,9 +9513,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 288,
+        "ms": 285,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -9525,9 +9525,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "720p",
-        "score": 148.641
+        "score": 152.393
       }
     ],
     "reach": "global",
@@ -9567,9 +9567,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 297,
+        "ms": 285,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -9579,9 +9579,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.969
+        "score": 149.727
       }
     ],
     "reach": "global",
@@ -9621,18 +9621,18 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 285,
+        "ms": 309,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "curated"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": null,
-        "score": 135.31
+        "score": 139.044
       }
     ],
     "reach": "global",
@@ -9671,9 +9671,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 284,
+        "ms": 308,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -9683,9 +9683,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "720p",
-        "score": 148.644
+        "score": 152.378
       }
     ],
     "reach": "global",
@@ -9725,9 +9725,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 286,
+        "ms": 285,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -9736,9 +9736,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.976
+        "score": 149.727
       }
     ],
     "reach": "global",
@@ -9778,9 +9778,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 312,
+        "ms": 290,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -9789,9 +9789,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.959
+        "score": 149.723
       }
     ],
     "reach": "global",
@@ -9831,9 +9831,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 291,
+        "ms": 288,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -9843,9 +9843,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "480i",
-        "score": 144.195
+        "score": 147.947
       }
     ],
     "reach": "global",
@@ -9885,18 +9885,18 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 359,
+        "ms": 309,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "curated"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": null,
-        "score": 135.261
+        "score": 139.044
       }
     ],
     "reach": "global",
@@ -9935,9 +9935,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 302,
+        "ms": 307,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -9947,9 +9947,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.965
+        "score": 149.712
       }
     ],
     "reach": "global",
@@ -9989,9 +9989,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 284,
+        "ms": 290,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -10001,9 +10001,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.977
+        "score": 149.723
       }
     ],
     "reach": "global",
@@ -10043,9 +10043,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 299,
+        "ms": 314,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -10055,9 +10055,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "720p",
-        "score": 148.634
+        "score": 152.374
       }
     ],
     "reach": "global",
@@ -10097,9 +10097,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 314,
+        "ms": 286,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -10109,9 +10109,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "720p",
-        "score": 148.624
+        "score": 152.393
       }
     ],
     "reach": "global",
@@ -10148,12 +10148,12 @@
         "state": "ok",
         "resolution": "1280x720",
         "height": 720,
-        "bandwidth": 6097816,
+        "bandwidth": 6787748,
         "variants": 1,
         "kind": "hls",
-        "ms": 401,
+        "ms": 176,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -10163,9 +10163,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "480i",
-        "score": 148.566
+        "score": 152.466
       }
     ],
     "reach": "global",
@@ -10205,9 +10205,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 306,
+        "ms": 289,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -10217,9 +10217,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "720p",
-        "score": 148.629
+        "score": 152.391
       }
     ],
     "reach": "global",
@@ -10259,9 +10259,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 308,
+        "ms": 290,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -10271,9 +10271,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "720p",
-        "score": 148.628
+        "score": 152.39
       },
       {
         "url": "https://tfnhls.wns.live/hls/stream.m3u8",
@@ -10285,7 +10285,7 @@
         "kind": "hls",
         "ms": 311,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -10293,9 +10293,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "720p",
-        "score": 148.626
+        "score": 152.376
       }
     ],
     "reach": "global",
@@ -10336,9 +10336,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 310,
+        "ms": 300,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -10346,9 +10346,9 @@
           "iptv-org/ir"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.96
+        "score": 149.717
       }
     ],
     "reach": "global",
@@ -10388,9 +10388,9 @@
         "bandwidth": 2628000,
         "variants": 3,
         "kind": "hls",
-        "ms": 286,
+        "ms": 234,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -10399,9 +10399,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "480i",
-        "score": 163.309
+        "score": 167.094
       }
     ],
     "reach": "global",
@@ -10438,21 +10438,21 @@
         "state": "ok",
         "resolution": "1920x1080",
         "height": 1080,
-        "bandwidth": 838166,
+        "bandwidth": 847165,
         "variants": 1,
         "kind": "hls",
-        "ms": 306,
+        "ms": 305,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "iptv-org"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 155.296
+        "score": 159.047
       }
     ],
     "reach": "global",
@@ -10493,9 +10493,9 @@
         "bandwidth": 1861200,
         "variants": 3,
         "kind": "hls",
-        "ms": 1032,
+        "ms": 1026,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -10505,9 +10505,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 156.145
+        "score": 159.899
       }
     ],
     "reach": "global",
@@ -10545,21 +10545,21 @@
         "state": "ok",
         "resolution": "1920x1080",
         "height": 1080,
-        "bandwidth": 3430000,
+        "bandwidth": 3450000,
         "variants": 4,
         "kind": "hls",
-        "ms": 685,
+        "ms": 673,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "curated"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 163.043
+        "score": 166.801
       }
     ],
     "reach": "global",
@@ -10599,9 +10599,9 @@
         "bandwidth": 4261082,
         "variants": 3,
         "kind": "hls",
-        "ms": 332,
+        "ms": 327,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -10609,9 +10609,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 163.279
+        "score": 167.032
       },
       {
         "url": "https://fa.imamhossaintv.com/live/ih1.m3u8",
@@ -10621,9 +10621,9 @@
         "bandwidth": 4261082,
         "variants": 3,
         "kind": "hls",
-        "ms": 2015,
+        "ms": 1852,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -10632,9 +10632,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 162.157
+        "score": 166.015
       }
     ],
     "reach": "global",
@@ -10675,9 +10675,9 @@
         "bandwidth": 3729780,
         "variants": 3,
         "kind": "hls",
-        "ms": 616,
+        "ms": 618,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -10686,9 +10686,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 163.089
+        "score": 166.838
       }
     ],
     "reach": "global",
@@ -10728,9 +10728,9 @@
         "bandwidth": 1861200,
         "variants": 3,
         "kind": "hls",
-        "ms": 988,
+        "ms": 1005,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -10741,9 +10741,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 156.175
+        "score": 159.913
       }
     ],
     "reach": "global",
@@ -10783,9 +10783,9 @@
         "bandwidth": 2096000,
         "variants": 5,
         "kind": "hls",
-        "ms": 521,
+        "ms": 503,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -10794,9 +10794,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 163.153
+        "score": 166.915
       }
     ],
     "reach": "global",
@@ -10836,9 +10836,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 368,
+        "ms": 370,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -10847,9 +10847,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.921
+        "score": 149.67
       }
     ],
     "reach": "global",
@@ -10889,9 +10889,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 198,
+        "ms": 156,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -10900,9 +10900,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "480i",
-        "score": 144.257
+        "score": 148.035
       }
     ],
     "reach": "global",
@@ -10935,37 +10935,16 @@
     "source_local": false,
     "streams": [
       {
-        "url": "https://tgn.bozztv.com/cus01/ucur1/Payvand/playlist.m3u8",
-        "state": "ok",
-        "resolution": "1280x720",
-        "height": 720,
-        "bandwidth": 4200000,
-        "variants": 1,
-        "kind": "hls",
-        "ms": 214,
-        "uptime": 1.0,
-        "checks": 2,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "curated"
-        ],
-        "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
-        "format": "576i",
-        "score": 148.691
-      },
-      {
         "url": "https://uni6rtmp.tulix.tv/ucur1/Payvand/playlist.m3u8",
         "state": "ok",
         "resolution": "1280x720",
         "height": 720,
-        "bandwidth": 4200000,
+        "bandwidth": 3940000,
         "variants": 1,
         "kind": "hls",
-        "ms": 275,
+        "ms": 101,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -10975,9 +10954,30 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 148.65
+        "score": 152.516
+      },
+      {
+        "url": "https://tgn.bozztv.com/cus01/ucur1/Payvand/playlist.m3u8",
+        "state": "ok",
+        "resolution": "1280x720",
+        "height": 720,
+        "bandwidth": 3940000,
+        "variants": 1,
+        "kind": "hls",
+        "ms": 110,
+        "uptime": 1.0,
+        "checks": 3,
+        "user_agent": null,
+        "referrer": null,
+        "sources": [
+          "curated"
+        ],
+        "first_seen": "2026-08-10T22:11:33+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
+        "format": "576i",
+        "score": 152.51
       }
     ],
     "reach": "global",
@@ -11015,12 +11015,12 @@
         "state": "ok",
         "resolution": "1920x1080",
         "height": 1080,
-        "bandwidth": 3060000,
+        "bandwidth": 2290000,
         "variants": 1,
         "kind": "hls",
-        "ms": 289,
+        "ms": 285,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -11030,9 +11030,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "1080p",
-        "score": 155.307
+        "score": 159.06
       }
     ],
     "reach": "global",
@@ -11072,9 +11072,9 @@
         "bandwidth": 1861200,
         "variants": 3,
         "kind": "hls",
-        "ms": 995,
+        "ms": 1000,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -11085,9 +11085,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 156.17
+        "score": 159.917
       }
     ],
     "reach": "global",
@@ -11127,9 +11127,9 @@
         "bandwidth": 1861200,
         "variants": 3,
         "kind": "hls",
-        "ms": 1009,
+        "ms": 988,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -11140,9 +11140,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 156.161
+        "score": 159.925
       }
     ],
     "reach": "global",
@@ -11182,9 +11182,9 @@
         "bandwidth": 1861200,
         "variants": 3,
         "kind": "hls",
-        "ms": 1005,
+        "ms": 989,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -11195,9 +11195,9 @@
           "discovery/telewebion"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 156.163
+        "score": 159.924
       }
     ],
     "reach": "global",
@@ -11237,9 +11237,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 283,
+        "ms": 316,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -11248,9 +11248,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "480i",
-        "score": 144.2
+        "score": 147.928
       }
     ],
     "reach": "global",
@@ -11291,18 +11291,18 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 289,
+        "ms": 310,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "curated"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "480i",
-        "score": 144.196
+        "score": 147.932
       }
     ],
     "reach": "global",
@@ -11343,9 +11343,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 312,
+        "ms": 285,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -11354,9 +11354,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "480i",
-        "score": 144.181
+        "score": 147.949
       }
     ],
     "reach": "global",
@@ -11396,9 +11396,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 311,
+        "ms": 287,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -11408,9 +11408,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "480i",
-        "score": 144.182
+        "score": 147.948
       }
     ],
     "reach": "global",
@@ -11450,9 +11450,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 314,
+        "ms": 309,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -11462,9 +11462,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "720p",
-        "score": 148.624
+        "score": 152.377
       }
     ],
     "reach": "global",
@@ -11504,9 +11504,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 303,
+        "ms": 302,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -11514,9 +11514,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.965
+        "score": 149.715
       }
     ],
     "reach": "global",
@@ -11556,9 +11556,9 @@
         "bandwidth": 3555753,
         "variants": 2,
         "kind": "hls",
-        "ms": 608,
+        "ms": 583,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -11567,9 +11567,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 156.428
+        "score": 160.195
       }
     ],
     "reach": "global",
@@ -11609,18 +11609,18 @@
         "bandwidth": 2625536,
         "variants": 3,
         "kind": "hls",
-        "ms": 171,
+        "ms": 152,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "curated"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "480i",
-        "score": 163.386
+        "score": 167.149
       },
       {
         "url": "https://mohabathls.wns.live/hls/stream.m3u8",
@@ -11630,9 +11630,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 309,
+        "ms": 308,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -11640,9 +11640,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "480i",
-        "score": 144.183
+        "score": 147.934
       }
     ],
     "reach": "global",
@@ -11681,21 +11681,21 @@
         "state": "ok",
         "resolution": "1280x720",
         "height": 720,
-        "bandwidth": 1656317,
+        "bandwidth": 1614631,
         "variants": 1,
         "kind": "hls",
-        "ms": 230,
+        "ms": 163,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "curated"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "480i",
-        "score": 148.68
+        "score": 152.475
       }
     ],
     "reach": "global",
@@ -11736,18 +11736,18 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 307,
+        "ms": 293,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
           "curated"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "480i",
-        "score": 144.184
+        "score": 147.944
       }
     ],
     "reach": "global",
@@ -11787,9 +11787,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 310,
+        "ms": 308,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -11798,9 +11798,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.96
+        "score": 149.711
       }
     ],
     "reach": "global",
@@ -11840,9 +11840,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 313,
+        "ms": 290,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -11852,9 +11852,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 145.958
+        "score": 149.723
       }
     ],
     "reach": "global",
@@ -11894,9 +11894,9 @@
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
-        "ms": 311,
+        "ms": 290,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -11906,9 +11906,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "480i",
-        "score": 144.182
+        "score": 147.946
       }
     ],
     "reach": "global",
@@ -11945,12 +11945,12 @@
         "state": "ok",
         "resolution": "1920x1080",
         "height": 1080,
-        "bandwidth": 3450656,
+        "bandwidth": 3293350,
         "variants": 1,
         "kind": "hls",
-        "ms": 130,
+        "ms": 101,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -11959,9 +11959,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "480i",
-        "score": 155.413
+        "score": 159.183
       }
     ],
     "reach": "global",
@@ -11998,12 +11998,12 @@
         "state": "ok",
         "resolution": "1280x720",
         "height": 720,
-        "bandwidth": 1607024,
+        "bandwidth": 1282633,
         "variants": 1,
         "kind": "hls",
-        "ms": 1285,
+        "ms": 825,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -12013,9 +12013,9 @@
           "nexa"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "576i",
-        "score": 147.977
+        "score": 152.033
       }
     ],
     "reach": "global",
@@ -12052,12 +12052,12 @@
         "state": "ok",
         "resolution": "1920x1080",
         "height": 1080,
-        "bandwidth": 1740000,
+        "bandwidth": 1770000,
         "variants": 1,
         "kind": "hls",
-        "ms": 282,
+        "ms": 273,
         "uptime": 1.0,
-        "checks": 2,
+        "checks": 3,
         "user_agent": null,
         "referrer": null,
         "sources": [
@@ -12065,9 +12065,9 @@
           "iptv-org/ir"
         ],
         "first_seen": "2026-08-10T22:11:33+00:00",
-        "last_ok": "2026-08-10T22:17:14+00:00",
+        "last_ok": "2026-08-10T22:25:46+00:00",
         "format": "1080p",
-        "score": 155.312
+        "score": 159.068
       }
     ],
     "reach": "global",
