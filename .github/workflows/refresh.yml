@@ -1,3 +1,18 @@
+# Fortnightly maintenance of every generated file in the repository.
+#
+#   sources.py   read the public sources and the provider templates in discover.py,
+#                writing every candidate stream to build/candidates.json
+#   probe.py     walk each stream's HLS chain down to a media segment and merge the
+#                verdict into data/status.json, which keeps first seen, last working,
+#                consecutive failures and a running uptime ratio per URL
+#   logos.py     mirror channel logos into assets/logos so they do not depend on a
+#                third party host that may be geo-blocked
+#   build.py     score the streams, pick one per channel, and regenerate the playlists,
+#                data/channels.json and the README tables
+#
+# A stream must fail three consecutive runs, about six weeks, before it is dropped, and a
+# stream that only refuses this runner's location is published as domestic rather than
+# deleted. See the module docstrings for the detail behind each step.
 name: Refresh playlists
 
 on:

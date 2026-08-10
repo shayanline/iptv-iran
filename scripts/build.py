@@ -59,11 +59,17 @@ def height_of(entry):
 def score(entry):
     """Rank a stream on measured evidence. Higher is better.
 
-    The weights are deliberately ordered: a stream that has answered every check for
-    months is worth more than one that is briefly sharper, because a playlist is judged on
-    whether channels open rather than on peak resolution. Compatibility comes next, since a
-    stream needing a Referer or custom User-Agent only plays in clients that read
-    `#EXTVLCOPT`. Resolution, adaptive bitrate and latency break the remaining ties.
+        reachable worldwide      100      a stream that answers beats a sharper one that does not
+        uptime history        up to 30    successful checks over total, scaled by how many exist
+        no custom headers        25       Referer or User-Agent only works in EXTVLCOPT clients
+        resolution            up to 24    measured from the master playlist, not from a label
+        adaptive bitrate          8       more than one rendition lets a client adapt
+        response time         up to 3     tie break only
+        malformed manifest      minus 40  breaks strict clients, so a clean equivalent wins
+
+    The ordering is deliberate. A playlist is judged on whether channels open, so proven
+    reliability outranks peak resolution, and a stream that needs custom headers is worth
+    less than a plain one because many clients ignore `#EXTVLCOPT` entirely.
     """
     if entry.get("state") == "ok":
         reach = 100
