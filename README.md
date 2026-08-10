@@ -69,6 +69,17 @@ probe measured, and `[IR]` marks a channel that needs an Iranian IP address. Cur
 An EPG is referenced through `x-tvg-url`, so clients that support it will load a programme
 guide without further configuration.
 
+### Logos
+
+Channel logos are mirrored into [`assets/logos/`](assets/logos) and served from this
+repository rather than hotlinked. Most upstream logos live on imgur, which geo-blocks
+several countries including the United Kingdom and Iran, and does not fail cleanly: it
+answers HTTP 200 with an image reading "Content not viewable in your region", so players
+render that error card beside the channel name. Serving the images from here means the
+playlist looks the same everywhere, from the same origin that already serves the playlist
+itself. Once a logo has been captured it is kept even if the original URL later breaks,
+and it is removed only when the channel leaves every source.
+
 <a id="how-streams-are-checked"></a>
 
 ## How streams are checked
@@ -177,6 +188,10 @@ Names, categories, discovery templates and any stream the public sources lack li
 [`data/curated.json`](data/curated.json), which the refresh never overwrites. Everything
 under `playlists/` and the tables below are generated, so please do not edit them by hand.
 
+`data/` holds only three files: `curated.json` as the hand maintained input,
+`status.json` as the probe history, and `channels.json` as the published output.
+Intermediates are written to `build/`, which is not committed.
+
 - **Wrong category:** add the iptv-org id to the correct list under `sets`, or to
   `category_overrides`.
 - **Wrong or missing name:** edit the entry under `channels`.
@@ -187,10 +202,12 @@ under `playlists/` and the tables below are generated, so please do not edit the
 Everything runs on Python 3.11 or newer with no third party packages:
 
 ```bash
-python scripts/sources.py   # harvest candidates
-python scripts/probe.py     # check what is live
-python scripts/build.py     # regenerate playlists and this README
-python scripts/discover.py  # list configured discovery URLs
+python scripts/sources.py          # harvest candidates into build/
+python scripts/probe.py            # check what is live
+python scripts/logos.py            # reuse the committed logos
+python scripts/build.py            # regenerate playlists and this README
+python scripts/discover.py         # list configured discovery URLs
+python scripts/logos.py --mirror   # re-download logos, only needed in CI
 ```
 
 <a id="sources"></a>
@@ -626,6 +643,17 @@ https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-all-s
 آدرس EPG با `x-tvg-url` داخل فایل قرار دارد، پس برنامه‌هایی که از آن پشتیبانی می‌کنند
 جدول پخش را بدون تنظیم اضافه نشان می‌دهند.
 
+### لوگوها
+
+لوگوی شبکه‌ها در [`assets/logos/`](assets/logos) داخل همین مخزن نگه داشته می‌شود و از
+سایت دیگری لینک نمی‌شود. بیشتر لوگوهای منابع اصلی روی imgur هستند که چند کشور از جمله
+بریتانیا و ایران را مسدود کرده، آن هم نه با خطای درست: جواب ۲۰۰ می‌دهد و تصویری می‌فرستد
+که رویش نوشته «Content not viewable in your region»، و برنامه همان تصویر خطا را کنار نام
+شبکه نشان می‌دهد. با نگه داشتن تصویرها در همین مخزن، پلی‌لیست همه‌جا یک شکل دیده می‌شود و
+از همان جایی می‌آید که خود پلی‌لیست از آن گرفته می‌شود. هر لوگو بعد از یک بار ذخیره شدن
+باقی می‌ماند، حتی اگر لینک اصلی‌اش بعداً خراب شود، و فقط وقتی پاک می‌شود که آن شبکه از
+همه منابع حذف شده باشد.
+
 <a id="fa-checking"></a>
 
 ## استریم‌ها چطور بررسی می‌شوند
@@ -745,6 +773,10 @@ Pi-hole نتوانند یک شبکه سالم را مرده نشان دهند. �
 روی آن نمی‌نویسد. هر چیزی که در `playlists/` است و جدول‌های پایین ساخته می‌شوند، پس آن‌ها
 را دستی ویرایش نکنید.
 
+پوشه `data/` فقط سه فایل دارد: `curated.json` به عنوان ورودی دستی، `status.json` برای
+تاریخچه بررسی‌ها، و `channels.json` به عنوان خروجی منتشرشده. فایل‌های میانی در `build/`
+ساخته می‌شوند و در مخزن ثبت نمی‌شوند.
+
 - **دسته اشتباه است:** شناسه iptv-org آن را به فهرست درست در `sets` یا به
   `category_overrides` اضافه کنید.
 - **نام اشتباه است یا نام فارسی ندارد:** ورودی آن را در `channels` ویرایش کنید.
@@ -758,8 +790,8 @@ Pi-hole نتوانند یک شبکه سالم را مرده نشان دهند. �
 ```bash
 python scripts/sources.py
 python scripts/probe.py
+python scripts/logos.py
 python scripts/build.py
-python scripts/discover.py
 ```
 
 <a id="fa-sources"></a>

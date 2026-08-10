@@ -12,6 +12,12 @@ import urllib.parse
 import urllib.request
 
 HERE = pathlib.Path(__file__).resolve().parent.parent
+# data/ holds only the three files worth keeping: the hand maintained curated.json, the
+# probe history in status.json, and the published channels.json. Anything regenerated from
+# scratch every run is an intermediate and belongs in build/, which is not committed.
+DATA = HERE / "data"
+BUILD = HERE / "build"
+CANDIDATES = BUILD / "candidates.json"
 UA = "VLC/3.0.20 LibVLC/3.0.20"
 
 # Several Iranian CDNs present expired or mismatched certificates. Verification is

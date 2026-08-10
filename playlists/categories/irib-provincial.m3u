@@ -1,71 +1,71 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IR1.xml.gz"
 # IRIB Provincial Networks only.
-# generated 2026-08-10 22:39 UTC by shayanline/iptv-iran
-#EXTINF:-1 tvg-id="AbadanTV.ir" tvg-name="Abadan" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/3/39/Abadan_tv.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Abadan | شبکه آبادان FHD
+# generated 2026-08-10 22:52 UTC by shayanline/iptv-iran
+#EXTINF:-1 tvg-id="AbadanTV.ir" tvg-name="Abadan" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AbadanTV.ir.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Abadan | شبکه آبادان FHD
 https://ncdn.telewebion.ir/abadan/live/1080p/index.m3u8
-#EXTINF:-1 tvg-id="AflakTV.ir" tvg-name="Aflak" tvg-logo="https://i.imgur.com/LkLCHpf.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="SD",Aflak | شبکه افلاک
+#EXTINF:-1 tvg-id="AflakTV.ir" tvg-name="Aflak" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AflakTV.ir.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="SD",Aflak | شبکه افلاک
 https://ncdn.telewebion.ir/aflak/live/576p/index.m3u8
-#EXTINF:-1 tvg-id="AftabTV.ir" tvg-name="Aftab" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/thumb/6/6e/Arak_AFTAB.svg/960px-Arak_AFTAB.svg.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Aftab | شبکه آفتاب FHD
+#EXTINF:-1 tvg-id="AftabTV.ir" tvg-name="Aftab" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AftabTV.ir.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Aftab | شبکه آفتاب FHD
 https://ncdn.telewebion.ir/aftab/live/1080p/index.m3u8
-#EXTINF:-1 tvg-id="AlborzTV.ir" tvg-name="Alborz" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Alborz_TV_logo.svg/960px-Alborz_TV_logo.svg.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Alborz | شبکه البرز FHD
+#EXTINF:-1 tvg-id="AlborzTV.ir" tvg-name="Alborz" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AlborzTV.ir.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Alborz | شبکه البرز FHD
 https://ncdn.telewebion.ir/alborz/live/1080p/index.m3u8
-#EXTINF:-1 tvg-id="AtrakTV.ir" tvg-name="Atrak" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/thumb/2/28/Bojnourd_ATRAK_TV.svg/960px-Bojnourd_ATRAK_TV.svg.png" group-title="IRIB Provincial Networks" tvg-language="fas;kmz;kur" tvg-quality="SD",Atrak | شبکه اترک
+#EXTINF:-1 tvg-id="AtrakTV.ir" tvg-name="Atrak" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AtrakTV.ir.png" group-title="IRIB Provincial Networks" tvg-language="fas;kmz;kur" tvg-quality="SD",Atrak | شبکه اترک
 https://ncdn.telewebion.ir/atrak/live/576p/index.m3u8
-#EXTINF:-1 tvg-id="BaranTV.ir" tvg-name="Baran" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/thumb/b/b9/TV_Baran.svg/500px-TV_Baran.svg.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="SD",Baran | شبکه باران
+#EXTINF:-1 tvg-id="BaranTV.ir" tvg-name="Baran" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/BaranTV.ir.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="SD",Baran | شبکه باران
 https://ncdn.telewebion.ir/baran/live/576p/index.m3u8
-#EXTINF:-1 tvg-id="BoushehrTV.ir" tvg-name="Bushehr" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/thumb/9/94/Bushehr_TV.svg/500px-Bushehr_TV.svg.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Bushehr | شبکه بوشهر FHD
+#EXTINF:-1 tvg-id="BoushehrTV.ir" tvg-name="Bushehr" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/BoushehrTV.ir.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Bushehr | شبکه بوشهر FHD
 https://ncdn.telewebion.ir/bushehr/live/1080p/index.m3u8
-#EXTINF:-1 tvg-id="DenaTV.ir" tvg-name="Dena" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/thumb/1/1c/Yasuj_DENA.svg/960px-Yasuj_DENA.svg.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Dena | شبکه دنا FHD
+#EXTINF:-1 tvg-id="DenaTV.ir" tvg-name="Dena" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/DenaTV.ir.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Dena | شبکه دنا FHD
 https://ncdn.telewebion.ir/dena/live/1080p/index.m3u8
-#EXTINF:-1 tvg-id="EshraghNetwork.ir" tvg-name="Eshragh" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3AM7W8mE877olzjDXmTN_Sxn_cmR_WAlDKPmE62G8E3cJPJwKdRnIa42quYie9z71Lwo&usqp=CAU" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Eshragh | شبکه اشراق FHD
+#EXTINF:-1 tvg-id="EshraghNetwork.ir" tvg-name="Eshragh" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/EshraghNetwork.ir.jpg" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Eshragh | شبکه اشراق FHD
 https://ncdn.telewebion.ir/eshragh/live/1080p/index.m3u8
-#EXTINF:-1 tvg-id="FarsTV.ir" tvg-name="Fars" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/7/7b/Iribfars.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Fars | شبکه فارس FHD
+#EXTINF:-1 tvg-id="FarsTV.ir" tvg-name="Fars" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/FarsTV.ir.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Fars | شبکه فارس FHD
 https://ncdn.telewebion.ir/fars/live/1080p/index.m3u8
-#EXTINF:-1 tvg-id="HamedanTV.ir" tvg-name="Hamedan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/IRIB_Hamadan_tv.svg/960px-IRIB_Hamadan_tv.svg.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="SD",Hamedan | شبکه همدان
+#EXTINF:-1 tvg-id="HamedanTV.ir" tvg-name="Hamedan" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/HamedanTV.ir.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="SD",Hamedan | شبکه همدان
 https://ncdn.telewebion.ir/sina/live/576p/index.m3u8
-#EXTINF:-1 tvg-id="HamoonTV.ir" tvg-name="Hamoon" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/b/bc/Zahedan_Hamoon.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Hamoon | شبکه هامون FHD
+#EXTINF:-1 tvg-id="HamoonTV.ir" tvg-name="Hamoon" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/HamoonTV.ir.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Hamoon | شبکه هامون FHD
 https://ncdn.telewebion.ir/hamoon/live/1080p/index.m3u8
-#EXTINF:-1 tvg-id="IlamTV.ir" tvg-name="Ilam" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Ilam_TV.png/960px-Ilam_TV.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="SD",Ilam | شبکه ایلام
+#EXTINF:-1 tvg-id="IlamTV.ir" tvg-name="Ilam" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IlamTV.ir.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="SD",Ilam | شبکه ایلام
 https://ncdn.telewebion.ir/ilam/live/576p/index.m3u8
-#EXTINF:-1 tvg-id="IsfahanTV.ir" tvg-name="Isfahan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/IsfahanTV.svg/960px-IsfahanTV.svg.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Isfahan | شبکه اصفهان FHD
+#EXTINF:-1 tvg-id="IsfahanTV.ir" tvg-name="Isfahan" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IsfahanTV.ir.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Isfahan | شبکه اصفهان FHD
 https://ncdn.telewebion.ir/esfahan/live/1080p/index.m3u8
-#EXTINF:-1 tvg-id="JahanbinTV.ir" tvg-name="Jahanbin" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/thumb/4/4a/Shahrekord_Jahanbin.svg/960px-Shahrekord_Jahanbin.svg.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Jahanbin | شبکه جهان‌بین FHD
+#EXTINF:-1 tvg-id="JahanbinTV.ir" tvg-name="Jahanbin" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/JahanbinTV.ir.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Jahanbin | شبکه جهان‌بین FHD
 https://ncdn.telewebion.ir/jahanbin/live/1080p/index.m3u8
-#EXTINF:-1 tvg-id="KermanTV.ir" tvg-name="Kerman" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Kerman_irib_logo_%28blue_version%29.png/960px-Kerman_irib_logo_%28blue_version%29.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Kerman | شبکه کرمان FHD
+#EXTINF:-1 tvg-id="KermanTV.ir" tvg-name="Kerman" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/KermanTV.ir.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Kerman | شبکه کرمان FHD
 https://ncdn.telewebion.ir/kerman/live/1080p/index.m3u8
-#EXTINF:-1 tvg-id="KhalijeFarsTV.ir" tvg-name="Khalij-e Fars" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/thumb/7/7c/Bandar_KHALI_J_e_FARS_TV.svg/960px-Bandar_KHALI_J_e_FARS_TV.svg.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Khalij-e Fars | شبکه خلیج فارس FHD
+#EXTINF:-1 tvg-id="KhalijeFarsTV.ir" tvg-name="Khalij-e Fars" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/KhalijeFarsTV.ir.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Khalij-e Fars | شبکه خلیج فارس FHD
 https://ncdn.telewebion.ir/khalijefars/live/1080p/index.m3u8
-#EXTINF:-1 tvg-id="KhavaranTV.ir" tvg-name="Khavaran" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/8/86/KHAVARAN_tv.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Khavaran | شبکه خاوران FHD
+#EXTINF:-1 tvg-id="KhavaranTV.ir" tvg-name="Khavaran" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/KhavaranTV.ir.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Khavaran | شبکه خاوران FHD
 https://ncdn.telewebion.ir/khavaran/live/1080p/index.m3u8
-#EXTINF:-1 tvg-id="KhorasanRazaviTV.ir" tvg-name="Khorasan Razavi" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/b/bd/%D9%84%D9%88%DA%AF%D9%88_%D8%B4%D8%A8%DA%A9%D9%87_%D8%AE%D8%B1%D8%A7%D8%B3%D8%A7%D9%86_%D8%B1%D8%B6%D9%88%DB%8C.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Khorasan Razavi | شبکه خراسان رضوی FHD
+#EXTINF:-1 tvg-id="KhorasanRazaviTV.ir" tvg-name="Khorasan Razavi" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/KhorasanRazaviTV.ir.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Khorasan Razavi | شبکه خراسان رضوی FHD
 https://ncdn.telewebion.ir/khorasanrazavi/live/1080p/index.m3u8
-#EXTINF:-1 tvg-id="KhozestanTV.ir" tvg-name="Khuzestan" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/thumb/9/9a/Ahwaz_TV.svg/960px-Ahwaz_TV.svg.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="SD",Khuzestan | شبکه خوزستان
+#EXTINF:-1 tvg-id="KhozestanTV.ir" tvg-name="Khuzestan" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/KhozestanTV.ir.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="SD",Khuzestan | شبکه خوزستان
 https://ncdn.telewebion.ir/khoozestan/live/576p/index.m3u8
-#EXTINF:-1 tvg-id="KishTV.ir" tvg-name="Kish" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/thumb/1/14/Kish_tv.svg/960px-Kish_tv.svg.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="SD",Kish | شبکه کیش
+#EXTINF:-1 tvg-id="KishTV.ir" tvg-name="Kish" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/KishTV.ir.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="SD",Kish | شبکه کیش
 https://ncdn.telewebion.ir/kish/live/576p/index.m3u8
-#EXTINF:-1 tvg-id="KordestanTV.ir" tvg-name="Kordestan" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/thumb/2/2c/Sanandaj_KORDESTAN.svg/960px-Sanandaj_KORDESTAN.svg.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Kordestan | شبکه کردستان FHD
+#EXTINF:-1 tvg-id="KordestanTV.ir" tvg-name="Kordestan" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/KordestanTV.ir.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Kordestan | شبکه کردستان FHD
 https://ncdn.telewebion.ir/kordestan/live/1080p/index.m3u8
-#EXTINF:-1 tvg-id="MahabadTV.ir" tvg-name="Mahabad" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/c/cb/Mahabad_tv.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Mahabad | شبکه مهاباد FHD
+#EXTINF:-1 tvg-id="MahabadTV.ir" tvg-name="Mahabad" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/MahabadTV.ir.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Mahabad | شبکه مهاباد FHD
 https://ncdn.telewebion.ir/mahabad/live/1080p/index.m3u8
 #EXTINF:-1 tvg-id="MakranTV.ir" tvg-name="Makran" tvg-logo="" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Makran | شبکه مکران FHD
 https://ncdn.telewebion.ir/makran/live/1080p/index.m3u8
-#EXTINF:-1 tvg-id="NoorTV.ir" tvg-name="Noor" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/thumb/c/ce/Qum_Noor_TV.svg/960px-Qum_Noor_TV.svg.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Noor | شبکه نور FHD
+#EXTINF:-1 tvg-id="NoorTV.ir" tvg-name="Noor" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/NoorTV.ir.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Noor | شبکه نور FHD
 https://ncdn.telewebion.ir/noor/live/1080p/index.m3u8
-#EXTINF:-1 tvg-id="QazvinTV.ir" tvg-name="Qazvin" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/QazvinTV.svg/960px-QazvinTV.svg.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Qazvin | شبکه قزوین FHD
+#EXTINF:-1 tvg-id="QazvinTV.ir" tvg-name="Qazvin" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/QazvinTV.ir.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Qazvin | شبکه قزوین FHD
 https://ncdn.telewebion.ir/qazvin/live/1080p/index.m3u8
-#EXTINF:-1 tvg-id="SabalanTV.ir" tvg-name="Sabalan" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/f/f2/Ardabil_SABALAN.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="SD",Sabalan | شبکه سبلان
+#EXTINF:-1 tvg-id="SabalanTV.ir" tvg-name="Sabalan" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/SabalanTV.ir.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="SD",Sabalan | شبکه سبلان
 https://ncdn.telewebion.ir/sabalan/live/576p/index.m3u8
-#EXTINF:-1 tvg-id="SabzTV.ir" tvg-name="Sabz" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Logo_Golestan.png/960px-Logo_Golestan.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="SD",Sabz | شبکه سبز
+#EXTINF:-1 tvg-id="SabzTV.ir" tvg-name="Sabz" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/SabzTV.ir.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="SD",Sabz | شبکه سبز
 https://ncdn.telewebion.ir/sabz/live/576p/index.m3u8
-#EXTINF:-1 tvg-id="SahandTV.ir" tvg-name="Sahand" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/thumb/3/37/Tabriz_Sahand.svg/960px-Tabriz_Sahand.svg.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Sahand | شبکه سهند FHD
+#EXTINF:-1 tvg-id="SahandTV.ir" tvg-name="Sahand" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/SahandTV.ir.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Sahand | شبکه سهند FHD
 https://ncdn.telewebion.ir/sahand/live/1080p/index.m3u8
-#EXTINF:-1 tvg-id="SemnanTV.ir" tvg-name="Semnan" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/3/35/Semnan_TV.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Semnan | شبکه سمنان FHD
+#EXTINF:-1 tvg-id="SemnanTV.ir" tvg-name="Semnan" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/SemnanTV.ir.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Semnan | شبکه سمنان FHD
 https://ncdn.telewebion.ir/semnan/live/1080p/index.m3u8
-#EXTINF:-1 tvg-id="TabarestanTV.ir" tvg-name="Tabarestan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/IRIB_Mazandaran_Last_Orange_Logo.png/960px-IRIB_Mazandaran_Last_Orange_Logo.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Tabarestan | شبکه تبرستان FHD
+#EXTINF:-1 tvg-id="TabarestanTV.ir" tvg-name="Tabarestan" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/TabarestanTV.ir.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Tabarestan | شبکه تبرستان FHD
 https://ncdn.telewebion.ir/tabarestan/live/1080p/index.m3u8
-#EXTINF:-1 tvg-id="WestAzerbaijanTV.ir" tvg-name="West Azerbaijan" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/thumb/2/21/Urmia_TV.svg/960px-Urmia_TV.svg.png" group-title="IRIB Provincial Networks" tvg-language="fas;aze;tur;kur;fas" tvg-quality="SD",West Azerbaijan | شبکه آذربایجان غربی
+#EXTINF:-1 tvg-id="WestAzerbaijanTV.ir" tvg-name="West Azerbaijan" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/WestAzerbaijanTV.ir.png" group-title="IRIB Provincial Networks" tvg-language="fas;aze;tur;kur;fas" tvg-quality="SD",West Azerbaijan | شبکه آذربایجان غربی
 https://ncdn.telewebion.ir/azarbayjangharbi/live/576p/index.m3u8
-#EXTINF:-1 tvg-id="YazdTV.ir" tvg-name="Yazd" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Yazd_taban.svg/960px-Yazd_taban.svg.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Yazd | شبکه تابان یزد FHD
+#EXTINF:-1 tvg-id="YazdTV.ir" tvg-name="Yazd" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/YazdTV.ir.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Yazd | شبکه تابان یزد FHD
 https://ncdn.telewebion.ir/taban/live/1080p/index.m3u8
-#EXTINF:-1 tvg-id="ZagrosTV.ir" tvg-name="Zagros" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/thumb/e/e4/Kermanshah_Zaghros.svg/960px-Kermanshah_Zaghros.svg.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="SD",Zagros | شبکه زاگرس
+#EXTINF:-1 tvg-id="ZagrosTV.ir" tvg-name="Zagros" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ZagrosTV.ir.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="SD",Zagros | شبکه زاگرس
 https://ncdn.telewebion.ir/zagros/live/576p/index.m3u8

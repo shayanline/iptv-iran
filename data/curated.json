@@ -1570,5 +1570,14 @@
       "logo": ""
     }
   },
-  "_proxy_note": "Some public players reach otherwise unavailable channels through third party proxies such as Cloudflare Workers. Those URLs are deliberately not published here: they route this project's users through infrastructure someone else pays for and does not control access to. Only endpoints served by the broadcaster or its own CDN are included."
+  "_proxy_note": "Some public players reach otherwise unavailable channels through third party proxies such as Cloudflare Workers. Those URLs are deliberately not published here: they route this project's users through infrastructure someone else pays for and does not control access to. Only endpoints served by the broadcaster or its own CDN are included.",
+  "logos": {
+    "BBCPersian.uk": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/BBC_Persian_logo_2021.svg/960px-BBC_Persian_logo_2021.svg.png",
+    "IRINN.ir": "https://upload.wikimedia.org/wikipedia/commons/7/74/IRIB_IRINN_2025.png",
+    "IranInternational.uk": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Iran_International.svg/960px-Iran_International.svg.png",
+    "MBCPersia.ae": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/MBC_Persia_Logo.svg/960px-MBC_Persia_Logo.svg.png",
+    "Manoto.uk": "https://upload.wikimedia.org/wikipedia/commons/e/ee/LOGO_Manoto-Rebrand_2018.png",
+    "RadioFardaTV.us": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Radio_Farda_logo.png"
+  },
+  "_logos_note": "Hand checked logo overrides, tried before the upstream database. Most upstream logos are hosted on imgur, which answers 200 with a 'Content not viewable in your region' image, so scripts/logos.py verifies every logo and drops the ones that do not decode."
 }

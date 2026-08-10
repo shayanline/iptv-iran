@@ -21,7 +21,7 @@ import re
 import urllib.parse
 from concurrent.futures import ThreadPoolExecutor
 
-from lib import HERE, fetch_text, log, read_json
+from lib import CANDIDATES, DATA, fetch_text, log, read_json
 
 PROVIDERS = {
     "telewebion": {
@@ -85,8 +85,8 @@ def candidate_urls(curated):
 
 def main():
     """Report what discovery would add, without probing. Used for local inspection."""
-    curated = read_json(HERE / "data" / "curated.json", {})
-    known = {record["url"] for record in read_json(HERE / "data" / "candidates.json", [])}
+    curated = read_json(DATA / "curated.json", {})
+    known = {record["url"] for record in read_json(CANDIDATES, [])}
     total = new = 0
     for url, provider, slug, channel_id, height in candidate_urls(curated):
         total += 1

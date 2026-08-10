@@ -8,10 +8,19 @@ import re
 
 import identity
 import taxonomy
-from lib import HERE, log, read_json, write_json
+from lib import CANDIDATES, DATA, HERE, log, read_json, write_json
 
 REPO = "shayanline/iptv-iran"
 EPG = "https://epgshare01.online/epgshare01/epg_ripper_IR1.xml.gz"
+LOGO_BASE = f"https://raw.githubusercontent.com/{REPO}/main/assets/logos"
+
+
+def mirrored_logos():
+    """channel id -> logo URL, taken from the images committed under assets/logos."""
+    folder = HERE / "assets" / "logos"
+    if not folder.is_dir():
+        return {}
+    return {path.stem: f"{LOGO_BASE}/{path.name}" for path in sorted(folder.glob("*.*"))}
 
 # The probe runs fortnightly, so a stream has to fail three consecutive runs, roughly six
 # weeks, before it is dropped. One bad night on a CDN must not delete a working channel.
@@ -86,10 +95,13 @@ def score(entry):
 
 
 def collect():
-    candidates = read_json(HERE / "data" / "candidates.json", [])
-    status = (read_json(HERE / "data" / "status.json", {}) or {}).get("streams", {})
-    curated = read_json(HERE / "data" / "curated.json", {})
+    candidates = read_json(CANDIDATES, [])
+    status = (read_json(DATA / "status.json", {}) or {}).get("streams", {})
+    curated = read_json(DATA / "curated.json", {})
     overrides = curated.get("channels", {})
+    # Logos are mirrored into the repository by scripts/logos.py and served from the same
+    # origin as the playlists, so the mapping is simply whatever is on disk.
+    logos = mirrored_logos()
 
     channels, key_to_id = {}, {}
     for record in candidates:
@@ -117,7 +129,7 @@ def collect():
                 "name_en": override.get("en") or db.get("name") or cid,
                 "name_fa": override.get("fa") or next(
                     (a for a in db.get("alt_names", []) if PERSIAN.search(a)), ""),
-                "logo": db.get("logo") or record.get("logo") or "",
+                "logo": logos.get(cid, ""),
                 "country": db.get("country"),
                 "languages": db.get("languages") or [],
                 "website": db.get("website") or "",
@@ -258,7 +270,7 @@ def build_readme(channels):
 def main():
     channels = collect()
     build_playlists(channels)
-    write_json(HERE / "data" / "channels.json",
+    write_json(DATA / "channels.json",
                [{k: v for k, v in c.items() if k != "best"} for c in channels])
     build_readme(channels)
 

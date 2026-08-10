@@ -36,6 +36,9 @@ jobs:
       - name: Probe every stream
         run: python scripts/probe.py
 
+      - name: Verify channel logos
+        run: python scripts/logos.py --mirror
+
       - name: Rebuild playlists and README
         run: python scripts/build.py
 
@@ -46,7 +49,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md playlists data
+          git add README.md playlists data assets
           if git diff --cached --quiet; then
             echo "Nothing changed, no commit."
             exit 0

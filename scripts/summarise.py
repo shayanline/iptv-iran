@@ -2,15 +2,15 @@
 from collections import Counter
 
 import taxonomy
-from lib import HERE, read_json
+from lib import DATA, read_json
 
 GRACE = 3
 
 
 def main():
-    status = (read_json(HERE / "data" / "status.json", {}) or {})
+    status = (read_json(DATA / "status.json", {}) or {})
     streams = status.get("streams", {})
-    channels = read_json(HERE / "data" / "channels.json", [])
+    channels = read_json(DATA / "channels.json", [])
     states = Counter(entry.get("state") for entry in streams.values())
 
     print(f"## Refresh {status.get('generated_at', 'unknown')}\n")

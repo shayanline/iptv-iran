@@ -2,3 +2,6 @@ __pycache__/
 *.pyc
 .DS_Store
 .venv/
+
+# Pure intermediates, regenerated from scratch on every run.
+build/

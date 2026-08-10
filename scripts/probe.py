@@ -21,7 +21,7 @@ import urllib.request
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
 
-from lib import HERE, SSL_CTX, UA, install_public_dns, log, read_json, write_json
+from lib import CANDIDATES, DATA, SSL_CTX, UA, install_public_dns, log, read_json, write_json
 
 TIMEOUT = 12
 WORKERS = 24
@@ -264,7 +264,7 @@ def probe(record):
 
 def main():
     install_public_dns()
-    candidates = read_json(HERE / "data" / "candidates.json", [])
+    candidates = read_json(CANDIDATES, [])
     if len(sys.argv) > 1:
         candidates = candidates[: int(sys.argv[1])]
     log(f"probing {len(candidates)} urls, {WORKERS} workers")
@@ -276,7 +276,7 @@ def main():
             if done % 50 == 0:
                 log(f"  {done}/{len(candidates)}")
 
-    status = read_json(HERE / "data" / "status.json", {}) or {}
+    status = read_json(DATA / "status.json", {}) or {}
     streams = status.get("streams", {})
     timestamp = now()
     for result in results:
@@ -301,7 +301,7 @@ def main():
         if url not in probed:
             entry["state"] = "gone"  # no longer offered by any source
 
-    write_json(HERE / "data" / "status.json",
+    write_json(DATA / "status.json",
                {"generated_at": timestamp, "checked": len(results), "streams": streams})
 
     counts = Counter(r["state"] for r in results)

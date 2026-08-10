@@ -9,7 +9,7 @@ import urllib.parse
 
 import discover
 from identity import canonical_url
-from lib import HERE, fetch_text, load_json_url, log, parse_m3u, write_json
+from lib import CANDIDATES, DATA, fetch_text, load_json_url, log, parse_m3u, write_json
 
 # Public sources, in descending order of metadata quality. iptv-org is the upstream
 # database everything else derives from, so it is queried through its API rather than
@@ -122,7 +122,7 @@ def harvest():
         log(f"  free-tv/md: unreachable ({exc}), skipped")
 
     # Streams the project maintains itself, kept in data/curated.json.
-    curated = json.loads((HERE / "data" / "curated.json").read_text(encoding="utf-8"))
+    curated = json.loads((DATA / "curated.json").read_text(encoding="utf-8"))
     for stream in curated.get("streams", []):
         cands.add(stream["url"], "curated", stream.get("channel"), stream.get("title"),
                   user_agent=stream.get("user_agent"), referrer=stream.get("referrer"))
@@ -184,7 +184,7 @@ def harvest():
         records.append(rec)
 
     records.sort(key=lambda r: r["url"])
-    write_json(HERE / "data" / "candidates.json", records)
+    write_json(CANDIDATES, records)
     identified = {r["db"]["id"] for r in records if "db" in r}
     log(f"{len(records)} candidate urls, {len(identified)} identified channels, "
         f"{sum(1 for r in records if 'db' not in r)} urls without a channel identity")
