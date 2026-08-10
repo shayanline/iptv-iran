@@ -10,18 +10,26 @@ Templates are used rather than scraping the players. A template keeps working wh
 rewrites its front end, needs no browser and no JavaScript execution, and the prober
 already verifies every result, so a wrong guess costs one failed request.
 
-A provider can also be marked `prefer_variant`. Telewebion's master playlist is malformed:
-it writes `EXT-X-VERSION:6` without the leading `#`, so a strict client reads that line as
-a stream URI, requests it, receives 403 and stalls after the first frame. ffmpeg and VLC
-tolerate it, many set top box clients do not. For those providers the master is read once
-to learn which renditions exist, and the direct rendition URL is published instead, which
-is a clean media playlist with no malformed tags.
+A provider can also be marked `prefer_variant`, which Telewebion needs for two reasons.
+
+Its master playlist is malformed: `EXT-X-VERSION:6` is written without the leading `#`, so
+a strict client reads that line as a stream URI, requests it and stalls. Reading the master
+once to learn which renditions exist, then publishing the rendition directly, avoids it.
+
+Its manifest host is also a redirector. `ncdn.telewebion.ir` answers a manifest request
+with a redirect to a numbered edge node, and then refuses to serve segments itself. Segment
+URIs inside the manifest are relative, so a client must resolve them against the final URL.
+Clients that resolve against the requested URL instead ask ncdn for every segment and are
+refused every time: the manifest loads, the picture never starts. Following the redirect
+here and publishing the resolved edge URL removes the ambiguity, so the playlist works the
+same in a strict client and a lenient one. The ncdn form is still offered as a fallback in
+case an edge node is retired between refreshes.
 """
 import re
 import urllib.parse
 from concurrent.futures import ThreadPoolExecutor
 
-from lib import CANDIDATES, DATA, fetch_text, log, read_json
+from lib import CANDIDATES, DATA, fetch_text_with_final, log, read_json
 
 PROVIDERS = {
     "telewebion": {
@@ -54,6 +62,17 @@ def best_rendition(manifest):
     return best
 
 
+def previous_edges(slug):
+    """Edge URLs already known to work for this slug, from the last probe run.
+
+    Reusing a node that still works keeps the published URL stable between refreshes,
+    so a fortnightly run does not rewrite every Telewebion entry for no reason.
+    """
+    status = (read_json(DATA / "status.json", {}) or {}).get("streams", {})
+    return [url for url, entry in status.items()
+            if f"/{slug}/live/" in url and "live-aburayhan" in url and entry.get("state") == "ok"]
+
+
 def candidate_urls(curated):
     """Yield (url, provider, slug, channel_id, height) for every configured slug."""
     discovery = curated.get("discovery", {})
@@ -68,18 +87,30 @@ def candidate_urls(curated):
             slug, channel_id = item
             master = config["template"].format(id=slug)
             try:
-                found = best_rendition(fetch_text(master, timeout=15))
+                text, final = fetch_text_with_final(master, timeout=15)
+                found = best_rendition(text)
             except Exception:
-                found = None
-            return slug, channel_id, master, found
+                found, final = None, None
+            return slug, channel_id, master, found, final
 
         with ThreadPoolExecutor(12) as pool:
-            for slug, channel_id, master, found in pool.map(resolve, slugs.items()):
+            for slug, channel_id, master, found, final in pool.map(resolve, slugs.items()):
+                stable = config["variant_template"].format(id=slug, rendition=found[0]) if found else None
                 if found:
-                    rendition, height = found
-                    yield (config["variant_template"].format(id=slug, rendition=rendition),
-                           provider, slug, channel_id or None, height)
-                # The master is still offered as a fallback for clients that accept it.
+                    # Keep last run's node if it is still serving, to avoid needless churn.
+                    for known in previous_edges(slug):
+                        if known.endswith(found[0]):
+                            yield known, provider, slug, channel_id or None, found[1]
+                            break
+                if found and final:
+                    # Resolved against the edge the redirector chose, so no client has to
+                    # follow a redirect to find the segments.
+                    resolved = urllib.parse.urljoin(final.split("?")[0], found[0])
+                    if resolved != stable:
+                        yield resolved, provider, slug, channel_id or None, found[1]
+                if stable:
+                    yield stable, provider, slug, channel_id or None, found[1]
+                # The master is still offered as a last fallback.
                 yield master, provider, slug, channel_id or None, 0
 
 

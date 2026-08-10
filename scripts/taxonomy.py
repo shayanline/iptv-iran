@@ -118,7 +118,7 @@ def tags(channel):
         out += ["satellite", category.split("-", 1)[1]]
     elif category.startswith("religious-"):
         out += ["religious", category.split("-", 1)[1]]
-    out.append("iran-only" if channel["reach"] == "iran-only" else "worldwide")
+    out.append({"iran-only": "iran-only", "failing": "failing"}.get(channel["reach"], "worldwide"))
     tag = quality_tag(channel.get("height"))
     if tag:
         out.append(tag.lower())

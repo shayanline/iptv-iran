@@ -15,6 +15,7 @@ import socket
 import ssl
 import sys
 import time
+import http.cookiejar
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -46,11 +47,19 @@ def now():
     return dt.datetime.now(dt.timezone.utc).replace(microsecond=0).isoformat()
 
 
+# Some CDNs answer the first request for a segment with a redirect back to the same URL,
+# setting a cookie on the way. urllib treats that as a loop and gives up, so requests carry
+# a cookie jar and a same URL redirect is followed once by hand.
+_opener = urllib.request.build_opener(
+    urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()),
+    urllib.request.HTTPSHandler(context=SSL_CTX))
+
 HEAD_BYTES = 32768
 PLAYLIST_LIMIT = 4 * 1024 * 1024  # live HLS windows can list thousands of segments
 
 
-def fetch(url, referrer=None, user_agent=None, limit=PLAYLIST_LIMIT, ranged=False):
+def fetch(url, referrer=None, user_agent=None, limit=PLAYLIST_LIMIT, ranged=False,
+          _retried=False):
     """Return (status, headers, body, final_url). status is an int, or an error keyword.
 
     `limit` has to be generous for playlists: a long live window can run past 300 KB, and
@@ -65,7 +74,7 @@ def fetch(url, referrer=None, user_agent=None, limit=PLAYLIST_LIMIT, ranged=Fals
     if ranged:
         req.add_header("Range", "bytes=0-131071")
     try:
-        with urllib.request.urlopen(req, timeout=TIMEOUT, context=SSL_CTX) as response:
+        with _opener.open(req, timeout=TIMEOUT) as response:
             # Read a small head first. Only playlists are worth reading in full, so a live
             # video endpoint costs one small chunk instead of megabytes of transfer.
             body = response.read(HEAD_BYTES)
@@ -73,6 +82,10 @@ def fetch(url, referrer=None, user_agent=None, limit=PLAYLIST_LIMIT, ranged=Fals
                 body += response.read(max(0, limit - HEAD_BYTES))
             return response.status, dict(response.headers), body, response.geturl()
     except urllib.error.HTTPError as exc:
+        if exc.code in (301, 302, 303, 307, 308) and not _retried:
+            target = urllib.parse.urljoin(url, exc.headers.get("Location") or "")
+            if target:
+                return fetch(target, referrer, user_agent, limit, ranged, _retried=True)
         try:
             body = exc.read(4096)
         except Exception:
@@ -102,11 +115,29 @@ def is_hls(body):
 BARE_TAG = re.compile(rb"^EXT-X-[A-Z-]+.*$", re.M)
 
 
-def manifest_defects(body):
-    """Spec violations that make a manifest risky for strict clients."""
+RELATIVE_URI = re.compile(rb"^(?!#)(?!https?://)\S+\.(?:ts|m3u8|m4s|mp4|aac)", re.M)
+
+
+def manifest_defects(body, requested, final):
+    """Spec violations, and shapes that break clients which are not strictly compliant.
+
+    `tag-missing-hash` is a tag written without its leading '#'. RFC 8216 treats any non
+    blank line that does not start with '#' as a URI, so a strict client requests the tag
+    text as a stream and stalls.
+
+    `relative-uris-behind-redirect` is the costlier one. When a manifest is served from a
+    different directory than the one requested, every relative URI inside it must be
+    resolved against the final URL. Telewebion's ncdn host redirects manifests to a
+    numbered edge node and then refuses to serve segments itself, so a client that
+    resolves against the requested URL asks ncdn for every segment and is refused each
+    time. The manifest loads, the first frame never arrives.
+    """
     defects = []
     if BARE_TAG.search(body[:4096]):
         defects.append("tag-missing-hash")
+    if final and final.split("?")[0].rsplit("/", 1)[0] != requested.split("?")[0].rsplit("/", 1)[0]:
+        if RELATIVE_URI.search(body[:8192]):
+            defects.append("relative-uris-behind-redirect")
     return defects
 
 
@@ -205,7 +236,7 @@ def probe_once(record):
             return {**result, "state": "ok", "kind": "direct"}
         return {**result, "state": "dead", "reason": "not_media"}
 
-    defects = manifest_defects(body)
+    defects = manifest_defects(body, url, final)
     if defects:
         result["defects"] = defects
 
@@ -244,8 +275,19 @@ def probe_once(record):
         return {**result, "state": "dead", "reason": "no_segments", "kind": "hls"}
 
     # The decisive test: pull bytes from a real segment. The last one is the live edge.
-    sstatus, _, sbody, _ = fetch(segments[-1], referrer, user_agent, limit=196608, ranged=True)
-    if isinstance(sstatus, int) and sstatus < 400 and len(sbody) > 1024:
+    sstatus, sheaders, sbody, sfinal = fetch(segments[-1], referrer, user_agent,
+                                             limit=196608, ranged=True)
+    # A few packagers put another playlist where a segment should be. Descend once.
+    if isinstance(sstatus, int) and sstatus < 400 and is_hls(sbody):
+        nested = parse_segments(sbody, sfinal)
+        if nested:
+            sstatus, sheaders, sbody, sfinal = fetch(nested[-1], referrer, user_agent,
+                                                     limit=196608, ranged=True)
+    # Judge the segment on whether it is media, not on how big it is. A live edge segment
+    # can be a couple of hundred bytes while it is still being written, and one MPEG-TS
+    # packet is only 188, so a size floor rejects perfectly good streams.
+    if isinstance(sstatus, int) and sstatus < 400 and \
+            (is_media(sbody, sheaders.get("Content-Type")) or len(sbody) > 8192):
         return {**result, "state": "ok", "kind": "hls", "bytes": len(sbody)}
     return {**result, "state": classify_failure(host, sstatus if isinstance(sstatus, int) else None, sbody),
             "reason": f"segment:{sstatus}", "kind": "hls"}

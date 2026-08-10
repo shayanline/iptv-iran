@@ -176,7 +176,17 @@ def collect():
         channel["streams"] = identity.dedupe_streams(
             sorted(channel["streams"], key=lambda s: -s["score"]))
         best = channel["streams"][0]
-        channel["reach"] = "global" if any(s["state"] == "ok" for s in channel["streams"]) else "iran-only"
+        # Three distinct situations, which were previously collapsed into two. A channel
+        # with no working stream is not the same as one restricted to Iran: it is one whose
+        # streams have started failing and is inside its grace period, still listed because
+        # it worked recently. Calling that "Iran only" sends viewers to the wrong playlist.
+        states = {s["state"] for s in channel["streams"]}
+        if "ok" in states:
+            channel["reach"] = "global"
+        elif "iran_only" in states:
+            channel["reach"] = "iran-only"
+        else:
+            channel["reach"] = "failing"
         channel["height"] = max(s["height"] for s in channel["streams"])
         channel["resolution"] = next((s["resolution"] for s in channel["streams"]
                                      if s.get("resolution")), None)
@@ -193,7 +203,8 @@ def collect():
                                     c["name_en"].lower()))
     log(f"{len(ordered)} channels publishable "
         f"({sum(1 for c in ordered if c['reach'] == 'global')} global, "
-        f"{sum(1 for c in ordered if c['reach'] == 'iran-only')} Iran only), "
+        f"{sum(1 for c in ordered if c['reach'] == 'iran-only')} Iran only, "
+        f"{sum(1 for c in ordered if c['reach'] == 'failing')} in the grace period), "
         f"{sum(len(c['streams']) for c in ordered)} streams after dedup")
     return ordered
 
@@ -210,7 +221,7 @@ def display_name(channel, lang):
     if channel["quality"] in ("HD", "FHD", "4K"):
         base += f' {channel["quality"]}'
     if channel["reach"] == "iran-only":
-        base += " [IR]"
+        base += " [IR]"   # only a genuine geographic restriction earns the tag
     return base
 
 
@@ -250,7 +261,9 @@ def write_playlist(path, channels, note, lang="both", all_streams=False):
 
 
 def build_playlists(channels):
-    worldwide = [c for c in channels if c["reach"] == "global"]
+    # A failing channel was reachable worldwide when it last worked, so it stays in the
+    # worldwide list for its grace period rather than being hidden or mislabelled.
+    worldwide = [c for c in channels if c["reach"] in ("global", "failing")]
     domestic = [c for c in channels if c["reach"] == "iran-only"]
 
     for lang, folder in (("both", PLAYLISTS), ("en", PLAYLISTS / "en"), ("fa", PLAYLISTS / "fa")):

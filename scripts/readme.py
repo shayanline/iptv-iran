@@ -61,7 +61,7 @@ def channel_tables(channels, lang):
                 if provincial:
                     row.append(c["province_en"] or "n/a")
                 row += [quality(c, "n/a"),
-                        "Worldwide" if c["reach"] == "global" else "Iran only"]
+                        {"global": "Worldwide", "iran-only": "Iran only"}.get(c["reach"], "Rechecking")]
                 rows.append("| " + " | ".join(row) + " |")
             summary = f"<b>{en}</b> &nbsp; {len(members)} channels"
         else:
@@ -74,7 +74,7 @@ def channel_tables(channels, lang):
                 if provincial:
                     row.append(c["province_fa"] or "نامشخص")
                 row += [quality(c, "نامشخص"),
-                        "همه‌جا" if c["reach"] == "global" else "فقط ایران"]
+                        {"global": "همه‌جا", "iran-only": "فقط ایران"}.get(c["reach"], "در حال بررسی")]
                 rows.append("| " + " | ".join(row) + " |")
             summary = f"<b>{fa}</b> &nbsp; {fa_digits(len(members))} شبکه"
         blocks.append(details(summary, "\n".join(rows)))
@@ -195,7 +195,9 @@ thrown away. A channel is only dropped after it has failed repeatedly over about
 so a bad night on someone's server will not make it vanish.
 
 Testing means fetching actual video from the stream. A link that returns a valid looking
-file but no picture counts as broken.
+file but no picture counts as broken. Links are also rewritten where a provider serves
+something a stricter player cannot follow, so a channel that plays in VLC but stalls on a
+TV box gets fixed rather than left alone.
 
 <a id="fixing"></a>
 
@@ -316,7 +318,9 @@ If you hold the rights to a channel listed here and want it removed,
 حدود شش هفته ناموفق باشد، تا یک شب خرابی سرور باعث حذفش نشود.
 
 آزمایش یعنی گرفتن ویدیوی واقعی از استریم. لینکی که فایل به ظاهر سالم برمی‌گرداند ولی
-تصویری ندارد، خراب حساب می‌شود.
+تصویری ندارد، خراب حساب می‌شود. اگر سرویسی لینکی بدهد که پخش‌کننده‌های سخت‌گیرتر نتوانند
+دنبالش کنند، لینک بازنویسی می‌شود، تا شبکه‌ای که در VLC باز می‌شود ولی روی باکس تلویزیون
+گیر می‌کند درست شود.
 
 <a id="fa-fixing"></a>
 

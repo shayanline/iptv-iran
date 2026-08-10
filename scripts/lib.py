@@ -102,6 +102,16 @@ def fetch_text(url, timeout=30):
     return raw.decode("utf-8", "replace")
 
 
+def fetch_text_with_final(url, timeout=30):
+    """Like fetch_text, but also returns the URL the response finally came from."""
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Encoding": "gzip"})
+    with urllib.request.urlopen(req, timeout=timeout, context=SSL_CTX) as response:
+        raw, final = response.read(), response.geturl()
+    if raw[:2] == b"\x1f\x8b":
+        raw = gzip.GzipFile(fileobj=io.BytesIO(raw)).read()
+    return raw.decode("utf-8", "replace"), final
+
+
 def load_json_url(url, timeout=60):
     return json.loads(fetch_text(url, timeout))
 
