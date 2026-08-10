@@ -1,0 +1,1574 @@
+{
+  "_comment": "Hand maintained layer on top of the public sources. Nothing here is generated, so edits survive every refresh. `channels` overrides names and categories per iptv-org channel id, `streams` adds URLs no public source carries, `blocked_hosts` drops CDNs that are dead for everyone.",
+  "blocked_hosts": [
+    "s2.pandatv.tn"
+  ],
+  "_blocked_hosts_note": "s2.pandatv.tn served 159 links from a 2022 paid subscription and now answers 403 to every request. Kept out of the candidate set so it does not dominate the probe.",
+  "streams": [
+    {
+      "url": "https://familyhls.4utv.live/hls/stream.m3u8",
+      "channel": "4UFamily.tr"
+    },
+    {
+      "url": "https://northtelecom.b-cdn.net/ABALFADHL.m3u8",
+      "channel": "AbalfadhlTV.ir"
+    },
+    {
+      "url": "https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/t=3840/v=pv14/b=5070016/main.m3u8",
+      "channel": "BBCPersian.uk"
+    },
+    {
+      "url": "https://derakhtzhls.wns.live/hls/stream.m3u8",
+      "channel": "DerakhteZendegiTV.us"
+    },
+    {
+      "url": "https://gatvhls.wns.live/hls/stream.m3u8",
+      "channel": "GordAfaridTV.us"
+    },
+    {
+      "url": "https://bucharest.zeuscdn724.com/lb0/H1/index.m3u8",
+      "channel": "HadiTV.uk"
+    },
+    {
+      "url": "https://streamer1.connectto.com/HIGHVISION_WEB_1205/playlist.m3u8",
+      "channel": "HighVisionTV.us"
+    },
+    {
+      "url": "https://live.presstv.co.uk/hls/hispantv.m3u8",
+      "channel": "HispanTV.ir"
+    },
+    {
+      "url": "https://tv.irna.ir/live/stream/index.m3u8",
+      "channel": "IRNATV.ir"
+    },
+    {
+      "url": "https://mediamtx.elitelatrade.com/live/stream/main_stream.m3u8",
+      "channel": "IranIndependent.us"
+    },
+    {
+      "url": "https://irwhls.wns.live/hls/stream.m3u8",
+      "channel": "IranWire.us"
+    },
+    {
+      "url": "https://iranefardalive.com/stream/live.m3u8",
+      "channel": "IraneFarda.us"
+    },
+    {
+      "url": "https://live.pars-israel.com/tmp_hls/iptv/index.m3u8",
+      "channel": "IsraelParsTV.il"
+    },
+    {
+      "url": "https://mellihls.wns.live/hls/stream.m3u8",
+      "channel": "MelliGTV.us"
+    },
+    {
+      "url": "https://5ad386ff92705.streamlock.net/live_transcodermh/ngrp:mohabat.stream_all/playlist.m3u8",
+      "channel": "MohabatTV.us"
+    },
+    {
+      "url": "https://livestream.5centscdn.com/nahadeazadi/14a66ff6dca989d3a2eb0dc8cdb50892.sdp/chunks.m3u8",
+      "channel": "NahadeAzadi.us"
+    },
+    {
+      "url": "https://nethls.wns.live/hls/stream.m3u8",
+      "channel": "NetTV.us"
+    },
+    {
+      "url": "https://stream.novin.live/hls/playlist.m3u8",
+      "channel": "NovinTV.ir"
+    },
+    {
+      "url": "https://livestream.5centscdn.com/pwocchurchweb1/cebac1e921182acff008ab1222f0c916.sdp/playlist.m3u8",
+      "channel": "OmidJavedan.us"
+    },
+    {
+      "url": "https://hls.tapeshtv.live/hls/stream.m3u8",
+      "channel": "PBCTapeshTV.us"
+    },
+    {
+      "url": "https://livestream.5centscdn.com/parstvtvweb1/e8ac8f595b3003ea3d22178c05c67593.sdp/playlist.m3u8",
+      "channel": "ParsTV.us"
+    },
+    {
+      "url": "https://tgn.bozztv.com/cus01/ucur1/Payvand/playlist.m3u8",
+      "channel": "PayvandTV.ir"
+    },
+    {
+      "url": "https://setmixhls.persiana.live/hls/stream.m3u8",
+      "channel": "PersianaSetMix.fr"
+    },
+    {
+      "url": "https://live.presstv.co.uk/hls/presstv.m3u8",
+      "channel": "PressTV.ir"
+    },
+    {
+      "url": "https://live4.presstv.ir/live/mp4:presstvfr/playlist.m3u8",
+      "channel": "PressTVFrench.ir"
+    },
+    {
+      "url": "https://pleonhls.wns.live/hls/stream.m3u8",
+      "channel": "ProjectLeon.us"
+    },
+    {
+      "url": "https://pulsehls.wns.live/hls/stream.m3u8",
+      "channel": "PulseMedia.us"
+    },
+    {
+      "url": "https://rferl-ingest.akamaized.net/hls/live/2121768/tvmc01/playlist.m3u8",
+      "channel": "RadioFardaTV.us"
+    },
+    {
+      "url": "https://hls.rahenejat.live/hls/stream.m3u8",
+      "channel": "RaheNejatTV.us"
+    },
+    {
+      "url": "https://hlspackager.akamaized.net/live/DB/ALTERNATIVE_SHORAI_TV/HLS/ALTERNATIVE_SHORAI_TV.m3u8",
+      "channel": "ShoraiTV.us"
+    },
+    {
+      "url": "https://hls.sunmusic.live/hls/stream.m3u8",
+      "channel": "SunMusic.us"
+    },
+    {
+      "url": "https://iptv.tapesh.tv/tapeshiran/playlist.m3u8",
+      "channel": "TapeshIran.us"
+    },
+    {
+      "url": "https://wmtvhls.wns.live/hls/stream.m3u8",
+      "channel": "WomanTV.us"
+    },
+    {
+      "url": "https://live.presstv.co.uk/hls/ifilm2.m3u8",
+      "channel": "iFilm2.ir"
+    },
+    {
+      "url": "https://live.presstv.co.uk/hls/ifilmar.m3u8",
+      "channel": "iFilmArabic.ir"
+    },
+    {
+      "url": "https://live.presstv.co.uk/hls/ifilmen.m3u8",
+      "channel": "iFilmEnglish.ir"
+    },
+    {
+      "url": "https://live.presstv.co.uk/hls/ifilmfa.m3u8",
+      "channel": "iFilmPersian.ir"
+    }
+  ],
+  "sets": {
+    "irib_national": [
+      "IRIB1.ir",
+      "IRIB2.ir",
+      "IRIB3.ir",
+      "IRIB4.ir",
+      "TehranTV.ir",
+      "IRINN.ir",
+      "IRINN2.ir",
+      "AmouzeshTV.ir",
+      "QuranTV.ir",
+      "IRIBMostanad.ir",
+      "NamayeshTV.ir",
+      "OfoghTV.ir",
+      "VarzeshTV.ir",
+      "PooyaTV.ir",
+      "PooyaTVPlus.ir",
+      "SalamatTV.ir",
+      "Nasim.ir",
+      "IRIBOmid.ir",
+      "Tamasha.ir",
+      "iFilmPersian.ir",
+      "IRIBUHD.ir",
+      "SepehrTV.ir",
+      "TVANava.ir",
+      "AraTV.ir",
+      "Energy.ir",
+      "GolkhaneTv.ir",
+      "RoyaTV.ir",
+      "IranNama.fr",
+      "IRIB1Plus.ir"
+    ],
+    "irib_provincial": [
+      "AbadanTV.ir",
+      "AflakTV.ir",
+      "AftabTV.ir",
+      "AlborzTV.ir",
+      "AtrakTV.ir",
+      "BaranTV.ir",
+      "BoushehrTV.ir",
+      "DenaTV.ir",
+      "EshraghNetwork.ir",
+      "FarsTV.ir",
+      "HamedanTV.ir",
+      "HamoonTV.ir",
+      "IlamTV.ir",
+      "IsfahanTV.ir",
+      "JahanbinTV.ir",
+      "KermanTV.ir",
+      "KhalijeFarsTV.ir",
+      "KhavaranTV.ir",
+      "KhorasanRazaviTV.ir",
+      "KhozestanTV.ir",
+      "KishTV.ir",
+      "KordestanTV.ir",
+      "MahabadTV.ir",
+      "NoorTV.ir",
+      "QazvinTV.ir",
+      "SabalanTV.ir",
+      "SabzTV.ir",
+      "SahandTV.ir",
+      "SemnanTV.ir",
+      "TabarestanTV.ir",
+      "WestAzerbaijanTV.ir",
+      "YazdTV.ir",
+      "ZagrosTV.ir",
+      "MakranTV.ir"
+    ],
+    "irib_international": [
+      "JameJamTVNetwork1.ir",
+      "JameJamTVNetwork2.ir",
+      "JameJamTVNetwork3.ir",
+      "iFilm2.ir",
+      "iFilmArabic.ir",
+      "iFilmEnglish.ir",
+      "SaharAzeri.ir",
+      "SaharUrdu.ir",
+      "SaharKurdi.ir",
+      "SaharBalkan.ir",
+      "AlKawtharTV.ir",
+      "AlalamNewsChannel.ir",
+      "PressTV.ir",
+      "PressTVFrench.ir",
+      "HispanTV.ir",
+      "IranPress.ir",
+      "Palestinetv.ir"
+    ],
+    "religious_christian": [
+      "DerakhteZendegiTV.us",
+      "ICnet1.ca",
+      "ICnet2.ca",
+      "KalemehTV.uk",
+      "LoveWorldPersia.ng",
+      "MohabatTV.us",
+      "NejatTV.us",
+      "OmidJavedan.us",
+      "RaheNejatTV.us",
+      "Sat7Pars.cy",
+      "TBNNejatTV.ir",
+      "icnet3.ca"
+    ],
+    "religious_other": [
+      "IranJewishTV.ir",
+      "ErfanHalghehTV.ca",
+      "WiseHumanTv.ir",
+      "GanjeHozourTV.us"
+    ]
+  },
+  "channels": {
+    "IRIB1.ir": {
+      "en": "IRIB TV1",
+      "fa": "شبکه یک"
+    },
+    "IRIB2.ir": {
+      "en": "IRIB TV2",
+      "fa": "شبکه دو"
+    },
+    "IRIB3.ir": {
+      "en": "IRIB TV3",
+      "fa": "شبکه سه"
+    },
+    "IRIB4.ir": {
+      "en": "IRIB TV4",
+      "fa": "شبکه چهار"
+    },
+    "TehranTV.ir": {
+      "en": "IRIB TV5 (Tehran)",
+      "fa": "شبکه پنج (تهران)",
+      "note_en": "IRIB TV5, also the Tehran provincial network",
+      "note_fa": "شبکه پنج، شبکه استانی تهران"
+    },
+    "IRINN.ir": {
+      "en": "IRINN",
+      "fa": "شبکه خبر"
+    },
+    "IRINN2.ir": {
+      "en": "IRINN 2",
+      "fa": "شبکه خبر ۲"
+    },
+    "AmouzeshTV.ir": {
+      "en": "IRIB Amoozesh",
+      "fa": "شبکه آموزش"
+    },
+    "QuranTV.ir": {
+      "en": "IRIB Quran",
+      "fa": "شبکه قرآن و معارف سیما"
+    },
+    "IRIBMostanad.ir": {
+      "en": "IRIB Mostanad",
+      "fa": "شبکه مستند"
+    },
+    "NamayeshTV.ir": {
+      "en": "IRIB Namayesh",
+      "fa": "شبکه نمایش"
+    },
+    "OfoghTV.ir": {
+      "en": "IRIB Ofogh",
+      "fa": "شبکه افق"
+    },
+    "VarzeshTV.ir": {
+      "en": "IRIB Varzesh",
+      "fa": "شبکه ورزش"
+    },
+    "PooyaTV.ir": {
+      "en": "IRIB Pooya & Nahal",
+      "fa": "شبکه پویا و نهال"
+    },
+    "PooyaTVPlus.ir": {
+      "en": "IRIB Pooya +",
+      "fa": "شبکه پویا مثبت"
+    },
+    "SalamatTV.ir": {
+      "en": "IRIB Salamat",
+      "fa": "شبکه سلامت"
+    },
+    "Nasim.ir": {
+      "en": "IRIB Nasim",
+      "fa": "شبکه نسیم"
+    },
+    "IRIBOmid.ir": {
+      "en": "IRIB Omid",
+      "fa": "شبکه امید"
+    },
+    "Tamasha.ir": {
+      "en": "IRIB Tamasha",
+      "fa": "شبکه تماشا"
+    },
+    "iFilmPersian.ir": {
+      "en": "iFilm",
+      "fa": "آی‌فیلم"
+    },
+    "IRIBUHD.ir": {
+      "en": "IRIB UHD",
+      "fa": "شبکه فراگیر (UHD)"
+    },
+    "SepehrTV.ir": {
+      "en": "Sepehr",
+      "fa": "شبکه سپهر"
+    },
+    "TVANava.ir": {
+      "en": "Nava",
+      "fa": "شبکه نوا"
+    },
+    "AraTV.ir": {
+      "en": "Ara",
+      "fa": "شبکه آرا"
+    },
+    "Energy.ir": {
+      "en": "Energy",
+      "fa": "شبکه انرژی"
+    },
+    "GolkhaneTv.ir": {
+      "en": "Golkhane",
+      "fa": "شبکه گلخانه"
+    },
+    "RoyaTV.ir": {
+      "en": "Roya",
+      "fa": "شبکه رویا"
+    },
+    "IranNama.fr": {
+      "en": "Iran Nama",
+      "fa": "ایران نما"
+    },
+    "AbadanTV.ir": {
+      "en": "Abadan",
+      "fa": "شبکه آبادان",
+      "province_en": "Abadan",
+      "province_fa": "آبادان"
+    },
+    "AflakTV.ir": {
+      "en": "Aflak",
+      "fa": "شبکه افلاک",
+      "province_en": "Lorestan",
+      "province_fa": "لرستان"
+    },
+    "AftabTV.ir": {
+      "en": "Aftab",
+      "fa": "شبکه آفتاب",
+      "province_en": "Markazi",
+      "province_fa": "مرکزی"
+    },
+    "AlborzTV.ir": {
+      "en": "Alborz",
+      "fa": "شبکه البرز",
+      "province_en": "Alborz",
+      "province_fa": "البرز"
+    },
+    "AtrakTV.ir": {
+      "en": "Atrak",
+      "fa": "شبکه اترک",
+      "province_en": "North Khorasan",
+      "province_fa": "خراسان شمالی"
+    },
+    "BaranTV.ir": {
+      "en": "Baran",
+      "fa": "شبکه باران",
+      "province_en": "Gilan",
+      "province_fa": "گیلان"
+    },
+    "BoushehrTV.ir": {
+      "en": "Bushehr",
+      "fa": "شبکه بوشهر",
+      "province_en": "Bushehr",
+      "province_fa": "بوشهر"
+    },
+    "DenaTV.ir": {
+      "en": "Dena",
+      "fa": "شبکه دنا",
+      "province_en": "Kohgiluyeh & Boyer-Ahmad",
+      "province_fa": "کهگیلویه و بویراحمد"
+    },
+    "EshraghNetwork.ir": {
+      "en": "Eshragh",
+      "fa": "شبکه اشراق",
+      "province_en": "Zanjan",
+      "province_fa": "زنجان"
+    },
+    "FarsTV.ir": {
+      "en": "Fars",
+      "fa": "شبکه فارس",
+      "province_en": "Fars",
+      "province_fa": "فارس"
+    },
+    "HamedanTV.ir": {
+      "en": "Hamedan",
+      "fa": "شبکه همدان",
+      "province_en": "Hamadan",
+      "province_fa": "همدان"
+    },
+    "HamoonTV.ir": {
+      "en": "Hamoon",
+      "fa": "شبکه هامون",
+      "province_en": "Sistan & Baluchestan",
+      "province_fa": "سیستان و بلوچستان"
+    },
+    "IlamTV.ir": {
+      "en": "Ilam",
+      "fa": "شبکه ایلام",
+      "province_en": "Ilam",
+      "province_fa": "ایلام"
+    },
+    "IsfahanTV.ir": {
+      "en": "Isfahan",
+      "fa": "شبکه اصفهان",
+      "province_en": "Isfahan",
+      "province_fa": "اصفهان"
+    },
+    "JahanbinTV.ir": {
+      "en": "Jahanbin",
+      "fa": "شبکه جهان‌بین",
+      "province_en": "Chaharmahal & Bakhtiari",
+      "province_fa": "چهارمحال و بختیاری"
+    },
+    "KermanTV.ir": {
+      "en": "Kerman",
+      "fa": "شبکه کرمان",
+      "province_en": "Kerman",
+      "province_fa": "کرمان"
+    },
+    "KhalijeFarsTV.ir": {
+      "en": "Khalij-e Fars",
+      "fa": "شبکه خلیج فارس",
+      "province_en": "Hormozgan",
+      "province_fa": "هرمزگان"
+    },
+    "KhavaranTV.ir": {
+      "en": "Khavaran",
+      "fa": "شبکه خاوران",
+      "province_en": "South Khorasan",
+      "province_fa": "خراسان جنوبی"
+    },
+    "KhorasanRazaviTV.ir": {
+      "en": "Khorasan Razavi",
+      "fa": "شبکه خراسان رضوی",
+      "province_en": "Khorasan Razavi",
+      "province_fa": "خراسان رضوی"
+    },
+    "KhozestanTV.ir": {
+      "en": "Khuzestan",
+      "fa": "شبکه خوزستان",
+      "province_en": "Khuzestan",
+      "province_fa": "خوزستان"
+    },
+    "KishTV.ir": {
+      "en": "Kish",
+      "fa": "شبکه کیش",
+      "province_en": "Kish",
+      "province_fa": "کیش"
+    },
+    "KordestanTV.ir": {
+      "en": "Kordestan",
+      "fa": "شبکه کردستان",
+      "province_en": "Kurdistan",
+      "province_fa": "کردستان"
+    },
+    "MahabadTV.ir": {
+      "en": "Mahabad",
+      "fa": "شبکه مهاباد",
+      "province_en": "Mahabad",
+      "province_fa": "مهاباد"
+    },
+    "NoorTV.ir": {
+      "en": "Noor",
+      "fa": "شبکه نور",
+      "province_en": "Qom",
+      "province_fa": "قم"
+    },
+    "QazvinTV.ir": {
+      "en": "Qazvin",
+      "fa": "شبکه قزوین",
+      "province_en": "Qazvin",
+      "province_fa": "قزوین"
+    },
+    "SabalanTV.ir": {
+      "en": "Sabalan",
+      "fa": "شبکه سبلان",
+      "province_en": "Ardabil",
+      "province_fa": "اردبیل"
+    },
+    "SabzTV.ir": {
+      "en": "Sabz",
+      "fa": "شبکه سبز",
+      "province_en": "Golestan",
+      "province_fa": "گلستان"
+    },
+    "SahandTV.ir": {
+      "en": "Sahand",
+      "fa": "شبکه سهند",
+      "province_en": "East Azerbaijan",
+      "province_fa": "آذربایجان شرقی"
+    },
+    "SemnanTV.ir": {
+      "en": "Semnan",
+      "fa": "شبکه سمنان",
+      "province_en": "Semnan",
+      "province_fa": "سمنان"
+    },
+    "TabarestanTV.ir": {
+      "en": "Tabarestan",
+      "fa": "شبکه تبرستان",
+      "province_en": "Mazandaran",
+      "province_fa": "مازندران"
+    },
+    "WestAzerbaijanTV.ir": {
+      "en": "West Azerbaijan",
+      "fa": "شبکه آذربایجان غربی",
+      "province_en": "West Azerbaijan",
+      "province_fa": "آذربایجان غربی"
+    },
+    "YazdTV.ir": {
+      "en": "Yazd",
+      "fa": "شبکه تابان یزد",
+      "province_en": "Yazd",
+      "province_fa": "یزد"
+    },
+    "ZagrosTV.ir": {
+      "en": "Zagros",
+      "fa": "شبکه زاگرس",
+      "province_en": "Kermanshah",
+      "province_fa": "کرمانشاه"
+    },
+    "JameJamTVNetwork1.ir": {
+      "en": "Jam-e-Jam 1",
+      "fa": "شبکه جام جم ۱"
+    },
+    "JameJamTVNetwork2.ir": {
+      "en": "Jam-e-Jam 2",
+      "fa": "شبکه جام جم ۲"
+    },
+    "JameJamTVNetwork3.ir": {
+      "en": "Jam-e-Jam 3",
+      "fa": "شبکه جام جم ۳"
+    },
+    "iFilm2.ir": {
+      "en": "iFilm 2",
+      "fa": "آی‌فیلم ۲"
+    },
+    "iFilmArabic.ir": {
+      "en": "iFilm Arabic",
+      "fa": "آی‌فیلم عربی"
+    },
+    "iFilmEnglish.ir": {
+      "en": "iFilm English",
+      "fa": "آی‌فیلم انگلیسی"
+    },
+    "SaharAzeri.ir": {
+      "en": "Sahar TV Azeri",
+      "fa": "سحر آذری"
+    },
+    "SaharUrdu.ir": {
+      "en": "Sahar TV Urdu",
+      "fa": "سحر اردو"
+    },
+    "SaharKurdi.ir": {
+      "en": "Sahar TV Kurdish",
+      "fa": "سحر کردی"
+    },
+    "SaharBalkan.ir": {
+      "en": "Sahar TV Balkan",
+      "fa": "سحر بالکان"
+    },
+    "AlKawtharTV.ir": {
+      "en": "Al-Kawthar TV",
+      "fa": "شبکه الکوثر"
+    },
+    "AlalamNewsChannel.ir": {
+      "en": "Al-Alam News",
+      "fa": "شبکه العالم"
+    },
+    "PressTV.ir": {
+      "en": "Press TV",
+      "fa": "پرس تی‌وی"
+    },
+    "PressTVFrench.ir": {
+      "en": "Press TV French",
+      "fa": "پرس تی‌وی فرانسه"
+    },
+    "HispanTV.ir": {
+      "en": "HispanTV",
+      "fa": "هیسپان تی‌وی"
+    },
+    "IranPress.ir": {
+      "en": "Iran Press",
+      "fa": "ایران پرس"
+    },
+    "Palestinetv.ir": {
+      "en": "Palestine TV",
+      "fa": "شبکه فلسطین"
+    },
+    "BBCPersian.uk": {
+      "en": "BBC News Persian",
+      "fa": "بی‌بی‌سی فارسی"
+    },
+    "IranInternational.uk": {
+      "en": "Iran International",
+      "fa": "ایران اینترنشنال"
+    },
+    "VoATVPersian.us": {
+      "en": "VOA Persian",
+      "fa": "صدای آمریکا فارسی"
+    },
+    "Manoto.uk": {
+      "en": "Manoto",
+      "fa": "من و تو"
+    },
+    "SimayeAzadi.uk": {
+      "en": "Simaye Azadi",
+      "fa": "سیمای آزادی"
+    },
+    "ChannelOne.us": {
+      "en": "Channel One",
+      "fa": "شبکه یک (لس‌آنجلس)"
+    },
+    "DidgahTV.us": {
+      "en": "Didgah TV",
+      "fa": "دیدگاه"
+    },
+    "MihanTV.ir": {
+      "en": "Mihan TV",
+      "fa": "میهن تی‌وی"
+    },
+    "ParsTV.us": {
+      "en": "Pars TV",
+      "fa": "پارس تی‌وی"
+    },
+    "NationalIranianCongressTV.us": {
+      "en": "National Iranian Congress TV",
+      "fa": "تلویزیون کنگره ملی ایرانیان"
+    },
+    "IranNationalRevolutionTV.us": {
+      "en": "Iran National Revolution TV",
+      "fa": "تلویزیون انقلاب ملی ایران"
+    },
+    "KanalJadid.uk": {
+      "en": "Kanal Jadid",
+      "fa": "کانال جدید"
+    },
+    "GEMTV.tr": {
+      "en": "GEM TV",
+      "fa": "جم تی‌وی"
+    },
+    "GEMTVPlus.tr": {
+      "en": "GEM TV +",
+      "fa": "جم تی‌وی پلاس"
+    },
+    "GEMFilm.tr": {
+      "en": "GEM Film",
+      "fa": "جم فیلم"
+    },
+    "GEMDrama.tr": {
+      "en": "GEM Drama",
+      "fa": "جم دراما"
+    },
+    "GEMClassic.tr": {
+      "en": "GEM Classic",
+      "fa": "جم کلاسیک"
+    },
+    "GEMComedy.tr": {
+      "en": "GEM Comedy",
+      "fa": "جم کمدی"
+    },
+    "GEMBollywood.tr": {
+      "en": "GEM Bollywood",
+      "fa": "جم بالیوود"
+    },
+    "GEMJunior.tr": {
+      "en": "GEM Junior",
+      "fa": "جم جونیور"
+    },
+    "GEMKids.tr": {
+      "en": "GEM Kids",
+      "fa": "جم کیدز"
+    },
+    "GEMFood.tr": {
+      "en": "GEM Food",
+      "fa": "جم فود"
+    },
+    "GEMLife.tr": {
+      "en": "GEM Life",
+      "fa": "جم لایف"
+    },
+    "GEMNature.tr": {
+      "en": "GEM Nature",
+      "fa": "جم نیچر"
+    },
+    "GEMFit.tr": {
+      "en": "GEM Fit",
+      "fa": "جم فیت"
+    },
+    "MBCPersia.ae": {
+      "en": "MBC Persia",
+      "fa": "ام‌بی‌سی پرشیا"
+    },
+    "PMC.ae": {
+      "en": "PMC",
+      "fa": "پی‌ام‌سی"
+    },
+    "PMCRoyale.ae": {
+      "en": "PMC Royale",
+      "fa": "پی‌ام‌سی رویال"
+    },
+    "TVITN.ir": {
+      "en": "ITN",
+      "fa": "آی‌تی‌ان"
+    },
+    "PBCTapeshTV.us": {
+      "en": "Tapesh TV",
+      "fa": "تپش تی‌وی"
+    },
+    "Tapesh2.us": {
+      "en": "Tapesh 2",
+      "fa": "تپش ۲"
+    },
+    "AvangTV.us": {
+      "en": "Avang TV",
+      "fa": "آونگ"
+    },
+    "NavahangTV.fi": {
+      "en": "Navahang TV",
+      "fa": "نواهنگ"
+    },
+    "HighVisionTV.us": {
+      "en": "High Vision TV",
+      "fa": "های ویژن"
+    },
+    "RJTV.us": {
+      "en": "RJTV",
+      "fa": "آر‌جی تی‌وی"
+    },
+    "4Music.fr": {
+      "en": "4 Music",
+      "fa": "فور موزیک"
+    },
+    "4Kurd.fr": {
+      "en": "4 Kurd",
+      "fa": "فور کورد"
+    },
+    "4UTV.tr": {
+      "en": "4U TV",
+      "fa": "فور یو تی‌وی"
+    },
+    "OmideIranTV.us": {
+      "en": "Omid-e Iran",
+      "fa": "امید ایران"
+    },
+    "Shabakeh7.us": {
+      "en": "Shabakeh 7",
+      "fa": "شبکه ۷"
+    },
+    "TinTV.us": {
+      "en": "Tin TV",
+      "fa": "تین تی‌وی"
+    },
+    "SetarehTV.uk": {
+      "en": "Setareh TV",
+      "fa": "ستاره"
+    },
+    "GrandCinema.tr": {
+      "en": "Grand Cinema",
+      "fa": "گراند سینما"
+    },
+    "MaahTV.my": {
+      "en": "Maah TV",
+      "fa": "ماه تی‌وی"
+    },
+    "MohabatTV.us": {
+      "en": "Mohabat TV",
+      "fa": "شبکه محبت"
+    },
+    "Sat7Pars.cy": {
+      "en": "SAT-7 Pars",
+      "fa": "ست‌۷ پارس"
+    },
+    "TBNNejatTV.ir": {
+      "en": "TBN Nejat TV",
+      "fa": "شبکه نجات"
+    },
+    "LoveWorldPersia.ng": {
+      "en": "LoveWorld Persia",
+      "fa": "لاوورلد پرشیا"
+    },
+    "KalemehTV.uk": {
+      "en": "Kalemeh TV",
+      "fa": "شبکه کلمه"
+    },
+    "ICnet1.ca": {
+      "en": "ICnet 1",
+      "fa": "آی‌سی‌نت ۱"
+    },
+    "ICnet2.ca": {
+      "en": "ICnet 2",
+      "fa": "آی‌سی‌نت ۲"
+    },
+    "icnet3.ca": {
+      "en": "ICnet 3",
+      "fa": "آی‌سی‌نت ۳"
+    },
+    "IranJewishTV.ir": {
+      "en": "Iran Jewish TV",
+      "fa": "تلویزیون یهودیان ایرانی"
+    },
+    "ErfanHalghehTV.ca": {
+      "en": "Erfan Halgheh TV",
+      "fa": "عرفان حلقه"
+    },
+    "GanjeHozourTV.us": {
+      "en": "Ganj-e Hozour",
+      "fa": "گنج حضور"
+    },
+    "ImamHusseinTV1.iq": {
+      "en": "Imam Hussein TV 1",
+      "fa": "امام حسین ۱"
+    },
+    "ImamHusseinTV6.iq": {
+      "en": "Imam Hussein TV 6",
+      "fa": "امام حسین ۶"
+    },
+    "MarjaeyatTVPersian.iq": {
+      "en": "Marjaeyat TV Persian",
+      "fa": "شبکه مرجعیت"
+    },
+    "AlMahdiTV.us": {
+      "en": "Al-Mahdi TV",
+      "fa": "شبکه المهدی"
+    },
+    "VelayatTV.ir": {
+      "en": "Velayat TV",
+      "fa": "شبکه ولایت"
+    },
+    "VelayatTVNetwork.us": {
+      "en": "Velayat TV Network",
+      "fa": "شبکه ولایت (آمریکا)"
+    },
+    "RazaviTV.ir": {
+      "en": "Razavi TV",
+      "fa": "شبکه رضوی"
+    },
+    "HabibTV.ir": {
+      "en": "Habib TV",
+      "fa": "شبکه حبیب"
+    },
+    "LabbaykTV.ir": {
+      "en": "Labbayk TV",
+      "fa": "شبکه لبیک"
+    },
+    "SarbedaranTV.ir": {
+      "en": "Sarbedaran TV",
+      "fa": "شبکه سربداران"
+    },
+    "Tekyemadahi.ir": {
+      "en": "Tekye Madahi",
+      "fa": "تکیه مداحی"
+    },
+    "AssiratTV.ir": {
+      "en": "Assirat TV",
+      "fa": "شبکه الصراط"
+    },
+    "AlWilayah.ir": {
+      "en": "Al Wilayah",
+      "fa": "شبکه الولایه"
+    },
+    "PayvandTV.ir": {
+      "en": "Payvand TV",
+      "fa": "شبکه پیوند"
+    },
+    "PayameArameshTV.us": {
+      "en": "Payam-e Aramesh",
+      "fa": "پیام آرامش"
+    },
+    "RasoulallahTv.ir": {
+      "en": "Rasoulallah TV",
+      "fa": "شبکه رسول‌الله"
+    },
+    "NourTV.ae": {
+      "en": "Nour TV",
+      "fa": "شبکه نور (امارات)"
+    },
+    "WiseHumanTv.ir": {
+      "en": "Wise Human TV",
+      "fa": "انسان خردمند"
+    },
+    "AraxTV.ir": {
+      "fa": "آراکس تی‌وی"
+    },
+    "ArkoTV.ir": {
+      "fa": "آرکو تی‌وی"
+    },
+    "ArvanTV.ir": {
+      "fa": "آروان تی‌وی"
+    },
+    "AsilTV.ir": {
+      "fa": "اصیل تی‌وی"
+    },
+    "AtrinaTV.ir": {
+      "fa": "آترینا تی‌وی"
+    },
+    "CafeTradeTV.ir": {
+      "fa": "کافه ترید"
+    },
+    "DejTV.ir": {
+      "fa": "دژ تی‌وی"
+    },
+    "KhalijTV.ir": {
+      "fa": "خلیج تی‌وی"
+    },
+    "MTC.us": {
+      "fa": "ام‌تی‌سی"
+    },
+    "TMTV.us": {
+      "fa": "تی‌ام تی‌وی"
+    },
+    "ZedTV.ir": {
+      "fa": "زد تی‌وی"
+    },
+    "247BoxTV.ir": {
+      "en": "247 Box TV",
+      "fa": "۲۴۷ باکس"
+    },
+    "FX1.ir": {
+      "fa": "اف‌ایکس ۱"
+    },
+    "FX2.ir": {
+      "fa": "اف‌ایکس ۲"
+    },
+    "OXIRTV.ir": {
+      "en": "Oxir TV",
+      "fa": "اکسیر تی‌وی"
+    },
+    "PersianaComedy.fr": {
+      "fa": "پرشیانا کمدی"
+    },
+    "PersianaReality.fr": {
+      "fa": "پرشیانا ریالیتی"
+    },
+    "PersianaTurkiye.fr": {
+      "fa": "پرشیانا ترکیه"
+    },
+    "YourTimeTV.ir": {
+      "fa": "یورتایم تی‌وی"
+    },
+    "AfraFilm.ir": {
+      "fa": "آفرا فیلم"
+    },
+    "AVASeries.ir": {
+      "fa": "آوا سریال"
+    },
+    "BravoFarsiTV.ir": {
+      "fa": "براوو فارسی"
+    },
+    "CafeFilm.ir": {
+      "fa": "کافه فیلم"
+    },
+    "ClassicTV.ir": {
+      "fa": "کلاسیک تی‌وی"
+    },
+    "GEMPixel.tr": {
+      "fa": "جم پیکسل"
+    },
+    "GoldStar.ir": {
+      "fa": "گلد استار"
+    },
+    "HomePlus.ir": {
+      "fa": "هوم پلاس"
+    },
+    "ICCplus.us": {
+      "en": "ICC Plus",
+      "fa": "آی‌سی‌سی پلاس"
+    },
+    "MetaFilmTV.ir": {
+      "fa": "متا فیلم"
+    },
+    "NewFlix.ir": {
+      "fa": "نیوفلیکس"
+    },
+    "PersianaCinema.fr": {
+      "fa": "پرشیانا سینما"
+    },
+    "PersianaFamily.fr": {
+      "fa": "پرشیانا فمیلی"
+    },
+    "PersianaIranian.fr": {
+      "fa": "پرشیانا ایرانیان"
+    },
+    "PersianaKorea.fr": {
+      "fa": "پرشیانا کره"
+    },
+    "PersianaLatino.fr": {
+      "fa": "پرشیانا لاتین"
+    },
+    "PersianaPlus.fr": {
+      "fa": "پرشیانا پلاس"
+    },
+    "PersianaSeries.fr": {
+      "fa": "پرشیانا سریال"
+    },
+    "SL1.ir": {
+      "fa": "اس‌ال ۱"
+    },
+    "SL2.ir": {
+      "fa": "اس‌ال ۲"
+    },
+    "AFNTV.ir": {
+      "en": "AFN TV",
+      "fa": "ای‌اف‌ان تی‌وی"
+    },
+    "PersianaFolk.fr": {
+      "fa": "پرشیانا فولک"
+    },
+    "PersianaNostalgia.fr": {
+      "fa": "پرشیانا نوستالژی"
+    },
+    "PersianaVibe.fr": {
+      "fa": "پرشیانا وایب"
+    },
+    "T2TV.ir": {
+      "en": "T2 TV",
+      "fa": "تی۲ تی‌وی"
+    },
+    "EPlanetTV.ir": {
+      "en": "E Planet TV",
+      "fa": "ای‌پلنت"
+    },
+    "PayamJavanTV.us": {
+      "fa": "پیام جوان"
+    },
+    "PersianaDocs.fr": {
+      "fa": "پرشیانا مستند"
+    },
+    "PersianaMedical.fr": {
+      "fa": "پرشیانا مدیکال"
+    },
+    "PersianaJunior.fr": {
+      "fa": "پرشیانا جونیور"
+    },
+    "PersianaFight.fr": {
+      "fa": "پرشیانا فایت"
+    },
+    "MakranTV.ir": {
+      "en": "Makran",
+      "fa": "شبکه مکران",
+      "province_en": "Sistan & Baluchestan",
+      "province_fa": "سیستان و بلوچستان"
+    },
+    "RadioFardaTV.us": {
+      "en": "Radio Farda TV",
+      "fa": "رادیو فردا"
+    },
+    "IRNATV.ir": {
+      "en": "IRNA TV",
+      "fa": "تلویزیون ایرنا"
+    },
+    "IraneFarda.us": {
+      "en": "Irane Farda",
+      "fa": "ایران فردا"
+    },
+    "IranWire.us": {
+      "en": "IranWire",
+      "fa": "ایران‌وایر"
+    },
+    "SunMusic.us": {
+      "en": "Sun Music",
+      "fa": "سان موزیک"
+    },
+    "WomanTV.us": {
+      "en": "Woman TV",
+      "fa": "شبکه زن"
+    },
+    "NetTV.us": {
+      "en": "Net TV",
+      "fa": "نت تی‌وی"
+    },
+    "GordAfaridTV.us": {
+      "en": "GordAfarid TV",
+      "fa": "گردآفرید"
+    },
+    "MelliGTV.us": {
+      "en": "MelliG TV",
+      "fa": "ملی‌گرا"
+    },
+    "ProjectLeon.us": {
+      "en": "Project Leon",
+      "fa": "پروژه لئون"
+    },
+    "PulseMedia.us": {
+      "en": "Pulse Media",
+      "fa": "پالس مدیا"
+    },
+    "ShoraiTV.us": {
+      "en": "Shorai TV",
+      "fa": "شورای تی‌وی"
+    },
+    "HadiTV.uk": {
+      "en": "Hadi TV",
+      "fa": "شبکه هادی"
+    },
+    "IsraelParsTV.il": {
+      "en": "Israel Pars TV",
+      "fa": "ایسرائل پارس"
+    },
+    "TapeshIran.us": {
+      "en": "Tapesh Iran",
+      "fa": "تپش ایران"
+    },
+    "NahadeAzadi.us": {
+      "en": "Nahade Azadi",
+      "fa": "نهاد آزادی"
+    },
+    "IranIndependent.us": {
+      "en": "Iran Independent",
+      "fa": "ایران ایندیپندنت"
+    },
+    "PersianaSetMix.fr": {
+      "en": "Persiana SetMix",
+      "fa": "پرشیانا ست‌میکس"
+    },
+    "4UFamily.tr": {
+      "en": "4U Family",
+      "fa": "فور یو فمیلی"
+    },
+    "IRIB1Plus.ir": {
+      "en": "IRIB TV1 +",
+      "fa": "شبکه یک پلاس"
+    },
+    "NovinTV.ir": {
+      "en": "Novin TV",
+      "fa": "نوین تی‌وی"
+    },
+    "DerakhteZendegiTV.us": {
+      "en": "Derakhte Zendegi TV",
+      "fa": "درخت زندگی"
+    },
+    "OmidJavedan.us": {
+      "en": "Omid Javedan",
+      "fa": "امید جاودان"
+    },
+    "RaheNejatTV.us": {
+      "en": "Rahe Nejat TV",
+      "fa": "راه نجات"
+    }
+  },
+  "category_overrides": {
+    "PersianaFight.fr": "sat-sports",
+    "PersianaMedical.fr": "sat-documentary",
+    "PersianaDocs.fr": "sat-documentary",
+    "PersianaJunior.fr": "sat-kids",
+    "EPlanetTV.ir": "sat-documentary",
+    "PayamJavanTV.us": "sat-documentary",
+    "CafeTradeTV.ir": "sat-general",
+    "MihanTV.ir": "sat-news",
+    "IranNama.fr": "irib-national",
+    "HodHodFarsiTV.ir": "sat-kids",
+    "AVAFamily.ir": "sat-entertainment",
+    "LabbaykTV.ir": "religious-islamic",
+    "RazaviTV.ir": "religious-islamic",
+    "Tekyemadahi.ir": "religious-islamic",
+    "VelayatTV.ir": "religious-islamic",
+    "SarbedaranTV.ir": "religious-islamic",
+    "AssiratTV.ir": "religious-islamic",
+    "IranNationalRevolutionTV.us": "sat-news",
+    "ParsTV.us": "sat-news",
+    "SimayeAzadi.uk": "sat-news",
+    "PBCTapeshTV.us": "sat-entertainment",
+    "Tapesh2.us": "sat-entertainment",
+    "SetarehTV.uk": "sat-entertainment",
+    "KanalJadid.uk": "sat-entertainment",
+    "GEMPixel.tr": "sat-movies",
+    "RadioFardaTV.us": "sat-news",
+    "IRNATV.ir": "sat-news",
+    "IraneFarda.us": "sat-news",
+    "IranWire.us": "sat-news",
+    "PulseMedia.us": "sat-news",
+    "IranIndependent.us": "sat-news",
+    "HadiTV.uk": "religious-islamic",
+    "SunMusic.us": "sat-music",
+    "PersianaSetMix.fr": "sat-music",
+    "TapeshIran.us": "sat-entertainment",
+    "4UFamily.tr": "sat-entertainment",
+    "NetTV.us": "sat-entertainment",
+    "ProjectLeon.us": "sat-entertainment"
+  },
+  "discovery": {
+    "telewebion": {
+      "abadan": "AbadanTV.ir",
+      "aflak": "AflakTV.ir",
+      "aftab": "AftabTV.ir",
+      "alalam": "AlalamNewsChannel.ir",
+      "alborz": "AlborzTV.ir",
+      "amouzesh": "AmouzeshTV.ir",
+      "ara": "AraTV.ir",
+      "atrak": "AtrakTV.ir",
+      "azarbayjangharbi": "WestAzerbaijanTV.ir",
+      "baenergy": "Energy.ir",
+      "baran": "BaranTV.ir",
+      "bushehr": "BoushehrTV.ir",
+      "dena": "DenaTV.ir",
+      "esfahan": "IsfahanTV.ir",
+      "eshragh": "EshraghNetwork.ir",
+      "faratar": "IRIBUHD.ir",
+      "fars": "FarsTV.ir",
+      "golkhane": "GolkhaneTv.ir",
+      "habib": "HabibTV.ir",
+      "hamoon": "HamoonTV.ir",
+      "hdtest": "Tamasha.ir",
+      "ifilm": "iFilmPersian.ir",
+      "ilam": "IlamTV.ir",
+      "iraneman": "Iraneman.ir",
+      "iribu": "RoyaTV.ir",
+      "irinn": "IRINN.ir",
+      "irinn2": "IRINN2.ir",
+      "jahanbin": "JahanbinTV.ir",
+      "javaneh": "PooyaTVPlus.ir",
+      "karoon": "KaroonTV.ir",
+      "kawthar": "AlKawtharTV.ir",
+      "kerman": "KermanTV.ir",
+      "khalijefars": "KhalijeFarsTV.ir",
+      "khavaran": "KhavaranTV.ir",
+      "khoozestan": "KhozestanTV.ir",
+      "khorasanrazavi": "KhorasanRazaviTV.ir",
+      "kish": "KishTV.ir",
+      "kordestan": "KordestanTV.ir",
+      "labbayk": "LabbaykTV.ir",
+      "mahabad": "MahabadTV.ir",
+      "makran": "MakranTV.ir",
+      "mostanad": "IRIBMostanad.ir",
+      "nama": "NamaTV.ir",
+      "namayesh": "NamayeshTV.ir",
+      "nasim": "Nasim.ir",
+      "nava": "TVANava.ir",
+      "noor": "NoorTV.ir",
+      "ofogh": "OfoghTV.ir",
+      "omid": "IRIBOmid.ir",
+      "palestine": "Palestinetv.ir",
+      "pooya": "PooyaTV.ir",
+      "presstv": "PressTV.ir",
+      "qazvin": "QazvinTV.ir",
+      "quran": "QuranTV.ir",
+      "razavi": "RazaviTV.ir",
+      "sabalan": "SabalanTV.ir",
+      "sabz": "SabzTV.ir",
+      "sahand": "SahandTV.ir",
+      "salamat": "SalamatTV.ir",
+      "sarbedaran": "SarbedaranTV.ir",
+      "semnan": "SemnanTV.ir",
+      "sepehr": "SepehrTV.ir",
+      "sina": "HamedanTV.ir",
+      "taban": "YazdTV.ir",
+      "tabarestan": "TabarestanTV.ir",
+      "tehran": "TehranTV.ir",
+      "tekyemadahi": "Tekyemadahi.ir",
+      "tv1": "IRIB1.ir",
+      "tv1plus": "IRIB1Plus.ir",
+      "tv2": "IRIB2.ir",
+      "tv3": "IRIB3.ir",
+      "tv4": "IRIB4.ir",
+      "varzesh": "VarzeshTV.ir",
+      "velayat": "VelayatTV.ir",
+      "zagros": "ZagrosTV.ir"
+    }
+  },
+  "_discovery_note": "Provider slug to channel id, expanded into candidate URLs by scripts/discover.py. An empty id means the slug responds but no channel has been identified for it yet.",
+  "local_channels": {
+    "MakranTV.ir": {
+      "en": "Makran",
+      "fa": "شبکه مکران",
+      "country": "IR",
+      "languages": [
+        "fas"
+      ],
+      "categories": [
+        "general"
+      ],
+      "province_en": "Sistan & Baluchestan",
+      "province_fa": "سیستان و بلوچستان",
+      "logo": ""
+    },
+    "RadioFardaTV.us": {
+      "en": "Radio Farda TV",
+      "fa": "رادیو فردا",
+      "country": "US",
+      "languages": [
+        "fas"
+      ],
+      "categories": [
+        "news"
+      ],
+      "logo": ""
+    },
+    "IRNATV.ir": {
+      "en": "IRNA TV",
+      "fa": "تلویزیون ایرنا",
+      "country": "IR",
+      "languages": [
+        "fas"
+      ],
+      "categories": [
+        "news"
+      ],
+      "logo": ""
+    },
+    "IraneFarda.us": {
+      "en": "Irane Farda",
+      "fa": "ایران فردا",
+      "country": "US",
+      "languages": [
+        "fas"
+      ],
+      "categories": [
+        "news"
+      ],
+      "logo": ""
+    },
+    "IranWire.us": {
+      "en": "IranWire",
+      "fa": "ایران‌وایر",
+      "country": "US",
+      "languages": [
+        "fas"
+      ],
+      "categories": [
+        "news"
+      ],
+      "logo": ""
+    },
+    "SunMusic.us": {
+      "en": "Sun Music",
+      "fa": "سان موزیک",
+      "country": "US",
+      "languages": [
+        "fas"
+      ],
+      "categories": [
+        "music"
+      ],
+      "logo": ""
+    },
+    "WomanTV.us": {
+      "en": "Woman TV",
+      "fa": "شبکه زن",
+      "country": "US",
+      "languages": [
+        "fas"
+      ],
+      "categories": [
+        "general"
+      ],
+      "logo": ""
+    },
+    "NetTV.us": {
+      "en": "Net TV",
+      "fa": "نت تی‌وی",
+      "country": "US",
+      "languages": [
+        "fas"
+      ],
+      "categories": [
+        "entertainment"
+      ],
+      "logo": ""
+    },
+    "GordAfaridTV.us": {
+      "en": "GordAfarid TV",
+      "fa": "گردآفرید",
+      "country": "US",
+      "languages": [
+        "fas"
+      ],
+      "categories": [
+        "general"
+      ],
+      "logo": ""
+    },
+    "MelliGTV.us": {
+      "en": "MelliG TV",
+      "fa": "ملی‌گرا",
+      "country": "US",
+      "languages": [
+        "fas"
+      ],
+      "categories": [
+        "general"
+      ],
+      "logo": ""
+    },
+    "ProjectLeon.us": {
+      "en": "Project Leon",
+      "fa": "پروژه لئون",
+      "country": "US",
+      "languages": [
+        "fas"
+      ],
+      "categories": [
+        "entertainment"
+      ],
+      "logo": ""
+    },
+    "PulseMedia.us": {
+      "en": "Pulse Media",
+      "fa": "پالس مدیا",
+      "country": "US",
+      "languages": [
+        "fas"
+      ],
+      "categories": [
+        "news"
+      ],
+      "logo": ""
+    },
+    "ShoraiTV.us": {
+      "en": "Shorai TV",
+      "fa": "شورای تی‌وی",
+      "country": "US",
+      "languages": [
+        "fas"
+      ],
+      "categories": [
+        "general"
+      ],
+      "logo": ""
+    },
+    "HadiTV.uk": {
+      "en": "Hadi TV",
+      "fa": "شبکه هادی",
+      "country": "GB",
+      "languages": [
+        "fas"
+      ],
+      "categories": [
+        "religious"
+      ],
+      "logo": ""
+    },
+    "IsraelParsTV.il": {
+      "en": "Israel Pars TV",
+      "fa": "ایسرائل پارس",
+      "country": "IL",
+      "languages": [
+        "fas"
+      ],
+      "categories": [
+        "general"
+      ],
+      "logo": ""
+    },
+    "TapeshIran.us": {
+      "en": "Tapesh Iran",
+      "fa": "تپش ایران",
+      "country": "US",
+      "languages": [
+        "fas"
+      ],
+      "categories": [
+        "entertainment"
+      ],
+      "logo": ""
+    },
+    "NahadeAzadi.us": {
+      "en": "Nahade Azadi",
+      "fa": "نهاد آزادی",
+      "country": "US",
+      "languages": [
+        "fas"
+      ],
+      "categories": [
+        "general"
+      ],
+      "logo": ""
+    },
+    "IranIndependent.us": {
+      "en": "Iran Independent",
+      "fa": "ایران ایندیپندنت",
+      "country": "US",
+      "languages": [
+        "fas"
+      ],
+      "categories": [
+        "news"
+      ],
+      "logo": ""
+    },
+    "PersianaSetMix.fr": {
+      "en": "Persiana SetMix",
+      "fa": "پرشیانا ست‌میکس",
+      "country": "FR",
+      "languages": [
+        "fas"
+      ],
+      "categories": [
+        "music"
+      ],
+      "logo": ""
+    },
+    "4UFamily.tr": {
+      "en": "4U Family",
+      "fa": "فور یو فمیلی",
+      "country": "TR",
+      "languages": [
+        "fas"
+      ],
+      "categories": [
+        "entertainment"
+      ],
+      "logo": ""
+    },
+    "IRIB1Plus.ir": {
+      "en": "IRIB TV1 +",
+      "fa": "شبکه یک پلاس",
+      "country": "IR",
+      "languages": [
+        "fas"
+      ],
+      "categories": [
+        "general"
+      ],
+      "logo": ""
+    }
+  },
+  "_proxy_note": "Some public players reach otherwise unavailable channels through third party proxies such as Cloudflare Workers. Those URLs are deliberately not published here: they route this project's users through infrastructure someone else pays for and does not control access to. Only endpoints served by the broadcaster or its own CDN are included."
+}

@@ -1,0 +1,51 @@
+#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IR1.xml.gz"
+# IRIB National Networks only.
+# generated 2026-08-10 22:11 UTC by shayanline/iptv-iran
+#EXTINF:-1 tvg-id="GolkhaneTv.ir" tvg-name="Golkhane" tvg-logo="https://static.telewebion.com/channelsLogo/686599d8-c1ee-4557-aa72-b1293a21906d/default" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="HD",Golkhane | شبکه گلخانه HD
+https://ncdn.telewebion.ir/golkhane/live/playlist.m3u8
+#EXTINF:-1 tvg-id="iFilmPersian.ir" tvg-name="iFilm" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="FHD",iFilm | آی‌فیلم FHD
+https://ncdn.telewebion.ir/ifilm/live/playlist.m3u8
+#EXTINF:-1 tvg-id="IranNama.fr" tvg-name="Iran Nama" tvg-logo="" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="SD",Iran Nama | ایران نما
+https://iran613hls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="AmouzeshTV.ir" tvg-name="IRIB Amoozesh" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Amouzesh_TV_logo_%282023%29.svg/500px-Amouzesh_TV_logo_%282023%29.svg.png" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="SD",IRIB Amoozesh | شبکه آموزش
+https://ncdn.telewebion.ir/amouzesh/live/playlist.m3u8
+#EXTINF:-1 tvg-id="IRIBMostanad.ir" tvg-name="IRIB Mostanad" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/8/89/Mostanad-tv.png" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="FHD",IRIB Mostanad | شبکه مستند FHD
+https://ncdn.telewebion.ir/mostanad/live/playlist.m3u8
+#EXTINF:-1 tvg-id="NamayeshTV.ir" tvg-name="IRIB Namayesh" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Namayesh_TV_logo.svg/960px-Namayesh_TV_logo.svg.png" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="FHD",IRIB Namayesh | شبکه نمایش FHD
+https://ncdn.telewebion.ir/namayesh/live/playlist.m3u8
+#EXTINF:-1 tvg-id="Nasim.ir" tvg-name="IRIB Nasim" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Nasim_TV_logo.svg/960px-Nasim_TV_logo.svg.png" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="FHD",IRIB Nasim | شبکه نسیم FHD
+https://ncdn.telewebion.ir/nasim/live/playlist.m3u8
+#EXTINF:-1 tvg-id="OfoghTV.ir" tvg-name="IRIB Ofogh" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/thumb/f/fe/Ofogh_TV_logo.svg/960px-Ofogh_TV_logo.svg.png" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="FHD",IRIB Ofogh | شبکه افق FHD
+https://ncdn.telewebion.ir/ofogh/live/playlist.m3u8
+#EXTINF:-1 tvg-id="IRIBOmid.ir" tvg-name="IRIB Omid" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/IRIB_Omid.svg/500px-IRIB_Omid.svg.png" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="FHD",IRIB Omid | شبکه امید FHD
+https://ncdn.telewebion.ir/omid/live/playlist.m3u8
+#EXTINF:-1 tvg-id="PooyaTV.ir" tvg-name="IRIB Pooya & Nahal" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/5/5a/POOYA_tv_2.png" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="FHD",IRIB Pooya & Nahal | شبکه پویا و نهال FHD
+https://ncdn.telewebion.ir/pooya/live/playlist.m3u8
+#EXTINF:-1 tvg-id="QuranTV.ir" tvg-name="IRIB Quran" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/d/df/Quarntvlogo.png" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="FHD",IRIB Quran | شبکه قرآن و معارف سیما FHD
+https://ncdn.telewebion.ir/quran/live/playlist.m3u8
+#EXTINF:-1 tvg-id="SalamatTV.ir" tvg-name="IRIB Salamat" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/f/f0/IRIB_Salamat_Logo.png" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="SD",IRIB Salamat | شبکه سلامت
+https://ncdn.telewebion.ir/salamat/live/playlist.m3u8
+#EXTINF:-1 tvg-id="Tamasha.ir" tvg-name="IRIB Tamasha" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/thumb/f/f2/IRIB_tamashaTV.svg/960px-IRIB_tamashaTV.svg.png" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="FHD",IRIB Tamasha | شبکه تماشا FHD
+https://ncdn.telewebion.ir/hdtest/live/playlist.m3u8
+#EXTINF:-1 tvg-id="IRIB1.ir" tvg-name="IRIB TV1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/IRIBTV1.svg/960px-IRIBTV1.svg.png" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="FHD",IRIB TV1 | شبکه یک FHD
+https://ncdn.telewebion.ir/tv1/live/playlist.m3u8
+#EXTINF:-1 tvg-id="IRIB1Plus.ir" tvg-name="IRIB TV1 +" tvg-logo="" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="FHD",IRIB TV1 + | شبکه یک پلاس FHD
+https://ncdn.telewebion.ir/tv1plus/live/playlist.m3u8
+#EXTINF:-1 tvg-id="IRIB2.ir" tvg-name="IRIB TV2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/IRIB_TV2_logo.svg/960px-IRIB_TV2_logo.svg.png" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="FHD",IRIB TV2 | شبکه دو FHD
+https://ncdn.telewebion.ir/tv2/live/playlist.m3u8
+#EXTINF:-1 tvg-id="IRIB3.ir" tvg-name="IRIB TV3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/IRIB_TV3_LOGO.svg/960px-IRIB_TV3_LOGO.svg.png" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="FHD",IRIB TV3 | شبکه سه FHD
+https://ncdn.telewebion.ir/tv3/live/playlist.m3u8
+#EXTINF:-1 tvg-id="IRIB4.ir" tvg-name="IRIB TV4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/IRIB_TV4_logo.svg/960px-IRIB_TV4_logo.svg.png" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="SD",IRIB TV4 | شبکه چهار
+https://ncdn.telewebion.ir/tv4/live/playlist.m3u8
+#EXTINF:-1 tvg-id="TehranTV.ir" tvg-name="IRIB TV5 (Tehran)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/IRIBTV5.svg/500px-IRIBTV5.svg.png" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="FHD",IRIB TV5 (Tehran) | شبکه پنج (تهران) FHD
+https://ncdn.telewebion.ir/tehran/live/playlist.m3u8
+#EXTINF:-1 tvg-id="IRIBUHD.ir" tvg-name="IRIB UHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/IRIB_FARATAR_UHD.png/960px-IRIB_FARATAR_UHD.png" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="4K",IRIB UHD | شبکه فراگیر (UHD) 4K
+https://ncdn.telewebion.ir/faratar/live/playlist.m3u8
+#EXTINF:-1 tvg-id="VarzeshTV.ir" tvg-name="IRIB Varzesh" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/thumb/f/f5/Iribvarzesh2022.png/960px-Iribvarzesh2022.png" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="FHD",IRIB Varzesh | شبکه ورزش FHD
+https://ncdn.telewebion.ir/varzesh/live/playlist.m3u8
+#EXTINF:-1 tvg-id="IRINN.ir" tvg-name="IRINN" tvg-logo="https://i.imgur.com/8tzsC9h.png" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="FHD",IRINN | شبکه خبر FHD
+https://ncdn.telewebion.ir/irinn/live/playlist.m3u8
+#EXTINF:-1 tvg-id="IRINN2.ir" tvg-name="IRINN 2" tvg-logo="https://i.imgur.com/8tzsC9h.png" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="FHD",IRINN 2 | شبکه خبر ۲ FHD
+https://ncdn.telewebion.ir/irinn2/live/playlist.m3u8
+#EXTINF:-1 tvg-id="RoyaTV.ir" tvg-name="Roya" tvg-logo="https://static.telewebion.com/channelsLogo/0e3d7425-1a1b-47c4-b020-2e09a5fc2598/default" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="HD",Roya | شبکه رویا HD
+https://ncdn.telewebion.ir/iribu/live/playlist.m3u8

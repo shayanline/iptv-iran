@@ -1,0 +1,259 @@
+"""Turn probe results into playlists, a machine readable channel list and the README.
+
+Every file under playlists/ and the channel tables in README.md are generated here, so
+they are never edited by hand. The hand maintained input is data/curated.json.
+"""
+import datetime as dt
+import re
+
+import identity
+import taxonomy
+from lib import HERE, log, read_json, write_json
+
+REPO = "shayanline/iptv-iran"
+EPG = "https://epgshare01.online/epgshare01/epg_ripper_IR1.xml.gz"
+
+# The probe runs fortnightly, so a stream has to fail three consecutive runs, roughly six
+# weeks, before it is dropped. One bad night on a CDN must not delete a working channel.
+GRACE_FAILS = 3
+PLAYLISTS = HERE / "playlists"
+PERSIAN = re.compile(r"[\u0600-\u06FF]")
+
+
+def usable(entry):
+    """Is this stream good enough to publish, allowing for the grace period?
+
+    `iran_only` counts as usable: the stream is refusing this checker's location, not
+    reporting that it has stopped broadcasting, so it is published as domestic rather
+    than deleted. Anything else has to have worked at least once and must still be
+    inside its grace period.
+    """
+    state = entry.get("state")
+    if state in ("ok", "iran_only"):
+        return True
+    return state != "gone" and entry.get("fails", 99) <= GRACE_FAILS and bool(entry.get("last_ok"))
+
+
+def height_of(entry):
+    resolution = str(entry.get("resolution") or "")
+    if "x" in resolution:
+        tail = resolution.split("x")[1]
+        if tail.isdigit():
+            return int(tail)
+    # Fall back to the database's own format string, for example "720p" or "576i".
+    match = re.match(r"(\d{3,4})[pi]", str(entry.get("format") or ""))
+    return int(match.group(1)) if match else 0
+
+
+def score(entry):
+    """Rank a stream on measured evidence. Higher is better.
+
+    The weights are deliberately ordered: a stream that has answered every check for
+    months is worth more than one that is briefly sharper, because a playlist is judged on
+    whether channels open rather than on peak resolution. Compatibility comes next, since a
+    stream needing a Referer or custom User-Agent only plays in clients that read
+    `#EXTVLCOPT`. Resolution, adaptive bitrate and latency break the remaining ties.
+    """
+    if entry.get("state") == "ok":
+        reach = 100
+    elif entry.get("state") == "iran_only":
+        reach = 40
+    else:
+        reach = 0
+
+    # Uptime is only meaningful once there is history, so a single check is treated as
+    # neutral rather than as a perfect record.
+    checks = entry.get("checks", 0)
+    uptime = entry.get("uptime", 0) if checks >= 2 else 0.75
+    confidence = min(checks, 8) / 8
+
+    compatible = 0 if (entry.get("referrer") or entry.get("user_agent")) else 25
+    # Scaled against 1080 rather than 2160, so the 480 to 1080 range where almost every
+    # channel sits is properly separated, with a small bonus above it.
+    height = height_of(entry)
+    resolution_points = min(height, 1080) / 1080 * 20 + (4 if height > 1080 else 0)
+    adaptive = 8 if (entry.get("variants") or 0) > 1 else 0
+    # Capped low on purpose: latency breaks ties, it never outweighs a resolution step.
+    latency = max(0, 3 - (entry.get("ms") or 3000) / 1500)
+
+    return round(reach + uptime * confidence * 30 + compatible
+                 + resolution_points + adaptive + latency, 3)
+
+
+def collect():
+    candidates = read_json(HERE / "data" / "candidates.json", [])
+    status = (read_json(HERE / "data" / "status.json", {}) or {}).get("streams", {})
+    curated = read_json(HERE / "data" / "curated.json", {})
+    overrides = curated.get("channels", {})
+
+    channels, key_to_id = {}, {}
+    for record in candidates:
+        entry = status.get(record["url"])
+        if not entry or not usable(entry):
+            continue
+        db = record.get("db") or {}
+        cid = db.get("id")
+        if not cid or db.get("closed"):
+            continue
+
+        # One channel can arrive under more than one id across sources. The normalised
+        # name key merges those, and the first id seen becomes the canonical one.
+        merge_key = identity.channel_key(None, db.get("name") or cid, db.get("country"))
+        if merge_key and merge_key in key_to_id and key_to_id[merge_key] != cid:
+            cid = key_to_id[merge_key]
+        elif merge_key:
+            key_to_id.setdefault(merge_key, cid)
+
+        override = overrides.get(cid, {})
+        channel = channels.get(cid)
+        if channel is None:
+            channel = channels[cid] = {
+                "id": cid,
+                "name_en": override.get("en") or db.get("name") or cid,
+                "name_fa": override.get("fa") or next(
+                    (a for a in db.get("alt_names", []) if PERSIAN.search(a)), ""),
+                "logo": db.get("logo") or record.get("logo") or "",
+                "country": db.get("country"),
+                "languages": db.get("languages") or [],
+                "website": db.get("website") or "",
+                "category": taxonomy.classify(cid, db.get("categories") or [], curated),
+                "province_en": override.get("province_en", ""),
+                "province_fa": override.get("province_fa", ""),
+                "note_en": override.get("note_en", ""),
+                "note_fa": override.get("note_fa", ""),
+                "source_local": bool(db.get("local")),
+                "streams": [],
+            }
+        channel["streams"].append({
+            "url": entry.get("final_url") or record["url"],
+            "state": entry["state"],
+            "resolution": entry.get("resolution"),
+            "height": height_of({**entry, "format": db.get("format")}),
+            "bandwidth": entry.get("bandwidth"),
+            "variants": entry.get("variants"),
+            "kind": entry.get("kind"),
+            "ms": entry.get("ms"),
+            "uptime": entry.get("uptime"),
+            "checks": entry.get("checks", 0),
+            "user_agent": record.get("user_agent"),
+            "referrer": record.get("referrer"),
+            "sources": record.get("sources", []),
+            "first_seen": entry.get("first_seen"),
+            "last_ok": entry.get("last_ok"),
+            "format": db.get("format"),
+            "score": score({**entry, "format": db.get("format"),
+                            "user_agent": record.get("user_agent"),
+                            "referrer": record.get("referrer")}),
+        })
+
+    for channel in channels.values():
+        channel["streams"] = identity.dedupe_streams(
+            sorted(channel["streams"], key=lambda s: -s["score"]))
+        best = channel["streams"][0]
+        channel["reach"] = "global" if any(s["state"] == "ok" for s in channel["streams"]) else "iran-only"
+        channel["height"] = max(s["height"] for s in channel["streams"])
+        channel["resolution"] = next((s["resolution"] for s in channel["streams"]
+                                     if s.get("resolution")), None)
+        channel["quality"] = taxonomy.quality_tag(channel["height"])
+        channel["best"] = best
+        channel["tags"] = taxonomy.tags(channel)
+
+    ordered = sorted(channels.values(),
+                     key=lambda c: (taxonomy.ORDER.get(c["category"], 99), c["name_en"].lower()))
+    log(f"{len(ordered)} channels publishable "
+        f"({sum(1 for c in ordered if c['reach'] == 'global')} global, "
+        f"{sum(1 for c in ordered if c['reach'] == 'iran-only')} Iran only), "
+        f"{sum(len(c['streams']) for c in ordered)} streams after dedup")
+    return ordered
+
+
+def display_name(channel, lang):
+    """Channel title for a playlist entry, with the resolution tag appended."""
+    if lang == "en":
+        base = channel["name_en"]
+    elif lang == "fa":
+        base = channel["name_fa"] or channel["name_en"]
+    else:
+        base = f'{channel["name_en"]} | {channel["name_fa"]}' if channel["name_fa"] \
+            else channel["name_en"]
+    if channel["quality"] in ("HD", "FHD", "4K"):
+        base += f' {channel["quality"]}'
+    if channel["reach"] == "iran-only":
+        base += " [IR]"
+    return base
+
+
+def extinf(channel, stream, lang):
+    labels = taxonomy.LABELS[channel["category"]]
+    group = labels["fa"] if lang == "fa" else labels["en"]
+    parts = [
+        f'#EXTINF:-1 tvg-id="{channel["id"]}"',
+        f'tvg-name="{channel["name_en"]}"',
+        f'tvg-logo="{channel["logo"]}"',
+        f'group-title="{group}"',
+    ]
+    if channel["languages"]:
+        parts.append(f'tvg-language="{";".join(channel["languages"])}"')
+    if channel["quality"]:
+        parts.append(f'tvg-quality="{channel["quality"]}"')
+    lines = [" ".join(parts) + f",{display_name(channel, lang)}"]
+    if stream.get("user_agent"):
+        lines.append(f'#EXTVLCOPT:http-user-agent={stream["user_agent"]}')
+    if stream.get("referrer"):
+        lines.append(f'#EXTVLCOPT:http-referrer={stream["referrer"]}')
+    lines.append(stream["url"])
+    return "\n".join(lines)
+
+
+def write_playlist(path, channels, note, lang="both", all_streams=False):
+    lines = [f'#EXTM3U x-tvg-url="{EPG}"', f"# {note}",
+             f"# generated {dt.datetime.now(dt.timezone.utc):%Y-%m-%d %H:%M} UTC by {REPO}"]
+    count = 0
+    for channel in channels:
+        for stream in (channel["streams"] if all_streams else [channel["best"]]):
+            lines.append(extinf(channel, stream, lang))
+            count += 1
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    log(f"  {path.relative_to(HERE)}: {count} entries")
+
+
+def build_playlists(channels):
+    worldwide = [c for c in channels if c["reach"] == "global"]
+    domestic = [c for c in channels if c["reach"] == "iran-only"]
+
+    for lang, folder in (("both", PLAYLISTS), ("en", PLAYLISTS / "en"), ("fa", PLAYLISTS / "fa")):
+        write_playlist(folder / "iran.m3u", channels,
+                       "Every channel, one stream each. [IR] needs an Iranian IP address.", lang)
+        write_playlist(folder / "iran-global.m3u", worldwide,
+                       "Channels that play from anywhere in the world.", lang)
+        write_playlist(folder / "iran-domestic.m3u", domestic,
+                       "Channels served only to Iranian IP addresses.", lang)
+        write_playlist(folder / "iran-all-streams.m3u", channels,
+                       "Every working stream, backups included, best first.", lang,
+                       all_streams=True)
+
+    for cid, *_ in taxonomy.CATEGORIES:
+        members = [c for c in channels if c["category"] == cid]
+        if members:
+            write_playlist(PLAYLISTS / "categories" / f"{cid}.m3u", members,
+                           f'{taxonomy.LABELS[cid]["en"]} only.')
+
+
+def build_readme(channels):
+    from readme import render
+    text = render(channels)
+    (HERE / "README.md").write_text(text, encoding="utf-8")
+    log(f"  README.md: {len(text.splitlines())} lines")
+
+
+def main():
+    channels = collect()
+    build_playlists(channels)
+    write_json(HERE / "data" / "channels.json",
+               [{k: v for k, v in c.items() if k != "best"} for c in channels])
+    build_readme(channels)
+
+
+if __name__ == "__main__":
+    main()

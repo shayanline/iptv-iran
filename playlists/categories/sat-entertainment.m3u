@@ -1,0 +1,49 @@
+#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IR1.xml.gz"
+# Satellite · Entertainment only.
+# generated 2026-08-10 22:11 UTC by shayanline/iptv-iran
+#EXTINF:-1 tvg-id="247BoxTV.ir" tvg-name="247 Box TV" tvg-logo="https://i.imgur.com/t5AUthL.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="SD",247 Box TV | ۲۴۷ باکس
+https://hls.247box.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="4UFamily.tr" tvg-name="4U Family" tvg-logo="" group-title="Satellite · Entertainment" tvg-language="fas",4U Family | فور یو فمیلی
+https://familyhls.4utv.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="4UTV.tr" tvg-name="4U TV" tvg-logo="https://i.imgur.com/PexhKwp.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="SD",4U TV | فور یو تی‌وی
+https://hls.4utv.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="AVAFamily.ir" tvg-name="AVA Family" tvg-logo="" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="SD",AVA Family | آوا فامیلی
+https://familyhls.avatv.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="FX1.ir" tvg-name="FX 1" tvg-logo="" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="SD",FX 1 | اف‌ایکس ۱
+https://fxtvhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="FX2.ir" tvg-name="FX 2" tvg-logo="" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="SD",FX 2 | اف‌ایکس ۲
+https://toonixhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="TVITN.ir" tvg-name="ITN" tvg-logo="https://i.imgur.com/U4sKHWy.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="SD",ITN | آی‌تی‌ان
+https://itnhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="KanalJadid.uk" tvg-name="Kanal Jadid" tvg-logo="https://i.imgur.com/7oGGgfD.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="SD",Kanal Jadid | کانال جدید
+https://kjhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="MBCPersia.ae" tvg-name="MBC Persia" tvg-logo="https://i.imgur.com/4FXiyjn.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="FHD",MBC Persia | ام‌بی‌سی پرشیا FHD
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-persia/818ee8e4b592dc497608f066d825bfb4/index.m3u8
+#EXTINF:-1 tvg-id="NetTV.us" tvg-name="Net TV" tvg-logo="" group-title="Satellite · Entertainment" tvg-language="fas",Net TV | نت تی‌وی
+https://nethls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="OmideIranTV.us" tvg-name="Omid-e Iran" tvg-logo="https://i.imgur.com/CeMf68L.png" group-title="Satellite · Entertainment" tvg-language="fas;eng" tvg-quality="SD",Omid-e Iran | امید ایران
+https://oitnhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="OXIRTV.ir" tvg-name="Oxir TV" tvg-logo="https://i.imgur.com/MGMhUDx.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="SD",Oxir TV | اکسیر تی‌وی
+https://hls.oxir.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PersianaComedy.fr" tvg-name="Persiana Comedy" tvg-logo="https://i.imgur.com/DBZ3Pi5.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="SD",Persiana Comedy | پرشیانا کمدی
+https://comedyhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PersianaReality.fr" tvg-name="Persiana Reality" tvg-logo="" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="HD",Persiana Reality | پرشیانا ریالیتی HD
+https://twohls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PersianaTurkiye.fr" tvg-name="Persiana Turkiye" tvg-logo="" group-title="Satellite · Entertainment" tvg-language="fas;tur" tvg-quality="SD",Persiana Turkiye | پرشیانا ترکیه
+https://turkhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="ProjectLeon.us" tvg-name="Project Leon" tvg-logo="" group-title="Satellite · Entertainment" tvg-language="fas",Project Leon | پروژه لئون
+https://pleonhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="SetarehTV.uk" tvg-name="Setareh TV" tvg-logo="" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="SD",Setareh TV | ستاره
+https://setarehhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="Shabakeh7.us" tvg-name="Shabakeh 7" tvg-logo="https://i.imgur.com/oHmh5Jb.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="SD",Shabakeh 7 | شبکه ۷
+https://sh7hls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="Tapesh2.us" tvg-name="Tapesh 2" tvg-logo="https://i.imgur.com/q0rCXDs.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="SD",Tapesh 2 | تپش ۲
+https://maxtvhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="TapeshIran.us" tvg-name="Tapesh Iran" tvg-logo="" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="FHD",Tapesh Iran | تپش ایران FHD
+https://iptv.tapesh.tv/tapeshiran/playlist.m3u8
+#EXTINF:-1 tvg-id="PBCTapeshTV.us" tvg-name="Tapesh TV" tvg-logo="https://i.imgur.com/50JzsmH.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="FHD",Tapesh TV | تپش تی‌وی FHD
+https://iptv.tapesh.tv/tapesh/playlist.m3u8
+#EXTINF:-1 tvg-id="TinTV.us" tvg-name="Tin TV" tvg-logo="https://i.imgur.com/hMqGs94.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="HD",Tin TV | تین تی‌وی HD
+https://tulixcdn.akamaized.net/tintv6/tintv/tintv/playlist.m3u8
+#EXTINF:-1 tvg-id="YourTimeTV.ir" tvg-name="YourTime TV" tvg-logo="https://i.imgur.com/X38vWJ1.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="SD",YourTime TV | یورتایم تی‌وی
+https://live.yourtime.tv/hls/stream.m3u8

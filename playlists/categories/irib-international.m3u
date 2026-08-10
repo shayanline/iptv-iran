@@ -1,0 +1,29 @@
+#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IR1.xml.gz"
+# IRIB International Services only.
+# generated 2026-08-10 22:11 UTC by shayanline/iptv-iran
+#EXTINF:-1 tvg-id="AlKawtharTV.ir" tvg-name="Al-Kawthar TV" tvg-logo="https://i.imgur.com/x4zUmY1.png" group-title="IRIB International Services" tvg-language="ara" tvg-quality="SD",Al-Kawthar TV | شبکه الکوثر
+https://ncdn.telewebion.ir/kawthar/live/playlist.m3u8
+#EXTINF:-1 tvg-id="HispanTV.ir" tvg-name="HispanTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9f/Hispantv_logo.jpg" group-title="IRIB International Services" tvg-language="spa" tvg-quality="SD",HispanTV | هیسپان تی‌وی
+https://live.presstv.co.uk/hls/hispantv.m3u8
+#EXTINF:-1 tvg-id="iFilm2.ir" tvg-name="iFilm 2" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/c/ce/Ifilm2logo.png" group-title="IRIB International Services" tvg-language="fas" tvg-quality="SD",iFilm 2 | آی‌فیلم ۲
+https://live.presstv.ir/hls/ifilm2.m3u8
+#EXTINF:-1 tvg-id="iFilmArabic.ir" tvg-name="iFilm Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png" group-title="IRIB International Services" tvg-language="ara" tvg-quality="SD",iFilm Arabic | آی‌فیلم عربی
+https://live.presstv.ir/hls/ifilmar.m3u8
+#EXTINF:-1 tvg-id="iFilmEnglish.ir" tvg-name="iFilm English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png" group-title="IRIB International Services" tvg-language="eng" tvg-quality="SD",iFilm English | آی‌فیلم انگلیسی
+https://live.presstv.co.uk/hls/ifilmen.m3u8
+#EXTINF:-1 tvg-id="IranPress.ir" tvg-name="Iran Press" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/%D9%84%D9%88%DA%AF%D9%88_%D8%A7%DB%8C%D8%B1%D8%A7%D9%86_%D9%BE%D8%B1%D8%B3.jpg/960px-%D9%84%D9%88%DA%AF%D9%88_%D8%A7%DB%8C%D8%B1%D8%A7%D9%86_%D9%BE%D8%B1%D8%B3.jpg" group-title="IRIB International Services" tvg-language="fas;eng" tvg-quality="SD",Iran Press | ایران پرس
+https://live.presstv.ir/hls/presstv_5_482/index.m3u8
+#EXTINF:-1 tvg-id="Palestinetv.ir" tvg-name="Palestine TV" tvg-logo="https://i.ibb.co/svrZNZTX/Palestine.png" group-title="IRIB International Services" tvg-language="ara;fas" tvg-quality="HD",Palestine TV | شبکه فلسطین HD
+https://ncdn.telewebion.ir/palestine/live/playlist.m3u8
+#EXTINF:-1 tvg-id="PressTV.ir" tvg-name="Press TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Press_TV_logo.svg/960px-Press_TV_logo.svg.png" group-title="IRIB International Services" tvg-language="eng" tvg-quality="HD",Press TV | پرس تی‌وی HD
+https://live.presstv.ir/hls/presstv.m3u8
+#EXTINF:-1 tvg-id="PressTVFrench.ir" tvg-name="Press TV French" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Press_TV_logo.svg/960px-Press_TV_logo.svg.png" group-title="IRIB International Services" tvg-language="fra" tvg-quality="FHD",Press TV French | پرس تی‌وی فرانسه FHD
+https://live4.presstv.ir/live/mp4:presstvfr/playlist.m3u8
+#EXTINF:-1 tvg-id="SaharAzeri.ir" tvg-name="Sahar TV Azeri" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/9/92/Sahar-New.png" group-title="IRIB International Services" tvg-language="aze" tvg-quality="SD",Sahar TV Azeri | سحر آذری [IR]
+https://s1-cloud.irib.ir/securelive3/saharazarsd/saharazarsd.m3u8
+#EXTINF:-1 tvg-id="SaharBalkan.ir" tvg-name="Sahar TV Balkan" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/9/92/Sahar-New.png" group-title="IRIB International Services" tvg-language="bos" tvg-quality="SD",Sahar TV Balkan | سحر بالکان [IR]
+https://s1-cloud.irib.ir/securelive3/saharbalksd/saharbalksd.m3u8
+#EXTINF:-1 tvg-id="SaharKurdi.ir" tvg-name="Sahar TV Kurdish" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/9/92/Sahar-New.png" group-title="IRIB International Services" tvg-language="kur" tvg-quality="SD",Sahar TV Kurdish | سحر کردی [IR]
+https://s1-cloud.irib.ir/securelive3/saharkurdsd/saharkurdsd.m3u8
+#EXTINF:-1 tvg-id="SaharUrdu.ir" tvg-name="Sahar TV Urdu" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/9/92/Sahar-New.png" group-title="IRIB International Services" tvg-language="urd" tvg-quality="SD",Sahar TV Urdu | سحر اردو [IR]
+https://s1-cloud.irib.ir/securelive3/saharurdusd/saharurdusd.m3u8

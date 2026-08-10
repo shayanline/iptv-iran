@@ -1,0 +1,33 @@
+#EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IR1.xml.gz"
+# Satellite · Music only.
+# generated 2026-08-10 22:11 UTC by shayanline/iptv-iran
+#EXTINF:-1 tvg-id="4Kurd.fr" tvg-name="4 Kurd" tvg-logo="https://www.aparatchi.com/images/chanells-logo/4kurd.svg" group-title="Satellite · Music" tvg-language="kur;fas" tvg-quality="SD",4 Kurd | فور کورد
+https://4kuhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="4Music.fr" tvg-name="4 Music" tvg-logo="" group-title="Satellite · Music" tvg-language="fas" tvg-quality="HD",4 Music | فور موزیک HD
+https://musichls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="AFNTV.ir" tvg-name="AFN TV" tvg-logo="https://i.imgur.com/LctanF8.png" group-title="Satellite · Music" tvg-language="fas" tvg-quality="HD",AFN TV | ای‌اف‌ان تی‌وی HD
+https://bozztv.com/1gbw5/tintv2/tintv2/playlist.m3u8
+#EXTINF:-1 tvg-id="AvangTV.us" tvg-name="Avang TV" tvg-logo="https://i.imgur.com/3I1n7fO.png" group-title="Satellite · Music" tvg-language="fas" tvg-quality="SD",Avang TV | آونگ
+https://hls.avang.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="HighVisionTV.us" tvg-name="High Vision TV" tvg-logo="https://i.imgur.com/zhCgoru.png" group-title="Satellite · Music" tvg-language="fas" tvg-quality="SD",High Vision TV | های ویژن
+https://streamer1.connectto.com/HIGHVISION_WEB_1205/index.m3u8
+#EXTINF:-1 tvg-id="NavahangTV.fi" tvg-name="Navahang TV" tvg-logo="https://i.imgur.com/YteKXJy.png" group-title="Satellite · Music" tvg-language="fas" tvg-quality="SD",Navahang TV | نواهنگ
+https://simahls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PersianaFolk.fr" tvg-name="Persiana Folk" tvg-logo="" group-title="Satellite · Music" tvg-language="fas" tvg-quality="HD",Persiana Folk | پرشیانا فولک HD
+https://sonhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PersianaNostalgia.fr" tvg-name="Persiana Nostalgia" tvg-logo="https://i.imgur.com/SWO9CKA.png" group-title="Satellite · Music" tvg-language="fas" tvg-quality="SD",Persiana Nostalgia | پرشیانا نوستالژی
+https://noshls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PersianaSetMix.fr" tvg-name="Persiana SetMix" tvg-logo="" group-title="Satellite · Music" tvg-language="fas",Persiana SetMix | پرشیانا ست‌میکس
+https://setmixhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PersianaVibe.fr" tvg-name="Persiana Vibe" tvg-logo="" group-title="Satellite · Music" tvg-language="fas" tvg-quality="HD",Persiana Vibe | پرشیانا وایب HD
+https://raphls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PMC.ae" tvg-name="PMC" tvg-logo="https://i.imgur.com/AbrHI7K.png" group-title="Satellite · Music" tvg-language="fas" tvg-quality="SD",PMC | پی‌ام‌سی
+https://pmchls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PMCRoyale.ae" tvg-name="PMC Royale" tvg-logo="" group-title="Satellite · Music" tvg-language="fas" tvg-quality="SD",PMC Royale | پی‌ام‌سی رویال
+https://pmcrohls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="RJTV.us" tvg-name="RJTV" tvg-logo="https://i.imgur.com/a1zuW2C.png" group-title="Satellite · Music" tvg-language="fas" tvg-quality="SD",RJTV | آر‌جی تی‌وی
+https://rjtvhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="SunMusic.us" tvg-name="Sun Music" tvg-logo="" group-title="Satellite · Music" tvg-language="fas",Sun Music | سان موزیک
+https://hls.sunmusic.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="T2TV.ir" tvg-name="T2 TV" tvg-logo="https://i.imgur.com/Wu8MBb7.png" group-title="Satellite · Music" tvg-language="fas" tvg-quality="SD",T2 TV | تی۲ تی‌وی
+https://t2hls.wns.live/hls/stream.m3u8

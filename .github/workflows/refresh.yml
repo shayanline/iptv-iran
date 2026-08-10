@@ -1,0 +1,55 @@
+name: Refresh playlists
+
+on:
+  schedule:
+    # 04:10 UTC on the 1st and 15th of every month, so roughly fortnightly.
+    - cron: "10 4 1,15 * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "data/curated.json"
+      - ".github/workflows/refresh.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+
+      - name: Harvest candidate streams from the public sources
+        run: python scripts/sources.py
+
+      - name: Probe every stream
+        run: python scripts/probe.py
+
+      - name: Rebuild playlists and README
+        run: python scripts/build.py
+
+      - name: Summarise the run
+        run: python scripts/summarise.py >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit the changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md playlists data
+          if git diff --cached --quiet; then
+            echo "Nothing changed, no commit."
+            exit 0
+          fi
+          git commit -m "chore(data): refresh playlists $(date -u +%Y-%m-%d)"
+          git push
