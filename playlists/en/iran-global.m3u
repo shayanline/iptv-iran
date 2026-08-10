@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IR1.xml.gz"
 # Channels that play from anywhere in the world.
-# generated 2026-08-10 23:06 UTC by shayanline/iptv-iran
+# generated 2026-08-10 23:09 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="IRIB1.ir" tvg-name="IRIB TV1" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRIB1.ir.png" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="FHD",IRIB TV1 FHD
 https://ncdn.telewebion.ir/tv1/live/1080p/index.m3u8
 #EXTINF:-1 tvg-id="IRIB2.ir" tvg-name="IRIB TV2" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRIB2.ir.png" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="FHD",IRIB TV2 FHD
@@ -122,11 +122,11 @@ https://ncdn.telewebion.ir/kawthar/live/576p/index.m3u8
 #EXTINF:-1 tvg-id="HispanTV.ir" tvg-name="HispanTV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/HispanTV.ir.jpg" group-title="IRIB International Services" tvg-language="spa" tvg-quality="SD",HispanTV
 https://live.presstv.co.uk/hls/hispantv.m3u8
 #EXTINF:-1 tvg-id="iFilm2.ir" tvg-name="iFilm 2" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/iFilm2.ir.png" group-title="IRIB International Services" tvg-language="fas" tvg-quality="SD",iFilm 2
-https://live.presstv.co.uk/hls/ifilm2.m3u8
+https://live.presstv.ir/hls/ifilm2.m3u8
 #EXTINF:-1 tvg-id="iFilmArabic.ir" tvg-name="iFilm Arabic" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/iFilmArabic.ir.png" group-title="IRIB International Services" tvg-language="ara" tvg-quality="SD",iFilm Arabic
-https://live.presstv.co.uk/hls/ifilmar.m3u8
+https://live.presstv.ir/hls/ifilmar.m3u8
 #EXTINF:-1 tvg-id="iFilmEnglish.ir" tvg-name="iFilm English" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/iFilmEnglish.ir.png" group-title="IRIB International Services" tvg-language="eng" tvg-quality="SD",iFilm English
-https://live.presstv.ir/hls/ifilmen.m3u8
+https://live.presstv.co.uk/hls/ifilmen.m3u8
 #EXTINF:-1 tvg-id="IranPress.ir" tvg-name="Iran Press" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IranPress.ir.jpg" group-title="IRIB International Services" tvg-language="fas;eng" tvg-quality="SD",Iran Press
 https://live.presstv.ir/hls/presstv_5_482/index.m3u8
 #EXTINF:-1 tvg-id="Palestinetv.ir" tvg-name="Palestine TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/Palestinetv.ir.png" group-title="IRIB International Services" tvg-language="ara;fas" tvg-quality="HD",Palestine TV HD
@@ -300,7 +300,7 @@ https://bozztv.com/1gbw5/tintv2/tintv2/playlist.m3u8
 #EXTINF:-1 tvg-id="AvangTV.us" tvg-name="Avang TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AvangTV.us.png" group-title="Satellite · Music" tvg-language="fas" tvg-quality="SD",Avang TV
 https://hls.avang.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="HighVisionTV.us" tvg-name="High Vision TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/HighVisionTV.us.png" group-title="Satellite · Music" tvg-language="fas" tvg-quality="SD",High Vision TV
-https://streamer1.connectto.com/HIGHVISION_WEB_1205/index.m3u8
+https://streamer1.connectto.com/HIGHVISION_WEB_1205/playlist.m3u8
 #EXTINF:-1 tvg-id="NavahangTV.fi" tvg-name="Navahang TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/NavahangTV.fi.png" group-title="Satellite · Music" tvg-language="fas" tvg-quality="SD",Navahang TV
 https://simahls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PersianaFolk.fr" tvg-name="Persiana Folk" tvg-logo="" group-title="Satellite · Music" tvg-language="fas" tvg-quality="HD",Persiana Folk HD
@@ -332,7 +332,7 @@ https://uni01rtmp.tulix.tv/kensecure/pjtv.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="PersianaDocs.fr" tvg-name="Persiana Docs" tvg-logo="" group-title="Satellite · Documentary & Learning" tvg-language="fas" tvg-quality="HD",Persiana Docs HD
 https://scihls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PersianaMedical.fr" tvg-name="Persiana Medical" tvg-logo="" group-title="Satellite · Documentary & Learning" tvg-language="fas" tvg-quality="HD",Persiana Medical HD
-https://phd2hls.persiana.live/hls/stream.m3u8
+https://tfnhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AlWilayah.ir" tvg-name="Al Wilayah" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AlWilayah.ir.png" group-title="Religious · Islamic" tvg-language="ara" tvg-quality="SD",Al Wilayah
 https://nl.livekadeh.com/hls2/alwilayah_tv.m3u8
 #EXTINF:-1 tvg-id="AlMahdiTV.us" tvg-name="Al-Mahdi TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AlMahdiTV.us.png" group-title="Religious · Islamic" tvg-language="fas" tvg-quality="FHD",Al-Mahdi TV FHD
