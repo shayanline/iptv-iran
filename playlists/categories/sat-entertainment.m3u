@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IR1.xml.gz"
 # Satellite · Entertainment only.
-# generated 2026-08-10 23:00 UTC by shayanline/iptv-iran
+# generated 2026-08-10 23:04 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="247BoxTV.ir" tvg-name="247 Box TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/247BoxTV.ir.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="SD",247 Box TV | ۲۴۷ باکس
 https://hls.247box.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="4UFamily.tr" tvg-name="4U Family" tvg-logo="" group-title="Satellite · Entertainment" tvg-language="fas",4U Family | فور یو فمیلی
