@@ -69,7 +69,7 @@ The same playlists come in three naming styles. Swap the folder, keep the file n
 
 Picture quality is tagged in the name (`HD`, `FHD`, `4K`) from the resolution actually
 measured on the stream, not from whatever the channel claims. Right now that is
-1 4K, 57 FHD, 45 HD, 85 SD, 14 unknown.
+1 4K, 58 FHD, 45 HD, 84 SD, 14 unknown.
 
 Logos for 140 channels are stored in this repository rather than linked from
 elsewhere, so they load wherever you are. A programme guide is wired in through
@@ -79,7 +79,7 @@ elsewhere, so they load wherever you are. A programme guide is wired in through
 
 ## Channel list
 
-202 channels in 14 categories, from 393 working streams.
+202 channels in 14 categories, from 446 working streams.
 
 <details>
 <summary><b>IRIB National Networks</b> &nbsp; 24 channels</summary>
@@ -350,7 +350,7 @@ elsewhere, so they load wherever you are. A programme guide is wired in through
 | Habib TV | شبکه حبیب | 720p | Worldwide |
 | Hadi TV | شبکه هادی | 1080p | Worldwide |
 | Imam Hussein TV 1 | امام حسین ۱ | 1080p | Worldwide |
-| Imam Hussein TV 6 | امام حسین ۶ | 480p | Worldwide |
+| Imam Hussein TV 6 | امام حسین ۶ | 1080p | Worldwide |
 | Labbayk TV | شبکه لبیک | 720p | Worldwide |
 | Marjaeyat TV Persian | شبکه مرجعیت | 1080p | Worldwide |
 | Nour TV | شبکه نور (امارات) | 576p | Worldwide |
@@ -519,7 +519,7 @@ If you hold the rights to a channel listed here and want it removed,
 
 کیفیت تصویر (`HD`، `FHD`، `4K`) در نام شبکه می‌آید و از روی رزولوشنی نوشته می‌شود که واقعاً
 روی استریم اندازه گرفته شده، نه از روی ادعای خود شبکه. الان ترکیب این‌طور است:
-۱ 4K، ۵۷ FHD، ۴۵ HD، ۸۵ کیفیت معمولی، ۱۴ نامشخص.
+۱ 4K، ۵۸ FHD، ۴۵ HD، ۸۴ کیفیت معمولی، ۱۴ نامشخص.
 
 لوگوی ۱۴۰ شبکه داخل همین مخزن نگه داشته می‌شود و از جای دیگری لینک
 نمی‌شود، تا هر کجا باشید درست بارگذاری شود. آدرس جدول پخش (EPG) هم با `x-tvg-url` داخل
@@ -529,7 +529,7 @@ If you hold the rights to a channel listed here and want it removed,
 
 ## فهرست شبکه‌ها
 
-۲۰۲ شبکه در ۱۴ دسته، از ۳۹۳ استریم سالم.
+۲۰۲ شبکه در ۱۴ دسته، از ۴۴۶ استریم سالم.
 
 <details>
 <summary><b>شبکه‌های سراسری سیما</b> &nbsp; ۲۴ شبکه</summary>
@@ -800,7 +800,7 @@ If you hold the rights to a channel listed here and want it removed,
 | شبکه حبیب | Habib TV | 720p | همه‌جا |
 | شبکه هادی | Hadi TV | 1080p | همه‌جا |
 | امام حسین ۱ | Imam Hussein TV 1 | 1080p | همه‌جا |
-| امام حسین ۶ | Imam Hussein TV 6 | 480p | همه‌جا |
+| امام حسین ۶ | Imam Hussein TV 6 | 1080p | همه‌جا |
 | شبکه لبیک | Labbayk TV | 720p | همه‌جا |
 | شبکه مرجعیت | Marjaeyat TV Persian | 1080p | همه‌جا |
 | شبکه نور (امارات) | Nour TV | 576p | همه‌جا |
