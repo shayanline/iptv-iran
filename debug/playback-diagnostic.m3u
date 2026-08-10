@@ -1,0 +1,20 @@
+#EXTM3U
+# Diagnostic playlist for iptv-iran. Try each entry and note which play.
+
+#EXTINF:-1 group-title="A. Telewebion IRIB",1. TV1 edge 1080p  (what we publish now)
+https://live-aburayhan1108.telewebion.ir/ek/tv1/live/1080p/index.m3u8
+#EXTINF:-1 group-title="A. Telewebion IRIB",2. TV1 edge 720p
+https://live-aburayhan1108.telewebion.ir/ek/tv1/live/720p/index.m3u8
+#EXTINF:-1 group-title="A. Telewebion IRIB",3. TV1 edge 240p  (lightest)
+https://live-aburayhan1108.telewebion.ir/ek/tv1/live/240p/index.m3u8
+#EXTINF:-1 group-title="A. Telewebion IRIB",4. TV1 ncdn 1080p  (redirects)
+https://ncdn.telewebion.ir/tv1/live/1080p/index.m3u8
+#EXTINF:-1 group-title="A. Telewebion IRIB",5. TV1 ncdn master  (adaptive, malformed tag)
+https://ncdn.telewebion.ir/tv1/live/playlist.m3u8
+
+#EXTINF:-1 group-title="B. Control, not Telewebion",6. BBC News Persian
+https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/t=3840/v=pv14/b=5070016/main.m3u8
+#EXTINF:-1 group-title="B. Control, not Telewebion",7. Iran International
+https://hlspackager.akamaized.net/live/DB/IRAN_INTERNATIONAL/HLS/IRAN_INTERNATIONAL.m3u8
+#EXTINF:-1 group-title="B. Control, not Telewebion",8. Press TV
+https://live.presstv.ir/hls/presstv.m3u8
