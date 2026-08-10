@@ -128,10 +128,13 @@ def harvest():
                   user_agent=stream.get("user_agent"), referrer=stream.get("referrer"))
 
     discovered = 0
-    for url, provider, slug, channel_id in discover.candidate_urls(curated):
+    for url, provider, slug, channel_id, height in discover.candidate_urls(curated):
         if canonical_url(url) not in cands.by_key:
             discovered += 1
-        cands.add(url, f"discovery/{provider}", channel_id)
+        # `known_height` is the resolution read from the provider's master playlist. A
+        # direct rendition URL is a media playlist and carries no RESOLUTION tag of its
+        # own, so without this hint it would look lower quality than it is.
+        cands.add(url, f"discovery/{provider}", channel_id, known_height=height or None)
     log(f"  discovery: {discovered} urls no public source lists")
 
     # Locally defined channels, for services the upstream database does not carry.

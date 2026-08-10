@@ -95,6 +95,21 @@ def is_hls(body):
     return body[:512].lstrip().startswith(b"#EXTM3U")
 
 
+# A tag written without its leading '#'. RFC 8216 says any line that is not blank and does
+# not start with '#' is a URI, so a strict client requests the tag text as if it were a
+# stream and then stalls. Telewebion's master playlist does exactly this with
+# `EXT-X-VERSION:6`, which is why some players show one frame and stop.
+BARE_TAG = re.compile(rb"^EXT-X-[A-Z-]+.*$", re.M)
+
+
+def manifest_defects(body):
+    """Spec violations that make a manifest risky for strict clients."""
+    defects = []
+    if BARE_TAG.search(body[:4096]):
+        defects.append("tag-missing-hash")
+    return defects
+
+
 def is_media(body, content_type):
     """Media bytes rather than an error page dressed up as a 200."""
     if body[:1024].lstrip()[:1] == b"<":
@@ -189,6 +204,10 @@ def probe_once(record):
         if is_media(body, content_type):
             return {**result, "state": "ok", "kind": "direct"}
         return {**result, "state": "dead", "reason": "not_media"}
+
+    defects = manifest_defects(body)
+    if defects:
+        result["defects"] = defects
 
     playlist_url, playlist_body = final, body
     variants = parse_variants(body, final)

@@ -5,13 +5,13 @@
 M3U playlists of Iranian and Persian language television channels, grouped by operator and
 distribution first and by subject matter second.
 
-202 channels across 14 categories, from 259 verified streams.
+202 channels across 14 categories, from 324 verified streams.
 198 channels are reachable from anywhere, 4 only from Iranian IP
 addresses. Every stream is re-checked automatically every two weeks.
 
 [![Refresh playlists](https://github.com/shayanline/iptv-iran/actions/workflows/refresh.yml/badge.svg)](https://github.com/shayanline/iptv-iran/actions/workflows/refresh.yml)
 ![Channels](https://img.shields.io/badge/channels-202-1f6feb)
-![Streams](https://img.shields.io/badge/verified%20streams-259-8250df)
+![Streams](https://img.shields.io/badge/verified%20streams-324-8250df)
 ![Last checked](https://img.shields.io/badge/last%20checked-10%20August%202026-2da44e)
 
 **🇮🇷 [این راهنما به فارسی هم موجود است](#persian)**
@@ -103,8 +103,18 @@ main playlists. The score uses only measured values:
 | Resolution | up to 24 | Measured from the master playlist, not from a label |
 | Adaptive bitrate | 8 | More than one variant lets a client adapt to bandwidth |
 | Response time | up to 3 | Breaks ties only, never outweighs a resolution step |
+| Malformed manifest | minus 40 | A playlist that breaks the HLS spec stalls strict clients, so a clean equivalent always wins |
 
 Uptime is the heaviest ongoing factor, so the choice improves as history accumulates.
+
+Some providers publish a master playlist that breaks the HLS specification. Telewebion, the
+platform behind the IRIB channels, writes `EXT-X-VERSION:6` without its leading `#`. Under
+RFC 8216 any line that is not blank and does not start with `#` is a URI, so a strict client
+requests that tag text as though it were the stream, receives a 403 and stops after the
+first frame. ffmpeg and VLC tolerate it, several set top box clients do not. For those
+providers the master is read once to learn which renditions exist and the direct rendition
+URL is published instead, which is a clean media playlist. The master is kept in
+`iran-all-streams.m3u` as a fallback.
 
 <a id="how-channels-are-categorised"></a>
 
@@ -250,30 +260,30 @@ Channels operated by IRIB and distributed nationally.
 
 | Channel | Persian name | Quality | Reachable from | Streams |
 |:--|:--|:--|:--|:--|
-| Golkhane | شبکه گلخانه | 720p | Anywhere | 1 |
-| iFilm | آی‌فیلم | 1080p | Anywhere | 4 |
+| Golkhane | شبکه گلخانه | 720p | Anywhere | 2 |
+| iFilm | آی‌فیلم | 1080p | Anywhere | 5 |
 | Iran Nama | ایران نما | 576p | Anywhere | 1 |
-| IRIB Amoozesh | شبکه آموزش | 576p | Anywhere | 2 |
-| IRIB Mostanad | شبکه مستند | 1080p | Anywhere | 2 |
-| IRIB Namayesh | شبکه نمایش | 1080p | Anywhere | 2 |
-| IRIB Nasim | شبکه نسیم | 1080p | Anywhere | 2 |
-| IRIB Ofogh | شبکه افق | 1080p | Anywhere | 2 |
-| IRIB Omid | شبکه امید | 1080p | Anywhere | 2 |
-| IRIB Pooya & Nahal | شبکه پویا و نهال | 1080p | Anywhere | 2 |
-| IRIB Quran | شبکه قرآن و معارف سیما | 1080p | Anywhere | 2 |
-| IRIB Salamat | شبکه سلامت | 576p | Anywhere | 2 |
-| IRIB Tamasha | شبکه تماشا | 1080p | Anywhere | 2 |
-| IRIB TV1 | شبکه یک | 1080p | Anywhere | 2 |
-| IRIB TV1 + | شبکه یک پلاس | 1080p | Anywhere | 1 |
-| IRIB TV2 | شبکه دو | 1080p | Anywhere | 2 |
-| IRIB TV3 | شبکه سه | 1082p | Anywhere | 2 |
-| IRIB TV4 | شبکه چهار | 576p | Anywhere | 2 |
-| IRIB TV5 (Tehran) | شبکه پنج (تهران) | 1080p | Anywhere | 1 |
-| IRIB UHD | شبکه فراگیر (UHD) | 2160p | Anywhere | 2 |
-| IRIB Varzesh | شبکه ورزش | 1082p | Anywhere | 2 |
-| IRINN | شبکه خبر | 1080p | Anywhere | 3 |
-| IRINN 2 | شبکه خبر ۲ | 1080p | Anywhere | 1 |
-| Roya | شبکه رویا | 720p | Anywhere | 1 |
+| IRIB Amoozesh | شبکه آموزش | 576p | Anywhere | 3 |
+| IRIB Mostanad | شبکه مستند | 1080p | Anywhere | 3 |
+| IRIB Namayesh | شبکه نمایش | 1080p | Anywhere | 3 |
+| IRIB Nasim | شبکه نسیم | 1080p | Anywhere | 3 |
+| IRIB Ofogh | شبکه افق | 1080p | Anywhere | 3 |
+| IRIB Omid | شبکه امید | 1080p | Anywhere | 3 |
+| IRIB Pooya & Nahal | شبکه پویا و نهال | 1080p | Anywhere | 3 |
+| IRIB Quran | شبکه قرآن و معارف سیما | 1080p | Anywhere | 3 |
+| IRIB Salamat | شبکه سلامت | 576p | Anywhere | 3 |
+| IRIB Tamasha | شبکه تماشا | 1080p | Anywhere | 3 |
+| IRIB TV1 | شبکه یک | 1080p | Anywhere | 3 |
+| IRIB TV1 + | شبکه یک پلاس | 1080p | Anywhere | 2 |
+| IRIB TV2 | شبکه دو | 1080p | Anywhere | 3 |
+| IRIB TV3 | شبکه سه | 1082p | Anywhere | 3 |
+| IRIB TV4 | شبکه چهار | 576p | Anywhere | 3 |
+| IRIB TV5 (Tehran) | شبکه پنج (تهران) | 1080p | Anywhere | 2 |
+| IRIB UHD | شبکه فراگیر (UHD) | 2160p | Anywhere | 3 |
+| IRIB Varzesh | شبکه ورزش | 1082p | Anywhere | 3 |
+| IRINN | شبکه خبر | 576p | Anywhere | 4 |
+| IRINN 2 | شبکه خبر ۲ | 1080p | Anywhere | 2 |
+| Roya | شبکه رویا | 720p | Anywhere | 2 |
 
 ### IRIB Provincial Networks
 
@@ -281,40 +291,40 @@ IRIB channels assigned to a specific province or city.
 
 | Channel | Persian name | Province | Quality | Reachable from | Streams |
 |:--|:--|:--|:--|:--|:--|
-| Abadan | شبکه آبادان | Abadan | 1080p | Anywhere | 1 |
-| Aflak | شبکه افلاک | Lorestan | 576p | Anywhere | 1 |
-| Aftab | شبکه آفتاب | Markazi | 1080p | Anywhere | 1 |
-| Alborz | شبکه البرز | Alborz | 1080p | Anywhere | 1 |
-| Atrak | شبکه اترک | North Khorasan | 576p | Anywhere | 1 |
-| Baran | شبکه باران | Gilan | 576p | Anywhere | 1 |
-| Bushehr | شبکه بوشهر | Bushehr | 1080p | Anywhere | 1 |
-| Dena | شبکه دنا | Kohgiluyeh & Boyer-Ahmad | 1080p | Anywhere | 1 |
-| Eshragh | شبکه اشراق | Zanjan | 1080p | Anywhere | 1 |
-| Fars | شبکه فارس | Fars | 1080p | Anywhere | 1 |
-| Hamedan | شبکه همدان | Hamadan | 576p | Anywhere | 1 |
-| Hamoon | شبکه هامون | Sistan & Baluchestan | 1080p | Anywhere | 1 |
-| Ilam | شبکه ایلام | Ilam | 576p | Anywhere | 1 |
-| Isfahan | شبکه اصفهان | Isfahan | 1080p | Anywhere | 1 |
-| Jahanbin | شبکه جهان‌بین | Chaharmahal & Bakhtiari | 1080p | Anywhere | 1 |
-| Kerman | شبکه کرمان | Kerman | 1080p | Anywhere | 1 |
-| Khalij-e Fars | شبکه خلیج فارس | Hormozgan | 1080p | Anywhere | 1 |
-| Khavaran | شبکه خاوران | South Khorasan | 1080p | Anywhere | 1 |
-| Khorasan Razavi | شبکه خراسان رضوی | Khorasan Razavi | 1080p | Anywhere | 1 |
-| Khuzestan | شبکه خوزستان | Khuzestan | 576p | Anywhere | 1 |
-| Kish | شبکه کیش | Kish | 576p | Anywhere | 1 |
-| Kordestan | شبکه کردستان | Kurdistan | 1080p | Anywhere | 1 |
-| Mahabad | شبکه مهاباد | Mahabad | 1080p | Anywhere | 1 |
-| Makran | شبکه مکران | Sistan & Baluchestan | 1080p | Anywhere | 1 |
-| Noor | شبکه نور | Qom | 1080p | Anywhere | 1 |
-| Qazvin | شبکه قزوین | Qazvin | 1080p | Anywhere | 1 |
-| Sabalan | شبکه سبلان | Ardabil | 576p | Anywhere | 1 |
-| Sabz | شبکه سبز | Golestan | 576p | Anywhere | 1 |
-| Sahand | شبکه سهند | East Azerbaijan | 1080p | Anywhere | 1 |
-| Semnan | شبکه سمنان | Semnan | 1080p | Anywhere | 1 |
-| Tabarestan | شبکه تبرستان | Mazandaran | 1080p | Anywhere | 1 |
-| West Azerbaijan | شبکه آذربایجان غربی | West Azerbaijan | 576p | Anywhere | 1 |
-| Yazd | شبکه تابان یزد | Yazd | 1080p | Anywhere | 1 |
-| Zagros | شبکه زاگرس | Kermanshah | 576p | Anywhere | 1 |
+| Abadan | شبکه آبادان | Abadan | 1080p | Anywhere | 2 |
+| Aflak | شبکه افلاک | Lorestan | 576p | Anywhere | 2 |
+| Aftab | شبکه آفتاب | Markazi | 1080p | Anywhere | 2 |
+| Alborz | شبکه البرز | Alborz | 1080p | Anywhere | 2 |
+| Atrak | شبکه اترک | North Khorasan | 576p | Anywhere | 2 |
+| Baran | شبکه باران | Gilan | 576p | Anywhere | 2 |
+| Bushehr | شبکه بوشهر | Bushehr | 1080p | Anywhere | 2 |
+| Dena | شبکه دنا | Kohgiluyeh & Boyer-Ahmad | 1080p | Anywhere | 2 |
+| Eshragh | شبکه اشراق | Zanjan | 1080p | Anywhere | 2 |
+| Fars | شبکه فارس | Fars | 1080p | Anywhere | 2 |
+| Hamedan | شبکه همدان | Hamadan | 576p | Anywhere | 2 |
+| Hamoon | شبکه هامون | Sistan & Baluchestan | 1080p | Anywhere | 2 |
+| Ilam | شبکه ایلام | Ilam | 576p | Anywhere | 2 |
+| Isfahan | شبکه اصفهان | Isfahan | 1080p | Anywhere | 2 |
+| Jahanbin | شبکه جهان‌بین | Chaharmahal & Bakhtiari | 1080p | Anywhere | 2 |
+| Kerman | شبکه کرمان | Kerman | 1080p | Anywhere | 2 |
+| Khalij-e Fars | شبکه خلیج فارس | Hormozgan | 1080p | Anywhere | 2 |
+| Khavaran | شبکه خاوران | South Khorasan | 1080p | Anywhere | 2 |
+| Khorasan Razavi | شبکه خراسان رضوی | Khorasan Razavi | 1080p | Anywhere | 2 |
+| Khuzestan | شبکه خوزستان | Khuzestan | 576p | Anywhere | 2 |
+| Kish | شبکه کیش | Kish | 576p | Anywhere | 2 |
+| Kordestan | شبکه کردستان | Kurdistan | 1080p | Anywhere | 2 |
+| Mahabad | شبکه مهاباد | Mahabad | 1080p | Anywhere | 2 |
+| Makran | شبکه مکران | Sistan & Baluchestan | 1080p | Anywhere | 2 |
+| Noor | شبکه نور | Qom | 1080p | Anywhere | 2 |
+| Qazvin | شبکه قزوین | Qazvin | 1080p | Anywhere | 2 |
+| Sabalan | شبکه سبلان | Ardabil | 576p | Anywhere | 2 |
+| Sabz | شبکه سبز | Golestan | 576p | Anywhere | 2 |
+| Sahand | شبکه سهند | East Azerbaijan | 1080p | Anywhere | 2 |
+| Semnan | شبکه سمنان | Semnan | 1080p | Anywhere | 2 |
+| Tabarestan | شبکه تبرستان | Mazandaran | 1080p | Anywhere | 2 |
+| West Azerbaijan | شبکه آذربایجان غربی | West Azerbaijan | 576p | Anywhere | 2 |
+| Yazd | شبکه تابان یزد | Yazd | 1080p | Anywhere | 2 |
+| Zagros | شبکه زاگرس | Kermanshah | 576p | Anywhere | 2 |
 
 ### IRIB International Services
 
@@ -322,14 +332,14 @@ IRIB channels produced for audiences outside Iran, in Persian and other language
 
 | Channel | Persian name | Quality | Reachable from | Streams |
 |:--|:--|:--|:--|:--|
-| Al-Kawthar TV | شبکه الکوثر | 576p | Anywhere | 2 |
+| Al-Kawthar TV | شبکه الکوثر | 576p | Anywhere | 3 |
 | HispanTV | هیسپان تی‌وی | 576p | Anywhere | 1 |
 | iFilm 2 | آی‌فیلم ۲ | 576p | Anywhere | 3 |
 | iFilm Arabic | آی‌فیلم عربی | 576p | Anywhere | 3 |
 | iFilm English | آی‌فیلم انگلیسی | 576p | Anywhere | 3 |
 | Iran Press | ایران پرس | 576p | Anywhere | 1 |
-| Palestine TV | شبکه فلسطین | 720p | Anywhere | 1 |
-| Press TV | پرس تی‌وی | 576p | Anywhere | 4 |
+| Palestine TV | شبکه فلسطین | 720p | Anywhere | 2 |
+| Press TV | پرس تی‌وی | 720p | Anywhere | 5 |
 | Press TV French | پرس تی‌وی فرانسه | 1080p | Anywhere | 2 |
 | Sahar TV Azeri | سحر آذری | 576p | Iran only | 1 |
 | Sahar TV Balkan | سحر بالکان | 576p | Iran only | 1 |
@@ -500,19 +510,19 @@ Islamic religious channels, registered in Iran, Iraq and elsewhere.
 | Al Wilayah | شبکه الولایه | 576p | Anywhere | 1 |
 | Al-Mahdi TV | شبکه المهدی | 1080p | Anywhere | 1 |
 | Assirat TV | شبکه الصراط | 1080p | Anywhere | 1 |
-| Habib TV | شبکه حبیب | 720p | Anywhere | 1 |
+| Habib TV | شبکه حبیب | 720p | Anywhere | 2 |
 | Hadi TV | شبکه هادی | 1080p | Anywhere | 1 |
 | Imam Hussein TV 1 | امام حسین ۱ | 1080p | Anywhere | 2 |
 | Imam Hussein TV 6 | امام حسین ۶ | 1080p | Anywhere | 1 |
-| Labbayk TV | شبکه لبیک | 720p | Anywhere | 1 |
+| Labbayk TV | شبکه لبیک | 720p | Anywhere | 2 |
 | Marjaeyat TV Persian | شبکه مرجعیت | 1080p | Anywhere | 1 |
 | Nour TV | شبکه نور (امارات) | 576p | Anywhere | 1 |
 | Payam-e Aramesh | پیام آرامش | 480p | Anywhere | 1 |
 | Payvand TV | شبکه پیوند | 720p | Anywhere | 2 |
 | Rasoulallah TV | شبکه رسول‌الله | 1080p | Anywhere | 1 |
-| Razavi TV | شبکه رضوی | 720p | Anywhere | 1 |
-| Tekye Madahi | تکیه مداحی | 720p | Anywhere | 1 |
-| Velayat TV | شبکه ولایت | 720p | Anywhere | 1 |
+| Razavi TV | شبکه رضوی | 720p | Anywhere | 2 |
+| Tekye Madahi | تکیه مداحی | 720p | Anywhere | 2 |
+| Velayat TV | شبکه ولایت | 720p | Anywhere | 2 |
 | Velayat TV Network | شبکه ولایت (آمریکا) | 480p | Anywhere | 1 |
 
 ### Religious · Christian
@@ -556,7 +566,7 @@ Channels of other faiths, and spiritual or philosophical programming.
 پلی‌لیست‌های M3U از شبکه‌های تلویزیونی ایرانی و فارسی‌زبان، دسته‌بندی‌شده بر اساس اینکه چه
 کسی شبکه را اداره می‌کند و چطور پخش می‌شود، و بعد بر اساس موضوع برنامه‌ها.
 
-در مجموع ۲۰۲ شبکه در ۱۴ دسته، از ۲۵۹
+در مجموع ۲۰۲ شبکه در ۱۴ دسته، از ۳۲۴
 استریم بررسی‌شده. ۱۹۸ شبکه از هر جای دنیا باز می‌شود و
 ۴ شبکه فقط با IP ایران. همه استریم‌ها هر دو هفته یک‌بار به‌صورت
 خودکار دوباره بررسی می‌شوند.
@@ -651,9 +661,20 @@ https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-all-s
 | رزولوشن | تا ۲۴ | از خود پلی‌لیست اصلی خوانده می‌شود، نه از روی برچسب |
 | کیفیت تطبیقی | ۸ | وجود چند کیفیت به برنامه اجازه می‌دهد خودش را با سرعت اینترنت هماهنگ کند |
 | زمان پاسخ | تا ۳ | فقط وقتی به کار می‌آید که بقیه عامل‌ها برابر باشند |
+| مانیفست خراب | منفی ۴۰ | پلی‌لیستی که استاندارد HLS را رعایت نکند در بعضی برنامه‌ها گیر می‌کند، پس نسخه سالم همیشه اولویت دارد |
 
 سابقه سالم بودن مهم‌ترین عامل در طول زمان است، پس هرچه بررسی‌های بیشتری انجام شود انتخاب
 دقیق‌تر می‌شود.
+
+بعضی سرویس‌ها پلی‌لیست اصلی را طوری منتشر می‌کنند که استاندارد HLS را رعایت نمی‌کند.
+Telewebion، همان پلتفرمی که شبکه‌های صداوسیما را پخش می‌کند، خط `EXT-X-VERSION:6` را بدون
+`#` ابتدای آن می‌نویسد. طبق استاندارد RFC 8216 هر خطی که خالی نباشد و با `#` شروع نشود یک
+آدرس به حساب می‌آید، بنابراین برنامه‌هایی که استاندارد را دقیق پیاده کرده‌اند همان متن را
+مثل آدرس استریم درخواست می‌کنند، جواب 403 می‌گیرند و بعد از اولین فریم متوقف می‌شوند.
+ffmpeg و VLC این ایراد را نادیده می‌گیرند ولی خیلی از باکس‌ها و اپلیکیشن‌های تلویزیون نه.
+برای این سرویس‌ها پلی‌لیست اصلی یک بار خوانده می‌شود تا مشخص شود چه کیفیت‌هایی دارد، و بعد
+آدرس مستقیم همان کیفیت منتشر می‌شود که یک پلی‌لیست تمیز است. نسخه اصلی هم در
+`iran-all-streams.m3u` به عنوان پشتیبان می‌ماند.
 
 <a id="fa-categories-how"></a>
 
@@ -807,82 +828,82 @@ python scripts/discover.py
 
 | نام فارسی | نام انگلیسی | کیفیت | قابل دسترس از | تعداد پخش |
 |:--|:--|:--|:--|:--|
-| شبکه گلخانه | Golkhane | 720p | همه‌جا | 1 |
-| آی‌فیلم | iFilm | 1080p | همه‌جا | 4 |
+| شبکه گلخانه | Golkhane | 720p | همه‌جا | 2 |
+| آی‌فیلم | iFilm | 1080p | همه‌جا | 5 |
 | ایران نما | Iran Nama | 576p | همه‌جا | 1 |
-| شبکه آموزش | IRIB Amoozesh | 576p | همه‌جا | 2 |
-| شبکه مستند | IRIB Mostanad | 1080p | همه‌جا | 2 |
-| شبکه نمایش | IRIB Namayesh | 1080p | همه‌جا | 2 |
-| شبکه نسیم | IRIB Nasim | 1080p | همه‌جا | 2 |
-| شبکه افق | IRIB Ofogh | 1080p | همه‌جا | 2 |
-| شبکه امید | IRIB Omid | 1080p | همه‌جا | 2 |
-| شبکه پویا و نهال | IRIB Pooya & Nahal | 1080p | همه‌جا | 2 |
-| شبکه قرآن و معارف سیما | IRIB Quran | 1080p | همه‌جا | 2 |
-| شبکه سلامت | IRIB Salamat | 576p | همه‌جا | 2 |
-| شبکه تماشا | IRIB Tamasha | 1080p | همه‌جا | 2 |
-| شبکه یک | IRIB TV1 | 1080p | همه‌جا | 2 |
-| شبکه یک پلاس | IRIB TV1 + | 1080p | همه‌جا | 1 |
-| شبکه دو | IRIB TV2 | 1080p | همه‌جا | 2 |
-| شبکه سه | IRIB TV3 | 1082p | همه‌جا | 2 |
-| شبکه چهار | IRIB TV4 | 576p | همه‌جا | 2 |
-| شبکه پنج (تهران) | IRIB TV5 (Tehran) | 1080p | همه‌جا | 1 |
-| شبکه فراگیر (UHD) | IRIB UHD | 2160p | همه‌جا | 2 |
-| شبکه ورزش | IRIB Varzesh | 1082p | همه‌جا | 2 |
-| شبکه خبر | IRINN | 1080p | همه‌جا | 3 |
-| شبکه خبر ۲ | IRINN 2 | 1080p | همه‌جا | 1 |
-| شبکه رویا | Roya | 720p | همه‌جا | 1 |
+| شبکه آموزش | IRIB Amoozesh | 576p | همه‌جا | 3 |
+| شبکه مستند | IRIB Mostanad | 1080p | همه‌جا | 3 |
+| شبکه نمایش | IRIB Namayesh | 1080p | همه‌جا | 3 |
+| شبکه نسیم | IRIB Nasim | 1080p | همه‌جا | 3 |
+| شبکه افق | IRIB Ofogh | 1080p | همه‌جا | 3 |
+| شبکه امید | IRIB Omid | 1080p | همه‌جا | 3 |
+| شبکه پویا و نهال | IRIB Pooya & Nahal | 1080p | همه‌جا | 3 |
+| شبکه قرآن و معارف سیما | IRIB Quran | 1080p | همه‌جا | 3 |
+| شبکه سلامت | IRIB Salamat | 576p | همه‌جا | 3 |
+| شبکه تماشا | IRIB Tamasha | 1080p | همه‌جا | 3 |
+| شبکه یک | IRIB TV1 | 1080p | همه‌جا | 3 |
+| شبکه یک پلاس | IRIB TV1 + | 1080p | همه‌جا | 2 |
+| شبکه دو | IRIB TV2 | 1080p | همه‌جا | 3 |
+| شبکه سه | IRIB TV3 | 1082p | همه‌جا | 3 |
+| شبکه چهار | IRIB TV4 | 576p | همه‌جا | 3 |
+| شبکه پنج (تهران) | IRIB TV5 (Tehran) | 1080p | همه‌جا | 2 |
+| شبکه فراگیر (UHD) | IRIB UHD | 2160p | همه‌جا | 3 |
+| شبکه ورزش | IRIB Varzesh | 1082p | همه‌جا | 3 |
+| شبکه خبر | IRINN | 576p | همه‌جا | 4 |
+| شبکه خبر ۲ | IRINN 2 | 1080p | همه‌جا | 2 |
+| شبکه رویا | Roya | 720p | همه‌جا | 2 |
 
 ### شبکه‌های استانی
 
 | نام فارسی | نام انگلیسی | استان | کیفیت | قابل دسترس از | تعداد پخش |
 |:--|:--|:--|:--|:--|:--|
-| شبکه آبادان | Abadan | آبادان | 1080p | همه‌جا | 1 |
-| شبکه افلاک | Aflak | لرستان | 576p | همه‌جا | 1 |
-| شبکه آفتاب | Aftab | مرکزی | 1080p | همه‌جا | 1 |
-| شبکه البرز | Alborz | البرز | 1080p | همه‌جا | 1 |
-| شبکه اترک | Atrak | خراسان شمالی | 576p | همه‌جا | 1 |
-| شبکه باران | Baran | گیلان | 576p | همه‌جا | 1 |
-| شبکه بوشهر | Bushehr | بوشهر | 1080p | همه‌جا | 1 |
-| شبکه دنا | Dena | کهگیلویه و بویراحمد | 1080p | همه‌جا | 1 |
-| شبکه اشراق | Eshragh | زنجان | 1080p | همه‌جا | 1 |
-| شبکه فارس | Fars | فارس | 1080p | همه‌جا | 1 |
-| شبکه همدان | Hamedan | همدان | 576p | همه‌جا | 1 |
-| شبکه هامون | Hamoon | سیستان و بلوچستان | 1080p | همه‌جا | 1 |
-| شبکه ایلام | Ilam | ایلام | 576p | همه‌جا | 1 |
-| شبکه اصفهان | Isfahan | اصفهان | 1080p | همه‌جا | 1 |
-| شبکه جهان‌بین | Jahanbin | چهارمحال و بختیاری | 1080p | همه‌جا | 1 |
-| شبکه کرمان | Kerman | کرمان | 1080p | همه‌جا | 1 |
-| شبکه خلیج فارس | Khalij-e Fars | هرمزگان | 1080p | همه‌جا | 1 |
-| شبکه خاوران | Khavaran | خراسان جنوبی | 1080p | همه‌جا | 1 |
-| شبکه خراسان رضوی | Khorasan Razavi | خراسان رضوی | 1080p | همه‌جا | 1 |
-| شبکه خوزستان | Khuzestan | خوزستان | 576p | همه‌جا | 1 |
-| شبکه کیش | Kish | کیش | 576p | همه‌جا | 1 |
-| شبکه کردستان | Kordestan | کردستان | 1080p | همه‌جا | 1 |
-| شبکه مهاباد | Mahabad | مهاباد | 1080p | همه‌جا | 1 |
-| شبکه مکران | Makran | سیستان و بلوچستان | 1080p | همه‌جا | 1 |
-| شبکه نور | Noor | قم | 1080p | همه‌جا | 1 |
-| شبکه قزوین | Qazvin | قزوین | 1080p | همه‌جا | 1 |
-| شبکه سبلان | Sabalan | اردبیل | 576p | همه‌جا | 1 |
-| شبکه سبز | Sabz | گلستان | 576p | همه‌جا | 1 |
-| شبکه سهند | Sahand | آذربایجان شرقی | 1080p | همه‌جا | 1 |
-| شبکه سمنان | Semnan | سمنان | 1080p | همه‌جا | 1 |
-| شبکه تبرستان | Tabarestan | مازندران | 1080p | همه‌جا | 1 |
-| شبکه آذربایجان غربی | West Azerbaijan | آذربایجان غربی | 576p | همه‌جا | 1 |
-| شبکه تابان یزد | Yazd | یزد | 1080p | همه‌جا | 1 |
-| شبکه زاگرس | Zagros | کرمانشاه | 576p | همه‌جا | 1 |
+| شبکه آبادان | Abadan | آبادان | 1080p | همه‌جا | 2 |
+| شبکه افلاک | Aflak | لرستان | 576p | همه‌جا | 2 |
+| شبکه آفتاب | Aftab | مرکزی | 1080p | همه‌جا | 2 |
+| شبکه البرز | Alborz | البرز | 1080p | همه‌جا | 2 |
+| شبکه اترک | Atrak | خراسان شمالی | 576p | همه‌جا | 2 |
+| شبکه باران | Baran | گیلان | 576p | همه‌جا | 2 |
+| شبکه بوشهر | Bushehr | بوشهر | 1080p | همه‌جا | 2 |
+| شبکه دنا | Dena | کهگیلویه و بویراحمد | 1080p | همه‌جا | 2 |
+| شبکه اشراق | Eshragh | زنجان | 1080p | همه‌جا | 2 |
+| شبکه فارس | Fars | فارس | 1080p | همه‌جا | 2 |
+| شبکه همدان | Hamedan | همدان | 576p | همه‌جا | 2 |
+| شبکه هامون | Hamoon | سیستان و بلوچستان | 1080p | همه‌جا | 2 |
+| شبکه ایلام | Ilam | ایلام | 576p | همه‌جا | 2 |
+| شبکه اصفهان | Isfahan | اصفهان | 1080p | همه‌جا | 2 |
+| شبکه جهان‌بین | Jahanbin | چهارمحال و بختیاری | 1080p | همه‌جا | 2 |
+| شبکه کرمان | Kerman | کرمان | 1080p | همه‌جا | 2 |
+| شبکه خلیج فارس | Khalij-e Fars | هرمزگان | 1080p | همه‌جا | 2 |
+| شبکه خاوران | Khavaran | خراسان جنوبی | 1080p | همه‌جا | 2 |
+| شبکه خراسان رضوی | Khorasan Razavi | خراسان رضوی | 1080p | همه‌جا | 2 |
+| شبکه خوزستان | Khuzestan | خوزستان | 576p | همه‌جا | 2 |
+| شبکه کیش | Kish | کیش | 576p | همه‌جا | 2 |
+| شبکه کردستان | Kordestan | کردستان | 1080p | همه‌جا | 2 |
+| شبکه مهاباد | Mahabad | مهاباد | 1080p | همه‌جا | 2 |
+| شبکه مکران | Makran | سیستان و بلوچستان | 1080p | همه‌جا | 2 |
+| شبکه نور | Noor | قم | 1080p | همه‌جا | 2 |
+| شبکه قزوین | Qazvin | قزوین | 1080p | همه‌جا | 2 |
+| شبکه سبلان | Sabalan | اردبیل | 576p | همه‌جا | 2 |
+| شبکه سبز | Sabz | گلستان | 576p | همه‌جا | 2 |
+| شبکه سهند | Sahand | آذربایجان شرقی | 1080p | همه‌جا | 2 |
+| شبکه سمنان | Semnan | سمنان | 1080p | همه‌جا | 2 |
+| شبکه تبرستان | Tabarestan | مازندران | 1080p | همه‌جا | 2 |
+| شبکه آذربایجان غربی | West Azerbaijan | آذربایجان غربی | 576p | همه‌جا | 2 |
+| شبکه تابان یزد | Yazd | یزد | 1080p | همه‌جا | 2 |
+| شبکه زاگرس | Zagros | کرمانشاه | 576p | همه‌جا | 2 |
 
 ### شبکه‌های برون‌مرزی
 
 | نام فارسی | نام انگلیسی | کیفیت | قابل دسترس از | تعداد پخش |
 |:--|:--|:--|:--|:--|
-| شبکه الکوثر | Al-Kawthar TV | 576p | همه‌جا | 2 |
+| شبکه الکوثر | Al-Kawthar TV | 576p | همه‌جا | 3 |
 | هیسپان تی‌وی | HispanTV | 576p | همه‌جا | 1 |
 | آی‌فیلم ۲ | iFilm 2 | 576p | همه‌جا | 3 |
 | آی‌فیلم عربی | iFilm Arabic | 576p | همه‌جا | 3 |
 | آی‌فیلم انگلیسی | iFilm English | 576p | همه‌جا | 3 |
 | ایران پرس | Iran Press | 576p | همه‌جا | 1 |
-| شبکه فلسطین | Palestine TV | 720p | همه‌جا | 1 |
-| پرس تی‌وی | Press TV | 576p | همه‌جا | 4 |
+| شبکه فلسطین | Palestine TV | 720p | همه‌جا | 2 |
+| پرس تی‌وی | Press TV | 720p | همه‌جا | 5 |
 | پرس تی‌وی فرانسه | Press TV French | 1080p | همه‌جا | 2 |
 | سحر آذری | Sahar TV Azeri | 576p | فقط ایران | 1 |
 | سحر بالکان | Sahar TV Balkan | 576p | فقط ایران | 1 |
@@ -1035,19 +1056,19 @@ python scripts/discover.py
 | شبکه الولایه | Al Wilayah | 576p | همه‌جا | 1 |
 | شبکه المهدی | Al-Mahdi TV | 1080p | همه‌جا | 1 |
 | شبکه الصراط | Assirat TV | 1080p | همه‌جا | 1 |
-| شبکه حبیب | Habib TV | 720p | همه‌جا | 1 |
+| شبکه حبیب | Habib TV | 720p | همه‌جا | 2 |
 | شبکه هادی | Hadi TV | 1080p | همه‌جا | 1 |
 | امام حسین ۱ | Imam Hussein TV 1 | 1080p | همه‌جا | 2 |
 | امام حسین ۶ | Imam Hussein TV 6 | 1080p | همه‌جا | 1 |
-| شبکه لبیک | Labbayk TV | 720p | همه‌جا | 1 |
+| شبکه لبیک | Labbayk TV | 720p | همه‌جا | 2 |
 | شبکه مرجعیت | Marjaeyat TV Persian | 1080p | همه‌جا | 1 |
 | شبکه نور (امارات) | Nour TV | 576p | همه‌جا | 1 |
 | پیام آرامش | Payam-e Aramesh | 480p | همه‌جا | 1 |
 | شبکه پیوند | Payvand TV | 720p | همه‌جا | 2 |
 | شبکه رسول‌الله | Rasoulallah TV | 1080p | همه‌جا | 1 |
-| شبکه رضوی | Razavi TV | 720p | همه‌جا | 1 |
-| تکیه مداحی | Tekye Madahi | 720p | همه‌جا | 1 |
-| شبکه ولایت | Velayat TV | 720p | همه‌جا | 1 |
+| شبکه رضوی | Razavi TV | 720p | همه‌جا | 2 |
+| تکیه مداحی | Tekye Madahi | 720p | همه‌جا | 2 |
+| شبکه ولایت | Velayat TV | 720p | همه‌جا | 2 |
 | شبکه ولایت (آمریکا) | Velayat TV Network | 480p | همه‌جا | 1 |
 
 ### مذهبی · مسیحی

@@ -40,6 +40,8 @@ def height_of(entry):
         tail = resolution.split("x")[1]
         if tail.isdigit():
             return int(tail)
+    if entry.get("known_height"):
+        return int(entry["known_height"])
     # Fall back to the database's own format string, for example "720p" or "576i".
     match = re.match(r"(\d{3,4})[pi]", str(entry.get("format") or ""))
     return int(match.group(1)) if match else 0
@@ -73,11 +75,14 @@ def score(entry):
     height = height_of(entry)
     resolution_points = min(height, 1080) / 1080 * 20 + (4 if height > 1080 else 0)
     adaptive = 8 if (entry.get("variants") or 0) > 1 else 0
+    # A manifest that violates the spec plays in ffmpeg and VLC but stalls in stricter
+    # clients, so a clean equivalent is always preferred when one exists.
+    defective = -40 if entry.get("defects") else 0
     # Capped low on purpose: latency breaks ties, it never outweighs a resolution step.
     latency = max(0, 3 - (entry.get("ms") or 3000) / 1500)
 
     return round(reach + uptime * confidence * 30 + compatible
-                 + resolution_points + adaptive + latency, 3)
+                 + resolution_points + adaptive + latency + defective, 3)
 
 
 def collect():
@@ -128,7 +133,8 @@ def collect():
             "url": entry.get("final_url") or record["url"],
             "state": entry["state"],
             "resolution": entry.get("resolution"),
-            "height": height_of({**entry, "format": db.get("format")}),
+            "height": height_of({**entry, "format": db.get("format"),
+                                 "known_height": record.get("known_height")}),
             "bandwidth": entry.get("bandwidth"),
             "variants": entry.get("variants"),
             "kind": entry.get("kind"),
@@ -141,7 +147,9 @@ def collect():
             "first_seen": entry.get("first_seen"),
             "last_ok": entry.get("last_ok"),
             "format": db.get("format"),
+            "defects": entry.get("defects") or [],
             "score": score({**entry, "format": db.get("format"),
+                            "known_height": record.get("known_height"),
                             "user_agent": record.get("user_agent"),
                             "referrer": record.get("referrer")}),
         })

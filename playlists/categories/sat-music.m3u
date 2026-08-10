@@ -1,10 +1,10 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IR1.xml.gz"
 # Satellite · Music only.
-# generated 2026-08-10 22:25 UTC by shayanline/iptv-iran
+# generated 2026-08-10 22:37 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="4Kurd.fr" tvg-name="4 Kurd" tvg-logo="https://www.aparatchi.com/images/chanells-logo/4kurd.svg" group-title="Satellite · Music" tvg-language="kur;fas" tvg-quality="SD",4 Kurd | فور کورد
 https://4kuhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="4Music.fr" tvg-name="4 Music" tvg-logo="" group-title="Satellite · Music" tvg-language="fas" tvg-quality="HD",4 Music | فور موزیک HD
-https://musichls.persiana.live/hls/stream.m3u8
+https://itthls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AFNTV.ir" tvg-name="AFN TV" tvg-logo="https://i.imgur.com/LctanF8.png" group-title="Satellite · Music" tvg-language="fas" tvg-quality="HD",AFN TV | ای‌اف‌ان تی‌وی HD
 https://bozztv.com/1gbw5/tintv2/tintv2/playlist.m3u8
 #EXTINF:-1 tvg-id="AvangTV.us" tvg-name="Avang TV" tvg-logo="https://i.imgur.com/3I1n7fO.png" group-title="Satellite · Music" tvg-language="fas" tvg-quality="SD",Avang TV | آونگ

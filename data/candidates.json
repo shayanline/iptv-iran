@@ -6026,6 +6026,39 @@
     }
   },
   {
+    "url": "https://ncdn.telewebion.ir/abadan/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "AbadanTV.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "AbadanTV.ir",
+      "name": "Abadan TV",
+      "alt_names": [
+        "شبکه آبادان"
+      ],
+      "country": "IR",
+      "categories": [
+        "general"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "http://abadan.irib.ir/tv",
+      "logo": "https://upload.wikimedia.org/wikipedia/fa/3/39/Abadan_tv.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
     "url": "https://ncdn.telewebion.ir/abadan/live/playlist.m3u8",
     "sources": [
       "iptv-org",
@@ -6057,6 +6090,37 @@
       "closed": null,
       "website": "http://abadan.irib.ir/tv",
       "logo": "https://upload.wikimedia.org/wikipedia/fa/3/39/Abadan_tv.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
+    "url": "https://ncdn.telewebion.ir/aflak/live/576p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "AflakTV.ir"
+    ],
+    "titles": [],
+    "known_height": 576,
+    "db": {
+      "id": "AflakTV.ir",
+      "name": "Aflak TV",
+      "alt_names": [],
+      "country": "IR",
+      "categories": [
+        "general"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "http://www.lorestan.irib.ir/tv",
+      "logo": "https://i.imgur.com/LkLCHpf.png",
       "languages": [
         "fas"
       ],
@@ -6106,6 +6170,37 @@
     }
   },
   {
+    "url": "https://ncdn.telewebion.ir/aftab/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "AftabTV.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "AftabTV.ir",
+      "name": "Aftab TV",
+      "alt_names": [
+        "شبکه مرکزی"
+      ],
+      "country": "IR",
+      "categories": [],
+      "network": null,
+      "closed": null,
+      "website": "http://markazi.irib.ir/tv",
+      "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/6/6e/Arak_AFTAB.svg/960px-Arak_AFTAB.svg.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
     "url": "https://ncdn.telewebion.ir/aftab/live/playlist.m3u8",
     "sources": [
       "iptv-org",
@@ -6145,6 +6240,17 @@
     }
   },
   {
+    "url": "https://ncdn.telewebion.ir/alalam/live/576p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "AlalamNewsChannel.ir"
+    ],
+    "titles": [],
+    "known_height": 576
+  },
+  {
     "url": "https://ncdn.telewebion.ir/alalam/live/playlist.m3u8",
     "sources": [
       "discovery/telewebion"
@@ -6153,6 +6259,39 @@
       "AlalamNewsChannel.ir"
     ],
     "titles": []
+  },
+  {
+    "url": "https://ncdn.telewebion.ir/alborz/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "AlborzTV.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "AlborzTV.ir",
+      "name": "Alborz TV",
+      "alt_names": [
+        "شبکه البرز"
+      ],
+      "country": "IR",
+      "categories": [
+        "general"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "http://alborz.irib.ir/tv",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Alborz_TV_logo.svg/960px-Alborz_TV_logo.svg.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
   },
   {
     "url": "https://ncdn.telewebion.ir/alborz/live/playlist.m3u8",
@@ -6186,6 +6325,39 @@
       "closed": null,
       "website": "http://alborz.irib.ir/tv",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Alborz_TV_logo.svg/960px-Alborz_TV_logo.svg.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
+    "url": "https://ncdn.telewebion.ir/amouzesh/live/576p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "AmouzeshTV.ir"
+    ],
+    "titles": [],
+    "known_height": 576,
+    "db": {
+      "id": "AmouzeshTV.ir",
+      "name": "Amouzesh TV",
+      "alt_names": [
+        "شبکه آموزش"
+      ],
+      "country": "IR",
+      "categories": [
+        "general"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "https://tv7.ir/",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Amouzesh_TV_logo_%282023%29.svg/500px-Amouzesh_TV_logo_%282023%29.svg.png",
       "languages": [
         "fas"
       ],
@@ -6237,6 +6409,37 @@
     }
   },
   {
+    "url": "https://ncdn.telewebion.ir/ara/live/720p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "AraTV.ir"
+    ],
+    "titles": [],
+    "known_height": 720,
+    "db": {
+      "id": "AraTV.ir",
+      "name": "Ara TV",
+      "alt_names": [],
+      "country": "IR",
+      "categories": [
+        "general"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "https://www.aratv.ir/",
+      "logo": "https://i.ibb.co/dwSHt2SG/Ara.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
     "url": "https://ncdn.telewebion.ir/ara/live/playlist.m3u8",
     "sources": [
       "iptv-org",
@@ -6268,6 +6471,41 @@
       "logo": "https://i.ibb.co/dwSHt2SG/Ara.png",
       "languages": [
         "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
+    "url": "https://ncdn.telewebion.ir/atrak/live/576p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "AtrakTV.ir"
+    ],
+    "titles": [],
+    "known_height": 576,
+    "db": {
+      "id": "AtrakTV.ir",
+      "name": "Atrak TV",
+      "alt_names": [
+        "شبکه خراسان شمالی"
+      ],
+      "country": "IR",
+      "categories": [
+        "general"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "http://en.atrak-group.ir/",
+      "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/2/28/Bojnourd_ATRAK_TV.svg/960px-Bojnourd_ATRAK_TV.svg.png",
+      "languages": [
+        "fas",
+        "kmz",
+        "kur"
       ],
       "broadcast_area": [
         "c/IR"
@@ -6309,6 +6547,43 @@
         "fas",
         "kmz",
         "kur"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
+    "url": "https://ncdn.telewebion.ir/azarbayjangharbi/live/576p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "WestAzerbaijanTV.ir"
+    ],
+    "titles": [],
+    "known_height": 576,
+    "db": {
+      "id": "WestAzerbaijanTV.ir",
+      "name": "West Azerbaijan TV",
+      "alt_names": [
+        "شبکه آذربایجان غربی"
+      ],
+      "country": "IR",
+      "categories": [
+        "general"
+      ],
+      "network": null,
+      "closed": null,
+      "website": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/2/21/Urmia_TV.svg/960px-Urmia_TV.svg.png",
+      "languages": [
+        "fas",
+        "aze",
+        "tur",
+        "kur",
+        "fas"
       ],
       "broadcast_area": [
         "c/IR"
@@ -6360,6 +6635,35 @@
     }
   },
   {
+    "url": "https://ncdn.telewebion.ir/baenergy/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "Energy.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "Energy.ir",
+      "name": "Energy",
+      "alt_names": [],
+      "country": "IR",
+      "categories": [],
+      "network": null,
+      "closed": null,
+      "website": null,
+      "logo": "https://static.telewebion.com/channelsLogo/9c150d8a-c4ab-4f72-9fb6-4e3fb65fc5ee/default",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
     "url": "https://ncdn.telewebion.ir/baenergy/live/playlist.m3u8",
     "sources": [
       "iptv-org",
@@ -6387,6 +6691,39 @@
       "closed": null,
       "website": null,
       "logo": "https://static.telewebion.com/channelsLogo/9c150d8a-c4ab-4f72-9fb6-4e3fb65fc5ee/default",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
+    "url": "https://ncdn.telewebion.ir/baran/live/576p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "BaranTV.ir"
+    ],
+    "titles": [],
+    "known_height": 576,
+    "db": {
+      "id": "BaranTV.ir",
+      "name": "Baran TV",
+      "alt_names": [
+        "شبکه گیلان"
+      ],
+      "country": "IR",
+      "categories": [
+        "general"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "https://sepehrtv.ir/live/baran",
+      "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/b/b9/TV_Baran.svg/500px-TV_Baran.svg.png",
       "languages": [
         "fas"
       ],
@@ -6438,6 +6775,37 @@
     }
   },
   {
+    "url": "https://ncdn.telewebion.ir/bushehr/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "BoushehrTV.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "BoushehrTV.ir",
+      "name": "Boushehr TV",
+      "alt_names": [
+        "شبکه بوشهر"
+      ],
+      "country": "IR",
+      "categories": [],
+      "network": null,
+      "closed": null,
+      "website": "http://boushehr.irib.ir/tv",
+      "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/9/94/Bushehr_TV.svg/500px-Bushehr_TV.svg.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
     "url": "https://ncdn.telewebion.ir/bushehr/live/playlist.m3u8",
     "sources": [
       "iptv-org",
@@ -6467,6 +6835,39 @@
       "closed": null,
       "website": "http://boushehr.irib.ir/tv",
       "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/9/94/Bushehr_TV.svg/500px-Bushehr_TV.svg.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
+    "url": "https://ncdn.telewebion.ir/dena/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "DenaTV.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "DenaTV.ir",
+      "name": "Dena TV",
+      "alt_names": [
+        "شبکه کهگیلویه و بویراحمد"
+      ],
+      "country": "IR",
+      "categories": [
+        "general"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "http://yasouj.irib.ir/tv",
+      "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/1/1c/Yasuj_DENA.svg/960px-Yasuj_DENA.svg.png",
       "languages": [
         "fas"
       ],
@@ -6518,6 +6919,37 @@
     }
   },
   {
+    "url": "https://ncdn.telewebion.ir/esfahan/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "IsfahanTV.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "IsfahanTV.ir",
+      "name": "Isfahan TV",
+      "alt_names": [],
+      "country": "IR",
+      "categories": [
+        "general"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "http://isfahan.irib.ir/tv",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/IsfahanTV.svg/960px-IsfahanTV.svg.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
     "url": "https://ncdn.telewebion.ir/esfahan/live/playlist.m3u8",
     "sources": [
       "iptv-org",
@@ -6547,6 +6979,39 @@
       "closed": null,
       "website": "http://isfahan.irib.ir/tv",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/IsfahanTV.svg/960px-IsfahanTV.svg.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
+    "url": "https://ncdn.telewebion.ir/eshragh/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "EshraghNetwork.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "EshraghNetwork.ir",
+      "name": "Eshragh Network",
+      "alt_names": [
+        "شبکهٔ اشراق"
+      ],
+      "country": "IR",
+      "categories": [
+        "general"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "https://telewebion.com/live/eshragh",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3AM7W8mE877olzjDXmTN_Sxn_cmR_WAlDKPmE62G8E3cJPJwKdRnIa42quYie9z71Lwo&usqp=CAU",
       "languages": [
         "fas"
       ],
@@ -6598,6 +7063,37 @@
     }
   },
   {
+    "url": "https://ncdn.telewebion.ir/faratar/live/2160p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "IRIBUHD.ir"
+    ],
+    "titles": [],
+    "known_height": 2160,
+    "db": {
+      "id": "IRIBUHD.ir",
+      "name": "IRIB UHD",
+      "alt_names": [],
+      "country": "IR",
+      "categories": [
+        "general"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "https://www.irib.ir/",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/IRIB_FARATAR_UHD.png/960px-IRIB_FARATAR_UHD.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "2160p"
+    }
+  },
+  {
     "url": "https://ncdn.telewebion.ir/faratar/live/playlist.m3u8",
     "sources": [
       "iptv-org",
@@ -6639,6 +7135,39 @@
     }
   },
   {
+    "url": "https://ncdn.telewebion.ir/fars/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "FarsTV.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "FarsTV.ir",
+      "name": "Fars TV",
+      "alt_names": [
+        "شبکه فارس"
+      ],
+      "country": "IR",
+      "categories": [
+        "general"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "http://fars.irib.ir/",
+      "logo": "https://upload.wikimedia.org/wikipedia/fa/7/7b/Iribfars.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
     "url": "https://ncdn.telewebion.ir/fars/live/playlist.m3u8",
     "sources": [
       "iptv-org",
@@ -6670,6 +7199,35 @@
       "closed": null,
       "website": "http://fars.irib.ir/",
       "logo": "https://upload.wikimedia.org/wikipedia/fa/7/7b/Iribfars.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
+    "url": "https://ncdn.telewebion.ir/golkhane/live/720p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "GolkhaneTv.ir"
+    ],
+    "titles": [],
+    "known_height": 720,
+    "db": {
+      "id": "GolkhaneTv.ir",
+      "name": "Golkhane Tv",
+      "alt_names": [],
+      "country": "IR",
+      "categories": [],
+      "network": null,
+      "closed": null,
+      "website": null,
+      "logo": "https://static.telewebion.com/channelsLogo/686599d8-c1ee-4557-aa72-b1293a21906d/default",
       "languages": [
         "fas"
       ],
@@ -6717,6 +7275,38 @@
     }
   },
   {
+    "url": "https://ncdn.telewebion.ir/habib/live/720p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "HabibTV.ir"
+    ],
+    "titles": [],
+    "known_height": 720,
+    "db": {
+      "id": "HabibTV.ir",
+      "name": "Habib TV",
+      "alt_names": [],
+      "country": "IR",
+      "categories": [
+        "religious"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "https://telewebion.com/live/habib",
+      "logo": "https://i.ibb.co/spZRy7mg/habib.png",
+      "languages": [
+        "ara",
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
     "url": "https://ncdn.telewebion.ir/habib/live/playlist.m3u8",
     "sources": [
       "iptv-org",
@@ -6755,6 +7345,37 @@
     }
   },
   {
+    "url": "https://ncdn.telewebion.ir/hamoon/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "HamoonTV.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "HamoonTV.ir",
+      "name": "Hamoon TV",
+      "alt_names": [
+        "شبکه سیستان و بلوچستان"
+      ],
+      "country": "IR",
+      "categories": [],
+      "network": null,
+      "closed": null,
+      "website": "http://zahedan.irib.ir/tv",
+      "logo": "https://upload.wikimedia.org/wikipedia/fa/b/bc/Zahedan_Hamoon.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
     "url": "https://ncdn.telewebion.ir/hamoon/live/playlist.m3u8",
     "sources": [
       "iptv-org",
@@ -6784,6 +7405,37 @@
       "closed": null,
       "website": "http://zahedan.irib.ir/tv",
       "logo": "https://upload.wikimedia.org/wikipedia/fa/b/bc/Zahedan_Hamoon.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
+    "url": "https://ncdn.telewebion.ir/hdtest/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "Tamasha.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "Tamasha.ir",
+      "name": "Tamasha",
+      "alt_names": [],
+      "country": "IR",
+      "categories": [
+        "movies"
+      ],
+      "network": null,
+      "closed": null,
+      "website": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/f/f2/IRIB_tamashaTV.svg/960px-IRIB_tamashaTV.svg.png",
       "languages": [
         "fas"
       ],
@@ -6833,6 +7485,37 @@
     }
   },
   {
+    "url": "https://ncdn.telewebion.ir/ifilm/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "iFilmPersian.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "iFilmPersian.ir",
+      "name": "iFilm Persian",
+      "alt_names": [],
+      "country": "IR",
+      "categories": [
+        "movies"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "http://www.ifilmtv.ir/",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
     "url": "https://ncdn.telewebion.ir/ifilm/live/playlist.m3u8",
     "sources": [
       "iptv-org",
@@ -6859,6 +7542,37 @@
       "closed": null,
       "website": "http://www.ifilmtv.ir/",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
+    "url": "https://ncdn.telewebion.ir/ilam/live/576p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "IlamTV.ir"
+    ],
+    "titles": [],
+    "known_height": 576,
+    "db": {
+      "id": "IlamTV.ir",
+      "name": "Ilam TV",
+      "alt_names": [],
+      "country": "IR",
+      "categories": [
+        "general"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "http://ilam.irib.ir/tv",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Ilam_TV.png/960px-Ilam_TV.png",
       "languages": [
         "fas"
       ],
@@ -6945,6 +7659,35 @@
     }
   },
   {
+    "url": "https://ncdn.telewebion.ir/iribu/live/720p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "RoyaTV.ir"
+    ],
+    "titles": [],
+    "known_height": 720,
+    "db": {
+      "id": "RoyaTV.ir",
+      "name": "Roya TV",
+      "alt_names": [],
+      "country": "IR",
+      "categories": [],
+      "network": null,
+      "closed": null,
+      "website": null,
+      "logo": "https://static.telewebion.com/channelsLogo/0e3d7425-1a1b-47c4-b020-2e09a5fc2598/default",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
     "url": "https://ncdn.telewebion.ir/iribu/live/playlist.m3u8",
     "sources": [
       "iptv-org",
@@ -6982,6 +7725,39 @@
     }
   },
   {
+    "url": "https://ncdn.telewebion.ir/irinn/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "IRINN.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "IRINN.ir",
+      "name": "IRINN",
+      "alt_names": [
+        "شبکه خبر جمهوری اسلامی ایران"
+      ],
+      "country": "IR",
+      "categories": [
+        "news"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "https://www.irinn.ir/",
+      "logo": "https://i.imgur.com/8tzsC9h.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
     "url": "https://ncdn.telewebion.ir/irinn/live/playlist.m3u8",
     "sources": [
       "iptv-org",
@@ -7009,6 +7785,37 @@
       "network": null,
       "closed": null,
       "website": "https://www.irinn.ir/",
+      "logo": "https://i.imgur.com/8tzsC9h.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
+    "url": "https://ncdn.telewebion.ir/irinn2/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "IRINN2.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "IRINN2.ir",
+      "name": "IRINN 2",
+      "alt_names": [],
+      "country": "IR",
+      "categories": [
+        "news"
+      ],
+      "network": null,
+      "closed": null,
+      "website": null,
       "logo": "https://i.imgur.com/8tzsC9h.png",
       "languages": [
         "fas"
@@ -7059,6 +7866,39 @@
     }
   },
   {
+    "url": "https://ncdn.telewebion.ir/jahanbin/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "JahanbinTV.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "JahanbinTV.ir",
+      "name": "Jahanbin TV",
+      "alt_names": [
+        "شبکه چهارمحال و بختیاری"
+      ],
+      "country": "IR",
+      "categories": [
+        "general"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "http://chb.irib.ir/tv",
+      "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/4/4a/Shahrekord_Jahanbin.svg/960px-Shahrekord_Jahanbin.svg.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
     "url": "https://ncdn.telewebion.ir/jahanbin/live/playlist.m3u8",
     "sources": [
       "iptv-org",
@@ -7090,6 +7930,39 @@
       "closed": null,
       "website": "http://chb.irib.ir/tv",
       "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/4/4a/Shahrekord_Jahanbin.svg/960px-Shahrekord_Jahanbin.svg.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
+    "url": "https://ncdn.telewebion.ir/javaneh/live/576p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "PooyaTVPlus.ir"
+    ],
+    "titles": [],
+    "known_height": 576,
+    "db": {
+      "id": "PooyaTVPlus.ir",
+      "name": "Pooya TV Plus",
+      "alt_names": [
+        "شبکه +پویا"
+      ],
+      "country": "IR",
+      "categories": [
+        "kids"
+      ],
+      "network": null,
+      "closed": null,
+      "website": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/fa/5/5a/POOYA_tv_2.png",
       "languages": [
         "fas"
       ],
@@ -7178,6 +8051,38 @@
     }
   },
   {
+    "url": "https://ncdn.telewebion.ir/kawthar/live/576p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "AlKawtharTV.ir"
+    ],
+    "titles": [],
+    "known_height": 576,
+    "db": {
+      "id": "AlKawtharTV.ir",
+      "name": "Al-Kawthar TV",
+      "alt_names": [],
+      "country": "IR",
+      "categories": [
+        "religious",
+        "culture"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "https://www.alkawthartv.ir/",
+      "logo": "https://i.imgur.com/x4zUmY1.png",
+      "languages": [
+        "ara"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
     "url": "https://ncdn.telewebion.ir/kawthar/live/playlist.m3u8",
     "sources": [
       "discovery/telewebion"
@@ -7201,6 +8106,39 @@
       "logo": "https://i.imgur.com/x4zUmY1.png",
       "languages": [
         "ara"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
+    "url": "https://ncdn.telewebion.ir/kerman/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "KermanTV.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "KermanTV.ir",
+      "name": "Kerman TV",
+      "alt_names": [
+        "شبکه کرمان"
+      ],
+      "country": "IR",
+      "categories": [
+        "general"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "http://kerman.irib.ir/tv",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Kerman_irib_logo_%28blue_version%29.png/960px-Kerman_irib_logo_%28blue_version%29.png",
+      "languages": [
+        "fas"
       ],
       "broadcast_area": [
         "c/IR"
@@ -7240,6 +8178,39 @@
       "closed": null,
       "website": "http://kerman.irib.ir/tv",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Kerman_irib_logo_%28blue_version%29.png/960px-Kerman_irib_logo_%28blue_version%29.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
+    "url": "https://ncdn.telewebion.ir/khalijefars/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "KhalijeFarsTV.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "KhalijeFarsTV.ir",
+      "name": "Khalij-e Fars TV",
+      "alt_names": [
+        "شبکه هرمزگان"
+      ],
+      "country": "IR",
+      "categories": [
+        "general"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "http://khalijefars.irib.ir/tv",
+      "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/7/7c/Bandar_KHALI_J_e_FARS_TV.svg/960px-Bandar_KHALI_J_e_FARS_TV.svg.png",
       "languages": [
         "fas"
       ],
@@ -7291,6 +8262,39 @@
     }
   },
   {
+    "url": "https://ncdn.telewebion.ir/khavaran/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "KhavaranTV.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "KhavaranTV.ir",
+      "name": "Khavaran TV",
+      "alt_names": [
+        "شبکه خراسان جنوبی"
+      ],
+      "country": "IR",
+      "categories": [
+        "general"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "https://telewebion.com/live/khavaran",
+      "logo": "https://upload.wikimedia.org/wikipedia/fa/8/86/KHAVARAN_tv.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
     "url": "https://ncdn.telewebion.ir/khavaran/live/playlist.m3u8",
     "sources": [
       "iptv-org",
@@ -7322,6 +8326,39 @@
       "closed": null,
       "website": "https://telewebion.com/live/khavaran",
       "logo": "https://upload.wikimedia.org/wikipedia/fa/8/86/KHAVARAN_tv.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
+    "url": "https://ncdn.telewebion.ir/khoozestan/live/576p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "KhozestanTV.ir"
+    ],
+    "titles": [],
+    "known_height": 576,
+    "db": {
+      "id": "KhozestanTV.ir",
+      "name": "Khozestan TV",
+      "alt_names": [
+        "شبکه خوزستان"
+      ],
+      "country": "IR",
+      "categories": [
+        "general"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "http://ahwaz.irib.ir/tv",
+      "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/9/9a/Ahwaz_TV.svg/960px-Ahwaz_TV.svg.png",
       "languages": [
         "fas"
       ],
@@ -7373,6 +8410,39 @@
     }
   },
   {
+    "url": "https://ncdn.telewebion.ir/khorasanrazavi/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "KhorasanRazaviTV.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "KhorasanRazaviTV.ir",
+      "name": "Khorasan Razavi TV",
+      "alt_names": [
+        "شبکه خراسان رضوی"
+      ],
+      "country": "IR",
+      "categories": [
+        "general"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "http://mashhad.irib.ir/tv",
+      "logo": "https://upload.wikimedia.org/wikipedia/fa/b/bd/%D9%84%D9%88%DA%AF%D9%88_%D8%B4%D8%A8%DA%A9%D9%87_%D8%AE%D8%B1%D8%A7%D8%B3%D8%A7%D9%86_%D8%B1%D8%B6%D9%88%DB%8C.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
     "url": "https://ncdn.telewebion.ir/khorasanrazavi/live/playlist.m3u8",
     "sources": [
       "iptv-org",
@@ -7404,6 +8474,39 @@
       "closed": null,
       "website": "http://mashhad.irib.ir/tv",
       "logo": "https://upload.wikimedia.org/wikipedia/fa/b/bd/%D9%84%D9%88%DA%AF%D9%88_%D8%B4%D8%A8%DA%A9%D9%87_%D8%AE%D8%B1%D8%A7%D8%B3%D8%A7%D9%86_%D8%B1%D8%B6%D9%88%DB%8C.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
+    "url": "https://ncdn.telewebion.ir/kish/live/576p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "KishTV.ir"
+    ],
+    "titles": [],
+    "known_height": 576,
+    "db": {
+      "id": "KishTV.ir",
+      "name": "Kish TV",
+      "alt_names": [
+        "شبکه کیش"
+      ],
+      "country": "IR",
+      "categories": [
+        "general"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "https://sepehrtv.ir/live/kish",
+      "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/1/14/Kish_tv.svg/960px-Kish_tv.svg.png",
       "languages": [
         "fas"
       ],
@@ -7455,6 +8558,39 @@
     }
   },
   {
+    "url": "https://ncdn.telewebion.ir/kordestan/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "KordestanTV.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "KordestanTV.ir",
+      "name": "Kordestan TV",
+      "alt_names": [
+        "شبکه کردستان"
+      ],
+      "country": "IR",
+      "categories": [
+        "general"
+      ],
+      "network": null,
+      "closed": null,
+      "website": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/2/2c/Sanandaj_KORDESTAN.svg/960px-Sanandaj_KORDESTAN.svg.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
     "url": "https://ncdn.telewebion.ir/kordestan/live/playlist.m3u8",
     "sources": [
       "iptv-org",
@@ -7496,6 +8632,35 @@
     }
   },
   {
+    "url": "https://ncdn.telewebion.ir/labbayk/live/720p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "LabbaykTV.ir"
+    ],
+    "titles": [],
+    "known_height": 720,
+    "db": {
+      "id": "LabbaykTV.ir",
+      "name": "LabbaykTV",
+      "alt_names": [],
+      "country": "IR",
+      "categories": [],
+      "network": null,
+      "closed": null,
+      "website": null,
+      "logo": "https://static.telewebion.com/channelsLogo/ZDVlODRiYjI3NWUyOTFmOGJmYjIwOTQyMDAyMzRkMmUzYjVmOGUyMTBhNTE0MGI5ZDAyOTMzZDdmZDQyNDM5OA/default",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
     "url": "https://ncdn.telewebion.ir/labbayk/live/playlist.m3u8",
     "sources": [
       "iptv-org",
@@ -7523,6 +8688,39 @@
       "closed": null,
       "website": null,
       "logo": "https://static.telewebion.com/channelsLogo/ZDVlODRiYjI3NWUyOTFmOGJmYjIwOTQyMDAyMzRkMmUzYjVmOGUyMTBhNTE0MGI5ZDAyOTMzZDdmZDQyNDM5OA/default",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
+    "url": "https://ncdn.telewebion.ir/mahabad/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "MahabadTV.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "MahabadTV.ir",
+      "name": "Mahabad TV",
+      "alt_names": [
+        "شبکه مهاباد"
+      ],
+      "country": "IR",
+      "categories": [
+        "general"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "http://mahabad.irib.ir/tv",
+      "logo": "https://upload.wikimedia.org/wikipedia/fa/c/cb/Mahabad_tv.png",
       "languages": [
         "fas"
       ],
@@ -7574,6 +8772,38 @@
     }
   },
   {
+    "url": "https://ncdn.telewebion.ir/makran/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "MakranTV.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "MakranTV.ir",
+      "name": "Makran",
+      "alt_names": [
+        "شبکه مکران"
+      ],
+      "country": "IR",
+      "categories": [
+        "general"
+      ],
+      "network": null,
+      "closed": null,
+      "website": null,
+      "logo": "",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [],
+      "format": null,
+      "local": true
+    }
+  },
+  {
     "url": "https://ncdn.telewebion.ir/makran/live/playlist.m3u8",
     "sources": [
       "discovery/telewebion"
@@ -7602,6 +8832,37 @@
       "broadcast_area": [],
       "format": null,
       "local": true
+    }
+  },
+  {
+    "url": "https://ncdn.telewebion.ir/mostanad/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "IRIBMostanad.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "IRIBMostanad.ir",
+      "name": "IRIB Mostanad",
+      "alt_names": [],
+      "country": "IR",
+      "categories": [
+        "general"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "https://www.doctv.ir/",
+      "logo": "https://upload.wikimedia.org/wikipedia/fa/8/89/Mostanad-tv.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
     }
   },
   {
@@ -7685,6 +8946,39 @@
     }
   },
   {
+    "url": "https://ncdn.telewebion.ir/namayesh/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "NamayeshTV.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "NamayeshTV.ir",
+      "name": "Namayesh TV",
+      "alt_names": [
+        "شبکه‌ی نمایش"
+      ],
+      "country": "IR",
+      "categories": [
+        "entertainment"
+      ],
+      "network": null,
+      "closed": null,
+      "website": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Namayesh_TV_logo.svg/960px-Namayesh_TV_logo.svg.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
     "url": "https://ncdn.telewebion.ir/namayesh/live/playlist.m3u8",
     "sources": [
       "iptv-org",
@@ -7716,6 +9010,39 @@
       "closed": null,
       "website": null,
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Namayesh_TV_logo.svg/960px-Namayesh_TV_logo.svg.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
+    "url": "https://ncdn.telewebion.ir/nasim/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "Nasim.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "Nasim.ir",
+      "name": "Nasim",
+      "alt_names": [
+        "شبكه نسیم"
+      ],
+      "country": "IR",
+      "categories": [
+        "entertainment"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "https://tvnasim.ir/",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Nasim_TV_logo.svg/960px-Nasim_TV_logo.svg.png",
       "languages": [
         "fas"
       ],
@@ -7767,6 +9094,35 @@
     }
   },
   {
+    "url": "https://ncdn.telewebion.ir/nava/live/720p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "TVANava.ir"
+    ],
+    "titles": [],
+    "known_height": 720,
+    "db": {
+      "id": "TVANava.ir",
+      "name": "TVA Nava",
+      "alt_names": [],
+      "country": "IR",
+      "categories": [],
+      "network": null,
+      "closed": null,
+      "website": null,
+      "logo": "https://i.imgur.com/JRxrsrw.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
     "url": "https://ncdn.telewebion.ir/nava/live/playlist.m3u8",
     "sources": [
       "iptv-org",
@@ -7794,6 +9150,37 @@
       "closed": null,
       "website": null,
       "logo": "https://i.imgur.com/JRxrsrw.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
+    "url": "https://ncdn.telewebion.ir/noor/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "NoorTV.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "NoorTV.ir",
+      "name": "Noor TV",
+      "alt_names": [
+        "شبکه قم"
+      ],
+      "country": "IR",
+      "categories": [],
+      "network": null,
+      "closed": null,
+      "website": "http://qom.irib.ir/tv",
+      "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/c/ce/Qum_Noor_TV.svg/960px-Qum_Noor_TV.svg.png",
       "languages": [
         "fas"
       ],
@@ -7833,6 +9220,39 @@
       "closed": null,
       "website": "http://qom.irib.ir/tv",
       "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/c/ce/Qum_Noor_TV.svg/960px-Qum_Noor_TV.svg.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
+    "url": "https://ncdn.telewebion.ir/ofogh/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "OfoghTV.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "OfoghTV.ir",
+      "name": "Ofogh TV",
+      "alt_names": [
+        "شبكه‌ی افق"
+      ],
+      "country": "IR",
+      "categories": [
+        "culture"
+      ],
+      "network": null,
+      "closed": null,
+      "website": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/f/fe/Ofogh_TV_logo.svg/960px-Ofogh_TV_logo.svg.png",
       "languages": [
         "fas"
       ],
@@ -7884,6 +9304,37 @@
     }
   },
   {
+    "url": "https://ncdn.telewebion.ir/omid/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "IRIBOmid.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "IRIBOmid.ir",
+      "name": "IRIB Omid",
+      "alt_names": [],
+      "country": "IR",
+      "categories": [
+        "kids"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "http://www.omidtv.ir/",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/IRIB_Omid.svg/500px-IRIB_Omid.svg.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
     "url": "https://ncdn.telewebion.ir/omid/live/playlist.m3u8",
     "sources": [
       "iptv-org",
@@ -7914,6 +9365,40 @@
       "website": "http://www.omidtv.ir/",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/IRIB_Omid.svg/500px-IRIB_Omid.svg.png",
       "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
+    "url": "https://ncdn.telewebion.ir/palestine/live/720p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "Palestinetv.ir"
+    ],
+    "titles": [],
+    "known_height": 720,
+    "db": {
+      "id": "Palestinetv.ir",
+      "name": "Palestinetv",
+      "alt_names": [
+        "فلسطین تی وی"
+      ],
+      "country": "IR",
+      "categories": [
+        "general"
+      ],
+      "network": null,
+      "closed": null,
+      "website": null,
+      "logo": "https://i.ibb.co/svrZNZTX/Palestine.png",
+      "languages": [
+        "ara",
         "fas"
       ],
       "broadcast_area": [
@@ -7954,6 +9439,39 @@
       "logo": "https://i.ibb.co/svrZNZTX/Palestine.png",
       "languages": [
         "ara",
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
+    "url": "https://ncdn.telewebion.ir/pooya/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "PooyaTV.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "PooyaTV.ir",
+      "name": "Pooya TV",
+      "alt_names": [
+        "شبکه پویا"
+      ],
+      "country": "IR",
+      "categories": [
+        "kids"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "http://www.pooyatv.ir/",
+      "logo": "https://upload.wikimedia.org/wikipedia/fa/5/5a/POOYA_tv_2.png",
+      "languages": [
         "fas"
       ],
       "broadcast_area": [
@@ -8004,6 +9522,37 @@
     }
   },
   {
+    "url": "https://ncdn.telewebion.ir/presstv/live/576p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "PressTV.ir"
+    ],
+    "titles": [],
+    "known_height": 576,
+    "db": {
+      "id": "PressTV.ir",
+      "name": "Press TV",
+      "alt_names": [],
+      "country": "IR",
+      "categories": [
+        "news"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "https://www.presstv.ir/",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Press_TV_logo.svg/960px-Press_TV_logo.svg.png",
+      "languages": [
+        "eng"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
     "url": "https://ncdn.telewebion.ir/presstv/live/playlist.m3u8",
     "sources": [
       "discovery/telewebion"
@@ -8026,6 +9575,37 @@
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Press_TV_logo.svg/960px-Press_TV_logo.svg.png",
       "languages": [
         "eng"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
+    "url": "https://ncdn.telewebion.ir/qazvin/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "QazvinTV.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "QazvinTV.ir",
+      "name": "Qazvin TV",
+      "alt_names": [
+        "شبکه قزوین"
+      ],
+      "country": "IR",
+      "categories": [],
+      "network": null,
+      "closed": null,
+      "website": "http://qazvin.irib.ir/tv",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/QazvinTV.svg/960px-QazvinTV.svg.png",
+      "languages": [
+        "fas"
       ],
       "broadcast_area": [
         "c/IR"
@@ -8063,6 +9643,37 @@
       "closed": null,
       "website": "http://qazvin.irib.ir/tv",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/QazvinTV.svg/960px-QazvinTV.svg.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
+    "url": "https://ncdn.telewebion.ir/quran/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "QuranTV.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "QuranTV.ir",
+      "name": "Quran TV",
+      "alt_names": [],
+      "country": "IR",
+      "categories": [
+        "religious"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "https://qurantv.ir/",
+      "logo": "https://upload.wikimedia.org/wikipedia/fa/d/df/Quarntvlogo.png",
       "languages": [
         "fas"
       ],
@@ -8112,6 +9723,35 @@
     }
   },
   {
+    "url": "https://ncdn.telewebion.ir/razavi/live/720p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "RazaviTV.ir"
+    ],
+    "titles": [],
+    "known_height": 720,
+    "db": {
+      "id": "RazaviTV.ir",
+      "name": "Razavi TV",
+      "alt_names": [],
+      "country": "IR",
+      "categories": [],
+      "network": null,
+      "closed": null,
+      "website": null,
+      "logo": "https://static.telewebion.com/channelsLogo/85f466a7-7d17-4ce8-bee6-13da4ff5deb1/default",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
     "url": "https://ncdn.telewebion.ir/razavi/live/playlist.m3u8",
     "sources": [
       "iptv-org",
@@ -8149,6 +9789,35 @@
     }
   },
   {
+    "url": "https://ncdn.telewebion.ir/sabalan/live/576p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "SabalanTV.ir"
+    ],
+    "titles": [],
+    "known_height": 576,
+    "db": {
+      "id": "SabalanTV.ir",
+      "name": "Sabalan TV",
+      "alt_names": [],
+      "country": "IR",
+      "categories": [],
+      "network": null,
+      "closed": null,
+      "website": "http://ardabil.irib.ir/tv",
+      "logo": "https://upload.wikimedia.org/wikipedia/fa/f/f2/Ardabil_SABALAN.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
     "url": "https://ncdn.telewebion.ir/sabalan/live/playlist.m3u8",
     "sources": [
       "iptv-org",
@@ -8176,6 +9845,39 @@
       "closed": null,
       "website": "http://ardabil.irib.ir/tv",
       "logo": "https://upload.wikimedia.org/wikipedia/fa/f/f2/Ardabil_SABALAN.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
+    "url": "https://ncdn.telewebion.ir/sabz/live/576p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "SabzTV.ir"
+    ],
+    "titles": [],
+    "known_height": 576,
+    "db": {
+      "id": "SabzTV.ir",
+      "name": "Sabz TV",
+      "alt_names": [
+        "شبکه گلستان"
+      ],
+      "country": "IR",
+      "categories": [
+        "general"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "http://golestan.irib.ir/",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Logo_Golestan.png/960px-Logo_Golestan.png",
       "languages": [
         "fas"
       ],
@@ -8227,6 +9929,37 @@
     }
   },
   {
+    "url": "https://ncdn.telewebion.ir/sahand/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "SahandTV.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "SahandTV.ir",
+      "name": "Sahand TV",
+      "alt_names": [
+        "شبکه آذربایجان شرقی"
+      ],
+      "country": "IR",
+      "categories": [],
+      "network": null,
+      "closed": null,
+      "website": "http://tabriz.irib.ir/tv",
+      "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/3/37/Tabriz_Sahand.svg/960px-Tabriz_Sahand.svg.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
     "url": "https://ncdn.telewebion.ir/sahand/live/playlist.m3u8",
     "sources": [
       "iptv-org",
@@ -8256,6 +9989,35 @@
       "closed": null,
       "website": "http://tabriz.irib.ir/tv",
       "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/3/37/Tabriz_Sahand.svg/960px-Tabriz_Sahand.svg.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
+    "url": "https://ncdn.telewebion.ir/salamat/live/576p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "SalamatTV.ir"
+    ],
+    "titles": [],
+    "known_height": 576,
+    "db": {
+      "id": "SalamatTV.ir",
+      "name": "Salamat TV",
+      "alt_names": [],
+      "country": "IR",
+      "categories": [],
+      "network": null,
+      "closed": null,
+      "website": "https://salamattv.ir/",
+      "logo": "https://upload.wikimedia.org/wikipedia/fa/f/f0/IRIB_Salamat_Logo.png",
       "languages": [
         "fas"
       ],
@@ -8303,6 +10065,35 @@
     }
   },
   {
+    "url": "https://ncdn.telewebion.ir/sarbedaran/live/720p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "SarbedaranTV.ir"
+    ],
+    "titles": [],
+    "known_height": 720,
+    "db": {
+      "id": "SarbedaranTV.ir",
+      "name": "Sarbedaran TV",
+      "alt_names": [],
+      "country": "IR",
+      "categories": [],
+      "network": null,
+      "closed": null,
+      "website": null,
+      "logo": "https://static.telewebion.com/channelsLogo/ad6e035d-4215-4d88-a25e-da6ff8e0526f/default",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
     "url": "https://ncdn.telewebion.ir/sarbedaran/live/playlist.m3u8",
     "sources": [
       "iptv-org",
@@ -8330,6 +10121,37 @@
       "closed": null,
       "website": null,
       "logo": "https://static.telewebion.com/channelsLogo/ad6e035d-4215-4d88-a25e-da6ff8e0526f/default",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
+    "url": "https://ncdn.telewebion.ir/semnan/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "SemnanTV.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "SemnanTV.ir",
+      "name": "Semnan TV",
+      "alt_names": [
+        "شبکه سمنان"
+      ],
+      "country": "IR",
+      "categories": [],
+      "network": null,
+      "closed": null,
+      "website": "http://semnan.irib.ir/tv",
+      "logo": "https://upload.wikimedia.org/wikipedia/fa/3/35/Semnan_TV.png",
       "languages": [
         "fas"
       ],
@@ -8379,6 +10201,35 @@
     }
   },
   {
+    "url": "https://ncdn.telewebion.ir/sepehr/live/720p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "SepehrTV.ir"
+    ],
+    "titles": [],
+    "known_height": 720,
+    "db": {
+      "id": "SepehrTV.ir",
+      "name": "Sepehr TV",
+      "alt_names": [],
+      "country": "IR",
+      "categories": [],
+      "network": null,
+      "closed": null,
+      "website": "https://sepehr.irib.ir/",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sepehrtv.png/960px-Sepehrtv.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
     "url": "https://ncdn.telewebion.ir/sepehr/live/playlist.m3u8",
     "sources": [
       "iptv-org",
@@ -8406,6 +10257,37 @@
       "closed": null,
       "website": "https://sepehr.irib.ir/",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Sepehrtv.png/960px-Sepehrtv.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
+    "url": "https://ncdn.telewebion.ir/sina/live/576p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "HamedanTV.ir"
+    ],
+    "titles": [],
+    "known_height": 576,
+    "db": {
+      "id": "HamedanTV.ir",
+      "name": "Hamedan TV",
+      "alt_names": [
+        "شبکه همدان"
+      ],
+      "country": "IR",
+      "categories": [],
+      "network": null,
+      "closed": null,
+      "website": "http://hamedan.irib.ir/tv",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/IRIB_Hamadan_tv.svg/960px-IRIB_Hamadan_tv.svg.png",
       "languages": [
         "fas"
       ],
@@ -8455,6 +10337,37 @@
     }
   },
   {
+    "url": "https://ncdn.telewebion.ir/taban/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "YazdTV.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "YazdTV.ir",
+      "name": "Yazd TV",
+      "alt_names": [
+        "شبکه یرد"
+      ],
+      "country": "IR",
+      "categories": [],
+      "network": null,
+      "closed": null,
+      "website": "http://yazd.irib.ir/",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Yazd_taban.svg/960px-Yazd_taban.svg.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
     "url": "https://ncdn.telewebion.ir/taban/live/playlist.m3u8",
     "sources": [
       "iptv-org",
@@ -8481,6 +10394,39 @@
       "closed": null,
       "website": "http://yazd.irib.ir/",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Yazd_taban.svg/960px-Yazd_taban.svg.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
+    "url": "https://ncdn.telewebion.ir/tabarestan/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "TabarestanTV.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "TabarestanTV.ir",
+      "name": "Tabarestan TV",
+      "alt_names": [
+        "شبکه مازندران"
+      ],
+      "country": "IR",
+      "categories": [
+        "general"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "http://mazandaran.irib.ir/",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/IRIB_Mazandaran_Last_Orange_Logo.png/960px-IRIB_Mazandaran_Last_Orange_Logo.png",
       "languages": [
         "fas"
       ],
@@ -8532,6 +10478,39 @@
     }
   },
   {
+    "url": "https://ncdn.telewebion.ir/tehran/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "TehranTV.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "TehranTV.ir",
+      "name": "Tehran TV",
+      "alt_names": [
+        "شبکه تهران"
+      ],
+      "country": "IR",
+      "categories": [
+        "general"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "https://tv5.ir/",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/IRIBTV5.svg/500px-IRIBTV5.svg.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
     "url": "https://ncdn.telewebion.ir/tehran/live/playlist.m3u8",
     "sources": [
       "iptv-org",
@@ -8573,6 +10552,35 @@
     }
   },
   {
+    "url": "https://ncdn.telewebion.ir/tekyemadahi/live/720p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "Tekyemadahi.ir"
+    ],
+    "titles": [],
+    "known_height": 720,
+    "db": {
+      "id": "Tekyemadahi.ir",
+      "name": "Tekyemadahi",
+      "alt_names": [],
+      "country": "IR",
+      "categories": [],
+      "network": null,
+      "closed": null,
+      "website": null,
+      "logo": "https://static.telewebion.com/channelsLogo/d602596d-7b8d-48ef-8f51-9344b4ac0eb6/default",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
     "url": "https://ncdn.telewebion.ir/tekyemadahi/live/playlist.m3u8",
     "sources": [
       "iptv-org",
@@ -8600,6 +10608,39 @@
       "closed": null,
       "website": null,
       "logo": "https://static.telewebion.com/channelsLogo/d602596d-7b8d-48ef-8f51-9344b4ac0eb6/default",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
+    "url": "https://ncdn.telewebion.ir/tv1/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "IRIB1.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "IRIB1.ir",
+      "name": "IRIB 1",
+      "alt_names": [
+        "شبکه یک"
+      ],
+      "country": "IR",
+      "categories": [
+        "general"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "https://tv1.ir/",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/IRIBTV1.svg/960px-IRIBTV1.svg.png",
       "languages": [
         "fas"
       ],
@@ -8651,6 +10692,38 @@
     }
   },
   {
+    "url": "https://ncdn.telewebion.ir/tv1plus/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "IRIB1Plus.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "IRIB1Plus.ir",
+      "name": "IRIB TV1 +",
+      "alt_names": [
+        "شبکه یک پلاس"
+      ],
+      "country": "IR",
+      "categories": [
+        "general"
+      ],
+      "network": null,
+      "closed": null,
+      "website": null,
+      "logo": "",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [],
+      "format": null,
+      "local": true
+    }
+  },
+  {
     "url": "https://ncdn.telewebion.ir/tv1plus/live/playlist.m3u8",
     "sources": [
       "discovery/telewebion"
@@ -8679,6 +10752,39 @@
       "broadcast_area": [],
       "format": null,
       "local": true
+    }
+  },
+  {
+    "url": "https://ncdn.telewebion.ir/tv2/live/1080p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "IRIB2.ir"
+    ],
+    "titles": [],
+    "known_height": 1080,
+    "db": {
+      "id": "IRIB2.ir",
+      "name": "IRIB 2",
+      "alt_names": [
+        "شبكه دو"
+      ],
+      "country": "IR",
+      "categories": [
+        "general"
+      ],
+      "network": null,
+      "closed": null,
+      "website": null,
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/IRIB_TV2_logo.svg/960px-IRIB_TV2_logo.svg.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
     }
   },
   {
@@ -8713,6 +10819,39 @@
       "closed": null,
       "website": null,
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/IRIB_TV2_logo.svg/960px-IRIB_TV2_logo.svg.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
+    "url": "https://ncdn.telewebion.ir/tv3/live/108050p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "IRIB3.ir"
+    ],
+    "titles": [],
+    "known_height": 1082,
+    "db": {
+      "id": "IRIB3.ir",
+      "name": "IRIB 3",
+      "alt_names": [
+        "شبکه ۳"
+      ],
+      "country": "IR",
+      "categories": [
+        "sports"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "https://tv3.ir/",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/IRIB_TV3_LOGO.svg/960px-IRIB_TV3_LOGO.svg.png",
       "languages": [
         "fas"
       ],
@@ -8764,6 +10903,39 @@
     }
   },
   {
+    "url": "https://ncdn.telewebion.ir/tv4/live/576p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "IRIB4.ir"
+    ],
+    "titles": [],
+    "known_height": 576,
+    "db": {
+      "id": "IRIB4.ir",
+      "name": "IRIB 4",
+      "alt_names": [
+        "شبكه چهار"
+      ],
+      "country": "IR",
+      "categories": [
+        "culture"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "https://tv4.ir/",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/IRIB_TV4_logo.svg/960px-IRIB_TV4_logo.svg.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
     "url": "https://ncdn.telewebion.ir/tv4/live/playlist.m3u8",
     "sources": [
       "iptv-org",
@@ -8795,6 +10967,37 @@
       "closed": null,
       "website": "https://tv4.ir/",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/IRIB_TV4_logo.svg/960px-IRIB_TV4_logo.svg.png",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
+    "url": "https://ncdn.telewebion.ir/varzesh/live/108050p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "VarzeshTV.ir"
+    ],
+    "titles": [],
+    "known_height": 1082,
+    "db": {
+      "id": "VarzeshTV.ir",
+      "name": "Varzesh TV",
+      "alt_names": [],
+      "country": "IR",
+      "categories": [
+        "sports"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "https://varzeshtv.ir/",
+      "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/f/f5/Iribvarzesh2022.png/960px-Iribvarzesh2022.png",
       "languages": [
         "fas"
       ],
@@ -8844,6 +11047,35 @@
     }
   },
   {
+    "url": "https://ncdn.telewebion.ir/velayat/live/720p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "VelayatTV.ir"
+    ],
+    "titles": [],
+    "known_height": 720,
+    "db": {
+      "id": "VelayatTV.ir",
+      "name": "Velayat TV",
+      "alt_names": [],
+      "country": "IR",
+      "categories": [],
+      "network": null,
+      "closed": null,
+      "website": null,
+      "logo": "https://static.telewebion.com/channelsLogo/ae05de5b-9fe4-4012-900a-4d0763d6fafc/default",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
     "url": "https://ncdn.telewebion.ir/velayat/live/playlist.m3u8",
     "sources": [
       "iptv-org",
@@ -8871,6 +11103,39 @@
       "closed": null,
       "website": null,
       "logo": "https://static.telewebion.com/channelsLogo/ae05de5b-9fe4-4012-900a-4d0763d6fafc/default",
+      "languages": [
+        "fas"
+      ],
+      "broadcast_area": [
+        "c/IR"
+      ],
+      "format": "576i"
+    }
+  },
+  {
+    "url": "https://ncdn.telewebion.ir/zagros/live/576p/index.m3u8",
+    "sources": [
+      "discovery/telewebion"
+    ],
+    "channel_ids": [
+      "ZagrosTV.ir"
+    ],
+    "titles": [],
+    "known_height": 576,
+    "db": {
+      "id": "ZagrosTV.ir",
+      "name": "Zagros TV",
+      "alt_names": [
+        "شبکه کرمانشاه"
+      ],
+      "country": "IR",
+      "categories": [
+        "general"
+      ],
+      "network": null,
+      "closed": null,
+      "website": "http://kermanshah.irib.ir/tv",
+      "logo": "https://upload.wikimedia.org/wikipedia/fa/thumb/e/e4/Kermanshah_Zaghros.svg/960px-Kermanshah_Zaghros.svg.png",
       "languages": [
         "fas"
       ],

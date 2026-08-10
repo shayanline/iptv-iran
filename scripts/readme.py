@@ -258,8 +258,18 @@ main playlists. The score uses only measured values:
 | Resolution | up to 24 | Measured from the master playlist, not from a label |
 | Adaptive bitrate | 8 | More than one variant lets a client adapt to bandwidth |
 | Response time | up to 3 | Breaks ties only, never outweighs a resolution step |
+| Malformed manifest | minus 40 | A playlist that breaks the HLS spec stalls strict clients, so a clean equivalent always wins |
 
 Uptime is the heaviest ongoing factor, so the choice improves as history accumulates.
+
+Some providers publish a master playlist that breaks the HLS specification. Telewebion, the
+platform behind the IRIB channels, writes `EXT-X-VERSION:6` without its leading `#`. Under
+RFC 8216 any line that is not blank and does not start with `#` is a URI, so a strict client
+requests that tag text as though it were the stream, receives a 403 and stops after the
+first frame. ffmpeg and VLC tolerate it, several set top box clients do not. For those
+providers the master is read once to learn which renditions exist and the direct rendition
+URL is published instead, which is a clean media playlist. The master is kept in
+`iran-all-streams.m3u` as a fallback.
 
 {heading("how-channels-are-categorised", "How channels are categorised")}
 
@@ -457,9 +467,20 @@ broadcasters.
 | رزولوشن | تا ۲۴ | از خود پلی‌لیست اصلی خوانده می‌شود، نه از روی برچسب |
 | کیفیت تطبیقی | ۸ | وجود چند کیفیت به برنامه اجازه می‌دهد خودش را با سرعت اینترنت هماهنگ کند |
 | زمان پاسخ | تا ۳ | فقط وقتی به کار می‌آید که بقیه عامل‌ها برابر باشند |
+| مانیفست خراب | منفی ۴۰ | پلی‌لیستی که استاندارد HLS را رعایت نکند در بعضی برنامه‌ها گیر می‌کند، پس نسخه سالم همیشه اولویت دارد |
 
 سابقه سالم بودن مهم‌ترین عامل در طول زمان است، پس هرچه بررسی‌های بیشتری انجام شود انتخاب
 دقیق‌تر می‌شود.
+
+بعضی سرویس‌ها پلی‌لیست اصلی را طوری منتشر می‌کنند که استاندارد HLS را رعایت نمی‌کند.
+Telewebion، همان پلتفرمی که شبکه‌های صداوسیما را پخش می‌کند، خط `EXT-X-VERSION:6` را بدون
+`#` ابتدای آن می‌نویسد. طبق استاندارد RFC 8216 هر خطی که خالی نباشد و با `#` شروع نشود یک
+آدرس به حساب می‌آید، بنابراین برنامه‌هایی که استاندارد را دقیق پیاده کرده‌اند همان متن را
+مثل آدرس استریم درخواست می‌کنند، جواب 403 می‌گیرند و بعد از اولین فریم متوقف می‌شوند.
+ffmpeg و VLC این ایراد را نادیده می‌گیرند ولی خیلی از باکس‌ها و اپلیکیشن‌های تلویزیون نه.
+برای این سرویس‌ها پلی‌لیست اصلی یک بار خوانده می‌شود تا مشخص شود چه کیفیت‌هایی دارد، و بعد
+آدرس مستقیم همان کیفیت منتشر می‌شود که یک پلی‌لیست تمیز است. نسخه اصلی هم در
+`iran-all-streams.m3u` به عنوان پشتیبان می‌ماند.
 
 {heading("fa-categories-how", "شبکه‌ها چطور دسته‌بندی می‌شوند")}
 
