@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IR1.xml.gz"
 # IRIB National Networks only.
-# generated 2026-08-10 22:37 UTC by shayanline/iptv-iran
+# generated 2026-08-10 22:39 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="GolkhaneTv.ir" tvg-name="Golkhane" tvg-logo="https://static.telewebion.com/channelsLogo/686599d8-c1ee-4557-aa72-b1293a21906d/default" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="HD",Golkhane | شبکه گلخانه HD
 https://ncdn.telewebion.ir/golkhane/live/720p/index.m3u8
 #EXTINF:-1 tvg-id="iFilmPersian.ir" tvg-name="iFilm" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="FHD",iFilm | آی‌فیلم FHD

@@ -64,7 +64,7 @@ you and keep the file name the same.
 
 Resolution tags (`HD`, `FHD`, `4K`) are appended to the title from the resolution the
 probe measured, and `[IR]` marks a channel that needs an Iranian IP address. Current mix:
-1 4K, 58 FHD, 45 HD, 84 SD, 14 unknown.
+1 4K, 57 FHD, 45 HD, 85 SD, 14 unknown.
 
 An EPG is referenced through `x-tvg-url`, so clients that support it will load a programme
 guide without further configuration.
@@ -513,7 +513,7 @@ Islamic religious channels, registered in Iran, Iraq and elsewhere.
 | Habib TV | شبکه حبیب | 720p | Anywhere | 2 |
 | Hadi TV | شبکه هادی | 1080p | Anywhere | 1 |
 | Imam Hussein TV 1 | امام حسین ۱ | 1080p | Anywhere | 2 |
-| Imam Hussein TV 6 | امام حسین ۶ | 1080p | Anywhere | 1 |
+| Imam Hussein TV 6 | امام حسین ۶ | 480p | Anywhere | 1 |
 | Labbayk TV | شبکه لبیک | 720p | Anywhere | 2 |
 | Marjaeyat TV Persian | شبکه مرجعیت | 1080p | Anywhere | 1 |
 | Nour TV | شبکه نور (امارات) | 576p | Anywhere | 1 |
@@ -621,7 +621,7 @@ https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-all-s
 
 برچسب کیفیت (`HD`، `FHD`، `4K`) بر اساس رزولوشنی که هنگام بررسی اندازه‌گیری شده به عنوان
 اضافه می‌شود، و `[IR]` یعنی آن شبکه فقط با IP ایران باز می‌شود. ترکیب فعلی:
-۱ 4K، ۵۸ FHD، ۴۵ HD، ۸۴ کیفیت معمولی، ۱۴ نامشخص.
+۱ 4K، ۵۷ FHD، ۴۵ HD، ۸۵ کیفیت معمولی، ۱۴ نامشخص.
 
 آدرس EPG با `x-tvg-url` داخل فایل قرار دارد، پس برنامه‌هایی که از آن پشتیبانی می‌کنند
 جدول پخش را بدون تنظیم اضافه نشان می‌دهند.
@@ -1059,7 +1059,7 @@ python scripts/discover.py
 | شبکه حبیب | Habib TV | 720p | همه‌جا | 2 |
 | شبکه هادی | Hadi TV | 1080p | همه‌جا | 1 |
 | امام حسین ۱ | Imam Hussein TV 1 | 1080p | همه‌جا | 2 |
-| امام حسین ۶ | Imam Hussein TV 6 | 1080p | همه‌جا | 1 |
+| امام حسین ۶ | Imam Hussein TV 6 | 480p | همه‌جا | 1 |
 | شبکه لبیک | Labbayk TV | 720p | همه‌جا | 2 |
 | شبکه مرجعیت | Marjaeyat TV Persian | 1080p | همه‌جا | 1 |
 | شبکه نور (امارات) | Nour TV | 576p | همه‌جا | 1 |
