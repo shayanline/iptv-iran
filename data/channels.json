@@ -167,28 +167,6 @@
         "score": 158.074
       },
       {
-        "url": "https://live-aburayhan1106.telewebion.ir/ek/tv2/live/1080p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 1080,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1665,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 149.702
-      },
-      {
         "url": "https://ncdn.telewebion.ir/tv2/live/playlist.m3u8",
         "state": "ok",
         "resolution": "1920x1080",
@@ -315,28 +293,6 @@
         "format": "576i",
         "defects": [],
         "score": 161.912
-      },
-      {
-        "url": "https://live-aburayhan1106.telewebion.ir/ek/tv3/live/108050p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 1082,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1992,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 153.484
       },
       {
         "url": "https://ncdn.telewebion.ir/tv3/live/playlist.m3u8",
@@ -467,28 +423,6 @@
         "score": 148.783
       },
       {
-        "url": "https://live-aburayhan1104.telewebion.ir/ek/tv4/live/576p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 576,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1687,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 140.355
-      },
-      {
         "url": "https://ncdn.telewebion.ir/tv4/live/playlist.m3u8",
         "state": "ok",
         "resolution": "720x576",
@@ -617,28 +551,6 @@
         "score": 158.127
       },
       {
-        "url": "https://live-aburayhan1111.telewebion.ir/ek/tehran/live/1080p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 1080,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1519,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 149.8
-      },
-      {
         "url": "https://ncdn.telewebion.ir/tehran/live/playlist.m3u8",
         "state": "ok",
         "resolution": "1920x1080",
@@ -743,28 +655,6 @@
         "format": "576i",
         "defects": [],
         "score": 151.997
-      },
-      {
-        "url": "https://live-aburayhan1102.telewebion.ir/na/golkhane/live/720p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 720,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 906,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 143.542
       },
       {
         "url": "https://ncdn.telewebion.ir/golkhane/live/playlist.m3u8",
@@ -918,28 +808,6 @@
         "format": "576i",
         "defects": [],
         "score": 158.132
-      },
-      {
-        "url": "https://live-aburayhan1110.telewebion.ir/ek/ifilm/live/1080p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 1080,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1849,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 149.58
       },
       {
         "url": "https://ncdn.telewebion.ir/ifilm/live/playlist.m3u8",
@@ -1123,28 +991,6 @@
         "score": 148.669
       },
       {
-        "url": "https://live-aburayhan1102.telewebion.ir/ek/amouzesh/live/576p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 576,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1877,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 140.228
-      },
-      {
         "url": "https://ncdn.telewebion.ir/amouzesh/live/playlist.m3u8",
         "state": "ok",
         "resolution": "720x576",
@@ -1271,28 +1117,6 @@
         "format": "576i",
         "defects": [],
         "score": 158.112
-      },
-      {
-        "url": "https://live-aburayhan1105.telewebion.ir/ek/mostanad/live/1080p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 1080,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1625,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 149.729
       },
       {
         "url": "https://ncdn.telewebion.ir/mostanad/live/playlist.m3u8",
@@ -1573,28 +1397,6 @@
         "score": 158.115
       },
       {
-        "url": "https://live-aburayhan1107.telewebion.ir/ek/nasim/live/1080p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 1080,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1670,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 149.699
-      },
-      {
         "url": "https://ncdn.telewebion.ir/nasim/live/playlist.m3u8",
         "state": "ok",
         "resolution": "1920x1080",
@@ -1721,28 +1523,6 @@
         "format": "576i",
         "defects": [],
         "score": 158.17
-      },
-      {
-        "url": "https://live-aburayhan1104.telewebion.ir/ek/ofogh/live/1080p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 1080,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1737,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 149.655
       },
       {
         "url": "https://ncdn.telewebion.ir/ofogh/live/playlist.m3u8",
@@ -1873,28 +1653,6 @@
         "score": 158.134
       },
       {
-        "url": "https://live-aburayhan1106.telewebion.ir/ek/omid/live/1080p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 1080,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1594,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 149.75
-      },
-      {
         "url": "https://ncdn.telewebion.ir/omid/live/playlist.m3u8",
         "state": "ok",
         "resolution": "1920x1080",
@@ -2021,28 +1779,6 @@
         "format": "576i",
         "defects": [],
         "score": 158.127
-      },
-      {
-        "url": "https://live-aburayhan1103.telewebion.ir/ek/pooya/live/1080p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 1080,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1663,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 149.704
       },
       {
         "url": "https://ncdn.telewebion.ir/pooya/live/playlist.m3u8",
@@ -2173,28 +1909,6 @@
         "score": 158.158
       },
       {
-        "url": "https://live-aburayhan1108.telewebion.ir/ek/quran/live/1080p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 1080,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1691,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 149.685
-      },
-      {
         "url": "https://ncdn.telewebion.ir/quran/live/playlist.m3u8",
         "state": "ok",
         "resolution": "1920x1080",
@@ -2321,28 +2035,6 @@
         "format": "576i",
         "defects": [],
         "score": 148.834
-      },
-      {
-        "url": "https://live-aburayhan1103.telewebion.ir/ek/salamat/live/576p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 576,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1694,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 140.35
       },
       {
         "url": "https://ncdn.telewebion.ir/salamat/live/playlist.m3u8",
@@ -2473,28 +2165,6 @@
         "score": 157.749
       },
       {
-        "url": "https://live-aburayhan1101.telewebion.ir/ek/hdtest/live/1080p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 1080,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1685,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 149.689
-      },
-      {
         "url": "https://ncdn.telewebion.ir/hdtest/live/playlist.m3u8",
         "state": "ok",
         "resolution": "1920x1080",
@@ -2623,28 +2293,6 @@
         "score": 158.631
       },
       {
-        "url": "https://live-aburayhan1109.telewebion.ir/na/tv1plus/live/1080p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 1080,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 917,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": null,
-        "defects": [],
-        "score": 150.201
-      },
-      {
         "url": "https://ncdn.telewebion.ir/tv1plus/live/playlist.m3u8",
         "state": "ok",
         "resolution": "1920x1080",
@@ -2745,28 +2393,6 @@
         "format": "2160p",
         "defects": [],
         "score": 161.793
-      },
-      {
-        "url": "https://live-aburayhan1102.telewebion.ir/ek/faratar/live/2160p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 2160,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 2144,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "2160p",
-        "defects": [],
-        "score": 153.383
       },
       {
         "url": "https://ncdn.telewebion.ir/faratar/live/playlist.m3u8",
@@ -2895,28 +2521,6 @@
         "format": "576i",
         "defects": [],
         "score": 161.982
-      },
-      {
-        "url": "https://live-aburayhan1112.telewebion.ir/ek/varzesh/live/108050p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 1082,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 2041,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 153.452
       },
       {
         "url": "https://ncdn.telewebion.ir/varzesh/live/playlist.m3u8",
@@ -3070,28 +2674,6 @@
         "format": "576i",
         "defects": [],
         "score": 158.007
-      },
-      {
-        "url": "https://live-aburayhan1110.telewebion.ir/ek/irinn/live/1080p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 1080,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1765,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 149.636
       },
       {
         "url": "https://ncdn.telewebion.ir/irinn/live/playlist.m3u8",
@@ -3560,28 +3142,6 @@
         "score": 149.117
       },
       {
-        "url": "https://live-aburayhan1110.telewebion.ir/ek/aflak/live/576p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 576,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1199,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 140.68
-      },
-      {
         "url": "https://ncdn.telewebion.ir/aflak/live/playlist.m3u8",
         "state": "ok",
         "resolution": "720x576",
@@ -3816,28 +3376,6 @@
         "score": 158.439
       },
       {
-        "url": "https://live-aburayhan1110.telewebion.ir/ek/alborz/live/1080p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 1080,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1210,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 150.006
-      },
-      {
         "url": "https://ncdn.telewebion.ir/alborz/live/playlist.m3u8",
         "state": "ok",
         "resolution": "1920x1080",
@@ -3944,28 +3482,6 @@
         "format": "576i",
         "defects": [],
         "score": 149.211
-      },
-      {
-        "url": "https://live-aburayhan1111.telewebion.ir/ek/atrak/live/576p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 576,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1235,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 140.656
       },
       {
         "url": "https://ncdn.telewebion.ir/atrak/live/playlist.m3u8",
@@ -4075,28 +3591,6 @@
         "score": 149.105
       },
       {
-        "url": "https://live-aburayhan1107.telewebion.ir/ek/baran/live/576p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 576,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1125,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 140.729
-      },
-      {
         "url": "https://ncdn.telewebion.ir/baran/live/playlist.m3u8",
         "state": "ok",
         "resolution": "720x576",
@@ -4203,28 +3697,6 @@
         "score": 158.519
       },
       {
-        "url": "https://live-aburayhan1108.telewebion.ir/ek/bushehr/live/1080p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 1080,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1259,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 149.973
-      },
-      {
         "url": "https://ncdn.telewebion.ir/bushehr/live/playlist.m3u8",
         "state": "ok",
         "resolution": "1920x1080",
@@ -4329,28 +3801,6 @@
         "format": "576i",
         "defects": [],
         "score": 158.413
-      },
-      {
-        "url": "https://live-aburayhan1113.telewebion.ir/ek/dena/live/1080p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 1080,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1262,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 149.971
       },
       {
         "url": "https://ncdn.telewebion.ir/dena/live/playlist.m3u8",
@@ -4587,28 +4037,6 @@
         "score": 158.549
       },
       {
-        "url": "https://live-aburayhan1101.telewebion.ir/ek/fars/live/1080p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 1080,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1034,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 150.123
-      },
-      {
         "url": "https://ncdn.telewebion.ir/fars/live/playlist.m3u8",
         "state": "ok",
         "resolution": "1920x1080",
@@ -4821,28 +4249,6 @@
         "score": 158.533
       },
       {
-        "url": "https://live-aburayhan1103.telewebion.ir/ek/hamoon/live/1080p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 1080,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1021,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 150.132
-      },
-      {
         "url": "https://ncdn.telewebion.ir/hamoon/live/playlist.m3u8",
         "state": "ok",
         "resolution": "1920x1080",
@@ -4947,28 +4353,6 @@
         "format": "576i",
         "defects": [],
         "score": 149.219
-      },
-      {
-        "url": "https://live-aburayhan1107.telewebion.ir/ek/ilam/live/576p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 576,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1073,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 140.764
       },
       {
         "url": "https://ncdn.telewebion.ir/ilam/live/playlist.m3u8",
@@ -5077,28 +4461,6 @@
         "score": 158.419
       },
       {
-        "url": "https://live-aburayhan1110.telewebion.ir/ek/esfahan/live/1080p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 1080,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1199,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 150.013
-      },
-      {
         "url": "https://ncdn.telewebion.ir/esfahan/live/playlist.m3u8",
         "state": "ok",
         "resolution": "1920x1080",
@@ -5203,28 +4565,6 @@
         "format": "576i",
         "defects": [],
         "score": 158.559
-      },
-      {
-        "url": "https://live-aburayhan1105.telewebion.ir/ek/jahanbin/live/1080p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 1080,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1240,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 149.986
       },
       {
         "url": "https://ncdn.telewebion.ir/jahanbin/live/playlist.m3u8",
@@ -5333,28 +4673,6 @@
         "score": 158.554
       },
       {
-        "url": "https://live-aburayhan1105.telewebion.ir/ek/kerman/live/1080p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 1080,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1211,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 150.005
-      },
-      {
         "url": "https://ncdn.telewebion.ir/kerman/live/playlist.m3u8",
         "state": "ok",
         "resolution": "1920x1080",
@@ -5459,28 +4777,6 @@
         "format": "576i",
         "defects": [],
         "score": 158.558
-      },
-      {
-        "url": "https://live-aburayhan1112.telewebion.ir/ek/khalijefars/live/1080p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 1080,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1227,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 149.994
       },
       {
         "url": "https://ncdn.telewebion.ir/khalijefars/live/playlist.m3u8",
@@ -5589,28 +4885,6 @@
         "score": 158.549
       },
       {
-        "url": "https://live-aburayhan1109.telewebion.ir/ek/khavaran/live/1080p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 1080,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1219,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 150.0
-      },
-      {
         "url": "https://ncdn.telewebion.ir/khavaran/live/playlist.m3u8",
         "state": "ok",
         "resolution": "1920x1080",
@@ -5715,28 +4989,6 @@
         "format": "576i",
         "defects": [],
         "score": 158.515
-      },
-      {
-        "url": "https://live-aburayhan1112.telewebion.ir/ek/khorasanrazavi/live/1080p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 1080,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1053,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 150.111
       },
       {
         "url": "https://ncdn.telewebion.ir/khorasanrazavi/live/playlist.m3u8",
@@ -5845,28 +5097,6 @@
         "score": 149.215
       },
       {
-        "url": "https://live-aburayhan1113.telewebion.ir/ek/khoozestan/live/576p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 576,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1047,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 140.781
-      },
-      {
         "url": "https://ncdn.telewebion.ir/khoozestan/live/playlist.m3u8",
         "state": "ok",
         "resolution": "720x576",
@@ -5971,28 +5201,6 @@
         "format": "576i",
         "defects": [],
         "score": 149.119
-      },
-      {
-        "url": "https://live-aburayhan1101.telewebion.ir/ek/kish/live/576p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 576,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1036,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 140.788
       },
       {
         "url": "https://ncdn.telewebion.ir/kish/live/playlist.m3u8",
@@ -6101,28 +5309,6 @@
         "score": 158.535
       },
       {
-        "url": "https://live-aburayhan1112.telewebion.ir/ek/kordestan/live/1080p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 1080,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1025,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 150.129
-      },
-      {
         "url": "https://ncdn.telewebion.ir/kordestan/live/playlist.m3u8",
         "state": "ok",
         "resolution": "1920x1080",
@@ -6227,28 +5413,6 @@
         "format": "576i",
         "defects": [],
         "score": 158.559
-      },
-      {
-        "url": "https://live-aburayhan1106.telewebion.ir/ek/mahabad/live/1080p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 1080,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1207,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 150.008
       },
       {
         "url": "https://ncdn.telewebion.ir/mahabad/live/playlist.m3u8",
@@ -6357,28 +5521,6 @@
         "score": 158.672
       },
       {
-        "url": "https://live-aburayhan1110.telewebion.ir/na/makran/live/1080p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 1080,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 906,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": null,
-        "defects": [],
-        "score": 150.208
-      },
-      {
         "url": "https://ncdn.telewebion.ir/makran/live/playlist.m3u8",
         "state": "ok",
         "resolution": "1920x1080",
@@ -6479,28 +5621,6 @@
         "format": "576i",
         "defects": [],
         "score": 158.549
-      },
-      {
-        "url": "https://live-aburayhan1109.telewebion.ir/ek/noor/live/1080p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 1080,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1026,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 150.129
       },
       {
         "url": "https://ncdn.telewebion.ir/noor/live/playlist.m3u8",
@@ -6609,28 +5729,6 @@
         "score": 158.569
       },
       {
-        "url": "https://live-aburayhan1111.telewebion.ir/ek/qazvin/live/1080p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 1080,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1073,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 150.097
-      },
-      {
         "url": "https://ncdn.telewebion.ir/qazvin/live/playlist.m3u8",
         "state": "ok",
         "resolution": "1920x1080",
@@ -6737,28 +5835,6 @@
         "score": 149.189
       },
       {
-        "url": "https://live-aburayhan1105.telewebion.ir/ek/sabalan/live/576p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 576,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1033,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 140.79
-      },
-      {
         "url": "https://ncdn.telewebion.ir/sabalan/live/playlist.m3u8",
         "state": "ok",
         "resolution": "720x576",
@@ -6863,28 +5939,6 @@
         "format": "576i",
         "defects": [],
         "score": 149.211
-      },
-      {
-        "url": "https://live-aburayhan1110.telewebion.ir/ek/sabz/live/576p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 576,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1040,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 140.786
       },
       {
         "url": "https://ncdn.telewebion.ir/sabz/live/playlist.m3u8",
@@ -7099,28 +6153,6 @@
         "score": 158.567
       },
       {
-        "url": "https://live-aburayhan1113.telewebion.ir/ek/semnan/live/1080p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 1080,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1027,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 150.128
-      },
-      {
         "url": "https://ncdn.telewebion.ir/semnan/live/playlist.m3u8",
         "state": "ok",
         "resolution": "1920x1080",
@@ -7225,28 +6257,6 @@
         "format": "576i",
         "defects": [],
         "score": 158.543
-      },
-      {
-        "url": "https://live-aburayhan1110.telewebion.ir/ek/tabarestan/live/1080p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 1080,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1029,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 150.126
       },
       {
         "url": "https://ncdn.telewebion.ir/tabarestan/live/playlist.m3u8",
@@ -7359,28 +6369,6 @@
         "score": 149.094
       },
       {
-        "url": "https://live-aburayhan1113.telewebion.ir/ek/azarbayjangharbi/live/576p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 576,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1238,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 140.654
-      },
-      {
         "url": "https://ncdn.telewebion.ir/azarbayjangharbi/live/playlist.m3u8",
         "state": "ok",
         "resolution": "720x576",
@@ -7490,28 +6478,6 @@
         "score": 158.551
       },
       {
-        "url": "https://live-aburayhan1107.telewebion.ir/ek/taban/live/1080p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 1080,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1037,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 150.121
-      },
-      {
         "url": "https://ncdn.telewebion.ir/taban/live/playlist.m3u8",
         "state": "ok",
         "resolution": "1920x1080",
@@ -7614,28 +6580,6 @@
         "format": "576i",
         "defects": [],
         "score": 149.235
-      },
-      {
-        "url": "https://live-aburayhan1111.telewebion.ir/ek/zagros/live/576p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 576,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1056,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 140.775
       },
       {
         "url": "https://ncdn.telewebion.ir/zagros/live/playlist.m3u8",
@@ -7742,28 +6686,6 @@
         "format": "576i",
         "defects": [],
         "score": 149.314
-      },
-      {
-        "url": "https://live-aburayhan1106.telewebion.ir/ek/kawthar/live/576p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 576,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1100,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 140.746
       },
       {
         "url": "https://ncdn.telewebion.ir/kawthar/live/playlist.m3u8",
@@ -8466,28 +7388,6 @@
         "format": "576i",
         "defects": [],
         "score": 149.317
-      },
-      {
-        "url": "https://live-aburayhan1106.telewebion.ir/ek/presstv/live/576p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 576,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 857,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 140.908
       },
       {
         "url": "https://ncdn.telewebion.ir/presstv/live/playlist.m3u8",
@@ -14903,28 +13803,6 @@
         "score": 151.461
       },
       {
-        "url": "https://live-aburayhan1110.telewebion.ir/na/habib/live/720p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 720,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1674,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 143.03
-      },
-      {
         "url": "https://ncdn.telewebion.ir/habib/live/playlist.m3u8",
         "state": "ok",
         "resolution": "1280x720",
@@ -15215,28 +14093,6 @@
         "format": "576i",
         "defects": [],
         "score": 151.968
-      },
-      {
-        "url": "https://live-aburayhan1110.telewebion.ir/na/labbayk/live/720p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 720,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 900,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 143.546
       },
       {
         "url": "https://ncdn.telewebion.ir/labbayk/live/playlist.m3u8",
@@ -15640,28 +14496,6 @@
         "score": 151.437
       },
       {
-        "url": "https://live-aburayhan1102.telewebion.ir/ek/razavi/live/720p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 720,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 1701,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 143.012
-      },
-      {
         "url": "https://ncdn.telewebion.ir/razavi/live/playlist.m3u8",
         "state": "ok",
         "resolution": "1280x720",
@@ -15766,28 +14600,6 @@
         "format": "576i",
         "defects": [],
         "score": 152.019
-      },
-      {
-        "url": "https://live-aburayhan1113.telewebion.ir/ek/tekyemadahi/live/720p/index.m3u8",
-        "state": "ok",
-        "resolution": null,
-        "height": 720,
-        "bandwidth": null,
-        "variants": null,
-        "kind": "hls",
-        "ms": 916,
-        "uptime": 1.0,
-        "checks": 1,
-        "user_agent": null,
-        "referrer": null,
-        "sources": [
-          "discovery/telewebion"
-        ],
-        "first_seen": "2026-08-10T23:27:06+00:00",
-        "last_ok": "2026-08-10T23:27:06+00:00",
-        "format": "576i",
-        "defects": [],
-        "score": 143.535
       },
       {
         "url": "https://ncdn.telewebion.ir/tekyemadahi/live/playlist.m3u8",

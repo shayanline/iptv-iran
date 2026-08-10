@@ -230,10 +230,6 @@ playlist.
 - [lashkari20/iptv](https://github.com/lashkari20/iptv), a 2022 snapshot kept only as links
   to test.
 
-A few channels other lists carry are missing here on purpose. They are only reachable
-through someone else's proxy server, and pointing thousands of viewers at infrastructure a
-stranger pays for is not something this project will do.
-
 If you hold the rights to a channel listed here and want it removed,
 [open an issue](https://github.com/{REPO}/issues) and it will be taken out.
 
@@ -352,10 +348,6 @@ If you hold the rights to a channel listed here and want it removed,
   پروژه از آن گرفته شد.
 - [lashkari20/iptv](https://github.com/lashkari20/iptv)، تصویری از سال ۲۰۲۲ که فقط به عنوان
   چند لینک برای آزمایش نگه داشته شده است.
-
-چند شبکه که در فهرست‌های دیگر هست، عمداً اینجا نیامده. آن‌ها فقط از راه پروکسی شخص دیگری
-باز می‌شوند، و فرستادن هزاران بیننده به سروری که هزینه‌اش را کس دیگری می‌دهد کاری نیست که
-این پروژه انجام دهد.
 
 اگر حق پخش شبکه‌ای در این فهرست را دارید و می‌خواهید حذف شود،
 [یک issue باز کنید](https://github.com/{REPO}/issues) تا برداشته شود.
