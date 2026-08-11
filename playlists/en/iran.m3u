@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IR1.xml.gz"
 # Every channel, one stream each. [IR] needs an Iranian IP address.
-# generated 2026-08-11 12:39 UTC by shayanline/iptv-iran
+# generated 2026-08-11 12:42 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="IRIB1.ir" tvg-name="IRIB TV1" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRIB1.ir.png" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="FHD",IRIB TV1 FHD
 https://live-aburayhan1108.telewebion.ir/ek/tv1/live/1080p/index.m3u8
 #EXTINF:-1 tvg-id="IRIB2.ir" tvg-name="IRIB TV2" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRIB2.ir.png" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="FHD",IRIB TV2 FHD
@@ -120,9 +120,9 @@ https://live-aburayhan1103.telewebion.ir/ek/kawthar/live/576p/index.m3u8
 #EXTINF:-1 tvg-id="HispanTV.ir" tvg-name="HispanTV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/HispanTV.ir.jpg" group-title="IRIB International Services" tvg-language="spa" tvg-quality="SD",HispanTV
 https://live.presstv.co.uk/hls/hispantv_5_482/index.m3u8
 #EXTINF:-1 tvg-id="iFilm2.ir" tvg-name="iFilm 2" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/iFilm2.ir.png" group-title="IRIB International Services" tvg-language="fas" tvg-quality="SD",iFilm 2
-https://live.presstv.ir/hls/ifilm2_4_482/index.m3u8
+https://live.presstv.co.uk/hls/ifilm2_4_482/index.m3u8
 #EXTINF:-1 tvg-id="iFilmArabic.ir" tvg-name="iFilm Arabic" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/iFilmArabic.ir.png" group-title="IRIB International Services" tvg-language="ara" tvg-quality="SD",iFilm Arabic
-https://live.presstv.ir/hls/ifilmar_4_482/index.m3u8
+https://live.presstv.co.uk/hls/ifilmar_4_482/index.m3u8
 #EXTINF:-1 tvg-id="iFilmEnglish.ir" tvg-name="iFilm English" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/iFilmEnglish.ir.png" group-title="IRIB International Services" tvg-language="eng" tvg-quality="SD",iFilm English
 https://live.presstv.ir/hls/ifilmen_4_482/index.m3u8
 #EXTINF:-1 tvg-id="IranPress.ir" tvg-name="Iran Press" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IranPress.ir.jpg" group-title="IRIB International Services" tvg-language="fas;eng" tvg-quality="SD",Iran Press
@@ -216,7 +216,7 @@ https://turkhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ProjectLeon.us" tvg-name="Project Leon" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ProjectLeon.us.jpg" group-title="Satellite · Entertainment" tvg-language="fas",Project Leon
 https://pleonhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="RoyalTV.ir" tvg-name="Royal TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/RoyalTV.ir.png" group-title="Satellite · Entertainment" tvg-language="fas",Royal TV
-https://me2hls.wns.live/hls/stream.m3u8
+https://arvhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="SetarehTV.uk" tvg-name="Setareh TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/SetarehTV.uk.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="SD",Setareh TV
 https://setarehhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="Shabakeh7.us" tvg-name="Shabakeh 7" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/Shabakeh7.us.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="SD",Shabakeh 7
@@ -226,7 +226,7 @@ https://iptv.tapesh.tv/tapeshiran/playlist.m3u8
 #EXTINF:-1 tvg-id="PBCTapeshTV.us" tvg-name="Tapesh TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PBCTapeshTV.us.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="FHD",Tapesh TV FHD
 https://iptv.tapesh.tv/tapesh/playlist.m3u8
 #EXTINF:-1 tvg-id="TinTV.us" tvg-name="Tin TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/TinTV.us.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="HD",Tin TV HD
-https://tulixcdn.akamaized.net/tintv6/tintv/tintv/playlist.m3u8
+https://bozztv.com/1gbw5/tintv/tintv/playlist.m3u8
 #EXTINF:-1 tvg-id="YourTimeTV.ir" tvg-name="YourTime TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/YourTimeTV.ir.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="SD",YourTime TV
 https://live.yourtime.tv/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AfraFilm.ir" tvg-name="Afra Film" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AfraFilm.ir.jpg" group-title="Satellite · Movies & Series" tvg-language="fas" tvg-quality="HD",Afra Film HD
@@ -298,7 +298,7 @@ https://tv.iraniancongress.com/stream/tv.m3u8
 #EXTINF:-1 tvg-id="ParsTV.us" tvg-name="Pars TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ParsTV.us.png" group-title="Satellite · News" tvg-language="fas" tvg-quality="HD",Pars TV HD
 https://livestream.5centscdn.com/parstvtvweb1/e8ac8f595b3003ea3d22178c05c67593.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="PulseMedia.us" tvg-name="Pulse Media" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PulseMedia.us.jpg" group-title="Satellite · News" tvg-language="fas",Pulse Media
-https://newfhls.wns.live/hls/stream.m3u8
+https://pulsehls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="RadioFardaTV.us" tvg-name="Radio Farda TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/RadioFardaTV.us.png" group-title="Satellite · News" tvg-language="fas" tvg-quality="SD",Radio Farda TV
 https://rferl-ingest.akamaized.net/hls/live/2121768/tvmc01/playlist.m3u8
 #EXTINF:-1 tvg-id="SimayeAzadi.uk" tvg-name="Simaye Azadi" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/SimayeAzadi.uk.png" group-title="Satellite · News" tvg-language="fas" tvg-quality="FHD",Simaye Azadi FHD
@@ -316,7 +316,7 @@ https://hls.avang.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="HighVisionTV.us" tvg-name="High Vision TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/HighVisionTV.us.png" group-title="Satellite · Music" tvg-language="fas" tvg-quality="SD",High Vision TV
 https://streamer1.connectto.com/HIGHVISION_WEB_1205/playlist.m3u8
 #EXTINF:-1 tvg-id="NavahangTV.fi" tvg-name="Navahang TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/NavahangTV.fi.png" group-title="Satellite · Music" tvg-language="fas" tvg-quality="SD",Navahang TV
-https://hls.navahang.live/hls/stream.m3u8
+https://simahls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PersianaFolk.fr" tvg-name="Persiana Folk" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaFolk.fr.png" group-title="Satellite · Music" tvg-language="fas" tvg-quality="HD",Persiana Folk HD
 https://sonhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PersianaNostalgia.fr" tvg-name="Persiana Nostalgia" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaNostalgia.fr.png" group-title="Satellite · Music" tvg-language="fas" tvg-quality="SD",Persiana Nostalgia
@@ -338,11 +338,11 @@ https://junhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PersianaFight.fr" tvg-name="Persiana Fight" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaFight.fr.png" group-title="Satellite · Sports" tvg-language="fas" tvg-quality="HD",Persiana Fight HD
 https://fighthls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="TelewebionSport1.ir" tvg-name="Telewebion Sport 1" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/TelewebionSport1.ir.png" group-title="Satellite · Sports" tvg-language="fas" tvg-quality="FHD",Telewebion Sport 1 FHD [IR]
-https://live-aburayhan1105.telewebion.ir/ek/sport1/live/108050p/index.m3u8
+https://live-aburayhan1107.telewebion.ir/ek/sport1/live/108050p/index.m3u8
 #EXTINF:-1 tvg-id="TelewebionSport2.ir" tvg-name="Telewebion Sport 2" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/TelewebionSport2.ir.png" group-title="Satellite · Sports" tvg-language="fas" tvg-quality="FHD",Telewebion Sport 2 FHD [IR]
-https://live-aburayhan1109.telewebion.ir/ek/sport2/live/108050p/index.m3u8
+https://live-aburayhan1105.telewebion.ir/ek/sport2/live/108050p/index.m3u8
 #EXTINF:-1 tvg-id="TelewebionSport3.ir" tvg-name="Telewebion Sport 3" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/TelewebionSport3.ir.png" group-title="Satellite · Sports" tvg-language="fas" tvg-quality="FHD",Telewebion Sport 3 FHD [IR]
-https://live-aburayhan1103.telewebion.ir/ek/sport3/live/108050p/index.m3u8
+https://live-aburayhan1105.telewebion.ir/ek/sport3/live/108050p/index.m3u8
 #EXTINF:-1 tvg-id="EPlanetTV.ir" tvg-name="E Planet TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/EPlanetTV.ir.png" group-title="Satellite · Documentary & Learning" tvg-language="fas" tvg-quality="HD",E Planet TV HD
 https://eplhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PayamJavanTV.us" tvg-name="Payam Javan TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PayamJavanTV.us.png" group-title="Satellite · Documentary & Learning" tvg-language="fas" tvg-quality="HD",Payam Javan TV HD
@@ -350,7 +350,7 @@ https://uni01rtmp.tulix.tv/kensecure/pjtv.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="PersianaDocs.fr" tvg-name="Persiana Docs" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaDocs.fr.png" group-title="Satellite · Documentary & Learning" tvg-language="fas" tvg-quality="HD",Persiana Docs HD
 https://scihls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PersianaMedical.fr" tvg-name="Persiana Medical" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaMedical.fr.png" group-title="Satellite · Documentary & Learning" tvg-language="fas" tvg-quality="HD",Persiana Medical HD
-https://phd2hls.persiana.live/hls/stream.m3u8
+https://tfnhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AlWilayah.ir" tvg-name="Al Wilayah" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AlWilayah.ir.png" group-title="Religious · Islamic" tvg-language="ara" tvg-quality="SD",Al Wilayah
 https://nl.livekadeh.com/hls2/alwilayah_tv.m3u8
 #EXTINF:-1 tvg-id="AlMahdiTV.us" tvg-name="Al-Mahdi TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AlMahdiTV.us.png" group-title="Religious · Islamic" tvg-language="fas" tvg-quality="FHD",Al-Mahdi TV FHD
@@ -374,7 +374,7 @@ https://cdn.bestream.io:19360/elfaro4/elfaro4.m3u8
 #EXTINF:-1 tvg-id="PayameArameshTV.us" tvg-name="Payam-e Aramesh" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PayameArameshTV.us.png" group-title="Religious · Islamic" tvg-language="fas" tvg-quality="SD",Payam-e Aramesh
 https://hls.keshishhamid.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PayvandTV.ir" tvg-name="Payvand TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PayvandTV.ir.png" group-title="Religious · Islamic" tvg-language="fas" tvg-quality="HD",Payvand TV HD
-https://tgn.bozztv.com/cus01/ucur1/Payvand/playlist.m3u8
+https://uni6rtmp.tulix.tv/ucur1/Payvand/playlist.m3u8
 #EXTINF:-1 tvg-id="RasoulallahTv.ir" tvg-name="Rasoulallah TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/RasoulallahTv.ir.png" group-title="Religious · Islamic" tvg-language="fas" tvg-quality="FHD",Rasoulallah TV FHD
 https://avr.host247.net/live/rasoulallahtv/playlist.m3u8
 #EXTINF:-1 tvg-id="RazaviTV.ir" tvg-name="Razavi TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/RazaviTV.ir.png" group-title="Religious · Islamic" tvg-language="fas" tvg-quality="HD",Razavi TV HD

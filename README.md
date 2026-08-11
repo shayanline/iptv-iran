@@ -85,7 +85,7 @@ elsewhere, so they load wherever you are. A programme guide is wired in through
 
 ## Channel list
 
-207 channels in 14 categories, from 662 working streams.
+207 channels in 14 categories, from 658 working streams.
 
 <details>
 <summary><b>IRIB National Networks</b> &nbsp; 23 channels</summary>
@@ -546,7 +546,7 @@ If you hold the rights to a channel listed here and want it removed,
 
 ## فهرست شبکه‌ها
 
-۲۰۷ شبکه در ۱۴ دسته، از ۶۶۲ استریم سالم.
+۲۰۷ شبکه در ۱۴ دسته، از ۶۵۸ استریم سالم.
 
 <details>
 <summary><b>شبکه‌های سراسری سیما</b> &nbsp; ۲۳ شبکه</summary>

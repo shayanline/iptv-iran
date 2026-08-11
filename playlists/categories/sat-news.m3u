@@ -1,7 +1,7 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IR1.xml.gz"
 # Satellite · News only.
-# generated 2026-08-11 12:39 UTC by shayanline/iptv-iran
-#EXTINF:-1 tvg-id="AlAlam.ir" tvg-name="Al Alam" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AlAlam.ir.jpg" group-title="Satellite · News | ماهواره‌ای · خبری" tvg-language="ara" tvg-quality="SD",Al Alam | العالم
+# generated 2026-08-11 12:42 UTC by shayanline/iptv-iran
+#EXTINF:-1 tvg-id="AlAlam.ir" tvg-name="Al Alam" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AlAlam.ir.jpg" group-title="Satellite · News" tvg-language="ara" tvg-quality="SD",Al Alam | العالم
 https://live2.alalam.ir/alalam.m3u8
 #EXTINF:-1 tvg-id="BBCPersian.uk" tvg-name="BBC News Persian" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/BBCPersian.uk.png" group-title="Satellite · News | ماهواره‌ای · خبری" tvg-language="fas" tvg-quality="HD",BBC News Persian | بی‌بی‌سی فارسی HD
 https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/mobile_wifi_main_hd_abr_v2.m3u8
@@ -27,9 +27,9 @@ https://iptv.mihantv.com/mihantv/playlist.m3u8
 https://tv.iraniancongress.com/stream/tv.m3u8
 #EXTINF:-1 tvg-id="ParsTV.us" tvg-name="Pars TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ParsTV.us.png" group-title="Satellite · News | ماهواره‌ای · خبری" tvg-language="fas" tvg-quality="HD",Pars TV | پارس تی‌وی HD
 https://livestream.5centscdn.com/parstvtvweb1/e8ac8f595b3003ea3d22178c05c67593.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="PulseMedia.us" tvg-name="Pulse Media" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PulseMedia.us.jpg" group-title="Satellite · News | ماهواره‌ای · خبری" tvg-language="fas",Pulse Media | پالس مدیا
-https://newfhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="RadioFardaTV.us" tvg-name="Radio Farda TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/RadioFardaTV.us.png" group-title="Satellite · News | ماهواره‌ای · خبری" tvg-language="fas" tvg-quality="SD",Radio Farda TV | رادیو فردا
+#EXTINF:-1 tvg-id="PulseMedia.us" tvg-name="Pulse Media" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PulseMedia.us.jpg" group-title="Satellite · News" tvg-language="fas",Pulse Media | پالس مدیا
+https://pulsehls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="RadioFardaTV.us" tvg-name="Radio Farda TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/RadioFardaTV.us.png" group-title="Satellite · News" tvg-language="fas" tvg-quality="SD",Radio Farda TV | رادیو فردا
 https://rferl-ingest.akamaized.net/hls/live/2121768/tvmc01/playlist.m3u8
 #EXTINF:-1 tvg-id="SimayeAzadi.uk" tvg-name="Simaye Azadi" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/SimayeAzadi.uk.png" group-title="Satellite · News | ماهواره‌ای · خبری" tvg-language="fas" tvg-quality="FHD",Simaye Azadi | سیمای آزادی FHD
 https://simaytv.akamaized.net/hls/live/a162cb6c-3be1-4e57-87dc-a75a50b3b8d9/simayhls/index.m3u8
