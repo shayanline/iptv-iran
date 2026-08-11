@@ -26,8 +26,8 @@ else that reads M3U. Nothing to install and no account to create.
 | Playlist | What is in it | Link to copy |
 |:--|:--|:--|
 | **Everything** | All 207 channels, one stream each | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran.m3u` |
-| **Worldwide** | The 198 channels that play anywhere | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-global.m3u` |
-| **Inside Iran** | The 9 that need an Iranian IP address | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-domestic.m3u` |
+| **Worldwide** | The 199 channels that play anywhere | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-global.m3u` |
+| **Inside Iran** | The 8 that need an Iranian IP address | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-domestic.m3u` |
 | **With backups** | Every working stream, spares included | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-all-streams.m3u` |
 | **Smart TV safe** | For apps that stall on some channels | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-compat.m3u` |
 
@@ -86,7 +86,7 @@ elsewhere, so they load wherever you are. A programme guide is wired in through
 
 ## Channel list
 
-207 channels in 14 categories, from 657 working streams.
+207 channels in 14 categories, from 658 working streams.
 
 <details>
 <summary><b>IRIB National Networks</b> &nbsp; 23 channels</summary>
@@ -112,7 +112,7 @@ elsewhere, so they load wherever you are. A programme guide is wired in through
 | IRIB Tamasha | شبکه تماشا | 1080p | Worldwide |
 | IRIB TV1 + | شبکه یک پلاس | 1080p | Worldwide |
 | IRIB UHD | شبکه فراگیر (UHD) | 2160p | Worldwide |
-| IRIB Varzesh | شبکه ورزش | 1082p | Iran only |
+| IRIB Varzesh | شبکه ورزش | 1082p | Worldwide |
 | IRINN | شبکه خبر | 576p | Worldwide |
 | IRINN 2 | شبکه خبر ۲ | 1080p | Worldwide |
 | Roya | شبکه رویا | 720p | Worldwide |
@@ -492,8 +492,8 @@ If you hold the rights to a channel listed here and want it removed,
 | پلی‌لیست | محتوا | لینک |
 |:--|:--|:--|
 | **همه شبکه‌ها** | هر ۲۰۷ شبکه، برای هرکدام یک استریم | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran.m3u` |
-| **قابل پخش در همه‌جا** | آن ۱۹۸ شبکه‌ای که از هر کشوری باز می‌شود | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-global.m3u` |
-| **فقط داخل ایران** | آن ۹ شبکه‌ای که به IP ایران نیاز دارد | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-domestic.m3u` |
+| **قابل پخش در همه‌جا** | آن ۱۹۹ شبکه‌ای که از هر کشوری باز می‌شود | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-global.m3u` |
+| **فقط داخل ایران** | آن ۸ شبکه‌ای که به IP ایران نیاز دارد | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-domestic.m3u` |
 | **همراه با پشتیبان** | همه استریم‌های سالم، با نسخه‌های جایگزین | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-all-streams.m3u` |
 | **سازگار با تلویزیون** | برای برنامه‌هایی که روی بعضی شبکه‌ها گیر می‌کنند | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-compat.m3u` |
 
@@ -554,7 +554,7 @@ If you hold the rights to a channel listed here and want it removed,
 
 ## فهرست شبکه‌ها
 
-۲۰۷ شبکه در ۱۴ دسته، از ۶۵۷ استریم سالم.
+۲۰۷ شبکه در ۱۴ دسته، از ۶۵۸ استریم سالم.
 
 <details>
 <summary><b>شبکه‌های سراسری سیما</b> &nbsp; ۲۳ شبکه</summary>
@@ -580,7 +580,7 @@ If you hold the rights to a channel listed here and want it removed,
 | شبکه تماشا | IRIB Tamasha | 1080p | همه‌جا |
 | شبکه یک پلاس | IRIB TV1 + | 1080p | همه‌جا |
 | شبکه فراگیر (UHD) | IRIB UHD | 2160p | همه‌جا |
-| شبکه ورزش | IRIB Varzesh | 1082p | فقط ایران |
+| شبکه ورزش | IRIB Varzesh | 1082p | همه‌جا |
 | شبکه خبر | IRINN | 576p | همه‌جا |
 | شبکه خبر ۲ | IRINN 2 | 1080p | همه‌جا |
 | شبکه رویا | Roya | 720p | همه‌جا |
