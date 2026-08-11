@@ -70,4 +70,20 @@ jobs:
             exit 0
           fi
           git commit -m "chore(data): refresh playlists $(date -u +%Y-%m-%d)"
-          git push
+
+          # Someone pushing while this ran leaves the push rejected and an entire
+          # refresh discarded. Everything committed here is generated, and this run
+          # produced it from the newest probe, so on a race the rebase keeps our
+          # version (-X theirs applies to the commit being replayed) and tries again.
+          for attempt in 1 2 3; do
+            if git push; then
+              echo "pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "push rejected, rebasing onto the latest main (attempt $attempt)"
+            git pull --rebase -X theirs origin main || {
+              echo "rebase failed"; exit 1;
+            }
+          done
+          echo "could not push after 3 attempts"
+          exit 1
