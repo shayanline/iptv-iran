@@ -218,6 +218,11 @@ Contributions are welcome. Channel names, categories and any extra streams live 
 Everything under `playlists/`, the tables above and `data/channels.json` are generated, and
 your change appears in them on the next run.
 
+Changing the scripts themselves needs no network access. `python -m unittest discover` covers
+the rules they follow, `python scripts/build.py --from-published` re-renders every playlist
+from the last published data so you can read your change as a diff, and
+`python scripts/validate.py` checks the result still agrees with itself.
+
 <a id="credits"></a>
 
 ## Credits
@@ -344,6 +349,11 @@ If you hold the rights to a channel listed here and want it removed,
 [`data/curated.json`](data/curated.json) هستند و تنها فایلی است که ارزش ویرایش دستی دارد.
 هر چیزی در `playlists/`، جدول‌های بالا و `data/channels.json` ساخته می‌شوند و تغییر شما در
 اجرای بعدی خودش در آن‌ها می‌نشیند.
+
+برای تغییر خود اسکریپت‌ها به اینترنت نیازی نیست. با `python -m unittest discover` قاعده‌هایی
+که اسکریپت‌ها دنبال می‌کنند آزمایش می‌شود، با `python scripts/build.py --from-published`
+همه پلی‌لیست‌ها از روی آخرین داده منتشرشده دوباره ساخته می‌شوند تا تغییرتان را به شکل diff
+ببینید، و `python scripts/validate.py` بررسی می‌کند که نتیجه هنوز با خودش هم‌خوان است.
 
 <a id="fa-credits"></a>
 

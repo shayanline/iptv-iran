@@ -141,5 +141,52 @@ class ParseSegments(unittest.TestCase):
         self.assertEqual(len(probe.parse_segments(body, "https://a.com/i.m3u8")), 2)
 
 
+class Retire(unittest.TestCase):
+    NOW = "2026-08-11T12:00:00+00:00"
+
+    def test_a_url_no_source_offers_is_marked_gone(self):
+        streams = {"https://a": {"state": "ok", "last_ok": self.NOW},
+                   "https://b": {"state": "ok", "last_ok": self.NOW}}
+        probe.retire(streams, {"https://a"}, self.NOW)
+        self.assertEqual(streams["https://b"]["state"], "gone")
+
+    def test_a_retired_url_that_never_worked_is_dropped_at_once(self):
+        streams = {"https://never": {"state": "ok", "fails": 3}}
+        probe.retire(streams, set(), self.NOW)
+        self.assertNotIn("https://never", streams)
+
+    def test_a_recently_working_url_keeps_its_history(self):
+        streams = {"https://recent": {"state": "ok", "last_ok": "2026-08-01T00:00:00+00:00"}}
+        probe.retire(streams, set(), self.NOW)
+        self.assertIn("https://recent", streams)
+        self.assertEqual(streams["https://recent"]["state"], "gone")
+
+    def test_a_long_retired_url_is_forgotten(self):
+        streams = {"https://old": {"state": "ok", "last_ok": "2026-01-01T00:00:00+00:00"}}
+        probe.retire(streams, set(), self.NOW)
+        self.assertNotIn("https://old", streams)
+
+    def test_a_probed_url_is_never_dropped(self):
+        streams = {"https://live": {"state": "ok", "last_ok": "2020-01-01T00:00:00+00:00"}}
+        probe.retire(streams, {"https://live"}, self.NOW)
+        self.assertIn("https://live", streams)
+
+
+class ReportTarget(unittest.TestCase):
+    def test_a_full_run_publishes_and_may_retire(self):
+        target, may_retire = probe.report_target(0)
+        self.assertEqual(target, probe.DATA / "status.json")
+        self.assertTrue(may_retire)
+
+    def test_a_partial_run_cannot_touch_the_published_history(self):
+        # Probing the first n urls is for local inspection. Retiring everything it did
+        # not reach, or writing that over data/status.json, would empty the playlists.
+        for limit in (1, 50, 1000):
+            target, may_retire = probe.report_target(limit)
+            self.assertNotEqual(target, probe.DATA / "status.json")
+            self.assertEqual(target.parent.name, "build")
+            self.assertFalse(may_retire)
+
+
 if __name__ == "__main__":
     unittest.main()

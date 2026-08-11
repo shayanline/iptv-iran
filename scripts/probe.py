@@ -22,10 +22,17 @@ import urllib.request
 from collections import Counter
 from concurrent.futures import ThreadPoolExecutor
 
-from lib import CANDIDATES, DATA, SSL_CTX, UA, install_public_dns, log, read_json, write_json
+from lib import (BUILD, CANDIDATES, DATA, HERE, SSL_CTX, UA, install_public_dns, log,
+                 read_json, write_json)
 
 TIMEOUT = 12
 WORKERS = 24
+# How long a url no source offers any more is kept. History is the reason to keep one at
+# all: a channel that briefly drops out of a public list returns with its uptime record
+# intact. Three refresh cycles is long enough for that and short enough to stop the file
+# filling with Telewebion edge addresses, which are rotated every run and never come back
+# to the same host. They are 99% of the retired entries.
+GONE_RETENTION_DAYS = 45
 RETRY_REASONS = ("timeout", "http502", "http503", "http504", "tls")
 MEDIA_HINTS = ("video/", "audio/", "mp2t", "octet-stream", "mpegurl")
 
@@ -359,12 +366,51 @@ def probe(record):
     return result
 
 
+def retire(streams, probed, timestamp):
+    """Mark urls no source offers any more, and drop the ones not worth remembering.
+
+    Only safe after a full run. A url absent from a partial run was simply not looked at.
+    """
+    for url, entry in streams.items():
+        if url not in probed:
+            entry["state"] = "gone"
+
+    cutoff = dt.datetime.fromisoformat(timestamp) - dt.timedelta(days=GONE_RETENTION_DAYS)
+    retired = [url for url, entry in streams.items() if entry.get("state") == "gone"]
+    # A url that never worked has no history to preserve, so it goes as soon as it is
+    # retired. One that did work is kept until its record is older than the window.
+    dropped = [url for url in retired
+               if not streams[url].get("last_ok")
+               or dt.datetime.fromisoformat(streams[url]["last_ok"]) < cutoff]
+    for url in dropped:
+        del streams[url]
+    return len(retired), len(dropped)
+
+
+def report_target(limit):
+    """Where this run's results belong, and whether it may retire what it did not reach.
+
+    Both answers hang on the same fact, so they are decided in one place rather than
+    twice in main(). A partial run reaches almost nothing, so it must neither retire the
+    streams it skipped nor write over the published history: it reports to build/, which
+    is an intermediate and is not committed.
+    """
+    if limit:
+        return BUILD / "status.partial.json", False
+    return DATA / "status.json", True
+
+
 def main():
     install_public_dns()
     candidates = read_json(CANDIDATES, [])
-    if len(sys.argv) > 1:
-        candidates = candidates[: int(sys.argv[1])]
-    log(f"probing {len(candidates)} urls, {WORKERS} workers")
+    # An argument probes only the first n urls, for local inspection. Such a run must not
+    # touch the published dataset: it reaches almost nothing, and treating everything it
+    # skipped as retired would empty the playlists on the next build.
+    limit = int(sys.argv[1]) if len(sys.argv) > 1 else 0
+    if limit:
+        candidates = candidates[:limit]
+    log(f"probing {len(candidates)} urls, {WORKERS} workers"
+        + (", partial run" if limit else ""))
 
     results = []
     with ThreadPoolExecutor(WORKERS) as pool:
@@ -393,13 +439,19 @@ def main():
             entry["fails"] = entry.get("fails", 0) + 1
         entry["uptime"] = round(entry["oks"] / entry["checks"], 3)
 
-    probed = {r["url"] for r in results}
-    for url, entry in streams.items():
-        if url not in probed:
-            entry["state"] = "gone"  # no longer offered by any source
+    target, may_retire = report_target(limit)
+    if may_retire:
+        retired, dropped = retire(streams, {r["url"] for r in results}, timestamp)
+        log(f"{retired} urls no source offers any more, {dropped} dropped for good, "
+            f"{len(streams)} tracked")
+    else:
+        log(f"partial run: the other {len(streams) - len(results)} tracked urls are left "
+            f"as they were")
 
-    write_json(DATA / "status.json",
-               {"generated_at": timestamp, "checked": len(results), "streams": streams})
+    write_json(target, {"generated_at": timestamp, "checked": len(results),
+                        "partial": bool(limit), "streams": streams})
+    if not may_retire:
+        log(f"results in {target.relative_to(HERE)}, data/status.json untouched")
 
     counts = Counter(r["state"] for r in results)
     log(f"states: {dict(counts)}")

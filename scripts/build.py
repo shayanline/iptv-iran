@@ -5,6 +5,7 @@ they are never edited by hand. The hand maintained input is data/curated.json.
 """
 import datetime as dt
 import re
+import sys
 
 import identity
 import taxonomy
@@ -353,7 +354,33 @@ def build_readme(channels):
     log(f"  README.md: {len(text.splitlines())} lines")
 
 
+def published_channels():
+    """The last published channel list, ready to render again.
+
+    collect() needs build/candidates.json, which is an intermediate and is not committed,
+    so once a scheduled run has published something nobody can reproduce it locally: a
+    rebuild from a stale harvest quietly drops streams, and re-harvesting cannot help
+    because the provider hands out different edge addresses every time it is asked.
+
+    data/channels.json carries every field the writers read, and `best` is simply the
+    first stream, since collect() sorts them by score before storing them. So the files
+    can be re-rendered exactly as published, with no network and no probe, which is what
+    makes a change to the wording or the layout reviewable on its own.
+    """
+    channels = read_json(DATA / "channels.json", [])
+    for channel in channels:
+        channel["best"] = channel["streams"][0]
+    return channels
+
+
 def main():
+    if "--from-published" in sys.argv:
+        channels = published_channels()
+        log(f"re-rendering {len(channels)} channels from data/channels.json")
+        build_playlists(channels)
+        build_readme(channels)
+        return
+
     channels = collect()
     build_playlists(channels)
     write_json(DATA / "channels.json",
