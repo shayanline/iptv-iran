@@ -14,8 +14,16 @@
       "channel": "AbalfadhlTV.ir"
     },
     {
+      "url": "https://live2.alalam.ir/live/Alalam/index.m3u8",
+      "channel": "AlAlam.ir"
+    },
+    {
       "url": "https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/t=3840/v=pv14/b=5070016/main.m3u8",
       "channel": "BBCPersian.uk"
+    },
+    {
+      "url": "https://choghls.wns.live/hls/stream.m3u8",
+      "channel": "CheshmehOghab.ir"
     },
     {
       "url": "https://derakhtzhls.wns.live/hls/stream.m3u8",
@@ -158,8 +166,16 @@
       "channel": "IranPress.ir"
     },
     {
+      "url": "https://streaminglive.co.il:3730/live/raniamranilive.m3u8",
+      "channel": "IranTVIsrael.il"
+    },
+    {
       "url": "https://irwhls.wns.live/hls/stream.m3u8",
       "channel": "IranWire.us"
+    },
+    {
+      "url": "https://iranaryai.pahlavimonarchy.online/iranearyaeesd/index.m3u8",
+      "channel": "IraneAryaeeTV.ir"
     },
     {
       "url": "https://iranefardalive.com/stream/live.m3u8",
@@ -168,6 +184,10 @@
     {
       "url": "https://live.pars-israel.com/tmp_hls/iptv/index.m3u8",
       "channel": "IsraelParsTV.il"
+    },
+    {
+      "url": "https://player.kalemeh.tv/live/ngrp:kalemeh_all/playlist.m3u8",
+      "channel": "KalemehTV.uk"
     },
     {
       "url": "https://mellihls.wns.live/hls/stream.m3u8",
@@ -214,6 +234,10 @@
       "channel": "PersianaSetMix.fr"
     },
     {
+      "url": "http://porchooneh.com/hls/live1/stream1.m3u8",
+      "channel": "PorchoonehTV.us"
+    },
+    {
       "url": "https://live.presstv.co.uk/hls/presstv.m3u8",
       "channel": "PressTV.ir"
     },
@@ -236,6 +260,10 @@
     {
       "url": "https://hls.rahenejat.live/hls/stream.m3u8",
       "channel": "RaheNejatTV.us"
+    },
+    {
+      "url": "https://hls.ravitv.com/hls/stream.m3u8",
+      "channel": "RaviTV.us"
     },
     {
       "url": "https://hlspackager.akamaized.net/live/DB/ALTERNATIVE_SHORAI_TV/HLS/ALTERNATIVE_SHORAI_TV.m3u8",
@@ -1336,6 +1364,22 @@
     "NavidTV.ir": {
       "en": "Navid TV",
       "fa": "نوید"
+    },
+    "CheshmehOghab.ir": {
+      "en": "Cheshmeh Oghab",
+      "fa": "چشم عقاب"
+    },
+    "IranTVIsrael.il": {
+      "en": "Iran TV Israel",
+      "fa": "ایران تی‌وی اسرائیل"
+    },
+    "PorchoonehTV.us": {
+      "en": "Porchooneh TV",
+      "fa": "پرچونه"
+    },
+    "RaviTV.us": {
+      "en": "Ravi TV",
+      "fa": "راوی"
     }
   },
   "category_overrides": {
@@ -1791,6 +1835,54 @@
         "general"
       ],
       "logo": ""
+    },
+    "CheshmehOghab.ir": {
+      "en": "Cheshmeh Oghab",
+      "fa": "چشم عقاب",
+      "country": "IR",
+      "languages": [
+        "fas"
+      ],
+      "categories": [
+        "general"
+      ],
+      "logo": ""
+    },
+    "IranTVIsrael.il": {
+      "en": "Iran TV Israel",
+      "fa": "ایران تی‌وی اسرائیل",
+      "country": "IL",
+      "languages": [
+        "fas"
+      ],
+      "categories": [
+        "general"
+      ],
+      "logo": ""
+    },
+    "PorchoonehTV.us": {
+      "en": "Porchooneh TV",
+      "fa": "پرچونه",
+      "country": "US",
+      "languages": [
+        "fas"
+      ],
+      "categories": [
+        "general"
+      ],
+      "logo": ""
+    },
+    "RaviTV.us": {
+      "en": "Ravi TV",
+      "fa": "راوی",
+      "country": "US",
+      "languages": [
+        "fas"
+      ],
+      "categories": [
+        "general"
+      ],
+      "logo": ""
     }
   },
   "_proxy_note": "Some public players reach otherwise unavailable channels through third party proxies such as Cloudflare Workers. Those URLs are deliberately not published here: they route this project's users through infrastructure someone else pays for and does not control access to. Only endpoints served by the broadcaster or its own CDN are included.",
@@ -1800,10 +1892,12 @@
     "4UFamily.tr": "https://4utv.tv/wp-content/uploads/2025/02/4U-Family-Red-copy.png.webp",
     "AVAFamily.ir": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/avafamily.png",
     "AfraFilm.ir": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/afrafilm.jpg",
+    "AlAlam.ir": "https://www.parsatv.com/index_files/channels/alalam.jpg",
     "AraxTV.ir": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/araxtv.png",
     "ArkoTV.ir": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/arkotv.jpg",
     "BBCPersian.uk": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/BBC_Persian_logo_2021.svg/960px-BBC_Persian_logo_2021.svg.png",
     "CafeFilm.ir": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/cafefilm.png",
+    "CheshmehOghab.ir": "https://www.parsatv.com/index_files/channels/cheshmehoghab.png",
     "ClassicTV.ir": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/classictv.png",
     "DejTV.ir": "https://www.parsatv.com/index_files/channels/dejtv.jpg",
     "EPlanetTV.ir": "https://eplanet.tv/wp-content/uploads/2025/08/unnamed.png",
@@ -1820,7 +1914,9 @@
     "IRINN.ir": "https://upload.wikimedia.org/wikipedia/commons/7/74/IRIB_IRINN_2025.png",
     "IranIndependent.us": "https://www.parsatv.com/index_files/channels/iranindependent.jpg",
     "IranInternational.uk": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Iran_International.svg/960px-Iran_International.svg.png",
+    "IranTVIsrael.il": "https://www.parsatv.com/index_files/channels/irantvisrael.jpg",
     "IranWire.us": "https://www.parsatv.com/index_files/channels/iranwiretv.png",
+    "IraneAryaeeTV.ir": "https://www.parsatv.com/index_files/channels/iranearyaee.jpg",
     "IraneFarda.us": "https://www.parsatv.com/index_files/channels/iranefarda.png",
     "LabbaykTV.ir": "https://www.parsatv.com/index_files/channels/labbayk.png",
     "MBCPersia.ae": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/MBC_Persia_Logo.svg/960px-MBC_Persia_Logo.svg.png",
@@ -1839,10 +1935,12 @@
     "PersianaSeries.fr": "https://www.persianagroup.tv/assets/logos/series.png",
     "PersianaSetMix.fr": "https://www.persianagroup.tv/assets/logos/setmix.png",
     "PersianaTurkiye.fr": "https://www.persianagroup.tv/assets/logos/turkey.png",
+    "PorchoonehTV.us": "https://www.parsatv.com/index_files/channels/porchooneh.jpg",
     "ProjectLeon.us": "https://www.parsatv.com/index_files/channels/projectleon.jpg",
     "PulseMedia.us": "https://www.parsatv.com/index_files/channels/pulsemedia.jpg",
     "RadioFardaTV.us": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Radio_Farda_logo.png",
     "RaheNejatTV.us": "https://www.parsatv.com/index_files/channels/rahenejat.jpg",
+    "RaviTV.us": "https://www.parsatv.com/index_files/channels/ravitv.png",
     "RazaviTV.ir": "https://lb-cdn.sepehrtv.ir/img/channel/razavi.png",
     "RoyaTV.ir": "https://lb-cdn.sepehrtv.ir/img/channel/rooyatv.png",
     "RoyalTV.ir": "https://www.parsatv.com/index_files/channels/royaltv.png",
