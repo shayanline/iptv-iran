@@ -201,6 +201,8 @@ def collect():
         channel["compat"] = next((s for s in channel["streams"]
                                   if s["state"] == "ok" and not s["hazards"] and not s["defects"]),
                                  None)
+        # What the advertised compatibility playlist may use: no worker involved.
+        channel["compat_public"] = channel["compat"]
         # A deployed rewriter can rescue a channel whose only streams carry hazards, by
         # reshaping the manifest into something a basic parser accepts.
         if channel["compat"] is None and worker_base:
@@ -266,7 +268,8 @@ def extinf(channel, stream, lang):
     return "\n".join(lines)
 
 
-def write_playlist(path, channels, note, lang="both", all_streams=False, use_compat=False):
+def write_playlist(path, channels, note, lang="both", all_streams=False, use_compat=False,
+                   field="compat"):
     lines = [f'#EXTM3U x-tvg-url="{EPG}"', f"# {note}",
              f"# generated {dt.datetime.now(dt.timezone.utc):%Y-%m-%d %H:%M} UTC by {REPO}"]
     count = 0
@@ -274,7 +277,7 @@ def write_playlist(path, channels, note, lang="both", all_streams=False, use_com
         if all_streams:
             chosen = channel["streams"]
         else:
-            chosen = [channel["compat"] if use_compat else channel["best"]]
+            chosen = [channel[field] if use_compat else channel["best"]]
         for stream in chosen:
             lines.append(extinf(channel, stream, lang))
             count += 1
@@ -290,7 +293,10 @@ def build_playlists(channels):
     domestic = [c for c in channels if c["reach"] == "iran-only"]
 
     # Channels that offer a stream free of the shapes limited clients choke on.
-    compatible = [c for c in channels if c.get("compat")]
+    # `compat_public` never routes through the worker, so the playlists named in the
+    # README cannot generate traffic against someone's request budget. The worker backed
+    # list is written separately, below, and is deliberately not advertised.
+    compatible = [c for c in channels if c.get("compat_public")]
 
     for lang, folder in (("both", PLAYLISTS), ("en", PLAYLISTS / "en"), ("fa", PLAYLISTS / "fa")):
         write_playlist(folder / "iran.m3u", channels,
@@ -305,7 +311,21 @@ def build_playlists(channels):
         write_playlist(folder / "iran-compat.m3u", compatible,
                        "For smart TV apps and other limited players. Only streams whose "
                        "manifests stay within what a basic HLS parser handles.", lang,
-                       use_compat=True)
+                       use_compat=True, field="compat_public")
+
+    # Unlisted. Every channel a limited player can handle once a manifest rewriting
+    # worker is in front of the awkward ones. Kept out of the README on purpose: it is
+    # backed by a personal Cloudflare Worker with a finite request budget, so the URL is
+    # shared deliberately rather than advertised.
+    via_worker = [c for c in channels if c.get("compat")]
+    if any(c["compat"].get("via") == "worker" for c in via_worker):
+        for lang, folder in (("both", PLAYLISTS / "unlisted"),
+                             ("en", PLAYLISTS / "unlisted" / "en"),
+                             ("fa", PLAYLISTS / "unlisted" / "fa")):
+            write_playlist(folder / "iran-tv.m3u", via_worker,
+                           "Unlisted. Every channel a limited player can handle, with the "
+                           "awkward manifests reshaped by a worker.", lang,
+                           use_compat=True, field="compat")
 
     for cid, *_ in taxonomy.CATEGORIES:
         members = [c for c in channels if c["category"] == cid]

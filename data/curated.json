@@ -1647,7 +1647,7 @@
   ],
   "_order_note": "Channel ids pinned to the top of their category, in this order. Everything not listed follows alphabetically. IRIB TV1 to TV5 are the numbered national channels, so they lead rather than sorting under I, I, I, I and T.",
   "worker": {
-    "base": "",
+    "base": "https://iptv-iran-telewebion.sh-khaksar95.workers.dev",
     "provider": "telewebion"
   },
   "_worker_note": "Optional. Set `base` to a deployed worker/telewebion-rewrite.js URL, for example https://iptv-iran-telewebion.<name>.workers.dev, and iran-compat.m3u will route Telewebion channels through it instead of dropping them. Empty means the compatibility playlist simply omits channels whose manifests limited players cannot parse."

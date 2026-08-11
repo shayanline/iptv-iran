@@ -57,7 +57,7 @@ const SLUG = /^[a-z0-9_-]{1,40}$/i;
 const RENDITION = /^(\d{3,4}p)$/;
 
 export default {
-  async fetch(request, ctx) {
+  async fetch(request, env, ctx) {
     const url = new URL(request.url);
     const [, slug, rendition] = url.pathname.split("/");
 

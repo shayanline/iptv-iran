@@ -1,0 +1,10 @@
+{
+  "name": "iptv-iran-telewebion",
+  "main": "telewebion-rewrite.js",
+  "compatibility_date": "2026-08-01",
+
+  // Stateless by design: no KV, D1 or other bindings. The Worker reshapes a text
+  // manifest and lets the player fetch video straight from the origin, which is what
+  // keeps it inside the free request allowance.
+  "observability": { "enabled": true }
+}
