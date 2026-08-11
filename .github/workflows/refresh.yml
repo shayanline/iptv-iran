@@ -9,6 +9,8 @@
 #                third party host that may be geo-blocked
 #   build.py     score the streams, pick one per channel, and regenerate the playlists,
 #                data/channels.json and the README tables
+#   validate.py  refuse to publish a tree whose playlists disagree with the channel data
+#                they were supposedly built from
 #
 # A stream must fail three consecutive runs, about six weeks, before it is dropped, and a
 # stream that only refuses this runner's location is published as domestic rather than
@@ -45,6 +47,10 @@ jobs:
         with:
           python-version: "3.13"
 
+      # Before the twenty minute probe, so a broken change fails in seconds.
+      - name: Test the scoring, matching and parsing rules
+        run: python -m unittest discover -b
+
       - name: Harvest candidate streams from the public sources
         run: python scripts/sources.py
 
@@ -56,6 +62,12 @@ jobs:
 
       - name: Rebuild playlists and README
         run: python scripts/build.py
+
+      # Nothing else looks at what this job publishes, so the tree is checked against its
+      # own channel data before it is committed. This is the step that refuses to publish
+      # a playlist assembled from more than one run.
+      - name: Check the generated tree
+        run: python scripts/validate.py
 
       - name: Summarise the run
         run: python scripts/summarise.py >> "$GITHUB_STEP_SUMMARY"
@@ -72,18 +84,31 @@ jobs:
           git commit -m "chore(data): refresh playlists $(date -u +%Y-%m-%d)"
 
           # Someone pushing while this ran leaves the push rejected and an entire
-          # refresh discarded. Everything committed here is generated, and this run
-          # produced it from the newest probe, so on a race the rebase keeps our
-          # version (-X theirs applies to the commit being replayed) and tries again.
+          # refresh discarded, so a race is retried rather than abandoned. It must never
+          # be retried by merging. A refresh rewrites every published file from one
+          # channel list, so two runs produce two complete and mutually exclusive
+          # versions of the same artifacts, and a three way merge splices them into a
+          # tree that belongs to neither run. That is not hypothetical: it put three
+          # language variants of one playlist on main carrying 666, 667 and 667 streams
+          # while data/channels.json described 662.
+          #
+          # Moving HEAD to their commit while keeping this run's index replants this
+          # tree whole on top of theirs, so whatever is pushed is always exactly one
+          # run's output. The other run's probe results are lost, which costs one cycle
+          # of history and is the point: a coherent tree is worth more than a merged one.
           for attempt in 1 2 3; do
             if git push; then
               echo "pushed on attempt $attempt"
               exit 0
             fi
-            echo "push rejected, rebasing onto the latest main (attempt $attempt)"
-            git pull --rebase -X theirs origin main || {
-              echo "rebase failed"; exit 1;
-            }
+            echo "push rejected, replanting this run on the latest main (attempt $attempt)"
+            git fetch origin main || { echo "fetch failed"; exit 1; }
+            git reset --soft FETCH_HEAD
+            if git diff --cached --quiet; then
+              echo "the other run published an identical tree, nothing left to add."
+              exit 0
+            fi
+            git commit -m "chore(data): refresh playlists $(date -u +%Y-%m-%d)"
           done
           echo "could not push after 3 attempts"
           exit 1
