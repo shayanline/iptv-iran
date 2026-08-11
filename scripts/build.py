@@ -250,8 +250,15 @@ def display_name(channel, lang):
 
 
 def extinf(channel, stream, lang):
+    # The group follows the same rule as the channel name, so the bilingual playlist is
+    # bilingual throughout rather than Persian titles filed under English headings.
     labels = taxonomy.LABELS[channel["category"]]
-    group = labels["fa"] if lang == "fa" else labels["en"]
+    if lang == "en":
+        group = labels["en"]
+    elif lang == "fa":
+        group = labels["fa"]
+    else:
+        group = f'{labels["en"]} | {labels["fa"]}' if labels.get("fa") else labels["en"]
     parts = [
         f'#EXTINF:-1 tvg-id="{channel["id"]}"',
         f'tvg-name="{channel["name_en"]}"',

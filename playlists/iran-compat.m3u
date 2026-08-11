@@ -1,275 +1,275 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IR1.xml.gz"
 # For smart TV apps and other limited players. Only streams whose manifests stay within what a basic HLS parser handles.
-# generated 2026-08-11 12:38 UTC by shayanline/iptv-iran
-#EXTINF:-1 tvg-id="iFilmPersian.ir" tvg-name="iFilm" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/iFilmPersian.ir.png" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="FHD",iFilm | آی‌فیلم FHD
+# generated 2026-08-11 12:39 UTC by shayanline/iptv-iran
+#EXTINF:-1 tvg-id="iFilmPersian.ir" tvg-name="iFilm" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/iFilmPersian.ir.png" group-title="IRIB National Networks | شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",iFilm | آی‌فیلم FHD
 https://live.presstv.ir/hls/ifilmfa_4_482/index.m3u8
-#EXTINF:-1 tvg-id="IRINN.ir" tvg-name="IRINN" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRINN.ir.png" group-title="IRIB National Networks" tvg-language="fas" tvg-quality="FHD",IRINN | شبکه خبر FHD
+#EXTINF:-1 tvg-id="IRINN.ir" tvg-name="IRINN" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRINN.ir.png" group-title="IRIB National Networks | شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",IRINN | شبکه خبر FHD
 http://185.9.2.18/chid_926/index.m3u8
-#EXTINF:-1 tvg-id="HispanTV.ir" tvg-name="HispanTV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/HispanTV.ir.jpg" group-title="IRIB International Services" tvg-language="spa" tvg-quality="SD",HispanTV | هیسپان تی‌وی
+#EXTINF:-1 tvg-id="HispanTV.ir" tvg-name="HispanTV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/HispanTV.ir.jpg" group-title="IRIB International Services | شبکه‌های برون‌مرزی" tvg-language="spa" tvg-quality="SD",HispanTV | هیسپان تی‌وی
 https://live.presstv.co.uk/hls/hispantv_5_482/index.m3u8
-#EXTINF:-1 tvg-id="iFilm2.ir" tvg-name="iFilm 2" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/iFilm2.ir.png" group-title="IRIB International Services" tvg-language="fas" tvg-quality="SD",iFilm 2 | آی‌فیلم ۲
+#EXTINF:-1 tvg-id="iFilm2.ir" tvg-name="iFilm 2" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/iFilm2.ir.png" group-title="IRIB International Services | شبکه‌های برون‌مرزی" tvg-language="fas" tvg-quality="SD",iFilm 2 | آی‌فیلم ۲
 https://live.presstv.ir/hls/ifilm2_4_482/index.m3u8
-#EXTINF:-1 tvg-id="iFilmArabic.ir" tvg-name="iFilm Arabic" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/iFilmArabic.ir.png" group-title="IRIB International Services" tvg-language="ara" tvg-quality="SD",iFilm Arabic | آی‌فیلم عربی
+#EXTINF:-1 tvg-id="iFilmArabic.ir" tvg-name="iFilm Arabic" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/iFilmArabic.ir.png" group-title="IRIB International Services | شبکه‌های برون‌مرزی" tvg-language="ara" tvg-quality="SD",iFilm Arabic | آی‌فیلم عربی
 https://live.presstv.ir/hls/ifilmar_4_482/index.m3u8
-#EXTINF:-1 tvg-id="iFilmEnglish.ir" tvg-name="iFilm English" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/iFilmEnglish.ir.png" group-title="IRIB International Services" tvg-language="eng" tvg-quality="SD",iFilm English | آی‌فیلم انگلیسی
+#EXTINF:-1 tvg-id="iFilmEnglish.ir" tvg-name="iFilm English" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/iFilmEnglish.ir.png" group-title="IRIB International Services | شبکه‌های برون‌مرزی" tvg-language="eng" tvg-quality="SD",iFilm English | آی‌فیلم انگلیسی
 https://live.presstv.ir/hls/ifilmen_4_482/index.m3u8
-#EXTINF:-1 tvg-id="IranPress.ir" tvg-name="Iran Press" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IranPress.ir.jpg" group-title="IRIB International Services" tvg-language="fas;eng" tvg-quality="SD",Iran Press | ایران پرس
+#EXTINF:-1 tvg-id="IranPress.ir" tvg-name="Iran Press" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IranPress.ir.jpg" group-title="IRIB International Services | شبکه‌های برون‌مرزی" tvg-language="fas;eng" tvg-quality="SD",Iran Press | ایران پرس
 https://ip2stream.iranpress.com/hls/ip2.m3u8
-#EXTINF:-1 tvg-id="PressTV.ir" tvg-name="Press TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PressTV.ir.png" group-title="IRIB International Services" tvg-language="eng" tvg-quality="HD",Press TV | پرس تی‌وی HD
+#EXTINF:-1 tvg-id="PressTV.ir" tvg-name="Press TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PressTV.ir.png" group-title="IRIB International Services | شبکه‌های برون‌مرزی" tvg-language="eng" tvg-quality="HD",Press TV | پرس تی‌وی HD
 https://live.presstv.ir/hls/presstv.m3u8
-#EXTINF:-1 tvg-id="PressTVFrench.ir" tvg-name="Press TV French" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PressTVFrench.ir.png" group-title="IRIB International Services" tvg-language="fra" tvg-quality="FHD",Press TV French | پرس تی‌وی فرانسه FHD
+#EXTINF:-1 tvg-id="PressTVFrench.ir" tvg-name="Press TV French" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PressTVFrench.ir.png" group-title="IRIB International Services | شبکه‌های برون‌مرزی" tvg-language="fra" tvg-quality="FHD",Press TV French | پرس تی‌وی فرانسه FHD
 https://live4.presstv.ir/live/mp4:presstvfr/playlist.m3u8
-#EXTINF:-1 tvg-id="AraxTV.ir" tvg-name="Arax TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AraxTV.ir.png" group-title="Satellite · General" tvg-language="fas" tvg-quality="HD",Arax TV | آراکس تی‌وی HD
+#EXTINF:-1 tvg-id="AraxTV.ir" tvg-name="Arax TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AraxTV.ir.png" group-title="Satellite · General | ماهواره‌ای · عمومی" tvg-language="fas" tvg-quality="HD",Arax TV | آراکس تی‌وی HD
 https://araxhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="ArkoTV.ir" tvg-name="Arko TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ArkoTV.ir.jpg" group-title="Satellite · General" tvg-language="fas" tvg-quality="HD",Arko TV | آرکو تی‌وی HD
+#EXTINF:-1 tvg-id="ArkoTV.ir" tvg-name="Arko TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ArkoTV.ir.jpg" group-title="Satellite · General | ماهواره‌ای · عمومی" tvg-language="fas" tvg-quality="HD",Arko TV | آرکو تی‌وی HD
 https://arkhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="AsilTV.ir" tvg-name="Asil TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AsilTV.ir.png" group-title="Satellite · General" tvg-language="ara" tvg-quality="SD",Asil TV | اصیل تی‌وی
+#EXTINF:-1 tvg-id="AsilTV.ir" tvg-name="Asil TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AsilTV.ir.png" group-title="Satellite · General | ماهواره‌ای · عمومی" tvg-language="ara" tvg-quality="SD",Asil TV | اصیل تی‌وی
 https://live.asil.tv/asiltv/index.m3u8
-#EXTINF:-1 tvg-id="CafeTradeTV.ir" tvg-name="Cafe Trade TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/CafeTradeTV.ir.png" group-title="Satellite · General" tvg-language="fas" tvg-quality="SD",Cafe Trade TV | کافه ترید
+#EXTINF:-1 tvg-id="CafeTradeTV.ir" tvg-name="Cafe Trade TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/CafeTradeTV.ir.png" group-title="Satellite · General | ماهواره‌ای · عمومی" tvg-language="fas" tvg-quality="SD",Cafe Trade TV | کافه ترید
 https://cafetradehls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="CheshmehOghab.ir" tvg-name="Cheshmeh Oghab" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/CheshmehOghab.ir.png" group-title="Satellite · General" tvg-language="fas",Cheshmeh Oghab | چشم عقاب
+#EXTINF:-1 tvg-id="CheshmehOghab.ir" tvg-name="Cheshmeh Oghab" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/CheshmehOghab.ir.png" group-title="Satellite · General | ماهواره‌ای · عمومی" tvg-language="fas",Cheshmeh Oghab | چشم عقاب
 https://choghls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="DejTV.ir" tvg-name="Dej TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/DejTV.ir.jpg" group-title="Satellite · General" tvg-language="fas" tvg-quality="HD",Dej TV | دژ تی‌وی HD
+#EXTINF:-1 tvg-id="DejTV.ir" tvg-name="Dej TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/DejTV.ir.jpg" group-title="Satellite · General | ماهواره‌ای · عمومی" tvg-language="fas" tvg-quality="HD",Dej TV | دژ تی‌وی HD
 https://rdejhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="GordAfaridTV.us" tvg-name="GordAfarid TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/GordAfaridTV.us.jpg" group-title="Satellite · General" tvg-language="fas",GordAfarid TV | گردآفرید
+#EXTINF:-1 tvg-id="GordAfaridTV.us" tvg-name="GordAfarid TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/GordAfaridTV.us.jpg" group-title="Satellite · General | ماهواره‌ای · عمومی" tvg-language="fas",GordAfarid TV | گردآفرید
 https://gatvhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="IranTVIsrael.il" tvg-name="Iran TV Israel" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IranTVIsrael.il.jpg" group-title="Satellite · General" tvg-language="fas",Iran TV Israel | ایران تی‌وی اسرائیل
+#EXTINF:-1 tvg-id="IranTVIsrael.il" tvg-name="Iran TV Israel" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IranTVIsrael.il.jpg" group-title="Satellite · General | ماهواره‌ای · عمومی" tvg-language="fas",Iran TV Israel | ایران تی‌وی اسرائیل
 https://streaminglive.co.il:3730/live/raniamranilive.m3u8
-#EXTINF:-1 tvg-id="IraneAryaeeTV.ir" tvg-name="Irane Aryaee TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IraneAryaeeTV.ir.jpg" group-title="Satellite · General" tvg-language="fas" tvg-quality="SD",Irane Aryaee TV
+#EXTINF:-1 tvg-id="IraneAryaeeTV.ir" tvg-name="Irane Aryaee TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IraneAryaeeTV.ir.jpg" group-title="Satellite · General | ماهواره‌ای · عمومی" tvg-language="fas" tvg-quality="SD",Irane Aryaee TV
 https://iranaryai.pahlavimonarchy.online/iranearyaeesd/index.m3u8
-#EXTINF:-1 tvg-id="MelliGTV.us" tvg-name="MelliG TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/MelliGTV.us.jpg" group-title="Satellite · General" tvg-language="fas",MelliG TV | ملی‌گرا
+#EXTINF:-1 tvg-id="MelliGTV.us" tvg-name="MelliG TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/MelliGTV.us.jpg" group-title="Satellite · General | ماهواره‌ای · عمومی" tvg-language="fas",MelliG TV | ملی‌گرا
 https://mellihls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="MTC.us" tvg-name="MTC" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/MTC.us.png" group-title="Satellite · General" tvg-language="fas" tvg-quality="HD",MTC | ام‌تی‌سی HD
+#EXTINF:-1 tvg-id="MTC.us" tvg-name="MTC" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/MTC.us.png" group-title="Satellite · General | ماهواره‌ای · عمومی" tvg-language="fas" tvg-quality="HD",MTC | ام‌تی‌سی HD
 https://mtchls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="NahadeAzadi.us" tvg-name="Nahade Azadi" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/NahadeAzadi.us.jpg" group-title="Satellite · General" tvg-language="fas",Nahade Azadi | نهاد آزادی
+#EXTINF:-1 tvg-id="NahadeAzadi.us" tvg-name="Nahade Azadi" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/NahadeAzadi.us.jpg" group-title="Satellite · General | ماهواره‌ای · عمومی" tvg-language="fas",Nahade Azadi | نهاد آزادی
 https://livestream.5centscdn.com/nahadeazadi/14a66ff6dca989d3a2eb0dc8cdb50892.sdp/chunks.m3u8
-#EXTINF:-1 tvg-id="NavidTV.ir" tvg-name="Navid TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/NavidTV.ir.png" group-title="Satellite · General" tvg-language="fas",Navid TV | نوید
+#EXTINF:-1 tvg-id="NavidTV.ir" tvg-name="Navid TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/NavidTV.ir.png" group-title="Satellite · General | ماهواره‌ای · عمومی" tvg-language="fas",Navid TV | نوید
 https://4afghls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="NovinTV.ir" tvg-name="Novin TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/NovinTV.ir.png" group-title="Satellite · General" tvg-language="fas" tvg-quality="HD",Novin TV | نوین تی‌وی HD
+#EXTINF:-1 tvg-id="NovinTV.ir" tvg-name="Novin TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/NovinTV.ir.png" group-title="Satellite · General | ماهواره‌ای · عمومی" tvg-language="fas" tvg-quality="HD",Novin TV | نوین تی‌وی HD
 https://stream.novin.live/hls/playlist.m3u8
-#EXTINF:-1 tvg-id="PorchoonehTV.us" tvg-name="Porchooneh TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PorchoonehTV.us.jpg" group-title="Satellite · General" tvg-language="fas",Porchooneh TV | پرچونه
+#EXTINF:-1 tvg-id="PorchoonehTV.us" tvg-name="Porchooneh TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PorchoonehTV.us.jpg" group-title="Satellite · General | ماهواره‌ای · عمومی" tvg-language="fas",Porchooneh TV | پرچونه
 http://porchooneh.com/hls/live1/stream1.m3u8
-#EXTINF:-1 tvg-id="RaviTV.us" tvg-name="Ravi TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/RaviTV.us.png" group-title="Satellite · General" tvg-language="fas",Ravi TV | راوی
+#EXTINF:-1 tvg-id="RaviTV.us" tvg-name="Ravi TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/RaviTV.us.png" group-title="Satellite · General | ماهواره‌ای · عمومی" tvg-language="fas",Ravi TV | راوی
 https://hls.ravitv.com/hls/stream.m3u8
-#EXTINF:-1 tvg-id="ShoraiTV.us" tvg-name="Shorai TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ShoraiTV.us.png" group-title="Satellite · General" tvg-language="fas" tvg-quality="FHD",Shorai TV | شورای تی‌وی FHD
+#EXTINF:-1 tvg-id="ShoraiTV.us" tvg-name="Shorai TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ShoraiTV.us.png" group-title="Satellite · General | ماهواره‌ای · عمومی" tvg-language="fas" tvg-quality="FHD",Shorai TV | شورای تی‌وی FHD
 https://hlspackager.akamaized.net/live/DB/ALTERNATIVE_SHORAI_TV/HLS/ALTERNATIVE_SHORAI_TV.m3u8
-#EXTINF:-1 tvg-id="TMTV.us" tvg-name="TM TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/TMTV.us.png" group-title="Satellite · General" tvg-language="fas" tvg-quality="SD",TM TV | تی‌ام تی‌وی
+#EXTINF:-1 tvg-id="TMTV.us" tvg-name="TM TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/TMTV.us.png" group-title="Satellite · General | ماهواره‌ای · عمومی" tvg-language="fas" tvg-quality="SD",TM TV | تی‌ام تی‌وی
 https://hls.tmtv.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="WomanTV.us" tvg-name="Woman TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/WomanTV.us.jpg" group-title="Satellite · General" tvg-language="fas",Woman TV | شبکه زن
+#EXTINF:-1 tvg-id="WomanTV.us" tvg-name="Woman TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/WomanTV.us.jpg" group-title="Satellite · General | ماهواره‌ای · عمومی" tvg-language="fas",Woman TV | شبکه زن
 https://wmtvhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="ZedTV.ir" tvg-name="Zed TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ZedTV.ir.jpg" group-title="Satellite · General" tvg-language="fas" tvg-quality="HD",Zed TV | زد تی‌وی HD
+#EXTINF:-1 tvg-id="ZedTV.ir" tvg-name="Zed TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ZedTV.ir.jpg" group-title="Satellite · General | ماهواره‌ای · عمومی" tvg-language="fas" tvg-quality="HD",Zed TV | زد تی‌وی HD
 https://zedhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="247BoxTV.ir" tvg-name="247 Box TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/247BoxTV.ir.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="SD",247 Box TV | ۲۴۷ باکس
+#EXTINF:-1 tvg-id="247BoxTV.ir" tvg-name="247 Box TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/247BoxTV.ir.png" group-title="Satellite · Entertainment | ماهواره‌ای · سرگرمی" tvg-language="fas" tvg-quality="SD",247 Box TV | ۲۴۷ باکس
 https://hls.247box.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="4UFamily.tr" tvg-name="4U Family" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/4UFamily.tr.webp" group-title="Satellite · Entertainment" tvg-language="fas",4U Family | فور یو فمیلی
+#EXTINF:-1 tvg-id="4UFamily.tr" tvg-name="4U Family" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/4UFamily.tr.webp" group-title="Satellite · Entertainment | ماهواره‌ای · سرگرمی" tvg-language="fas",4U Family | فور یو فمیلی
 https://familyhls.4utv.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="4UTV.tr" tvg-name="4U TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/4UTV.tr.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="SD",4U TV | فور یو تی‌وی
+#EXTINF:-1 tvg-id="4UTV.tr" tvg-name="4U TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/4UTV.tr.png" group-title="Satellite · Entertainment | ماهواره‌ای · سرگرمی" tvg-language="fas" tvg-quality="SD",4U TV | فور یو تی‌وی
 https://hls.4utv.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="AVAFamily.ir" tvg-name="AVA Family" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AVAFamily.ir.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="SD",AVA Family | آوا فامیلی
+#EXTINF:-1 tvg-id="AVAFamily.ir" tvg-name="AVA Family" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AVAFamily.ir.png" group-title="Satellite · Entertainment | ماهواره‌ای · سرگرمی" tvg-language="fas" tvg-quality="SD",AVA Family | آوا فامیلی
 https://familyhls.avatv.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="FX1.ir" tvg-name="FX 1" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/FX1.ir.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="SD",FX 1 | اف‌ایکس ۱
+#EXTINF:-1 tvg-id="FX1.ir" tvg-name="FX 1" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/FX1.ir.png" group-title="Satellite · Entertainment | ماهواره‌ای · سرگرمی" tvg-language="fas" tvg-quality="SD",FX 1 | اف‌ایکس ۱
 https://fxtvhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="FX2.ir" tvg-name="FX 2" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/FX2.ir.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="SD",FX 2 | اف‌ایکس ۲
+#EXTINF:-1 tvg-id="FX2.ir" tvg-name="FX 2" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/FX2.ir.png" group-title="Satellite · Entertainment | ماهواره‌ای · سرگرمی" tvg-language="fas" tvg-quality="SD",FX 2 | اف‌ایکس ۲
 https://toonixhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="IranComedy.ir" tvg-name="Iran Comedy" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IranComedy.ir.png" group-title="Satellite · Entertainment" tvg-language="fas",Iran Comedy | ایران کمدی
+#EXTINF:-1 tvg-id="IranComedy.ir" tvg-name="Iran Comedy" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IranComedy.ir.png" group-title="Satellite · Entertainment | ماهواره‌ای · سرگرمی" tvg-language="fas",Iran Comedy | ایران کمدی
 https://iran613hls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="TVITN.ir" tvg-name="ITN" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/TVITN.ir.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="SD",ITN | آی‌تی‌ان
+#EXTINF:-1 tvg-id="TVITN.ir" tvg-name="ITN" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/TVITN.ir.png" group-title="Satellite · Entertainment | ماهواره‌ای · سرگرمی" tvg-language="fas" tvg-quality="SD",ITN | آی‌تی‌ان
 https://itnhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="KanalJadid.uk" tvg-name="Kanal Jadid" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/KanalJadid.uk.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="SD",Kanal Jadid | کانال جدید
+#EXTINF:-1 tvg-id="KanalJadid.uk" tvg-name="Kanal Jadid" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/KanalJadid.uk.png" group-title="Satellite · Entertainment | ماهواره‌ای · سرگرمی" tvg-language="fas" tvg-quality="SD",Kanal Jadid | کانال جدید
 https://kjhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="MBCPersia.ae" tvg-name="MBC Persia" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/MBCPersia.ae.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="FHD",MBC Persia | ام‌بی‌سی پرشیا FHD
+#EXTINF:-1 tvg-id="MBCPersia.ae" tvg-name="MBC Persia" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/MBCPersia.ae.png" group-title="Satellite · Entertainment | ماهواره‌ای · سرگرمی" tvg-language="fas" tvg-quality="FHD",MBC Persia | ام‌بی‌سی پرشیا FHD
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-persia/818ee8e4b592dc497608f066d825bfb4/index.m3u8
-#EXTINF:-1 tvg-id="NetTV.us" tvg-name="Net TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/NetTV.us.png" group-title="Satellite · Entertainment" tvg-language="fas",Net TV | نت تی‌وی
+#EXTINF:-1 tvg-id="NetTV.us" tvg-name="Net TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/NetTV.us.png" group-title="Satellite · Entertainment | ماهواره‌ای · سرگرمی" tvg-language="fas",Net TV | نت تی‌وی
 https://khalijhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="OmideIranTV.us" tvg-name="Omid-e Iran" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/OmideIranTV.us.png" group-title="Satellite · Entertainment" tvg-language="fas;eng" tvg-quality="SD",Omid-e Iran | امید ایران
+#EXTINF:-1 tvg-id="OmideIranTV.us" tvg-name="Omid-e Iran" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/OmideIranTV.us.png" group-title="Satellite · Entertainment | ماهواره‌ای · سرگرمی" tvg-language="fas;eng" tvg-quality="SD",Omid-e Iran | امید ایران
 https://oitnhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="OXIRTV.ir" tvg-name="Oxir TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/OXIRTV.ir.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="SD",Oxir TV | اکسیر تی‌وی
+#EXTINF:-1 tvg-id="OXIRTV.ir" tvg-name="Oxir TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/OXIRTV.ir.png" group-title="Satellite · Entertainment | ماهواره‌ای · سرگرمی" tvg-language="fas" tvg-quality="SD",Oxir TV | اکسیر تی‌وی
 https://hls.oxir.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PersianaComedy.fr" tvg-name="Persiana Comedy" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaComedy.fr.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="SD",Persiana Comedy | پرشیانا کمدی
+#EXTINF:-1 tvg-id="PersianaComedy.fr" tvg-name="Persiana Comedy" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaComedy.fr.png" group-title="Satellite · Entertainment | ماهواره‌ای · سرگرمی" tvg-language="fas" tvg-quality="SD",Persiana Comedy | پرشیانا کمدی
 https://comedyhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PersianaReality.fr" tvg-name="Persiana Reality" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaReality.fr.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="HD",Persiana Reality | پرشیانا ریالیتی HD
+#EXTINF:-1 tvg-id="PersianaReality.fr" tvg-name="Persiana Reality" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaReality.fr.png" group-title="Satellite · Entertainment | ماهواره‌ای · سرگرمی" tvg-language="fas" tvg-quality="HD",Persiana Reality | پرشیانا ریالیتی HD
 https://twohls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PersianaTurkiye.fr" tvg-name="Persiana Turkiye" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaTurkiye.fr.png" group-title="Satellite · Entertainment" tvg-language="fas;tur" tvg-quality="SD",Persiana Turkiye | پرشیانا ترکیه
+#EXTINF:-1 tvg-id="PersianaTurkiye.fr" tvg-name="Persiana Turkiye" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaTurkiye.fr.png" group-title="Satellite · Entertainment | ماهواره‌ای · سرگرمی" tvg-language="fas;tur" tvg-quality="SD",Persiana Turkiye | پرشیانا ترکیه
 https://turkhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="ProjectLeon.us" tvg-name="Project Leon" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ProjectLeon.us.jpg" group-title="Satellite · Entertainment" tvg-language="fas",Project Leon | پروژه لئون
+#EXTINF:-1 tvg-id="ProjectLeon.us" tvg-name="Project Leon" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ProjectLeon.us.jpg" group-title="Satellite · Entertainment | ماهواره‌ای · سرگرمی" tvg-language="fas",Project Leon | پروژه لئون
 https://pleonhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="RoyalTV.ir" tvg-name="Royal TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/RoyalTV.ir.png" group-title="Satellite · Entertainment" tvg-language="fas",Royal TV | رویال
+#EXTINF:-1 tvg-id="RoyalTV.ir" tvg-name="Royal TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/RoyalTV.ir.png" group-title="Satellite · Entertainment | ماهواره‌ای · سرگرمی" tvg-language="fas",Royal TV | رویال
 https://me2hls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="SetarehTV.uk" tvg-name="Setareh TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/SetarehTV.uk.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="SD",Setareh TV | ستاره
+#EXTINF:-1 tvg-id="SetarehTV.uk" tvg-name="Setareh TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/SetarehTV.uk.png" group-title="Satellite · Entertainment | ماهواره‌ای · سرگرمی" tvg-language="fas" tvg-quality="SD",Setareh TV | ستاره
 https://setarehhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="Shabakeh7.us" tvg-name="Shabakeh 7" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/Shabakeh7.us.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="SD",Shabakeh 7 | شبکه ۷
+#EXTINF:-1 tvg-id="Shabakeh7.us" tvg-name="Shabakeh 7" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/Shabakeh7.us.png" group-title="Satellite · Entertainment | ماهواره‌ای · سرگرمی" tvg-language="fas" tvg-quality="SD",Shabakeh 7 | شبکه ۷
 https://sh7hls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="TapeshIran.us" tvg-name="Tapesh Iran" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/TapeshIran.us.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="FHD",Tapesh Iran | تپش ایران FHD
+#EXTINF:-1 tvg-id="TapeshIran.us" tvg-name="Tapesh Iran" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/TapeshIran.us.png" group-title="Satellite · Entertainment | ماهواره‌ای · سرگرمی" tvg-language="fas" tvg-quality="FHD",Tapesh Iran | تپش ایران FHD
 https://iptv.tapesh.tv/tapeshiran/playlist.m3u8
-#EXTINF:-1 tvg-id="PBCTapeshTV.us" tvg-name="Tapesh TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PBCTapeshTV.us.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="FHD",Tapesh TV | تپش تی‌وی FHD
+#EXTINF:-1 tvg-id="PBCTapeshTV.us" tvg-name="Tapesh TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PBCTapeshTV.us.png" group-title="Satellite · Entertainment | ماهواره‌ای · سرگرمی" tvg-language="fas" tvg-quality="FHD",Tapesh TV | تپش تی‌وی FHD
 https://iptv.tapesh.tv/tapesh/playlist.m3u8
-#EXTINF:-1 tvg-id="TinTV.us" tvg-name="Tin TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/TinTV.us.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="HD",Tin TV | تین تی‌وی HD
+#EXTINF:-1 tvg-id="TinTV.us" tvg-name="Tin TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/TinTV.us.png" group-title="Satellite · Entertainment | ماهواره‌ای · سرگرمی" tvg-language="fas" tvg-quality="HD",Tin TV | تین تی‌وی HD
 https://tulixcdn.akamaized.net/tintv6/tintv/tintv/playlist.m3u8
-#EXTINF:-1 tvg-id="YourTimeTV.ir" tvg-name="YourTime TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/YourTimeTV.ir.png" group-title="Satellite · Entertainment" tvg-language="fas" tvg-quality="SD",YourTime TV | یورتایم تی‌وی
+#EXTINF:-1 tvg-id="YourTimeTV.ir" tvg-name="YourTime TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/YourTimeTV.ir.png" group-title="Satellite · Entertainment | ماهواره‌ای · سرگرمی" tvg-language="fas" tvg-quality="SD",YourTime TV | یورتایم تی‌وی
 https://live.yourtime.tv/hls/stream.m3u8
-#EXTINF:-1 tvg-id="AfraFilm.ir" tvg-name="Afra Film" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AfraFilm.ir.jpg" group-title="Satellite · Movies & Series" tvg-language="fas" tvg-quality="HD",Afra Film | آفرا فیلم HD
+#EXTINF:-1 tvg-id="AfraFilm.ir" tvg-name="Afra Film" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AfraFilm.ir.jpg" group-title="Satellite · Movies & Series | ماهواره‌ای · فیلم و سریال" tvg-language="fas" tvg-quality="HD",Afra Film | آفرا فیلم HD
 https://afrafhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="AVASeries.ir" tvg-name="AVA Series" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AVASeries.ir.png" group-title="Satellite · Movies & Series" tvg-language="fas" tvg-quality="SD",AVA Series | آوا سریال
+#EXTINF:-1 tvg-id="AVASeries.ir" tvg-name="AVA Series" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AVASeries.ir.png" group-title="Satellite · Movies & Series | ماهواره‌ای · فیلم و سریال" tvg-language="fas" tvg-quality="SD",AVA Series | آوا سریال
 https://avaserieshls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="BravoFarsiTV.ir" tvg-name="Bravo Farsi TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/BravoFarsiTV.ir.jpg" group-title="Satellite · Movies & Series" tvg-language="fas" tvg-quality="SD",Bravo Farsi TV | براوو فارسی
+#EXTINF:-1 tvg-id="BravoFarsiTV.ir" tvg-name="Bravo Farsi TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/BravoFarsiTV.ir.jpg" group-title="Satellite · Movies & Series | ماهواره‌ای · فیلم و سریال" tvg-language="fas" tvg-quality="SD",Bravo Farsi TV | براوو فارسی
 https://bravoohls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="CafeFilm.ir" tvg-name="Cafe Film" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/CafeFilm.ir.png" group-title="Satellite · Movies & Series" tvg-language="fas" tvg-quality="HD",Cafe Film | کافه فیلم HD
+#EXTINF:-1 tvg-id="CafeFilm.ir" tvg-name="Cafe Film" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/CafeFilm.ir.png" group-title="Satellite · Movies & Series | ماهواره‌ای · فیلم و سریال" tvg-language="fas" tvg-quality="HD",Cafe Film | کافه فیلم HD
 https://cafefhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="ClassicTV.ir" tvg-name="Classic TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ClassicTV.ir.png" group-title="Satellite · Movies & Series" tvg-language="fas" tvg-quality="HD",Classic TV | کلاسیک تی‌وی HD
+#EXTINF:-1 tvg-id="ClassicTV.ir" tvg-name="Classic TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ClassicTV.ir.png" group-title="Satellite · Movies & Series | ماهواره‌ای · فیلم و سریال" tvg-language="fas" tvg-quality="HD",Classic TV | کلاسیک تی‌وی HD
 https://clshls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="GEMPixel.tr" tvg-name="GEM Pixel" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/GEMPixel.tr.png" group-title="Satellite · Movies & Series" tvg-language="fas" tvg-quality="SD",GEM Pixel | جم پیکسل
+#EXTINF:-1 tvg-id="GEMPixel.tr" tvg-name="GEM Pixel" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/GEMPixel.tr.png" group-title="Satellite · Movies & Series | ماهواره‌ای · فیلم و سریال" tvg-language="fas" tvg-quality="SD",GEM Pixel | جم پیکسل
 https://glserver1.tamashaland.com/live/aBCH96886YznRbGOiqTnnQ__/stream_0.m3u8
-#EXTINF:-1 tvg-id="GoldStar.ir" tvg-name="Gold Star" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/GoldStar.ir.png" group-title="Satellite · Movies & Series" tvg-language="fas" tvg-quality="HD",Gold Star | گلد استار HD
+#EXTINF:-1 tvg-id="GoldStar.ir" tvg-name="Gold Star" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/GoldStar.ir.png" group-title="Satellite · Movies & Series | ماهواره‌ای · فیلم و سریال" tvg-language="fas" tvg-quality="HD",Gold Star | گلد استار HD
 https://moviethls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="GrandCinema.tr" tvg-name="Grand Cinema" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/GrandCinema.tr.png" group-title="Satellite · Movies & Series" tvg-language="fas" tvg-quality="SD",Grand Cinema | گراند سینما
+#EXTINF:-1 tvg-id="GrandCinema.tr" tvg-name="Grand Cinema" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/GrandCinema.tr.png" group-title="Satellite · Movies & Series | ماهواره‌ای · فیلم و سریال" tvg-language="fas" tvg-quality="SD",Grand Cinema | گراند سینما
 https://gcinemahls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="HomePlus.ir" tvg-name="HomePlus" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/HomePlus.ir.jpg" group-title="Satellite · Movies & Series" tvg-language="fas" tvg-quality="HD",HomePlus | هوم پلاس HD
+#EXTINF:-1 tvg-id="HomePlus.ir" tvg-name="HomePlus" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/HomePlus.ir.jpg" group-title="Satellite · Movies & Series | ماهواره‌ای · فیلم و سریال" tvg-language="fas" tvg-quality="HD",HomePlus | هوم پلاس HD
 https://homeplushls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="ICCplus.us" tvg-name="ICC Plus" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ICCplus.us.png" group-title="Satellite · Movies & Series" tvg-language="fas" tvg-quality="SD",ICC Plus | آی‌سی‌سی پلاس
+#EXTINF:-1 tvg-id="ICCplus.us" tvg-name="ICC Plus" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ICCplus.us.png" group-title="Satellite · Movies & Series | ماهواره‌ای · فیلم و سریال" tvg-language="fas" tvg-quality="SD",ICC Plus | آی‌سی‌سی پلاس
 https://icchls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="MaahTV.my" tvg-name="Maah TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/MaahTV.my.png" group-title="Satellite · Movies & Series" tvg-language="fas" tvg-quality="SD",Maah TV | ماه تی‌وی
+#EXTINF:-1 tvg-id="MaahTV.my" tvg-name="Maah TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/MaahTV.my.png" group-title="Satellite · Movies & Series | ماهواره‌ای · فیلم و سریال" tvg-language="fas" tvg-quality="SD",Maah TV | ماه تی‌وی
 https://hls.maahtv.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="MetaFilmTV.ir" tvg-name="Meta Film TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/MetaFilmTV.ir.jpg" group-title="Satellite · Movies & Series" tvg-language="fas" tvg-quality="SD",Meta Film TV | متا فیلم
+#EXTINF:-1 tvg-id="MetaFilmTV.ir" tvg-name="Meta Film TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/MetaFilmTV.ir.jpg" group-title="Satellite · Movies & Series | ماهواره‌ای · فیلم و سریال" tvg-language="fas" tvg-quality="SD",Meta Film TV | متا فیلم
 https://metafilmhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PersianaCinema.fr" tvg-name="Persiana Cinema" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaCinema.fr.png" group-title="Satellite · Movies & Series" tvg-language="fas" tvg-quality="SD",Persiana Cinema | پرشیانا سینما
+#EXTINF:-1 tvg-id="PersianaCinema.fr" tvg-name="Persiana Cinema" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaCinema.fr.png" group-title="Satellite · Movies & Series | ماهواره‌ای · فیلم و سریال" tvg-language="fas" tvg-quality="SD",Persiana Cinema | پرشیانا سینما
 https://cinehls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PersianaFamily.fr" tvg-name="Persiana Family" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaFamily.fr.png" group-title="Satellite · Movies & Series" tvg-language="fas" tvg-quality="SD",Persiana Family | پرشیانا فمیلی
+#EXTINF:-1 tvg-id="PersianaFamily.fr" tvg-name="Persiana Family" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaFamily.fr.png" group-title="Satellite · Movies & Series | ماهواره‌ای · فیلم و سریال" tvg-language="fas" tvg-quality="SD",Persiana Family | پرشیانا فمیلی
 https://familyhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PersianaIranian.fr" tvg-name="Persiana Iranian" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaIranian.fr.png" group-title="Satellite · Movies & Series" tvg-language="fas" tvg-quality="SD",Persiana Iranian | پرشیانا ایرانیان
+#EXTINF:-1 tvg-id="PersianaIranian.fr" tvg-name="Persiana Iranian" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaIranian.fr.png" group-title="Satellite · Movies & Series | ماهواره‌ای · فیلم و سریال" tvg-language="fas" tvg-quality="SD",Persiana Iranian | پرشیانا ایرانیان
 https://irhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PersianaKorea.fr" tvg-name="Persiana Korea" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaKorea.fr.png" group-title="Satellite · Movies & Series" tvg-language="fas;kor" tvg-quality="SD",Persiana Korea | پرشیانا کره
+#EXTINF:-1 tvg-id="PersianaKorea.fr" tvg-name="Persiana Korea" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaKorea.fr.png" group-title="Satellite · Movies & Series | ماهواره‌ای · فیلم و سریال" tvg-language="fas;kor" tvg-quality="SD",Persiana Korea | پرشیانا کره
 https://korhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PersianaLatino.fr" tvg-name="Persiana Latino" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaLatino.fr.png" group-title="Satellite · Movies & Series" tvg-language="fas;spa" tvg-quality="SD",Persiana Latino | پرشیانا لاتین
+#EXTINF:-1 tvg-id="PersianaLatino.fr" tvg-name="Persiana Latino" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaLatino.fr.png" group-title="Satellite · Movies & Series | ماهواره‌ای · فیلم و سریال" tvg-language="fas;spa" tvg-quality="SD",Persiana Latino | پرشیانا لاتین
 https://latinohls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PersianaPlus.fr" tvg-name="Persiana Plus" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaPlus.fr.png" group-title="Satellite · Movies & Series" tvg-language="fas" tvg-quality="SD",Persiana Plus | پرشیانا پلاس
+#EXTINF:-1 tvg-id="PersianaPlus.fr" tvg-name="Persiana Plus" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaPlus.fr.png" group-title="Satellite · Movies & Series | ماهواره‌ای · فیلم و سریال" tvg-language="fas" tvg-quality="SD",Persiana Plus | پرشیانا پلاس
 https://euhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PersianaSeries.fr" tvg-name="Persiana Series" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaSeries.fr.png" group-title="Satellite · Movies & Series" tvg-language="fas" tvg-quality="HD",Persiana Series | پرشیانا سریال HD
+#EXTINF:-1 tvg-id="PersianaSeries.fr" tvg-name="Persiana Series" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaSeries.fr.png" group-title="Satellite · Movies & Series | ماهواره‌ای · فیلم و سریال" tvg-language="fas" tvg-quality="HD",Persiana Series | پرشیانا سریال HD
 https://onehls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="SL1.ir" tvg-name="SL 1" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/SL1.ir.jpg" group-title="Satellite · Movies & Series" tvg-language="fas" tvg-quality="SD",SL 1 | اس‌ال ۱
+#EXTINF:-1 tvg-id="SL1.ir" tvg-name="SL 1" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/SL1.ir.jpg" group-title="Satellite · Movies & Series | ماهواره‌ای · فیلم و سریال" tvg-language="fas" tvg-quality="SD",SL 1 | اس‌ال ۱
 https://slonehls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="SL2.ir" tvg-name="SL 2" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/SL2.ir.jpg" group-title="Satellite · Movies & Series" tvg-language="fas" tvg-quality="SD",SL 2 | اس‌ال ۲
+#EXTINF:-1 tvg-id="SL2.ir" tvg-name="SL 2" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/SL2.ir.jpg" group-title="Satellite · Movies & Series | ماهواره‌ای · فیلم و سریال" tvg-language="fas" tvg-quality="SD",SL 2 | اس‌ال ۲
 https://sltwohls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="AlAlam.ir" tvg-name="Al Alam" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AlAlam.ir.jpg" group-title="Satellite · News" tvg-language="ara" tvg-quality="SD",Al Alam | العالم
+#EXTINF:-1 tvg-id="AlAlam.ir" tvg-name="Al Alam" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AlAlam.ir.jpg" group-title="Satellite · News | ماهواره‌ای · خبری" tvg-language="ara" tvg-quality="SD",Al Alam | العالم
 https://live2.alalam.ir/alalam.m3u8
-#EXTINF:-1 tvg-id="BBCPersian.uk" tvg-name="BBC News Persian" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/BBCPersian.uk.png" group-title="Satellite · News" tvg-language="fas" tvg-quality="HD",BBC News Persian | بی‌بی‌سی فارسی HD
+#EXTINF:-1 tvg-id="BBCPersian.uk" tvg-name="BBC News Persian" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/BBCPersian.uk.png" group-title="Satellite · News | ماهواره‌ای · خبری" tvg-language="fas" tvg-quality="HD",BBC News Persian | بی‌بی‌سی فارسی HD
 https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/mobile_wifi_main_hd_abr_v2.m3u8
-#EXTINF:-1 tvg-id="DidgahTV.us" tvg-name="Didgah TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/DidgahTV.us.png" group-title="Satellite · News" tvg-language="fas" tvg-quality="SD",Didgah TV | دیدگاه
+#EXTINF:-1 tvg-id="DidgahTV.us" tvg-name="Didgah TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/DidgahTV.us.png" group-title="Satellite · News | ماهواره‌ای · خبری" tvg-language="fas" tvg-quality="SD",Didgah TV | دیدگاه
 https://media.streambrothers.com:1936/8276/8276/playlist.m3u8
-#EXTINF:-1 tvg-id="IranIndependent.us" tvg-name="Iran Independent" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IranIndependent.us.jpg" group-title="Satellite · News" tvg-language="fas",Iran Independent | ایران ایندیپندنت
+#EXTINF:-1 tvg-id="IranIndependent.us" tvg-name="Iran Independent" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IranIndependent.us.jpg" group-title="Satellite · News | ماهواره‌ای · خبری" tvg-language="fas",Iran Independent | ایران ایندیپندنت
 https://mediamtx.elitelatrade.com/live/stream/main_stream.m3u8
-#EXTINF:-1 tvg-id="IranInternational.uk" tvg-name="Iran International" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IranInternational.uk.png" group-title="Satellite · News" tvg-language="fas" tvg-quality="FHD",Iran International | ایران اینترنشنال FHD
+#EXTINF:-1 tvg-id="IranInternational.uk" tvg-name="Iran International" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IranInternational.uk.png" group-title="Satellite · News | ماهواره‌ای · خبری" tvg-language="fas" tvg-quality="FHD",Iran International | ایران اینترنشنال FHD
 https://hlspackager.akamaized.net/live/DB/IRAN_INTERNATIONAL/HLS/IRAN_INTERNATIONAL.m3u8
-#EXTINF:-1 tvg-id="IranNationalRevolutionTV.us" tvg-name="Iran National Revolution TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IranNationalRevolutionTV.us.png" group-title="Satellite · News" tvg-language="fas" tvg-quality="HD",Iran National Revolution TV | تلویزیون انقلاب ملی ایران HD
+#EXTINF:-1 tvg-id="IranNationalRevolutionTV.us" tvg-name="Iran National Revolution TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IranNationalRevolutionTV.us.png" group-title="Satellite · News | ماهواره‌ای · خبری" tvg-language="fas" tvg-quality="HD",Iran National Revolution TV | تلویزیون انقلاب ملی ایران HD
 https://hls.irannrtv.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="IraneFarda.us" tvg-name="Irane Farda" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IraneFarda.us.png" group-title="Satellite · News" tvg-language="fas",Irane Farda | ایران فردا
+#EXTINF:-1 tvg-id="IraneFarda.us" tvg-name="Irane Farda" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IraneFarda.us.png" group-title="Satellite · News | ماهواره‌ای · خبری" tvg-language="fas",Irane Farda | ایران فردا
 https://iranefardalive.com/stream/live.m3u8
-#EXTINF:-1 tvg-id="IranWire.us" tvg-name="IranWire" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IranWire.us.png" group-title="Satellite · News" tvg-language="fas",IranWire | ایران‌وایر
+#EXTINF:-1 tvg-id="IranWire.us" tvg-name="IranWire" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IranWire.us.png" group-title="Satellite · News | ماهواره‌ای · خبری" tvg-language="fas",IranWire | ایران‌وایر
 https://irwhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="IRNATV.ir" tvg-name="IRNA TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRNATV.ir.png" group-title="Satellite · News" tvg-language="fas",IRNA TV | تلویزیون ایرنا
+#EXTINF:-1 tvg-id="IRNATV.ir" tvg-name="IRNA TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRNATV.ir.png" group-title="Satellite · News | ماهواره‌ای · خبری" tvg-language="fas",IRNA TV | تلویزیون ایرنا
 https://tv.irna.ir/live/stream/index.m3u8
-#EXTINF:-1 tvg-id="IsraelParsTV.il" tvg-name="Israel Pars TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IsraelParsTV.il.png" group-title="Satellite · News" tvg-language="heb" tvg-quality="SD",Israel Pars TV | ایسرائل پارس
+#EXTINF:-1 tvg-id="IsraelParsTV.il" tvg-name="Israel Pars TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IsraelParsTV.il.png" group-title="Satellite · News | ماهواره‌ای · خبری" tvg-language="heb" tvg-quality="SD",Israel Pars TV | ایسرائل پارس
 https://live.pars-israel.com/tmp_hls/iptv/index.m3u8
-#EXTINF:-1 tvg-id="MihanTV.ir" tvg-name="Mihan TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/MihanTV.ir.png" group-title="Satellite · News" tvg-language="fas" tvg-quality="FHD",Mihan TV | میهن تی‌وی FHD
+#EXTINF:-1 tvg-id="MihanTV.ir" tvg-name="Mihan TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/MihanTV.ir.png" group-title="Satellite · News | ماهواره‌ای · خبری" tvg-language="fas" tvg-quality="FHD",Mihan TV | میهن تی‌وی FHD
 https://iptv.mihantv.com/mihantv/playlist.m3u8
-#EXTINF:-1 tvg-id="NationalIranianCongressTV.us" tvg-name="National Iranian Congress TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/NationalIranianCongressTV.us.png" group-title="Satellite · News" tvg-language="fas" tvg-quality="HD",National Iranian Congress TV | تلویزیون کنگره ملی ایرانیان HD
+#EXTINF:-1 tvg-id="NationalIranianCongressTV.us" tvg-name="National Iranian Congress TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/NationalIranianCongressTV.us.png" group-title="Satellite · News | ماهواره‌ای · خبری" tvg-language="fas" tvg-quality="HD",National Iranian Congress TV | تلویزیون کنگره ملی ایرانیان HD
 https://tv.iraniancongress.com/stream/tv.m3u8
-#EXTINF:-1 tvg-id="ParsTV.us" tvg-name="Pars TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ParsTV.us.png" group-title="Satellite · News" tvg-language="fas" tvg-quality="HD",Pars TV | پارس تی‌وی HD
+#EXTINF:-1 tvg-id="ParsTV.us" tvg-name="Pars TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ParsTV.us.png" group-title="Satellite · News | ماهواره‌ای · خبری" tvg-language="fas" tvg-quality="HD",Pars TV | پارس تی‌وی HD
 https://livestream.5centscdn.com/parstvtvweb1/e8ac8f595b3003ea3d22178c05c67593.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="PulseMedia.us" tvg-name="Pulse Media" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PulseMedia.us.jpg" group-title="Satellite · News" tvg-language="fas",Pulse Media | پالس مدیا
+#EXTINF:-1 tvg-id="PulseMedia.us" tvg-name="Pulse Media" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PulseMedia.us.jpg" group-title="Satellite · News | ماهواره‌ای · خبری" tvg-language="fas",Pulse Media | پالس مدیا
 https://newfhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="RadioFardaTV.us" tvg-name="Radio Farda TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/RadioFardaTV.us.png" group-title="Satellite · News" tvg-language="fas" tvg-quality="SD",Radio Farda TV | رادیو فردا
+#EXTINF:-1 tvg-id="RadioFardaTV.us" tvg-name="Radio Farda TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/RadioFardaTV.us.png" group-title="Satellite · News | ماهواره‌ای · خبری" tvg-language="fas" tvg-quality="SD",Radio Farda TV | رادیو فردا
 https://rferl-ingest.akamaized.net/hls/live/2121768/tvmc01/playlist.m3u8
-#EXTINF:-1 tvg-id="SimayeAzadi.uk" tvg-name="Simaye Azadi" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/SimayeAzadi.uk.png" group-title="Satellite · News" tvg-language="fas" tvg-quality="FHD",Simaye Azadi | سیمای آزادی FHD
+#EXTINF:-1 tvg-id="SimayeAzadi.uk" tvg-name="Simaye Azadi" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/SimayeAzadi.uk.png" group-title="Satellite · News | ماهواره‌ای · خبری" tvg-language="fas" tvg-quality="FHD",Simaye Azadi | سیمای آزادی FHD
 https://simaytv.akamaized.net/hls/live/a162cb6c-3be1-4e57-87dc-a75a50b3b8d9/simayhls/index.m3u8
-#EXTINF:-1 tvg-id="VoATVPersian.us" tvg-name="VOA Persian" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/VoATVPersian.us.png" group-title="Satellite · News" tvg-language="fas" tvg-quality="FHD",VOA Persian | صدای آمریکا فارسی FHD
+#EXTINF:-1 tvg-id="VoATVPersian.us" tvg-name="VOA Persian" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/VoATVPersian.us.png" group-title="Satellite · News | ماهواره‌ای · خبری" tvg-language="fas" tvg-quality="FHD",VOA Persian | صدای آمریکا فارسی FHD
 https://voa-ingest.akamaized.net/hls/live/2033876/tvmc07/playlist.m3u8
-#EXTINF:-1 tvg-id="4Kurd.fr" tvg-name="4 Kurd" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/4Kurd.fr.png" group-title="Satellite · Music" tvg-language="kur;fas" tvg-quality="SD",4 Kurd | فور کورد
+#EXTINF:-1 tvg-id="4Kurd.fr" tvg-name="4 Kurd" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/4Kurd.fr.png" group-title="Satellite · Music | ماهواره‌ای · موسیقی" tvg-language="kur;fas" tvg-quality="SD",4 Kurd | فور کورد
 https://4kuhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="4Music.fr" tvg-name="4 Music" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/4Music.fr.png" group-title="Satellite · Music" tvg-language="fas" tvg-quality="HD",4 Music | فور موزیک HD
+#EXTINF:-1 tvg-id="4Music.fr" tvg-name="4 Music" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/4Music.fr.png" group-title="Satellite · Music | ماهواره‌ای · موسیقی" tvg-language="fas" tvg-quality="HD",4 Music | فور موزیک HD
 https://itthls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="AFNTV.ir" tvg-name="AFN TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AFNTV.ir.png" group-title="Satellite · Music" tvg-language="fas" tvg-quality="HD",AFN TV | ای‌اف‌ان تی‌وی HD
+#EXTINF:-1 tvg-id="AFNTV.ir" tvg-name="AFN TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AFNTV.ir.png" group-title="Satellite · Music | ماهواره‌ای · موسیقی" tvg-language="fas" tvg-quality="HD",AFN TV | ای‌اف‌ان تی‌وی HD
 https://bozztv.com/1gbw5/tintv2/tintv2/playlist.m3u8
-#EXTINF:-1 tvg-id="AvangTV.us" tvg-name="Avang TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AvangTV.us.png" group-title="Satellite · Music" tvg-language="fas" tvg-quality="SD",Avang TV | آونگ
+#EXTINF:-1 tvg-id="AvangTV.us" tvg-name="Avang TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AvangTV.us.png" group-title="Satellite · Music | ماهواره‌ای · موسیقی" tvg-language="fas" tvg-quality="SD",Avang TV | آونگ
 https://hls.avang.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="HighVisionTV.us" tvg-name="High Vision TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/HighVisionTV.us.png" group-title="Satellite · Music" tvg-language="fas" tvg-quality="SD",High Vision TV | های ویژن
+#EXTINF:-1 tvg-id="HighVisionTV.us" tvg-name="High Vision TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/HighVisionTV.us.png" group-title="Satellite · Music | ماهواره‌ای · موسیقی" tvg-language="fas" tvg-quality="SD",High Vision TV | های ویژن
 https://streamer1.connectto.com/HIGHVISION_WEB_1205/playlist.m3u8
-#EXTINF:-1 tvg-id="NavahangTV.fi" tvg-name="Navahang TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/NavahangTV.fi.png" group-title="Satellite · Music" tvg-language="fas" tvg-quality="SD",Navahang TV | نواهنگ
+#EXTINF:-1 tvg-id="NavahangTV.fi" tvg-name="Navahang TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/NavahangTV.fi.png" group-title="Satellite · Music | ماهواره‌ای · موسیقی" tvg-language="fas" tvg-quality="SD",Navahang TV | نواهنگ
 https://hls.navahang.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PersianaFolk.fr" tvg-name="Persiana Folk" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaFolk.fr.png" group-title="Satellite · Music" tvg-language="fas" tvg-quality="HD",Persiana Folk | پرشیانا فولک HD
+#EXTINF:-1 tvg-id="PersianaFolk.fr" tvg-name="Persiana Folk" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaFolk.fr.png" group-title="Satellite · Music | ماهواره‌ای · موسیقی" tvg-language="fas" tvg-quality="HD",Persiana Folk | پرشیانا فولک HD
 https://sonhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PersianaNostalgia.fr" tvg-name="Persiana Nostalgia" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaNostalgia.fr.png" group-title="Satellite · Music" tvg-language="fas" tvg-quality="SD",Persiana Nostalgia | پرشیانا نوستالژی
+#EXTINF:-1 tvg-id="PersianaNostalgia.fr" tvg-name="Persiana Nostalgia" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaNostalgia.fr.png" group-title="Satellite · Music | ماهواره‌ای · موسیقی" tvg-language="fas" tvg-quality="SD",Persiana Nostalgia | پرشیانا نوستالژی
 https://noshls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PersianaSetMix.fr" tvg-name="Persiana SetMix" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaSetMix.fr.png" group-title="Satellite · Music" tvg-language="fas",Persiana SetMix | پرشیانا ست‌میکس
+#EXTINF:-1 tvg-id="PersianaSetMix.fr" tvg-name="Persiana SetMix" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaSetMix.fr.png" group-title="Satellite · Music | ماهواره‌ای · موسیقی" tvg-language="fas",Persiana SetMix | پرشیانا ست‌میکس
 https://setmixhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PMC.ae" tvg-name="PMC" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PMC.ae.png" group-title="Satellite · Music" tvg-language="fas" tvg-quality="SD",PMC | پی‌ام‌سی
+#EXTINF:-1 tvg-id="PMC.ae" tvg-name="PMC" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PMC.ae.png" group-title="Satellite · Music | ماهواره‌ای · موسیقی" tvg-language="fas" tvg-quality="SD",PMC | پی‌ام‌سی
 https://pmchls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PMCRoyale.ae" tvg-name="PMC Royale" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PMCRoyale.ae.png" group-title="Satellite · Music" tvg-language="fas" tvg-quality="SD",PMC Royale | پی‌ام‌سی رویال
+#EXTINF:-1 tvg-id="PMCRoyale.ae" tvg-name="PMC Royale" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PMCRoyale.ae.png" group-title="Satellite · Music | ماهواره‌ای · موسیقی" tvg-language="fas" tvg-quality="SD",PMC Royale | پی‌ام‌سی رویال
 https://pmcrohls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="RJTV.us" tvg-name="RJTV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/RJTV.us.png" group-title="Satellite · Music" tvg-language="fas" tvg-quality="SD",RJTV | آر‌جی تی‌وی
+#EXTINF:-1 tvg-id="RJTV.us" tvg-name="RJTV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/RJTV.us.png" group-title="Satellite · Music | ماهواره‌ای · موسیقی" tvg-language="fas" tvg-quality="SD",RJTV | آر‌جی تی‌وی
 https://rjtvhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="SunMusic.us" tvg-name="Sun Music" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/SunMusic.us.png" group-title="Satellite · Music" tvg-language="fas",Sun Music | سان موزیک
+#EXTINF:-1 tvg-id="SunMusic.us" tvg-name="Sun Music" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/SunMusic.us.png" group-title="Satellite · Music | ماهواره‌ای · موسیقی" tvg-language="fas",Sun Music | سان موزیک
 https://hls.sunmusic.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="T2TV.ir" tvg-name="T2 TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/T2TV.ir.png" group-title="Satellite · Music" tvg-language="fas" tvg-quality="SD",T2 TV | تی۲ تی‌وی
+#EXTINF:-1 tvg-id="T2TV.ir" tvg-name="T2 TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/T2TV.ir.png" group-title="Satellite · Music | ماهواره‌ای · موسیقی" tvg-language="fas" tvg-quality="SD",T2 TV | تی۲ تی‌وی
 https://maxtvhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PersianaJunior.fr" tvg-name="Persiana Junior" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaJunior.fr.png" group-title="Satellite · Kids" tvg-language="fas" tvg-quality="SD",Persiana Junior | پرشیانا جونیور
+#EXTINF:-1 tvg-id="PersianaJunior.fr" tvg-name="Persiana Junior" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaJunior.fr.png" group-title="Satellite · Kids | ماهواره‌ای · کودک" tvg-language="fas" tvg-quality="SD",Persiana Junior | پرشیانا جونیور
 https://junhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PersianaFight.fr" tvg-name="Persiana Fight" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaFight.fr.png" group-title="Satellite · Sports" tvg-language="fas" tvg-quality="HD",Persiana Fight | پرشیانا فایت HD
+#EXTINF:-1 tvg-id="PersianaFight.fr" tvg-name="Persiana Fight" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaFight.fr.png" group-title="Satellite · Sports | ماهواره‌ای · ورزشی" tvg-language="fas" tvg-quality="HD",Persiana Fight | پرشیانا فایت HD
 https://fighthls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="EPlanetTV.ir" tvg-name="E Planet TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/EPlanetTV.ir.png" group-title="Satellite · Documentary & Learning" tvg-language="fas" tvg-quality="HD",E Planet TV | ای‌پلنت HD
+#EXTINF:-1 tvg-id="EPlanetTV.ir" tvg-name="E Planet TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/EPlanetTV.ir.png" group-title="Satellite · Documentary & Learning | ماهواره‌ای · مستند و آموزش" tvg-language="fas" tvg-quality="HD",E Planet TV | ای‌پلنت HD
 https://eplhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PayamJavanTV.us" tvg-name="Payam Javan TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PayamJavanTV.us.png" group-title="Satellite · Documentary & Learning" tvg-language="fas" tvg-quality="HD",Payam Javan TV | پیام جوان HD
+#EXTINF:-1 tvg-id="PayamJavanTV.us" tvg-name="Payam Javan TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PayamJavanTV.us.png" group-title="Satellite · Documentary & Learning | ماهواره‌ای · مستند و آموزش" tvg-language="fas" tvg-quality="HD",Payam Javan TV | پیام جوان HD
 https://uni01rtmp.tulix.tv/kensecure/pjtv.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="PersianaDocs.fr" tvg-name="Persiana Docs" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaDocs.fr.png" group-title="Satellite · Documentary & Learning" tvg-language="fas" tvg-quality="HD",Persiana Docs | پرشیانا مستند HD
+#EXTINF:-1 tvg-id="PersianaDocs.fr" tvg-name="Persiana Docs" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaDocs.fr.png" group-title="Satellite · Documentary & Learning | ماهواره‌ای · مستند و آموزش" tvg-language="fas" tvg-quality="HD",Persiana Docs | پرشیانا مستند HD
 https://scihls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PersianaMedical.fr" tvg-name="Persiana Medical" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaMedical.fr.png" group-title="Satellite · Documentary & Learning" tvg-language="fas" tvg-quality="HD",Persiana Medical | پرشیانا مدیکال HD
+#EXTINF:-1 tvg-id="PersianaMedical.fr" tvg-name="Persiana Medical" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaMedical.fr.png" group-title="Satellite · Documentary & Learning | ماهواره‌ای · مستند و آموزش" tvg-language="fas" tvg-quality="HD",Persiana Medical | پرشیانا مدیکال HD
 https://phd2hls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="AlWilayah.ir" tvg-name="Al Wilayah" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AlWilayah.ir.png" group-title="Religious · Islamic" tvg-language="ara" tvg-quality="SD",Al Wilayah | شبکه الولایه
+#EXTINF:-1 tvg-id="AlWilayah.ir" tvg-name="Al Wilayah" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AlWilayah.ir.png" group-title="Religious · Islamic | مذهبی · اسلامی" tvg-language="ara" tvg-quality="SD",Al Wilayah | شبکه الولایه
 https://nl.livekadeh.com/hls2/alwilayah_tv.m3u8
-#EXTINF:-1 tvg-id="AlMahdiTV.us" tvg-name="Al-Mahdi TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AlMahdiTV.us.png" group-title="Religious · Islamic" tvg-language="fas" tvg-quality="FHD",Al-Mahdi TV | شبکه المهدی FHD
+#EXTINF:-1 tvg-id="AlMahdiTV.us" tvg-name="Al-Mahdi TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AlMahdiTV.us.png" group-title="Religious · Islamic | مذهبی · اسلامی" tvg-language="fas" tvg-quality="FHD",Al-Mahdi TV | شبکه المهدی FHD
 https://iptv.almahditv.com/almahditv/playlist.m3u8
-#EXTINF:-1 tvg-id="AssiratTV.ir" tvg-name="Assirat TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AssiratTV.ir.png" group-title="Religious · Islamic" tvg-language="ara" tvg-quality="FHD",Assirat TV | شبکه الصراط FHD
+#EXTINF:-1 tvg-id="AssiratTV.ir" tvg-name="Assirat TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AssiratTV.ir.png" group-title="Religious · Islamic | مذهبی · اسلامی" tvg-language="ara" tvg-quality="FHD",Assirat TV | شبکه الصراط FHD
 https://softverse.b-cdn.net/Assirat/assiratobs/playlist.m3u8
-#EXTINF:-1 tvg-id="ImamHusseinTV1.iq" tvg-name="Imam Hussein TV 1" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ImamHusseinTV1.iq.png" group-title="Religious · Islamic" tvg-language="fas" tvg-quality="FHD",Imam Hussein TV 1 | امام حسین ۱ FHD
+#EXTINF:-1 tvg-id="ImamHusseinTV1.iq" tvg-name="Imam Hussein TV 1" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ImamHusseinTV1.iq.png" group-title="Religious · Islamic | مذهبی · اسلامی" tvg-language="fas" tvg-quality="FHD",Imam Hussein TV 1 | امام حسین ۱ FHD
 https://live.imamhossaintv.com/live/ih1.m3u8
-#EXTINF:-1 tvg-id="ImamHusseinTV6.iq" tvg-name="Imam Hussein TV 6" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ImamHusseinTV6.iq.png" group-title="Religious · Islamic" tvg-language="fas" tvg-quality="FHD",Imam Hussein TV 6 | امام حسین ۶ FHD
+#EXTINF:-1 tvg-id="ImamHusseinTV6.iq" tvg-name="Imam Hussein TV 6" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ImamHusseinTV6.iq.png" group-title="Religious · Islamic | مذهبی · اسلامی" tvg-language="fas" tvg-quality="FHD",Imam Hussein TV 6 | امام حسین ۶ FHD
 https://live.imamhossaintv.com/live/ih6.m3u8
-#EXTINF:-1 tvg-id="MarjaeyatTVPersian.iq" tvg-name="Marjaeyat TV Persian" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/MarjaeyatTVPersian.iq.png" group-title="Religious · Islamic" tvg-language="fas" tvg-quality="FHD",Marjaeyat TV Persian | شبکه مرجعیت FHD
+#EXTINF:-1 tvg-id="MarjaeyatTVPersian.iq" tvg-name="Marjaeyat TV Persian" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/MarjaeyatTVPersian.iq.png" group-title="Religious · Islamic | مذهبی · اسلامی" tvg-language="fas" tvg-quality="FHD",Marjaeyat TV Persian | شبکه مرجعیت FHD
 https://livefa.marjaeyattv.com/mtv_fa/playlist05/index.m3u8
-#EXTINF:-1 tvg-id="PayameArameshTV.us" tvg-name="Payam-e Aramesh" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PayameArameshTV.us.png" group-title="Religious · Islamic" tvg-language="fas" tvg-quality="SD",Payam-e Aramesh | پیام آرامش
+#EXTINF:-1 tvg-id="PayameArameshTV.us" tvg-name="Payam-e Aramesh" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PayameArameshTV.us.png" group-title="Religious · Islamic | مذهبی · اسلامی" tvg-language="fas" tvg-quality="SD",Payam-e Aramesh | پیام آرامش
 https://hls.keshishhamid.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PayvandTV.ir" tvg-name="Payvand TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PayvandTV.ir.png" group-title="Religious · Islamic" tvg-language="fas" tvg-quality="HD",Payvand TV | شبکه پیوند HD
+#EXTINF:-1 tvg-id="PayvandTV.ir" tvg-name="Payvand TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PayvandTV.ir.png" group-title="Religious · Islamic | مذهبی · اسلامی" tvg-language="fas" tvg-quality="HD",Payvand TV | شبکه پیوند HD
 https://tgn.bozztv.com/cus01/ucur1/Payvand/playlist.m3u8
-#EXTINF:-1 tvg-id="RasoulallahTv.ir" tvg-name="Rasoulallah TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/RasoulallahTv.ir.png" group-title="Religious · Islamic" tvg-language="fas" tvg-quality="FHD",Rasoulallah TV | شبکه رسول‌الله FHD
+#EXTINF:-1 tvg-id="RasoulallahTv.ir" tvg-name="Rasoulallah TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/RasoulallahTv.ir.png" group-title="Religious · Islamic | مذهبی · اسلامی" tvg-language="fas" tvg-quality="FHD",Rasoulallah TV | شبکه رسول‌الله FHD
 https://avr.host247.net/live/rasoulallahtv/playlist.m3u8
-#EXTINF:-1 tvg-id="VelayatTVNetwork.us" tvg-name="Velayat TV Network" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/VelayatTVNetwork.us.png" group-title="Religious · Islamic" tvg-language="fas" tvg-quality="SD",Velayat TV Network | شبکه ولایت (آمریکا)
+#EXTINF:-1 tvg-id="VelayatTVNetwork.us" tvg-name="Velayat TV Network" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/VelayatTVNetwork.us.png" group-title="Religious · Islamic | مذهبی · اسلامی" tvg-language="fas" tvg-quality="SD",Velayat TV Network | شبکه ولایت (آمریکا)
 https://nl.livekadeh.com/hls2/velayattv.m3u8
-#EXTINF:-1 tvg-id="DerakhteZendegiTV.us" tvg-name="Derakhte Zendegi TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/DerakhteZendegiTV.us.png" group-title="Religious · Christian" tvg-language="fas;heb" tvg-quality="SD",Derakhte Zendegi TV | درخت زندگی
+#EXTINF:-1 tvg-id="DerakhteZendegiTV.us" tvg-name="Derakhte Zendegi TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/DerakhteZendegiTV.us.png" group-title="Religious · Christian | مذهبی · مسیحی" tvg-language="fas;heb" tvg-quality="SD",Derakhte Zendegi TV | درخت زندگی
 https://derakhtzhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="ICnet1.ca" tvg-name="ICnet 1" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ICnet1.ca.png" group-title="Religious · Christian" tvg-language="fas" tvg-quality="SD",ICnet 1 | آی‌سی‌نت ۱
+#EXTINF:-1 tvg-id="ICnet1.ca" tvg-name="ICnet 1" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ICnet1.ca.png" group-title="Religious · Christian | مذهبی · مسیحی" tvg-language="fas" tvg-quality="SD",ICnet 1 | آی‌سی‌نت ۱
 https://icnet1hls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="ICnet2.ca" tvg-name="ICnet 2" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ICnet2.ca.png" group-title="Religious · Christian" tvg-language="fas" tvg-quality="SD",ICnet 2 | آی‌سی‌نت ۲
+#EXTINF:-1 tvg-id="ICnet2.ca" tvg-name="ICnet 2" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ICnet2.ca.png" group-title="Religious · Christian | مذهبی · مسیحی" tvg-language="fas" tvg-quality="SD",ICnet 2 | آی‌سی‌نت ۲
 https://icnet2hls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="icnet3.ca" tvg-name="ICnet 3" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/icnet3.ca.png" group-title="Religious · Christian" tvg-language="fas" tvg-quality="HD",ICnet 3 | آی‌سی‌نت ۳ HD
+#EXTINF:-1 tvg-id="icnet3.ca" tvg-name="ICnet 3" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/icnet3.ca.png" group-title="Religious · Christian | مذهبی · مسیحی" tvg-language="fas" tvg-quality="HD",ICnet 3 | آی‌سی‌نت ۳ HD
 https://ic3hls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="KalemehTV.uk" tvg-name="Kalemeh TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/KalemehTV.uk.png" group-title="Religious · Christian" tvg-language="fas" tvg-quality="FHD",Kalemeh TV | شبکه کلمه FHD
+#EXTINF:-1 tvg-id="KalemehTV.uk" tvg-name="Kalemeh TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/KalemehTV.uk.png" group-title="Religious · Christian | مذهبی · مسیحی" tvg-language="fas" tvg-quality="FHD",Kalemeh TV | شبکه کلمه FHD
 https://klmhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="LoveWorldPersia.ng" tvg-name="LoveWorld Persia" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/LoveWorldPersia.ng.png" group-title="Religious · Christian" tvg-language="fas" tvg-quality="HD",LoveWorld Persia | لاوورلد پرشیا HD
+#EXTINF:-1 tvg-id="LoveWorldPersia.ng" tvg-name="LoveWorld Persia" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/LoveWorldPersia.ng.png" group-title="Religious · Christian | مذهبی · مسیحی" tvg-language="fas" tvg-quality="HD",LoveWorld Persia | لاوورلد پرشیا HD
 https://cdn3.wowza.com/5/aVJETlF0UFdmYTFu/LWPP/ngrp:persia.stream_all/playlist.m3u8
-#EXTINF:-1 tvg-id="MohabatTV.us" tvg-name="Mohabat TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/MohabatTV.us.jpg" group-title="Religious · Christian" tvg-language="fas" tvg-quality="FHD",Mohabat TV | شبکه محبت FHD
+#EXTINF:-1 tvg-id="MohabatTV.us" tvg-name="Mohabat TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/MohabatTV.us.jpg" group-title="Religious · Christian | مذهبی · مسیحی" tvg-language="fas" tvg-quality="FHD",Mohabat TV | شبکه محبت FHD
 https://5ad386ff92705.streamlock.net/live_transcodermh/ngrp:mohabat.stream_all/playlist.m3u8
-#EXTINF:-1 tvg-id="OmidJavedan.us" tvg-name="Omid Javedan" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/OmidJavedan.us.png" group-title="Religious · Christian" tvg-language="fas;eng" tvg-quality="HD",Omid Javedan | امید جاودان HD
+#EXTINF:-1 tvg-id="OmidJavedan.us" tvg-name="Omid Javedan" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/OmidJavedan.us.png" group-title="Religious · Christian | مذهبی · مسیحی" tvg-language="fas;eng" tvg-quality="HD",Omid Javedan | امید جاودان HD
 https://livestream.5centscdn.com/pwocchurchweb1/cebac1e921182acff008ab1222f0c916.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="RaheNejatTV.us" tvg-name="Rahe Nejat TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/RaheNejatTV.us.jpg" group-title="Religious · Christian" tvg-language="fas" tvg-quality="SD",Rahe Nejat TV | راه نجات
+#EXTINF:-1 tvg-id="RaheNejatTV.us" tvg-name="Rahe Nejat TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/RaheNejatTV.us.jpg" group-title="Religious · Christian | مذهبی · مسیحی" tvg-language="fas" tvg-quality="SD",Rahe Nejat TV | راه نجات
 https://hls.rahenejat.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="Sat7Pars.cy" tvg-name="SAT-7 Pars" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/Sat7Pars.cy.png" group-title="Religious · Christian" tvg-language="fas" tvg-quality="SD",SAT-7 Pars | ست‌۷ پارس
+#EXTINF:-1 tvg-id="Sat7Pars.cy" tvg-name="SAT-7 Pars" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/Sat7Pars.cy.png" group-title="Religious · Christian | مذهبی · مسیحی" tvg-language="fas" tvg-quality="SD",SAT-7 Pars | ست‌۷ پارس
 https://sat7phls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="TBNNejatTV.ir" tvg-name="TBN Nejat TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/TBNNejatTV.ir.png" group-title="Religious · Christian" tvg-language="fas" tvg-quality="SD",TBN Nejat TV | شبکه نجات
+#EXTINF:-1 tvg-id="TBNNejatTV.ir" tvg-name="TBN Nejat TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/TBNNejatTV.ir.png" group-title="Religious · Christian | مذهبی · مسیحی" tvg-language="fas" tvg-quality="SD",TBN Nejat TV | شبکه نجات
 https://hls.nejat.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="ErfanHalghehTV.ca" tvg-name="Erfan Halgheh TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ErfanHalghehTV.ca.png" group-title="Religious · Other Faiths & Spiritual" tvg-language="fas" tvg-quality="SD",Erfan Halgheh TV | عرفان حلقه
+#EXTINF:-1 tvg-id="ErfanHalghehTV.ca" tvg-name="Erfan Halgheh TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ErfanHalghehTV.ca.png" group-title="Religious · Other Faiths & Spiritual | مذهبی · سایر ادیان و معنوی" tvg-language="fas" tvg-quality="SD",Erfan Halgheh TV | عرفان حلقه
 https://hls.erfanhalgheh.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="GanjeHozourTV.us" tvg-name="Ganj-e Hozour" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/GanjeHozourTV.us.png" group-title="Religious · Other Faiths & Spiritual" tvg-language="fas" tvg-quality="FHD",Ganj-e Hozour | گنج حضور FHD
+#EXTINF:-1 tvg-id="GanjeHozourTV.us" tvg-name="Ganj-e Hozour" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/GanjeHozourTV.us.png" group-title="Religious · Other Faiths & Spiritual | مذهبی · سایر ادیان و معنوی" tvg-language="fas" tvg-quality="FHD",Ganj-e Hozour | گنج حضور FHD
 https://media.parvizshahbazi.com/ganjehozour/Main_tv/playlist.m3u8
-#EXTINF:-1 tvg-id="IranJewishTV.ir" tvg-name="Iran Jewish TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IranJewishTV.ir.png" group-title="Religious · Other Faiths & Spiritual" tvg-language="fas" tvg-quality="HD",Iran Jewish TV | تلویزیون یهودیان ایرانی HD
+#EXTINF:-1 tvg-id="IranJewishTV.ir" tvg-name="Iran Jewish TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IranJewishTV.ir.png" group-title="Religious · Other Faiths & Spiritual | مذهبی · سایر ادیان و معنوی" tvg-language="fas" tvg-quality="HD",Iran Jewish TV | تلویزیون یهودیان ایرانی HD
 http://iran620.com:1935/live/IranJewishTv/playlist.m3u8
-#EXTINF:-1 tvg-id="WiseHumanTv.ir" tvg-name="Wise Human TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/WiseHumanTv.ir.png" group-title="Religious · Other Faiths & Spiritual" tvg-language="far" tvg-quality="FHD",Wise Human TV | انسان خردمند FHD
+#EXTINF:-1 tvg-id="WiseHumanTv.ir" tvg-name="Wise Human TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/WiseHumanTv.ir.png" group-title="Religious · Other Faiths & Spiritual | مذهبی · سایر ادیان و معنوی" tvg-language="far" tvg-quality="FHD",Wise Human TV | انسان خردمند FHD
 https://avr.host247.net/live/WiseHumanTv/playlist.m3u8
