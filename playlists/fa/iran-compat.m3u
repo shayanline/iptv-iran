@@ -1,8 +1,8 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IR1.xml.gz"
 # For smart TV apps and other limited players. Only streams whose manifests stay within what a basic HLS parser handles.
-# generated 2026-08-11 12:42 UTC by shayanline/iptv-iran
+# generated 2026-08-11 12:46 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="iFilmPersian.ir" tvg-name="iFilm" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/iFilmPersian.ir.png" group-title="شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",آی‌فیلم FHD
-https://live.presstv.ir/hls/ifilmfa_4_482/index.m3u8
+https://live.presstv.co.uk/hls/ifilmfa_4_482/index.m3u8
 #EXTINF:-1 tvg-id="IRINN.ir" tvg-name="IRINN" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRINN.ir.png" group-title="شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",شبکه خبر FHD
 http://185.9.2.18/chid_926/index.m3u8
 #EXTINF:-1 tvg-id="HispanTV.ir" tvg-name="HispanTV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/HispanTV.ir.jpg" group-title="شبکه‌های برون‌مرزی" tvg-language="spa" tvg-quality="SD",هیسپان تی‌وی
@@ -12,7 +12,7 @@ https://live.presstv.co.uk/hls/ifilm2_4_482/index.m3u8
 #EXTINF:-1 tvg-id="iFilmArabic.ir" tvg-name="iFilm Arabic" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/iFilmArabic.ir.png" group-title="شبکه‌های برون‌مرزی" tvg-language="ara" tvg-quality="SD",آی‌فیلم عربی
 https://live.presstv.co.uk/hls/ifilmar_4_482/index.m3u8
 #EXTINF:-1 tvg-id="iFilmEnglish.ir" tvg-name="iFilm English" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/iFilmEnglish.ir.png" group-title="شبکه‌های برون‌مرزی" tvg-language="eng" tvg-quality="SD",آی‌فیلم انگلیسی
-https://live.presstv.ir/hls/ifilmen_4_482/index.m3u8
+https://live.presstv.co.uk/hls/ifilmen_4_482/index.m3u8
 #EXTINF:-1 tvg-id="IranPress.ir" tvg-name="Iran Press" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IranPress.ir.jpg" group-title="شبکه‌های برون‌مرزی" tvg-language="fas;eng" tvg-quality="SD",ایران پرس
 https://ip2stream.iranpress.com/hls/ip2.m3u8
 #EXTINF:-1 tvg-id="PressTV.ir" tvg-name="Press TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PressTV.ir.png" group-title="شبکه‌های برون‌مرزی" tvg-language="eng" tvg-quality="HD",پرس تی‌وی HD
@@ -164,7 +164,7 @@ https://hls.irannrtv.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="IraneFarda.us" tvg-name="Irane Farda" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IraneFarda.us.png" group-title="ماهواره‌ای · خبری" tvg-language="fas",ایران فردا
 https://iranefardalive.com/stream/live.m3u8
 #EXTINF:-1 tvg-id="IranWire.us" tvg-name="IranWire" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IranWire.us.png" group-title="ماهواره‌ای · خبری" tvg-language="fas",ایران‌وایر
-https://irwhls.wns.live/hls/stream.m3u8
+https://raphls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="IRNATV.ir" tvg-name="IRNA TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRNATV.ir.png" group-title="ماهواره‌ای · خبری" tvg-language="fas",تلویزیون ایرنا
 https://tv.irna.ir/live/stream/index.m3u8
 #EXTINF:-1 tvg-id="IsraelParsTV.il" tvg-name="Israel Pars TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IsraelParsTV.il.png" group-title="ماهواره‌ای · خبری" tvg-language="heb" tvg-quality="SD",ایسرائل پارس
@@ -210,7 +210,7 @@ https://rjtvhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="SunMusic.us" tvg-name="Sun Music" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/SunMusic.us.png" group-title="ماهواره‌ای · موسیقی" tvg-language="fas",سان موزیک
 https://hls.sunmusic.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="T2TV.ir" tvg-name="T2 TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/T2TV.ir.png" group-title="ماهواره‌ای · موسیقی" tvg-language="fas" tvg-quality="SD",تی۲ تی‌وی
-https://maxtvhls.wns.live/hls/stream.m3u8
+https://t2hls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PersianaJunior.fr" tvg-name="Persiana Junior" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaJunior.fr.png" group-title="ماهواره‌ای · کودک" tvg-language="fas" tvg-quality="SD",پرشیانا جونیور
 https://junhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PersianaFight.fr" tvg-name="Persiana Fight" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaFight.fr.png" group-title="ماهواره‌ای · ورزشی" tvg-language="fas" tvg-quality="HD",پرشیانا فایت HD
@@ -232,7 +232,7 @@ https://softverse.b-cdn.net/Assirat/assiratobs/playlist.m3u8
 #EXTINF:-1 tvg-id="ImamHusseinTV1.iq" tvg-name="Imam Hussein TV 1" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ImamHusseinTV1.iq.png" group-title="مذهبی · اسلامی" tvg-language="fas" tvg-quality="FHD",امام حسین ۱ FHD
 https://live.imamhossaintv.com/live/ih1.m3u8
 #EXTINF:-1 tvg-id="ImamHusseinTV6.iq" tvg-name="Imam Hussein TV 6" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ImamHusseinTV6.iq.png" group-title="مذهبی · اسلامی" tvg-language="fas" tvg-quality="FHD",امام حسین ۶ FHD
-https://live.imamhossaintv.com/live/ih6.m3u8
+https://ak.imamhussein.live/imhtv6live/imhtv6.smil/imhtv6publish/imhtv6_source/chunks.m3u8
 #EXTINF:-1 tvg-id="MarjaeyatTVPersian.iq" tvg-name="Marjaeyat TV Persian" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/MarjaeyatTVPersian.iq.png" group-title="مذهبی · اسلامی" tvg-language="fas" tvg-quality="FHD",شبکه مرجعیت FHD
 https://livefa.marjaeyattv.com/mtv_fa/playlist05/index.m3u8
 #EXTINF:-1 tvg-id="PayameArameshTV.us" tvg-name="Payam-e Aramesh" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PayameArameshTV.us.png" group-title="مذهبی · اسلامی" tvg-language="fas" tvg-quality="SD",پیام آرامش

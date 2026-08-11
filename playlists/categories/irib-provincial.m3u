@@ -1,7 +1,7 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IR1.xml.gz"
 # IRIB Provincial Networks only.
-# generated 2026-08-11 12:42 UTC by shayanline/iptv-iran
-#EXTINF:-1 tvg-id="AbadanTV.ir" tvg-name="Abadan" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AbadanTV.ir.png" group-title="IRIB Provincial Networks" tvg-language="fas" tvg-quality="FHD",Abadan | شبکه آبادان FHD
+# generated 2026-08-11 12:46 UTC by shayanline/iptv-iran
+#EXTINF:-1 tvg-id="AbadanTV.ir" tvg-name="Abadan" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AbadanTV.ir.png" group-title="IRIB Provincial Networks | شبکه‌های استانی" tvg-language="fas" tvg-quality="FHD",Abadan | شبکه آبادان FHD
 https://live-aburayhan1108.telewebion.ir/ek/abadan/live/1080p/index.m3u8
 #EXTINF:-1 tvg-id="AflakTV.ir" tvg-name="Aflak" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AflakTV.ir.png" group-title="IRIB Provincial Networks | شبکه‌های استانی" tvg-language="fas" tvg-quality="SD",Aflak | شبکه افلاک
 https://live-aburayhan1101.telewebion.ir/ek/aflak/live/576p/index.m3u8
