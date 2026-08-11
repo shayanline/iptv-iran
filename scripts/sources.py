@@ -140,11 +140,19 @@ def harvest():
     # Locally defined channels, for services the upstream database does not carry.
     local = curated.get("local_channels", {})
     blocked = tuple(curated.get("blocked_hosts", []))
+    # Streams that work but carry a different channel than the source claims.
+    relabelled = {canonical_url(u): cid for u, cid in (curated.get("relabelled") or {}).items()}
     records = []
     for rec in cands.by_key.values():
         host = urllib.parse.urlparse(rec["url"]).hostname or ""
         if any(b in host for b in blocked):
             continue
+        corrected = relabelled.get(canonical_url(rec["url"]))
+        if corrected:
+            # channel_ids drives the database lookup below, so the correction has to
+            # replace it outright. Setting only `channel` leaves the old identity to win.
+            rec["channel"] = corrected
+            rec["channel_ids"] = [corrected]
         cid = next((c for c in rec["channel_ids"] if c in channels), None)
         if cid:
             channel = channels[cid]

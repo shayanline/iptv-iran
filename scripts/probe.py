@@ -284,27 +284,42 @@ def probe_once(record):
         # Walk down from the highest bitrate. Some CDNs advertise a top variant that is
         # not actually published, and a client would simply play the next one down, so
         # failing on the first variant alone would wrongly condemn a working channel.
+        # Every rendition is checked, not just until one answers. A master can serve its
+        # top rendition and 404 the lower ones, which looks healthy until a client
+        # downshifts on a bandwidth dip and stalls. Whenever any rendition is missing the
+        # best working one is pinned, trading adaptive bitrate for reliable playback.
+        broken = []
+        chosen = None
         failure = None
-        for bandwidth, resolution, variant_url in variants:
+        for rank, (bandwidth, resolution, variant_url) in enumerate(variants[:6]):
             vstatus, vheaders, vbody, vfinal = fetch(variant_url, referrer, user_agent)
             usable_variant = isinstance(vstatus, int) and vstatus < 400
             if usable_variant and not is_hls(vbody) and is_media(vbody, vheaders.get("Content-Type")):
-                # This variant points straight at a media stream.
-                result.update(resolution=resolution, bandwidth=bandwidth or None)
-                return {**result, "state": "ok", "kind": "hls"}
+                if chosen is None:
+                    chosen = ("direct", resolution, bandwidth, variant_url, vfinal, vbody)
+                continue
             if usable_variant and is_hls(vbody):
-                result.update(resolution=resolution)
-                if bandwidth:
-                    result["bandwidth"] = bandwidth
-                playlist_url, playlist_body = vfinal, vbody
-                break
+                if chosen is None:
+                    chosen = ("hls", resolution, bandwidth, variant_url, vfinal, vbody)
+                continue
+            broken.append(variant_url)
             failure = vstatus
-        else:
+
+        if chosen is None:
             return {**result,
                     "state": classify_failure(host, failure if isinstance(failure, int) else None, b""),
                     "reason": f"variant:{failure}", "kind": "hls"}
+
+        kind, resolution, bandwidth, variant_url, vfinal, vbody = chosen
         if resolution:
             result["resolution"] = resolution
+        if bandwidth:
+            result["bandwidth"] = bandwidth
+        if broken:
+            result.update(broken_variants=len(broken), variant_url=variant_url)
+        if kind == "direct":
+            return {**result, "state": "ok", "kind": "hls"}
+        playlist_url, playlist_body = vfinal, vbody
 
     result.update(manifest_shape(playlist_body))
     segments = parse_segments(playlist_body, playlist_url,

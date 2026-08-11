@@ -150,7 +150,10 @@ def collect():
                 "streams": [],
             }
         channel["streams"].append({
-            "url": entry.get("final_url") or record["url"],
+            # When a master advertises renditions it does not actually serve, the best
+            # rendition that answered is published instead. Clients pick the highest
+            # bitrate first, or downshift into a missing one, and stop either way.
+            "url": entry.get("variant_url") or entry.get("final_url") or record["url"],
             "state": entry["state"],
             "resolution": entry.get("resolution"),
             "height": height_of({**entry, "format": db.get("format"),
