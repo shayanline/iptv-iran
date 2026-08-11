@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IR1.xml.gz"
 # Religious · Islamic only.
-# generated 2026-08-11 01:54 UTC by shayanline/iptv-iran
+# generated 2026-08-11 02:23 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="AlWilayah.ir" tvg-name="Al Wilayah" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AlWilayah.ir.png" group-title="Religious · Islamic" tvg-language="ara" tvg-quality="SD",Al Wilayah | شبکه الولایه
 https://nl.livekadeh.com/hls2/alwilayah_tv.m3u8
 #EXTINF:-1 tvg-id="AlMahdiTV.us" tvg-name="Al-Mahdi TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AlMahdiTV.us.png" group-title="Religious · Islamic" tvg-language="fas" tvg-quality="FHD",Al-Mahdi TV | شبکه المهدی FHD
@@ -9,13 +9,7 @@ https://iptv.almahditv.com/almahditv/playlist.m3u8
 https://softverse.b-cdn.net/Assirat/assiratobs/playlist.m3u8
 #EXTINF:-1 tvg-id="HabibTV.ir" tvg-name="Habib TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/HabibTV.ir.png" group-title="Religious · Islamic" tvg-language="ara;fas" tvg-quality="HD",Habib TV | شبکه حبیب HD
 https://live-aburayhan1108.telewebion.ir/na/habib/live/720p/index.m3u8
-#EXTINF:-1 tvg-id="HadiTV.uk" tvg-name="Hadi TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/HadiTV.uk.png" group-title="Religious · Islamic" tvg-language="ara" tvg-quality="FHD",Hadi TV | شبکه هادی FHD
-https://bucharest.zeuscdn724.com/lb0/H1/index.m3u8
-#EXTINF:-1 tvg-id="ImamHusseinTV1.iq" tvg-name="Imam Hussein TV 1" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ImamHusseinTV1.iq.png" group-title="Religious · Islamic" tvg-language="fas" tvg-quality="FHD",Imam Hussein TV 1 | امام حسین ۱ FHD
-https://live.imamhossaintv.com/live/ih1.m3u8
-#EXTINF:-1 tvg-id="ImamHusseinTV6.iq" tvg-name="Imam Hussein TV 6" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ImamHusseinTV6.iq.png" group-title="Religious · Islamic" tvg-language="fas" tvg-quality="FHD",Imam Hussein TV 6 | امام حسین ۶ FHD
-https://live.imamhossaintv.com/live/ih6.m3u8
-#EXTINF:-1 tvg-id="LabbaykTV.ir" tvg-name="Labbayk TV" tvg-logo="" group-title="Religious · Islamic" tvg-language="fas" tvg-quality="HD",Labbayk TV | شبکه لبیک HD
+#EXTINF:-1 tvg-id="LabbaykTV.ir" tvg-name="Labbayk TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/LabbaykTV.ir.png" group-title="Religious · Islamic" tvg-language="fas" tvg-quality="HD",Labbayk TV | شبکه لبیک HD
 https://live-aburayhan1101.telewebion.ir/na/labbayk/live/720p/index.m3u8
 #EXTINF:-1 tvg-id="MarjaeyatTVPersian.iq" tvg-name="Marjaeyat TV Persian" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/MarjaeyatTVPersian.iq.png" group-title="Religious · Islamic" tvg-language="fas" tvg-quality="FHD",Marjaeyat TV Persian | شبکه مرجعیت FHD
 https://livefa.marjaeyattv.com/mtv_fa/playlist05/index.m3u8
@@ -24,14 +18,14 @@ https://cdn.bestream.io:19360/elfaro4/elfaro4.m3u8
 #EXTINF:-1 tvg-id="PayameArameshTV.us" tvg-name="Payam-e Aramesh" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PayameArameshTV.us.png" group-title="Religious · Islamic" tvg-language="fas" tvg-quality="SD",Payam-e Aramesh | پیام آرامش
 https://hls.keshishhamid.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PayvandTV.ir" tvg-name="Payvand TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PayvandTV.ir.png" group-title="Religious · Islamic" tvg-language="fas" tvg-quality="HD",Payvand TV | شبکه پیوند HD
-https://tgn.bozztv.com/cus01/ucur1/Payvand/playlist.m3u8
+https://uni6rtmp.tulix.tv/ucur1/Payvand/playlist.m3u8
 #EXTINF:-1 tvg-id="RasoulallahTv.ir" tvg-name="Rasoulallah TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/RasoulallahTv.ir.png" group-title="Religious · Islamic" tvg-language="fas" tvg-quality="FHD",Rasoulallah TV | شبکه رسول‌الله FHD
 https://avr.host247.net/live/rasoulallahtv/playlist.m3u8
-#EXTINF:-1 tvg-id="RazaviTV.ir" tvg-name="Razavi TV" tvg-logo="" group-title="Religious · Islamic" tvg-language="fas" tvg-quality="HD",Razavi TV | شبکه رضوی HD
+#EXTINF:-1 tvg-id="RazaviTV.ir" tvg-name="Razavi TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/RazaviTV.ir.png" group-title="Religious · Islamic" tvg-language="fas" tvg-quality="HD",Razavi TV | شبکه رضوی HD
 https://live-aburayhan1112.telewebion.ir/ek/razavi/live/720p/index.m3u8
-#EXTINF:-1 tvg-id="Tekyemadahi.ir" tvg-name="Tekye Madahi" tvg-logo="" group-title="Religious · Islamic" tvg-language="fas" tvg-quality="HD",Tekye Madahi | تکیه مداحی HD
+#EXTINF:-1 tvg-id="Tekyemadahi.ir" tvg-name="Tekye Madahi" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/Tekyemadahi.ir.png" group-title="Religious · Islamic" tvg-language="fas" tvg-quality="HD",Tekye Madahi | تکیه مداحی HD
 https://live-aburayhan1108.telewebion.ir/ek/tekyemadahi/live/720p/index.m3u8
-#EXTINF:-1 tvg-id="VelayatTV.ir" tvg-name="Velayat TV" tvg-logo="" group-title="Religious · Islamic" tvg-language="fas" tvg-quality="HD",Velayat TV | شبکه ولایت HD
+#EXTINF:-1 tvg-id="VelayatTV.ir" tvg-name="Velayat TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/VelayatTV.ir.png" group-title="Religious · Islamic" tvg-language="fas" tvg-quality="HD",Velayat TV | شبکه ولایت HD
 https://live-aburayhan1103.telewebion.ir/na/velayat/live/720p/index.m3u8
 #EXTINF:-1 tvg-id="VelayatTVNetwork.us" tvg-name="Velayat TV Network" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/VelayatTVNetwork.us.png" group-title="Religious · Islamic" tvg-language="fas" tvg-quality="SD",Velayat TV Network | شبکه ولایت (آمریکا)
 https://nl.livekadeh.com/hls2/velayattv.m3u8

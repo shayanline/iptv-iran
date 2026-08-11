@@ -36,7 +36,7 @@ TIMEOUT = 15
 WORKERS = 8
 RETRIES = 4
 MIN_BYTES = 512
-MAX_BYTES = 400_000
+MAX_BYTES = 2_000_000
 
 # Wikimedia asks for a descriptive agent naming the project. A media player string
 # invites throttling.
@@ -61,6 +61,25 @@ MAGIC = [
     (b"RIFF", "webp"),
     (b"BM", "bmp"),
 ]
+
+
+# Magic bytes prove a file started as an image, not that all of it arrived. A read cut
+# short by MAX_BYTES, or a connection dropped mid transfer, still begins with a valid
+# signature, so it passed the old check and a half written logo was committed. Every
+# container marks its end, so the tail is checked too.
+TERMINATORS = {
+    "png": lambda b: b.rstrip().endswith(b"IEND\xaeB`\x82"),
+    "jpg": lambda b: b.rstrip().endswith(b"\xff\xd9"),
+    "gif": lambda b: b.rstrip().endswith(b";"),
+    "webp": lambda b: len(b) >= 8 and int.from_bytes(b[4:8], "little") + 8 <= len(b),
+    "bmp": lambda b: len(b) >= 6 and int.from_bytes(b[2:6], "little") <= len(b),
+    "svg": lambda b: b.rstrip().endswith(b">"),
+}
+
+
+def is_complete(body, kind):
+    check = TERMINATORS.get(kind)
+    return check(body) if check else True
 
 
 def image_kind(body):
@@ -113,6 +132,8 @@ def evaluate(url):
     kind = image_kind(body)
     if not kind:
         return b"", None, "not an image"
+    if not is_complete(body, kind):
+        return b"", None, f"truncated {kind}, {len(body)} bytes"
     return body, kind, "ok"
 
 
@@ -199,6 +220,13 @@ def main():
         work = {cid: urls for cid, urls in work.items() if urls}
         log(f"mirroring logos for {len(work)} channels")
         mirror(work)
+        # A few logos are committed directly rather than fetched, because no host serves
+        # them. IRNA TV only publishes its mark inside a favicon bundle. Makran and Iran
+        # Comedy are carried by no logo library at all, so their on air marks were lifted
+        # from the video: many frames were reduced to a per pixel minimum, which keeps a
+        # static overlay and cancels the moving picture behind it. Those channels
+        # contribute no candidate url, so the loop above skips them and their committed
+        # file is left alone.
         # The only reason to delete an asset: the channel is gone from every source.
         known = set(by_channel)
         for path in ASSETS.glob("*.*"):

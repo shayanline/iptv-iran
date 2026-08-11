@@ -1212,6 +1212,10 @@
     "RoyalTV.ir": {
       "en": "Royal TV",
       "fa": "رویال"
+    },
+    "IranComedy.ir": {
+      "en": "Iran Comedy",
+      "fa": "ایران کمدی"
     }
   },
   "category_overrides": {
@@ -1255,7 +1259,8 @@
     "ProjectLeon.us": "sat-entertainment",
     "TelewebionSport1.ir": "sat-sports",
     "TelewebionSport2.ir": "sat-sports",
-    "TelewebionSport3.ir": "sat-sports"
+    "TelewebionSport3.ir": "sat-sports",
+    "IranComedy.ir": "sat-entertainment"
   },
   "discovery": {
     "telewebion": {
@@ -1642,18 +1647,85 @@
         "entertainment"
       ],
       "logo": ""
+    },
+    "IranComedy.ir": {
+      "en": "Iran Comedy",
+      "fa": "ایران کمدی",
+      "country": "IR",
+      "languages": [
+        "fas"
+      ],
+      "categories": [
+        "comedy"
+      ],
+      "logo": ""
     }
   },
   "_proxy_note": "Some public players reach otherwise unavailable channels through third party proxies such as Cloudflare Workers. Those URLs are deliberately not published here: they route this project's users through infrastructure someone else pays for and does not control access to. Only endpoints served by the broadcaster or its own CDN are included.",
   "logos": {
+    "4Kurd.fr": "https://www.parsatv.com/index_files/channels/4kurd.png",
+    "4Music.fr": "https://www.persianagroup.tv/assets/logos/music.png",
+    "4UFamily.tr": "https://4utv.tv/wp-content/uploads/2025/02/4U-Family-Red-copy.png.webp",
+    "AVAFamily.ir": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/avafamily.png",
+    "AfraFilm.ir": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/afrafilm.jpg",
+    "AraxTV.ir": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/araxtv.png",
+    "ArkoTV.ir": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/arkotv.jpg",
     "BBCPersian.uk": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/BBC_Persian_logo_2021.svg/960px-BBC_Persian_logo_2021.svg.png",
+    "CafeFilm.ir": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/cafefilm.png",
+    "ClassicTV.ir": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/classictv.png",
+    "DejTV.ir": "https://www.parsatv.com/index_files/channels/dejtv.jpg",
+    "EPlanetTV.ir": "https://eplanet.tv/wp-content/uploads/2025/08/unnamed.png",
+    "FX1.ir": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/fx1.png",
+    "FX2.ir": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/fx2.png",
+    "GEMPixel.tr": "https://www.gemgroup.tv/assets/images/channels/icon_27.png",
+    "GoldStar.ir": "https://www.parsatv.com/index_files/channels/goldstar.png",
+    "GolkhaneTv.ir": "https://www.parsatv.com/index_files/channels/golkhane.png",
+    "GordAfaridTV.us": "https://www.parsatv.com/index_files/channels/gordafaridtv.jpg",
+    "GrandCinema.tr": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/grandcinema.png",
+    "HomePlus.ir": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/homeplus.jpg",
+    "ICCplus.us": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/icc.png",
+    "IRIB1Plus.ir": "https://lb-cdn.sepehrtv.ir/img/channel/logo/Logo1plus.png",
     "IRINN.ir": "https://upload.wikimedia.org/wikipedia/commons/7/74/IRIB_IRINN_2025.png",
     "IranInternational.uk": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Iran_International.svg/960px-Iran_International.svg.png",
+    "IranWire.us": "https://www.parsatv.com/index_files/channels/iranwiretv.png",
+    "IraneFarda.us": "https://www.parsatv.com/index_files/channels/iranefarda.png",
+    "LabbaykTV.ir": "https://www.parsatv.com/index_files/channels/labbayk.png",
     "MBCPersia.ae": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/MBC_Persia_Logo.svg/960px-MBC_Persia_Logo.svg.png",
     "Manoto.uk": "https://upload.wikimedia.org/wikipedia/commons/e/ee/LOGO_Manoto-Rebrand_2018.png",
-    "RadioFardaTV.us": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Radio_Farda_logo.png"
+    "MelliGTV.us": "https://www.parsatv.com/index_files/channels/melligtv.jpg",
+    "MetaFilmTV.ir": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/metafilm.jpg",
+    "NahadeAzadi.us": "https://www.parsatv.com/index_files/channels/nahadeazadi.jpg",
+    "NetTV.us": "https://www.parsatv.com/index_files/channels/nettv.png",
+    "PMCRoyale.ae": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/pmcroyale.png",
+    "PersianaDocs.fr": "https://www.persianagroup.tv/assets/logos/docs.png",
+    "PersianaFight.fr": "https://www.persianagroup.tv/assets/logos/fight.png",
+    "PersianaFolk.fr": "https://www.persianagroup.tv/assets/logos/folk.png",
+    "PersianaLatino.fr": "https://www.parsatv.com/index_files/channels/persianalatino.png",
+    "PersianaMedical.fr": "https://www.persianagroup.tv/assets/logos/medical.png",
+    "PersianaReality.fr": "https://www.persianagroup.tv/assets/logos/reality.png",
+    "PersianaSeries.fr": "https://www.persianagroup.tv/assets/logos/series.png",
+    "PersianaSetMix.fr": "https://www.persianagroup.tv/assets/logos/setmix.png",
+    "PersianaTurkiye.fr": "https://www.persianagroup.tv/assets/logos/turkey.png",
+    "ProjectLeon.us": "https://www.parsatv.com/index_files/channels/projectleon.jpg",
+    "PulseMedia.us": "https://www.parsatv.com/index_files/channels/pulsemedia.jpg",
+    "RadioFardaTV.us": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Radio_Farda_logo.png",
+    "RaheNejatTV.us": "https://www.parsatv.com/index_files/channels/rahenejat.jpg",
+    "RazaviTV.ir": "https://lb-cdn.sepehrtv.ir/img/channel/razavi.png",
+    "RoyaTV.ir": "https://lb-cdn.sepehrtv.ir/img/channel/rooyatv.png",
+    "RoyalTV.ir": "https://www.parsatv.com/index_files/channels/royaltv.png",
+    "SetarehTV.uk": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/setarehtv.png",
+    "ShoraiTV.us": "https://tvshora.com/wp-content/uploads/2022/09/cropped-newlogo.png",
+    "TapeshIran.us": "https://www.parsatv.com/index_files/channels/tapesh.png",
+    "Tekyemadahi.ir": "https://www.parsatv.com/index_files/channels/tekyemadahi.png",
+    "TelewebionSport1.ir": "https://www.parsatv.com/index_files/channels/telewebionvarzeshi1.png",
+    "TelewebionSport2.ir": "https://www.parsatv.com/index_files/channels/telewebionvarzeshi2.png",
+    "TelewebionSport3.ir": "https://www.parsatv.com/index_files/channels/telewebionvarzeshi3.png",
+    "VelayatTV.ir": "https://www.parsatv.com/index_files/channels/velayat.png",
+    "WomanTV.us": "https://www.parsatv.com/index_files/channels/womantv.jpg",
+    "ZedTV.ir": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/zedtvpersian.jpg",
+    "icnet3.ca": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/icnet3.png"
   },
-  "_logos_note": "Hand checked logo overrides, tried before the upstream database. Most upstream logos are hosted on imgur, which answers 200 with a 'Content not viewable in your region' image, so scripts/logos.py verifies every logo and drops the ones that do not decode.",
+  "_logos_note": "Logo sources for channels the upstream database has none for. Anything listed here is mirrored into assets/logos by scripts/logos.py and served from this repository, so a viewer never depends on the original host.",
   "order": [
     "IRIB1.ir",
     "IRIB2.ir",
@@ -1675,7 +1747,8 @@
     "https://atrihls.wns.live/hls/stream.m3u8": "Sat7Pars.cy",
     "https://khalijhls.wns.live/hls/stream.m3u8": "NetTV.us",
     "https://newfhls.wns.live/hls/stream.m3u8": "PulseMedia.us",
-    "https://maxtvhls.wns.live/hls/stream.m3u8": "T2TV.ir"
+    "https://maxtvhls.wns.live/hls/stream.m3u8": "T2TV.ir",
+    "https://iran613hls.wns.live/hls/stream.m3u8": "IranComedy.ir"
   },
   "_relabelled_note": "Streams that play perfectly but under the wrong name. An HTTP check cannot catch it: the video is healthy, it is simply not the channel the source claims. Each was read off the on screen logo, and where two names shared one feed an identical EXT-X-MEDIA-SEQUENCE on both hosts confirmed a single origin. Rather than dropping a working stream, it is reassigned to what it actually shows, which either restores a channel that was carrying someone else's picture or gives the real channel a spare."
 }
