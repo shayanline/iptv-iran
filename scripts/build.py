@@ -234,7 +234,11 @@ def collect():
 
 
 def display_name(channel, lang):
-    """Channel title for a playlist entry, with the resolution tag appended."""
+    """Channel title for a playlist entry.
+
+    The resolution is not part of the name. It is published as `tvg-quality`, which is
+    where a player looks for it, so the name stays the channel's own name.
+    """
     if lang == "en":
         base = channel["name_en"]
     elif lang == "fa":
@@ -242,8 +246,6 @@ def display_name(channel, lang):
     else:
         base = f'{channel["name_en"]} | {channel["name_fa"]}' if channel["name_fa"] \
             else channel["name_en"]
-    if channel["quality"] in ("HD", "FHD", "4K"):
-        base += f' {channel["quality"]}'
     if channel["reach"] == "iran-only":
         base += " [IR]"   # only a genuine geographic restriction earns the tag
     return base

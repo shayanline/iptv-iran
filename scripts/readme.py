@@ -170,13 +170,14 @@ The same playlists come in three naming styles. Swap the folder, keep the file n
 
 | You want | Use this folder | Channel appears as |
 |:--|:--|:--|
-| Both languages | `{RAW}/iran.m3u` | `IRIB TV1 \\| شبکه یک FHD` |
-| English only | `{RAW}/en/iran.m3u` | `IRIB TV1 FHD` |
-| Persian only | `{RAW}/fa/iran.m3u` | `شبکه یک FHD` |
+| Both languages | `{RAW}/iran.m3u` | `IRIB TV1 \\| شبکه یک` |
+| English only | `{RAW}/en/iran.m3u` | `IRIB TV1` |
+| Persian only | `{RAW}/fa/iran.m3u` | `شبکه یک` |
 
-Picture quality is tagged in the name (`HD`, `FHD`, `4K`) from the resolution actually
-measured on the stream, not from whatever the channel claims. Right now that is
-{quality_summary(channels, "en")}.
+Picture quality is not written into the name. Every entry carries a `tvg-quality` attribute
+(`SD`, `HD`, `FHD`, `4K`) taken from the resolution actually measured on the stream, not
+from whatever the channel claims, so players that read it can sort and filter on it while
+the name stays the channel's own. Right now that is {quality_summary(channels, "en")}.
 
 Logos for {with_logo} channels are stored in this repository rather than linked from
 elsewhere, so they load wherever you are. A programme guide is wired in through
@@ -295,12 +296,14 @@ If you hold the rights to a channel listed here and want it removed,
 
 | اگر می‌خواهید | این پوشه را بردارید | نام شبکه این‌طور دیده می‌شود |
 |:--|:--|:--|
-| هر دو زبان | `{RAW}/iran.m3u` | `IRIB TV1 \\| شبکه یک FHD` |
-| فقط انگلیسی | `{RAW}/en/iran.m3u` | `IRIB TV1 FHD` |
-| فقط فارسی | `{RAW}/fa/iran.m3u` | `شبکه یک FHD` |
+| هر دو زبان | `{RAW}/iran.m3u` | `IRIB TV1 \\| شبکه یک` |
+| فقط انگلیسی | `{RAW}/en/iran.m3u` | `IRIB TV1` |
+| فقط فارسی | `{RAW}/fa/iran.m3u` | `شبکه یک` |
 
-کیفیت تصویر (`HD`، `FHD`، `4K`) در نام شبکه می‌آید و از روی رزولوشنی نوشته می‌شود که واقعاً
-روی استریم اندازه گرفته شده، نه از روی ادعای خود شبکه. الان ترکیب این‌طور است:
+کیفیت تصویر داخل نام شبکه نوشته نمی‌شود. هر شبکه ویژگی `tvg-quality` دارد (`SD`، `HD`،
+`FHD`، `4K`) که از روی رزولوشن واقعی اندازه‌گیری‌شده روی استریم نوشته می‌شود، نه از روی
+ادعای خود شبکه. پس برنامه‌هایی که این ویژگی را می‌خوانند می‌توانند بر اساس آن مرتب یا فیلتر
+کنند و نام شبکه هم دست‌نخورده می‌ماند. الان ترکیب این‌طور است:
 {quality_summary(channels, "fa")}.
 
 لوگوی {fa_digits(with_logo)} شبکه داخل همین مخزن نگه داشته می‌شود و از جای دیگری لینک

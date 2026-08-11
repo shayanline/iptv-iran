@@ -69,13 +69,14 @@ The same playlists come in three naming styles. Swap the folder, keep the file n
 
 | You want | Use this folder | Channel appears as |
 |:--|:--|:--|
-| Both languages | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran.m3u` | `IRIB TV1 \| شبکه یک FHD` |
-| English only | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/en/iran.m3u` | `IRIB TV1 FHD` |
-| Persian only | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/fa/iran.m3u` | `شبکه یک FHD` |
+| Both languages | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran.m3u` | `IRIB TV1 \| شبکه یک` |
+| English only | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/en/iran.m3u` | `IRIB TV1` |
+| Persian only | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/fa/iran.m3u` | `شبکه یک` |
 
-Picture quality is tagged in the name (`HD`, `FHD`, `4K`) from the resolution actually
-measured on the stream, not from whatever the channel claims. Right now that is
-1 4K, 63 FHD, 40 HD, 82 SD, 21 unknown.
+Picture quality is not written into the name. Every entry carries a `tvg-quality` attribute
+(`SD`, `HD`, `FHD`, `4K`) taken from the resolution actually measured on the stream, not
+from whatever the channel claims, so players that read it can sort and filter on it while
+the name stays the channel's own. Right now that is 1 4K, 63 FHD, 40 HD, 82 SD, 21 unknown.
 
 Logos for 207 channels are stored in this repository rather than linked from
 elsewhere, so they load wherever you are. A programme guide is wired in through
@@ -85,7 +86,7 @@ elsewhere, so they load wherever you are. A programme guide is wired in through
 
 ## Channel list
 
-207 channels in 14 categories, from 660 working streams.
+207 channels in 14 categories, from 662 working streams.
 
 <details>
 <summary><b>IRIB National Networks</b> &nbsp; 23 channels</summary>
@@ -530,12 +531,14 @@ If you hold the rights to a channel listed here and want it removed,
 
 | اگر می‌خواهید | این پوشه را بردارید | نام شبکه این‌طور دیده می‌شود |
 |:--|:--|:--|
-| هر دو زبان | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran.m3u` | `IRIB TV1 \| شبکه یک FHD` |
-| فقط انگلیسی | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/en/iran.m3u` | `IRIB TV1 FHD` |
-| فقط فارسی | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/fa/iran.m3u` | `شبکه یک FHD` |
+| هر دو زبان | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran.m3u` | `IRIB TV1 \| شبکه یک` |
+| فقط انگلیسی | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/en/iran.m3u` | `IRIB TV1` |
+| فقط فارسی | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/fa/iran.m3u` | `شبکه یک` |
 
-کیفیت تصویر (`HD`، `FHD`، `4K`) در نام شبکه می‌آید و از روی رزولوشنی نوشته می‌شود که واقعاً
-روی استریم اندازه گرفته شده، نه از روی ادعای خود شبکه. الان ترکیب این‌طور است:
+کیفیت تصویر داخل نام شبکه نوشته نمی‌شود. هر شبکه ویژگی `tvg-quality` دارد (`SD`، `HD`،
+`FHD`، `4K`) که از روی رزولوشن واقعی اندازه‌گیری‌شده روی استریم نوشته می‌شود، نه از روی
+ادعای خود شبکه. پس برنامه‌هایی که این ویژگی را می‌خوانند می‌توانند بر اساس آن مرتب یا فیلتر
+کنند و نام شبکه هم دست‌نخورده می‌ماند. الان ترکیب این‌طور است:
 ۱ 4K، ۶۳ FHD، ۴۰ HD، ۸۲ کیفیت معمولی، ۲۱ نامشخص.
 
 لوگوی ۲۰۷ شبکه داخل همین مخزن نگه داشته می‌شود و از جای دیگری لینک
@@ -546,7 +549,7 @@ If you hold the rights to a channel listed here and want it removed,
 
 ## فهرست شبکه‌ها
 
-۲۰۷ شبکه در ۱۴ دسته، از ۶۶۰ استریم سالم.
+۲۰۷ شبکه در ۱۴ دسته، از ۶۶۲ استریم سالم.
 
 <details>
 <summary><b>شبکه‌های سراسری سیما</b> &nbsp; ۲۳ شبکه</summary>

@@ -1,21 +1,21 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IR1.xml.gz"
 # Religious · Christian only.
-# generated 2026-08-11 12:46 UTC by shayanline/iptv-iran
+# generated 2026-08-11 21:21 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="DerakhteZendegiTV.us" tvg-name="Derakhte Zendegi TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/DerakhteZendegiTV.us.png" group-title="Religious · Christian | مذهبی · مسیحی" tvg-language="fas;heb" tvg-quality="SD",Derakhte Zendegi TV | درخت زندگی
 https://derakhtzhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ICnet1.ca" tvg-name="ICnet 1" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ICnet1.ca.png" group-title="Religious · Christian | مذهبی · مسیحی" tvg-language="fas" tvg-quality="SD",ICnet 1 | آی‌سی‌نت ۱
 https://icnet1hls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ICnet2.ca" tvg-name="ICnet 2" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ICnet2.ca.png" group-title="Religious · Christian | مذهبی · مسیحی" tvg-language="fas" tvg-quality="SD",ICnet 2 | آی‌سی‌نت ۲
 https://icnet2hls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="icnet3.ca" tvg-name="ICnet 3" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/icnet3.ca.png" group-title="Religious · Christian | مذهبی · مسیحی" tvg-language="fas" tvg-quality="HD",ICnet 3 | آی‌سی‌نت ۳ HD
+#EXTINF:-1 tvg-id="icnet3.ca" tvg-name="ICnet 3" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/icnet3.ca.png" group-title="Religious · Christian | مذهبی · مسیحی" tvg-language="fas" tvg-quality="HD",ICnet 3 | آی‌سی‌نت ۳
 https://ic3hls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="KalemehTV.uk" tvg-name="Kalemeh TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/KalemehTV.uk.png" group-title="Religious · Christian | مذهبی · مسیحی" tvg-language="fas" tvg-quality="FHD",Kalemeh TV | شبکه کلمه FHD
+#EXTINF:-1 tvg-id="KalemehTV.uk" tvg-name="Kalemeh TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/KalemehTV.uk.png" group-title="Religious · Christian | مذهبی · مسیحی" tvg-language="fas" tvg-quality="FHD",Kalemeh TV | شبکه کلمه
 https://klmhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="LoveWorldPersia.ng" tvg-name="LoveWorld Persia" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/LoveWorldPersia.ng.png" group-title="Religious · Christian | مذهبی · مسیحی" tvg-language="fas" tvg-quality="HD",LoveWorld Persia | لاوورلد پرشیا HD
+#EXTINF:-1 tvg-id="LoveWorldPersia.ng" tvg-name="LoveWorld Persia" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/LoveWorldPersia.ng.png" group-title="Religious · Christian | مذهبی · مسیحی" tvg-language="fas" tvg-quality="HD",LoveWorld Persia | لاوورلد پرشیا
 https://cdn3.wowza.com/5/aVJETlF0UFdmYTFu/LWPP/ngrp:persia.stream_all/playlist.m3u8
-#EXTINF:-1 tvg-id="MohabatTV.us" tvg-name="Mohabat TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/MohabatTV.us.jpg" group-title="Religious · Christian | مذهبی · مسیحی" tvg-language="fas" tvg-quality="FHD",Mohabat TV | شبکه محبت FHD
+#EXTINF:-1 tvg-id="MohabatTV.us" tvg-name="Mohabat TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/MohabatTV.us.jpg" group-title="Religious · Christian | مذهبی · مسیحی" tvg-language="fas" tvg-quality="FHD",Mohabat TV | شبکه محبت
 https://5ad386ff92705.streamlock.net/live_transcodermh/ngrp:mohabat.stream_all/playlist.m3u8
-#EXTINF:-1 tvg-id="OmidJavedan.us" tvg-name="Omid Javedan" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/OmidJavedan.us.png" group-title="Religious · Christian | مذهبی · مسیحی" tvg-language="fas;eng" tvg-quality="HD",Omid Javedan | امید جاودان HD
+#EXTINF:-1 tvg-id="OmidJavedan.us" tvg-name="Omid Javedan" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/OmidJavedan.us.png" group-title="Religious · Christian | مذهبی · مسیحی" tvg-language="fas;eng" tvg-quality="HD",Omid Javedan | امید جاودان
 https://livestream.5centscdn.com/pwocchurchweb1/cebac1e921182acff008ab1222f0c916.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="RaheNejatTV.us" tvg-name="Rahe Nejat TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/RaheNejatTV.us.jpg" group-title="Religious · Christian | مذهبی · مسیحی" tvg-language="fas" tvg-quality="SD",Rahe Nejat TV | راه نجات
 https://hls.rahenejat.live/hls/stream.m3u8
