@@ -22,8 +22,116 @@
       "channel": "DerakhteZendegiTV.us"
     },
     {
+      "url": "https://gg.hls2.xyz/live/IR%20-%20GEM%2024B/playlist.m3u8",
+      "channel": "GEM24B.tr"
+    },
+    {
+      "url": "https://gg.hls2.xyz/live/IR%20-%20GEM%20Bollywood2/playlist.m3u8",
+      "channel": "GEMBollywood.tr"
+    },
+    {
+      "url": "https://gg.hls2.xyz/live/IR%20-%20GEM%20CLASSIC2/playlist.m3u8",
+      "channel": "GEMClassic.tr"
+    },
+    {
+      "url": "https://gg.hls2.xyz/live/IR%20-%20GEM%20Comedy2/playlist.m3u8",
+      "channel": "GEMComedy.tr"
+    },
+    {
+      "url": "https://gg.hls2.xyz/live/IR%20-%20GEM%20Drama2/playlist.m3u8",
+      "channel": "GEMDrama.tr"
+    },
+    {
+      "url": "https://gg.hls2.xyz/live/IR%20-%20GEM%20Drama%20Plus2/playlist.m3u8",
+      "channel": "GEMDramaPlus.tr"
+    },
+    {
+      "url": "https://gg.hls2.xyz/live/IR%20-%20GEM%20Entertainment2/playlist.m3u8",
+      "channel": "GEMEntertainment.tr"
+    },
+    {
+      "url": "https://gg.hls2.xyz/live/IR%20-%20GEM%20Film2/playlist.m3u8",
+      "channel": "GEMFilm.tr"
+    },
+    {
+      "url": "https://gg.hls2.xyz/live/IR%20-%20GEM%20FIT2/playlist.m3u8",
+      "channel": "GEMFit.tr"
+    },
+    {
+      "url": "https://gg.hls2.xyz/live/IR%20-%20GEM%20FOOD2/playlist.m3u8",
+      "channel": "GEMFood.tr"
+    },
+    {
+      "url": "https://gg.hls2.xyz/live/IR%20-%20GEM%20Junior2/playlist.m3u8",
+      "channel": "GEMJunior.tr"
+    },
+    {
+      "url": "https://gg.hls2.xyz/live/IR%20-%20GEM%20Kids2/playlist.m3u8",
+      "channel": "GEMKids.tr"
+    },
+    {
+      "url": "https://gg.hls2.xyz/live/IR%20-%20GEM%20Life2/playlist.m3u8",
+      "channel": "GEMLife.tr"
+    },
+    {
+      "url": "https://gg.hls2.xyz/live/IR%20-%20GEM%20Mifa2/playlist.m3u8",
+      "channel": "GEMMifa.tr"
+    },
+    {
+      "url": "https://gg.hls2.xyz/live/IR%20-%20GEM%20Mifa%20Plus/playlist.m3u8",
+      "channel": "GEMMifaPlus.tr"
+    },
+    {
+      "url": "https://gg.hls2.xyz/live/Gem-Nature/playlist.m3u8",
+      "channel": "GEMNature.tr"
+    },
+    {
+      "url": "https://gg.hls2.xyz/live/IR%20-%20Gem%20Onyx2/playlist.m3u8",
+      "channel": "GEMOnyx.tr"
+    },
+    {
+      "url": "https://gg.hls2.xyz/live/IR%20-%20GEM%20Pixel2/playlist.m3u8",
+      "channel": "GEMPixel.tr"
+    },
+    {
+      "url": "https://gg.hls2.xyz/live/IR%20-%20Gem%20River2/playlist.m3u8",
+      "channel": "GEMRiver.tr"
+    },
+    {
+      "url": "https://gg.hls2.xyz/live/IR%20-%20Gem%20River%20Plus2/playlist.m3u8",
+      "channel": "GEMRiverPlus.tr"
+    },
+    {
+      "url": "https://gg.hls2.xyz/live/IR%20-%20GEM%20Rubix2/playlist.m3u8",
+      "channel": "GEMRubix.tr"
+    },
+    {
+      "url": "https://gg.hls2.xyz/live/IR%20-%20GEM%20Rubix%20Plus2/playlist.m3u8",
+      "channel": "GEMRubixPlus.tr"
+    },
+    {
+      "url": "https://gg.hls2.xyz/live/IR%20-%20GEM%20TV%20Plus2/playlist.m3u8",
+      "channel": "GEMSeriesPlus.tr"
+    },
+    {
+      "url": "https://ggg.hls2.xyz/live/GEM%20Sport/playlist.m3u8",
+      "channel": "GEMSport.tr"
+    },
+    {
+      "url": "https://gg.hls2.xyz/live/IR%20-%20GEM%20TV2/playlist.m3u8",
+      "channel": "GEMTV.tr"
+    },
+    {
+      "url": "https://gg.hls2.xyz/live/IR%20-%20GEM%20TV%20Plus2/playlist.m3u8",
+      "channel": "GEMTVPlus.tr"
+    },
+    {
       "url": "https://gatvhls.wns.live/hls/stream.m3u8",
       "channel": "GordAfaridTV.us"
+    },
+    {
+      "url": "https://ggg.hls2.xyz/live/Grand%20Cinema/playlist.m3u8",
+      "channel": "GrandCinema.tr"
     },
     {
       "url": "https://bucharest.zeuscdn724.com/lb0/H1/index.m3u8",
@@ -1777,5 +1885,6 @@
     "https://iran613hls.wns.live/hls/stream.m3u8": "IranComedy.ir",
     "https://live.presstv.ir/hls/presstv_5_482/index.m3u8": "PressTV.ir"
   },
-  "_relabelled_note": "Streams that play perfectly but under the wrong name. An HTTP check cannot catch it: the video is healthy, it is simply not the channel the source claims. Each was read off the on screen logo, and where two names shared one feed an identical EXT-X-MEDIA-SEQUENCE on both hosts confirmed a single origin. Rather than dropping a working stream, it is reassigned to what it actually shows, which either restores a channel that was carrying someone else's picture or gives the real channel a spare."
+  "_relabelled_note": "Streams that play perfectly but under the wrong name. An HTTP check cannot catch it: the video is healthy, it is simply not the channel the source claims. Each was read off the on screen logo, and where two names shared one feed an identical EXT-X-MEDIA-SEQUENCE on both hosts confirmed a single origin. Rather than dropping a working stream, it is reassigned to what it actually shows, which either restores a channel that was carrying someone else's picture or gives the real channel a spare.",
+  "_streams_note": "Hand added streams, including the GEM network on gg.hls2.xyz. That origin is down at the moment, Cloudflare answers 522 for it from its own edge as well as from here, so the channels stay out of the playlists. They are recorded anyway: the fortnightly probe will pick them up by itself the day the host returns."
 }
