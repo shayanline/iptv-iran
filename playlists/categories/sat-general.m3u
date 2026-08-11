@@ -1,6 +1,6 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IR1.xml.gz"
 # Satellite · General only.
-# generated 2026-08-11 02:27 UTC by shayanline/iptv-iran
+# generated 2026-08-11 06:45 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="AraxTV.ir" tvg-name="Arax TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AraxTV.ir.png" group-title="Satellite · General" tvg-language="fas" tvg-quality="HD",Arax TV | آراکس تی‌وی HD
 https://araxhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ArkoTV.ir" tvg-name="Arko TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ArkoTV.ir.jpg" group-title="Satellite · General" tvg-language="fas" tvg-quality="HD",Arko TV | آرکو تی‌وی HD
@@ -19,6 +19,8 @@ https://mellihls.wns.live/hls/stream.m3u8
 https://mtchls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="NahadeAzadi.us" tvg-name="Nahade Azadi" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/NahadeAzadi.us.jpg" group-title="Satellite · General" tvg-language="fas",Nahade Azadi | نهاد آزادی
 https://livestream.5centscdn.com/nahadeazadi/14a66ff6dca989d3a2eb0dc8cdb50892.sdp/chunks.m3u8
+#EXTINF:-1 tvg-id="NavidTV.ir" tvg-name="Navid TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/NavidTV.ir.png" group-title="Satellite · General" tvg-language="fas",Navid TV | نوید
+https://4afghls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="NovinTV.ir" tvg-name="Novin TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/NovinTV.ir.png" group-title="Satellite · General" tvg-language="fas" tvg-quality="HD",Novin TV | نوین تی‌وی HD
 https://stream.novin.live/hls/playlist.m3u8
 #EXTINF:-1 tvg-id="ShoraiTV.us" tvg-name="Shorai TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ShoraiTV.us.png" group-title="Satellite · General" tvg-language="fas" tvg-quality="FHD",Shorai TV | شورای تی‌وی FHD
