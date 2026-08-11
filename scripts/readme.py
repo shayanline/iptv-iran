@@ -150,9 +150,15 @@ else that reads M3U. Nothing to install and no account to create.
 | **Worldwide** | The {globally} channels that play anywhere | `{RAW}/iran-global.m3u` |
 | **Inside Iran** | The {iran_only} that need an Iranian IP address | `{RAW}/iran-domestic.m3u` |
 | **With backups** | Every working stream, spares included | `{RAW}/iran-all-streams.m3u` |
+| **Smart TV safe** | For apps that stall on some channels | `{RAW}/iran-compat.m3u` |
 
 Outside Iran, start with **Worldwide**. A channel tagged `[IR]` in the other lists needs an
 Iranian connection, so it will not open for you.
+
+If channels load a single frame and then hang, that is usually a smart TV app whose built
+in player cannot parse an unusual manifest. **Smart TV safe** carries only the streams that
+stay within what a basic player handles. It is a shorter list, and
+[`worker/`](worker) explains how to bring the rest back.
 
 {details("Just one category? Each has its own playlist", category_playlists(channels, "en"))}
 
@@ -268,9 +274,15 @@ If you hold the rights to a channel listed here and want it removed,
 | **قابل پخش در همه‌جا** | آن {fa_digits(globally)} شبکه‌ای که از هر کشوری باز می‌شود | `{RAW}/iran-global.m3u` |
 | **فقط داخل ایران** | آن {fa_digits(iran_only)} شبکه‌ای که به IP ایران نیاز دارد | `{RAW}/iran-domestic.m3u` |
 | **همراه با پشتیبان** | همه استریم‌های سالم، با نسخه‌های جایگزین | `{RAW}/iran-all-streams.m3u` |
+| **سازگار با تلویزیون** | برای برنامه‌هایی که روی بعضی شبکه‌ها گیر می‌کنند | `{RAW}/iran-compat.m3u` |
 
 اگر بیرون از ایران هستید، از **قابل پخش در همه‌جا** شروع کنید. شبکه‌هایی که در فهرست‌های
 دیگر کنارشان `[IR]` نوشته شده به اینترنت داخل ایران نیاز دارند و برایتان باز نمی‌شوند.
+
+اگر شبکه‌ها یک فریم نشان می‌دهند و بعد گیر می‌کنند، معمولاً یعنی پخش‌کننده داخلی تلویزیون
+شما نمی‌تواند آن نوع مانیفست را بخواند. فهرست **سازگار با تلویزیون** فقط استریم‌هایی را
+دارد که یک پخش‌کننده ساده هم از پس آن‌ها برمی‌آید. فهرست کوتاه‌تری است و در
+[`worker/`](worker) توضیح داده شده چطور بقیه را هم برگردانید.
 
 {details("فقط یک دسته می‌خواهید؟ هر دسته پلی‌لیست جدا دارد", category_playlists(channels, "fa"))}
 

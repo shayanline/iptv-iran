@@ -1,10 +1,10 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IR1.xml.gz"
 # Satellite · Music only.
-# generated 2026-08-10 23:35 UTC by shayanline/iptv-iran
+# generated 2026-08-11 00:08 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="4Kurd.fr" tvg-name="4 Kurd" tvg-logo="" group-title="Satellite · Music" tvg-language="kur;fas" tvg-quality="SD",4 Kurd | فور کورد
 https://4kuhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="4Music.fr" tvg-name="4 Music" tvg-logo="" group-title="Satellite · Music" tvg-language="fas" tvg-quality="HD",4 Music | فور موزیک HD
-https://itthls.wns.live/hls/stream.m3u8
+https://musichls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AFNTV.ir" tvg-name="AFN TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AFNTV.ir.png" group-title="Satellite · Music" tvg-language="fas" tvg-quality="HD",AFN TV | ای‌اف‌ان تی‌وی HD
 https://bozztv.com/1gbw5/tintv2/tintv2/playlist.m3u8
 #EXTINF:-1 tvg-id="AvangTV.us" tvg-name="Avang TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AvangTV.us.png" group-title="Satellite · Music" tvg-language="fas" tvg-quality="SD",Avang TV | آونگ
@@ -12,7 +12,7 @@ https://hls.avang.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="HighVisionTV.us" tvg-name="High Vision TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/HighVisionTV.us.png" group-title="Satellite · Music" tvg-language="fas" tvg-quality="SD",High Vision TV | های ویژن
 https://streamer1.connectto.com/HIGHVISION_WEB_1205/playlist.m3u8
 #EXTINF:-1 tvg-id="NavahangTV.fi" tvg-name="Navahang TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/NavahangTV.fi.png" group-title="Satellite · Music" tvg-language="fas" tvg-quality="SD",Navahang TV | نواهنگ
-https://simahls.wns.live/hls/stream.m3u8
+https://hls.navahang.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PersianaFolk.fr" tvg-name="Persiana Folk" tvg-logo="" group-title="Satellite · Music" tvg-language="fas" tvg-quality="HD",Persiana Folk | پرشیانا فولک HD
 https://sonhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PersianaNostalgia.fr" tvg-name="Persiana Nostalgia" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaNostalgia.fr.png" group-title="Satellite · Music" tvg-language="fas" tvg-quality="SD",Persiana Nostalgia | پرشیانا نوستالژی

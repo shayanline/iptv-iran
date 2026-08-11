@@ -27,6 +27,7 @@ def mirrored_logos():
 GRACE_FAILS = 3
 PLAYLISTS = HERE / "playlists"
 PERSIAN = re.compile(r"[\u0600-\u06FF]")
+TELEWEBION = re.compile(r"telewebion\.ir/(?:\w+/)?([^/]+)/live/(\d{3,4}p)/")
 
 
 def usable(entry):
@@ -105,6 +106,7 @@ def collect():
     status = (read_json(DATA / "status.json", {}) or {}).get("streams", {})
     curated = read_json(DATA / "curated.json", {})
     overrides = curated.get("channels", {})
+    worker_base = (curated.get("worker") or {}).get("base", "").rstrip("/")
     # Logos are mirrored into the repository by scripts/logos.py and served from the same
     # origin as the playlists, so the mapping is simply whatever is on disk.
     logos = mirrored_logos()
@@ -166,6 +168,9 @@ def collect():
             "last_ok": entry.get("last_ok"),
             "format": db.get("format"),
             "defects": entry.get("defects") or [],
+            "hazards": entry.get("hazards") or [],
+            "media_sequence": entry.get("media_sequence"),
+            "manifest_bytes": entry.get("manifest_bytes"),
             "score": score({**entry, "format": db.get("format"),
                             "known_height": record.get("known_height"),
                             "user_agent": record.get("user_agent"),
@@ -192,6 +197,20 @@ def collect():
                                      if s.get("resolution")), None)
         channel["quality"] = taxonomy.quality_tag(channel["height"])
         channel["best"] = best
+        # The best stream a limited client can actually handle, if the channel has one.
+        channel["compat"] = next((s for s in channel["streams"]
+                                  if s["state"] == "ok" and not s["hazards"] and not s["defects"]),
+                                 None)
+        # A deployed rewriter can rescue a channel whose only streams carry hazards, by
+        # reshaping the manifest into something a basic parser accepts.
+        if channel["compat"] is None and worker_base:
+            rescued = next((s for s in channel["streams"]
+                            if s["state"] == "ok" and TELEWEBION.search(s["url"])), None)
+            if rescued:
+                match = TELEWEBION.search(rescued["url"])
+                channel["compat"] = {**rescued,
+                                     "url": f"{worker_base}/{match.group(1)}/{match.group(2)}",
+                                     "via": "worker"}
         channel["tags"] = taxonomy.tags(channel)
 
     # Channels listed under `order` in curated.json lead their category, in that order.
@@ -247,12 +266,16 @@ def extinf(channel, stream, lang):
     return "\n".join(lines)
 
 
-def write_playlist(path, channels, note, lang="both", all_streams=False):
+def write_playlist(path, channels, note, lang="both", all_streams=False, use_compat=False):
     lines = [f'#EXTM3U x-tvg-url="{EPG}"', f"# {note}",
              f"# generated {dt.datetime.now(dt.timezone.utc):%Y-%m-%d %H:%M} UTC by {REPO}"]
     count = 0
     for channel in channels:
-        for stream in (channel["streams"] if all_streams else [channel["best"]]):
+        if all_streams:
+            chosen = channel["streams"]
+        else:
+            chosen = [channel["compat"] if use_compat else channel["best"]]
+        for stream in chosen:
             lines.append(extinf(channel, stream, lang))
             count += 1
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -266,6 +289,9 @@ def build_playlists(channels):
     worldwide = [c for c in channels if c["reach"] in ("global", "failing")]
     domestic = [c for c in channels if c["reach"] == "iran-only"]
 
+    # Channels that offer a stream free of the shapes limited clients choke on.
+    compatible = [c for c in channels if c.get("compat")]
+
     for lang, folder in (("both", PLAYLISTS), ("en", PLAYLISTS / "en"), ("fa", PLAYLISTS / "fa")):
         write_playlist(folder / "iran.m3u", channels,
                        "Every channel, one stream each. [IR] needs an Iranian IP address.", lang)
@@ -276,6 +302,10 @@ def build_playlists(channels):
         write_playlist(folder / "iran-all-streams.m3u", channels,
                        "Every working stream, backups included, best first.", lang,
                        all_streams=True)
+        write_playlist(folder / "iran-compat.m3u", compatible,
+                       "For smart TV apps and other limited players. Only streams whose "
+                       "manifests stay within what a basic HLS parser handles.", lang,
+                       use_compat=True)
 
     for cid, *_ in taxonomy.CATEGORIES:
         members = [c for c in channels if c["category"] == cid]

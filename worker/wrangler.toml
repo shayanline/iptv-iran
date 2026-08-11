@@ -1,0 +1,5 @@
+name = "iptv-iran-telewebion"
+main = "telewebion-rewrite.js"
+compatibility_date = "2026-08-01"
+
+# No KV, no D1, no bindings. The Worker is stateless and only reshapes a text manifest.

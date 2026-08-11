@@ -116,6 +116,12 @@ BARE_TAG = re.compile(rb"^EXT-X-[A-Z-]+.*$", re.M)
 
 
 RELATIVE_URI = re.compile(rb"^(?!#)(?!https?://)\S+\.(?:ts|m3u8|m4s|mp4|aac)", re.M)
+MEDIA_SEQUENCE = re.compile(rb"#EXT-X-MEDIA-SEQUENCE:(\d+)")
+
+# Limited clients, mostly the HLS parsers built into smart TVs, choke on manifests that
+# are technically valid but unusual. Two shapes cause it in practice.
+UINT32_MAX = 4294967295          # a sequence number past this overflows a 32 bit counter
+HEAVY_MANIFEST_BYTES = 150_000   # a media playlist re-fetched every target duration
 
 
 def manifest_defects(body, requested, final):
@@ -139,6 +145,31 @@ def manifest_defects(body, requested, final):
         if RELATIVE_URI.search(body[:8192]):
             defects.append("relative-uris-behind-redirect")
     return defects
+
+
+def manifest_shape(body):
+    """Measurements a limited client cares about: sequence magnitude and playlist weight.
+
+    Telewebion publishes a one hour window of two second segments with 170 character file
+    names, so each media playlist is about 318 KB and is re-fetched every two seconds, and
+    its media sequence has sixteen digits. Desktop players cope. Smart TV parsers, which
+    often hold the sequence in a 32 bit counter and have little memory to spare, load one
+    segment and then stall. Recording both lets build.py assemble a playlist that avoids
+    them without dropping the channel for everyone else.
+    """
+    shape = {}
+    match = MEDIA_SEQUENCE.search(body)
+    if match:
+        shape["media_sequence"] = int(match.group(1))
+    shape["manifest_bytes"] = len(body)
+    hazards = []
+    if shape.get("media_sequence", 0) > UINT32_MAX:
+        hazards.append("sequence-over-32bit")
+    if shape["manifest_bytes"] > HEAVY_MANIFEST_BYTES:
+        hazards.append("heavy-manifest")
+    if hazards:
+        shape["hazards"] = hazards
+    return shape
 
 
 def is_media(body, content_type):
@@ -269,6 +300,7 @@ def probe_once(record):
         if resolution:
             result["resolution"] = resolution
 
+    result.update(manifest_shape(playlist_body))
     segments = parse_segments(playlist_body, playlist_url,
                               truncated=len(playlist_body) >= PLAYLIST_LIMIT)
     if not segments:
