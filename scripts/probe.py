@@ -231,7 +231,13 @@ def classify_failure(host, status, body):
         return "dead"
     if any(h in host for h in IRAN_ONLY_HOSTS):
         return "iran_only"
-    if status in (403, 451):
+    # 451 means the server is refusing on legal grounds, which for a broadcaster is
+    # territorial rights rather than a fault. Telewebion answers 451 on sports segments
+    # from outside Iran while the manifest itself loads fine. Treating that as dead would
+    # delete channels that work perfectly well inside the country.
+    if status == 451:
+        return "iran_only"
+    if status == 403:
         text = body[:2048].decode("utf-8", "replace").lower()
         return "iran_only" if any(word in text for word in GEO_TEXT) else "dead"
     return "dead"
@@ -309,6 +315,8 @@ def probe_once(record):
     # The decisive test: pull bytes from a real segment. The last one is the live edge.
     sstatus, sheaders, sbody, sfinal = fetch(segments[-1], referrer, user_agent,
                                              limit=196608, ranged=True)
+    if sstatus == 451:
+        return {**result, "state": "iran_only", "reason": "segment:451", "kind": "hls"}
     # A few packagers put another playlist where a segment should be. Descend once.
     if isinstance(sstatus, int) and sstatus < 400 and is_hls(sbody):
         nested = parse_segments(sbody, sfinal)

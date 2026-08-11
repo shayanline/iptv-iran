@@ -126,6 +126,10 @@
       "channel": "ShoraiTV.us"
     },
     {
+      "url": "https://simaytv.akamaized.net/hls/live/a162cb6c-3be1-4e57-87dc-a75a50b3b8d9/simayhls/index.m3u8",
+      "channel": "SimayeAzadi.uk"
+    },
+    {
       "url": "https://hls.sunmusic.live/hls/stream.m3u8",
       "channel": "SunMusic.us"
     },
@@ -1192,6 +1196,18 @@
     "RaheNejatTV.us": {
       "en": "Rahe Nejat TV",
       "fa": "راه نجات"
+    },
+    "TelewebionSport1.ir": {
+      "en": "Telewebion Sport 1",
+      "fa": "تلوبیون ورزشی 1"
+    },
+    "TelewebionSport2.ir": {
+      "en": "Telewebion Sport 2",
+      "fa": "تلوبیون ورزشی 2"
+    },
+    "TelewebionSport3.ir": {
+      "en": "Telewebion Sport 3",
+      "fa": "تلوبیون ورزشی 3"
     }
   },
   "category_overrides": {
@@ -1232,7 +1248,10 @@
     "TapeshIran.us": "sat-entertainment",
     "4UFamily.tr": "sat-entertainment",
     "NetTV.us": "sat-entertainment",
-    "ProjectLeon.us": "sat-entertainment"
+    "ProjectLeon.us": "sat-entertainment",
+    "TelewebionSport1.ir": "sat-sports",
+    "TelewebionSport2.ir": "sat-sports",
+    "TelewebionSport3.ir": "sat-sports"
   },
   "discovery": {
     "telewebion": {
@@ -1299,6 +1318,9 @@
       "semnan": "SemnanTV.ir",
       "sepehr": "SepehrTV.ir",
       "sina": "HamedanTV.ir",
+      "sport1": "TelewebionSport1.ir",
+      "sport2": "TelewebionSport2.ir",
+      "sport3": "TelewebionSport3.ir",
       "taban": "YazdTV.ir",
       "tabarestan": "TabarestanTV.ir",
       "tehran": "TehranTV.ir",
@@ -1566,6 +1588,42 @@
       ],
       "categories": [
         "general"
+      ],
+      "logo": ""
+    },
+    "TelewebionSport1.ir": {
+      "en": "Telewebion Sport 1",
+      "fa": "تلوبیون ورزشی 1",
+      "country": "IR",
+      "languages": [
+        "fas"
+      ],
+      "categories": [
+        "sports"
+      ],
+      "logo": ""
+    },
+    "TelewebionSport2.ir": {
+      "en": "Telewebion Sport 2",
+      "fa": "تلوبیون ورزشی 2",
+      "country": "IR",
+      "languages": [
+        "fas"
+      ],
+      "categories": [
+        "sports"
+      ],
+      "logo": ""
+    },
+    "TelewebionSport3.ir": {
+      "en": "Telewebion Sport 3",
+      "fa": "تلوبیون ورزشی 3",
+      "country": "IR",
+      "languages": [
+        "fas"
+      ],
+      "categories": [
+        "sports"
       ],
       "logo": ""
     }

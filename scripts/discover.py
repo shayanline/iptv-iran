@@ -44,9 +44,15 @@ STREAM_INF = re.compile(r"#EXT-X-STREAM-INF:(?P<attrs>.*)")
 RESOLUTION = re.compile(r"RESOLUTION=(\d+)x(\d+)")
 
 
-def best_rendition(manifest):
-    """Return (rendition_path, height) for the highest resolution entry in a master."""
-    best, pending = None, None
+def best_renditions(manifest, limit=2):
+    """Return [(rendition_path, height)] from a master, highest resolution first.
+
+    More than one is returned because a master can advertise a rendition that is not
+    actually published. Telewebion's sports channels list `108050p/index.m3u8` at
+    RESOLUTION=1920x1082, a typo for 1080p50, and it 404s. Taking only the top entry would
+    lose the channel, so the runner up is offered too and the prober decides.
+    """
+    found, pending = [], None
     for line in manifest.splitlines():
         line = line.strip()
         match = STREAM_INF.match(line)
@@ -56,10 +62,10 @@ def best_rendition(manifest):
         elif line and not line.startswith("#") and pending is not None:
             # Only a same directory relative path is safe to rewrite onto the stable host.
             if "/" in line.rstrip("/") and not line.startswith(("http://", "https://")):
-                if best is None or pending > best[1]:
-                    best = (line, pending)
+                found.append((line, pending))
             pending = None
-    return best
+    found.sort(key=lambda item: -item[1])
+    return found[:limit]
 
 
 def previous_edges(slug):
@@ -88,28 +94,28 @@ def candidate_urls(curated):
             master = config["template"].format(id=slug)
             try:
                 text, final = fetch_text_with_final(master, timeout=15)
-                found = best_rendition(text)
+                found = best_renditions(text)
             except Exception:
-                found, final = None, None
+                found, final = [], None
             return slug, channel_id, master, found, final
 
         with ThreadPoolExecutor(12) as pool:
             for slug, channel_id, master, found, final in pool.map(resolve, slugs.items()):
-                stable = config["variant_template"].format(id=slug, rendition=found[0]) if found else None
-                if found:
-                    # Keep last run's node if it is still serving, to avoid needless churn.
-                    for known in previous_edges(slug):
-                        if known.endswith(found[0]):
-                            yield known, provider, slug, channel_id or None, found[1]
+                known_edges = previous_edges(slug) if found else []
+                for rendition, height in found:
+                    stable = config["variant_template"].format(id=slug, rendition=rendition)
+                    # Keep last run's node if it still serves, to avoid needless churn.
+                    for known in known_edges:
+                        if known.endswith(rendition):
+                            yield known, provider, slug, channel_id or None, height
                             break
-                if found and final:
-                    # Resolved against the edge the redirector chose, so no client has to
-                    # follow a redirect to find the segments.
-                    resolved = urllib.parse.urljoin(final.split("?")[0], found[0])
-                    if resolved != stable:
-                        yield resolved, provider, slug, channel_id or None, found[1]
-                if stable:
-                    yield stable, provider, slug, channel_id or None, found[1]
+                    if final:
+                        # Resolved against the edge the redirector chose, so no client has
+                        # to follow a redirect to find the segments.
+                        resolved = urllib.parse.urljoin(final.split("?")[0], rendition)
+                        if resolved != stable:
+                            yield resolved, provider, slug, channel_id or None, height
+                    yield stable, provider, slug, channel_id or None, height
                 # The master is still offered as a last fallback.
                 yield master, provider, slug, channel_id or None, 0
 
