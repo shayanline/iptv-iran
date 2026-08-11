@@ -1,14 +1,18 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IR1.xml.gz"
 # Satellite · News only.
-# generated 2026-08-11 00:27 UTC by shayanline/iptv-iran
+# generated 2026-08-11 00:31 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="BBCPersian.uk" tvg-name="BBC News Persian" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/BBCPersian.uk.png" group-title="Satellite · News" tvg-language="fas" tvg-quality="HD",BBC News Persian | بی‌بی‌سی فارسی HD
 https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/mobile_wifi_main_hd_abr_v2.m3u8
 #EXTINF:-1 tvg-id="ChannelOne.us" tvg-name="Channel One" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ChannelOne.us.png" group-title="Satellite · News" tvg-language="fas" tvg-quality="SD",Channel One | شبکه یک (لس‌آنجلس)
 https://pemirateshls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="DidgahTV.us" tvg-name="Didgah TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/DidgahTV.us.png" group-title="Satellite · News" tvg-language="fas" tvg-quality="SD",Didgah TV | دیدگاه
 https://media.streambrothers.com:1936/8276/8276/playlist.m3u8
+#EXTINF:-1 tvg-id="IranIndependent.us" tvg-name="Iran Independent" tvg-logo="" group-title="Satellite · News" tvg-language="fas",Iran Independent | ایران ایندیپندنت
+https://mediamtx.elitelatrade.com/live/stream/main_stream.m3u8
 #EXTINF:-1 tvg-id="IranInternational.uk" tvg-name="Iran International" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IranInternational.uk.png" group-title="Satellite · News" tvg-language="fas" tvg-quality="FHD",Iran International | ایران اینترنشنال FHD
 https://hlspackager.akamaized.net/live/DB/IRAN_INTERNATIONAL/HLS/IRAN_INTERNATIONAL.m3u8
+#EXTINF:-1 tvg-id="IranNationalRevolutionTV.us" tvg-name="Iran National Revolution TV" tvg-logo="" group-title="Satellite · News" tvg-language="fas" tvg-quality="HD",Iran National Revolution TV | تلویزیون انقلاب ملی ایران HD
+https://hls.irannrtv.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="IraneFarda.us" tvg-name="Irane Farda" tvg-logo="" group-title="Satellite · News" tvg-language="fas",Irane Farda | ایران فردا
 https://iranefardalive.com/stream/live.m3u8
 #EXTINF:-1 tvg-id="IranWire.us" tvg-name="IranWire" tvg-logo="" group-title="Satellite · News" tvg-language="fas",IranWire | ایران‌وایر
