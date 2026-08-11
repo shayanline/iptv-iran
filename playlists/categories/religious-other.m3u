@@ -1,9 +1,11 @@
 #EXTM3U x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IR1.xml.gz"
 # Religious · Other Faiths & Spiritual only.
-# generated 2026-08-11 01:48 UTC by shayanline/iptv-iran
+# generated 2026-08-11 01:54 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="ErfanHalghehTV.ca" tvg-name="Erfan Halgheh TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ErfanHalghehTV.ca.png" group-title="Religious · Other Faiths & Spiritual" tvg-language="fas" tvg-quality="SD",Erfan Halgheh TV | عرفان حلقه
 https://hls.erfanhalgheh.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="GanjeHozourTV.us" tvg-name="Ganj-e Hozour" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/GanjeHozourTV.us.png" group-title="Religious · Other Faiths & Spiritual" tvg-language="fas" tvg-quality="FHD",Ganj-e Hozour | گنج حضور FHD
 https://media.parvizshahbazi.com/ganjehozour/Main_tv/playlist.m3u8
+#EXTINF:-1 tvg-id="IranJewishTV.ir" tvg-name="Iran Jewish TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IranJewishTV.ir.png" group-title="Religious · Other Faiths & Spiritual" tvg-language="fas" tvg-quality="HD",Iran Jewish TV | تلویزیون یهودیان ایرانی HD
+http://iran620.com:1935/live/IranJewishTv/playlist.m3u8
 #EXTINF:-1 tvg-id="WiseHumanTv.ir" tvg-name="Wise Human TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/WiseHumanTv.ir.png" group-title="Religious · Other Faiths & Spiritual" tvg-language="far" tvg-quality="FHD",Wise Human TV | انسان خردمند FHD
 https://avr.host247.net/live/WiseHumanTv/playlist.m3u8

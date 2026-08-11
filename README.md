@@ -2,11 +2,11 @@
 
 # IPTV Iran
 
-192 Iranian and Persian language television channels, as M3U playlists you can paste
+200 Iranian and Persian language television channels, as M3U playlists you can paste
 straight into your player.
 
 [![Refresh playlists](https://github.com/shayanline/iptv-iran/actions/workflows/refresh.yml/badge.svg)](https://github.com/shayanline/iptv-iran/actions/workflows/refresh.yml)
-![Channels](https://img.shields.io/badge/channels-192-1f6feb)
+![Channels](https://img.shields.io/badge/channels-200-1f6feb)
 ![Categories](https://img.shields.io/badge/categories-14-8250df)
 ![Checked](https://img.shields.io/badge/last%20checked-11%20August%202026-2da44e)
 
@@ -25,8 +25,8 @@ else that reads M3U. Nothing to install and no account to create.
 
 | Playlist | What is in it | Link to copy |
 |:--|:--|:--|
-| **Everything** | All 192 channels, one stream each | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran.m3u` |
-| **Worldwide** | The 185 channels that play anywhere | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-global.m3u` |
+| **Everything** | All 200 channels, one stream each | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran.m3u` |
+| **Worldwide** | The 193 channels that play anywhere | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-global.m3u` |
 | **Inside Iran** | The 7 that need an Iranian IP address | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-domestic.m3u` |
 | **With backups** | Every working stream, spares included | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-all-streams.m3u` |
 | **Smart TV safe** | For apps that stall on some channels | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-compat.m3u` |
@@ -48,16 +48,16 @@ stay within what a basic player handles. It is a shorter list, and
 | IRIB Provincial Networks | 34 | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/irib-provincial.m3u` |
 | IRIB International Services | 13 | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/irib-international.m3u` |
 | Satellite · General | 14 | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-general.m3u` |
-| Satellite · Entertainment | 22 | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-entertainment.m3u` |
+| Satellite · Entertainment | 23 | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-entertainment.m3u` |
 | Satellite · Movies & Series | 21 | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-movies.m3u` |
-| Satellite · News | 14 | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-news.m3u` |
-| Satellite · Music | 13 | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-music.m3u` |
+| Satellite · News | 16 | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-news.m3u` |
+| Satellite · Music | 14 | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-music.m3u` |
 | Satellite · Kids | 1 | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-kids.m3u` |
 | Satellite · Sports | 4 | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-sports.m3u` |
 | Satellite · Documentary & Learning | 4 | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-documentary.m3u` |
-| Religious · Islamic | 14 | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/religious-islamic.m3u` |
+| Religious · Islamic | 17 | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/religious-islamic.m3u` |
 | Religious · Christian | 11 | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/religious-christian.m3u` |
-| Religious · Other Faiths & Spiritual | 3 | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/religious-other.m3u` |
+| Religious · Other Faiths & Spiritual | 4 | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/religious-other.m3u` |
 
 </details>
 
@@ -75,9 +75,9 @@ The same playlists come in three naming styles. Swap the folder, keep the file n
 
 Picture quality is tagged in the name (`HD`, `FHD`, `4K`) from the resolution actually
 measured on the stream, not from whatever the channel claims. Right now that is
-1 4K, 59 FHD, 38 HD, 81 SD, 13 unknown.
+1 4K, 62 FHD, 40 HD, 82 SD, 15 unknown.
 
-Logos for 134 channels are stored in this repository rather than linked from
+Logos for 139 channels are stored in this repository rather than linked from
 elsewhere, so they load wherever you are. A programme guide is wired in through
 `x-tvg-url`, and players that support EPG will pick it up on their own.
 
@@ -85,7 +85,7 @@ elsewhere, so they load wherever you are. A programme guide is wired in through
 
 ## Channel list
 
-192 channels in 14 categories, from 635 working streams.
+200 channels in 14 categories, from 649 working streams.
 
 <details>
 <summary><b>IRIB National Networks</b> &nbsp; 24 channels</summary>
@@ -113,7 +113,7 @@ elsewhere, so they load wherever you are. A programme guide is wired in through
 | IRIB TV1 + | شبکه یک پلاس | 1080p | Worldwide |
 | IRIB UHD | شبکه فراگیر (UHD) | 2160p | Worldwide |
 | IRIB Varzesh | شبکه ورزش | 1082p | Worldwide |
-| IRINN | شبکه خبر | 1080p | Worldwide |
+| IRINN | شبکه خبر | 576p | Worldwide |
 | IRINN 2 | شبکه خبر ۲ | 1080p | Worldwide |
 | Roya | شبکه رویا | 720p | Worldwide |
 
@@ -205,7 +205,7 @@ elsewhere, so they load wherever you are. A programme guide is wired in through
 </details>
 
 <details>
-<summary><b>Satellite · Entertainment</b> &nbsp; 22 channels</summary>
+<summary><b>Satellite · Entertainment</b> &nbsp; 23 channels</summary>
 
 | Channel | Persian name | Quality | Available |
 |:--|:--|:--|:--|
@@ -231,6 +231,7 @@ elsewhere, so they load wherever you are. A programme guide is wired in through
 | Tapesh Iran | تپش ایران | 1080p | Worldwide |
 | Tapesh TV | تپش تی‌وی | 1080p | Worldwide |
 | Tin TV | تین تی‌وی | 720p | Worldwide |
+| YourTime TV | یورتایم تی‌وی | 576p | Worldwide |
 
 </details>
 
@@ -264,13 +265,15 @@ elsewhere, so they load wherever you are. A programme guide is wired in through
 </details>
 
 <details>
-<summary><b>Satellite · News</b> &nbsp; 14 channels</summary>
+<summary><b>Satellite · News</b> &nbsp; 16 channels</summary>
 
 | Channel | Persian name | Quality | Available |
 |:--|:--|:--|:--|
 | BBC News Persian | بی‌بی‌سی فارسی | 720p | Worldwide |
 | Didgah TV | دیدگاه | 486p | Worldwide |
+| Iran Independent | ایران ایندیپندنت | n/a | Worldwide |
 | Iran International | ایران اینترنشنال | 1080p | Worldwide |
+| Iran National Revolution TV | تلویزیون انقلاب ملی ایران | 720p | Worldwide |
 | Irane Farda | ایران فردا | n/a | Worldwide |
 | IranWire | ایران‌وایر | n/a | Worldwide |
 | IRNA TV | تلویزیون ایرنا | n/a | Worldwide |
@@ -286,7 +289,7 @@ elsewhere, so they load wherever you are. A programme guide is wired in through
 </details>
 
 <details>
-<summary><b>Satellite · Music</b> &nbsp; 13 channels</summary>
+<summary><b>Satellite · Music</b> &nbsp; 14 channels</summary>
 
 | Channel | Persian name | Quality | Available |
 |:--|:--|:--|:--|
@@ -302,6 +305,7 @@ elsewhere, so they load wherever you are. A programme guide is wired in through
 | PMC | پی‌ام‌سی | 576p | Worldwide |
 | PMC Royale | پی‌ام‌سی رویال | 576p | Worldwide |
 | RJTV | آر‌جی تی‌وی | 480p | Worldwide |
+| Sun Music | سان موزیک | n/a | Worldwide |
 | T2 TV | تی۲ تی‌وی | 576p | Worldwide |
 
 </details>
@@ -340,7 +344,7 @@ elsewhere, so they load wherever you are. A programme guide is wired in through
 </details>
 
 <details>
-<summary><b>Religious · Islamic</b> &nbsp; 14 channels</summary>
+<summary><b>Religious · Islamic</b> &nbsp; 17 channels</summary>
 
 | Channel | Persian name | Quality | Available |
 |:--|:--|:--|:--|
@@ -348,6 +352,9 @@ elsewhere, so they load wherever you are. A programme guide is wired in through
 | Al-Mahdi TV | شبکه المهدی | 1080p | Worldwide |
 | Assirat TV | شبکه الصراط | 1080p | Worldwide |
 | Habib TV | شبکه حبیب | 720p | Worldwide |
+| Hadi TV | شبکه هادی | 1080p | Worldwide |
+| Imam Hussein TV 1 | امام حسین ۱ | 1080p | Worldwide |
+| Imam Hussein TV 6 | امام حسین ۶ | 1080p | Worldwide |
 | Labbayk TV | شبکه لبیک | 720p | Worldwide |
 | Marjaeyat TV Persian | شبکه مرجعیت | 1080p | Worldwide |
 | Nour TV | شبکه نور (امارات) | 576p | Worldwide |
@@ -381,12 +388,13 @@ elsewhere, so they load wherever you are. A programme guide is wired in through
 </details>
 
 <details>
-<summary><b>Religious · Other Faiths & Spiritual</b> &nbsp; 3 channels</summary>
+<summary><b>Religious · Other Faiths & Spiritual</b> &nbsp; 4 channels</summary>
 
 | Channel | Persian name | Quality | Available |
 |:--|:--|:--|:--|
 | Erfan Halgheh TV | عرفان حلقه | 480p | Worldwide |
 | Ganj-e Hozour | گنج حضور | 1080p | Worldwide |
+| Iran Jewish TV | تلویزیون یهودیان ایرانی | 720p | Worldwide |
 | Wise Human TV | انسان خردمند | 1080p | Worldwide |
 
 </details>
@@ -452,7 +460,7 @@ If you hold the rights to a channel listed here and want it removed,
 
 # IPTV ایران
 
-۱۹۲ شبکه تلویزیونی ایرانی و فارسی‌زبان، به شکل پلی‌لیست M3U که مستقیم در
+۲۰۰ شبکه تلویزیونی ایرانی و فارسی‌زبان، به شکل پلی‌لیست M3U که مستقیم در
 برنامه پخش خودتان وارد می‌کنید.
 
 **🇬🇧 [English version](#english)**
@@ -470,8 +478,8 @@ If you hold the rights to a channel listed here and want it removed,
 
 | پلی‌لیست | محتوا | لینک |
 |:--|:--|:--|
-| **همه شبکه‌ها** | هر ۱۹۲ شبکه، برای هرکدام یک استریم | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran.m3u` |
-| **قابل پخش در همه‌جا** | آن ۱۸۵ شبکه‌ای که از هر کشوری باز می‌شود | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-global.m3u` |
+| **همه شبکه‌ها** | هر ۲۰۰ شبکه، برای هرکدام یک استریم | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran.m3u` |
+| **قابل پخش در همه‌جا** | آن ۱۹۳ شبکه‌ای که از هر کشوری باز می‌شود | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-global.m3u` |
 | **فقط داخل ایران** | آن ۷ شبکه‌ای که به IP ایران نیاز دارد | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-domestic.m3u` |
 | **همراه با پشتیبان** | همه استریم‌های سالم، با نسخه‌های جایگزین | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-all-streams.m3u` |
 | **سازگار با تلویزیون** | برای برنامه‌هایی که روی بعضی شبکه‌ها گیر می‌کنند | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-compat.m3u` |
@@ -493,16 +501,16 @@ If you hold the rights to a channel listed here and want it removed,
 | شبکه‌های استانی | ۳۴ | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/irib-provincial.m3u` |
 | شبکه‌های برون‌مرزی | ۱۳ | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/irib-international.m3u` |
 | ماهواره‌ای · عمومی | ۱۴ | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-general.m3u` |
-| ماهواره‌ای · سرگرمی | ۲۲ | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-entertainment.m3u` |
+| ماهواره‌ای · سرگرمی | ۲۳ | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-entertainment.m3u` |
 | ماهواره‌ای · فیلم و سریال | ۲۱ | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-movies.m3u` |
-| ماهواره‌ای · خبری | ۱۴ | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-news.m3u` |
-| ماهواره‌ای · موسیقی | ۱۳ | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-music.m3u` |
+| ماهواره‌ای · خبری | ۱۶ | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-news.m3u` |
+| ماهواره‌ای · موسیقی | ۱۴ | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-music.m3u` |
 | ماهواره‌ای · کودک | ۱ | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-kids.m3u` |
 | ماهواره‌ای · ورزشی | ۴ | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-sports.m3u` |
 | ماهواره‌ای · مستند و آموزش | ۴ | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-documentary.m3u` |
-| مذهبی · اسلامی | ۱۴ | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/religious-islamic.m3u` |
+| مذهبی · اسلامی | ۱۷ | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/religious-islamic.m3u` |
 | مذهبی · مسیحی | ۱۱ | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/religious-christian.m3u` |
-| مذهبی · سایر ادیان و معنوی | ۳ | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/religious-other.m3u` |
+| مذهبی · سایر ادیان و معنوی | ۴ | `https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/religious-other.m3u` |
 
 </details>
 
@@ -521,9 +529,9 @@ If you hold the rights to a channel listed here and want it removed,
 
 کیفیت تصویر (`HD`، `FHD`، `4K`) در نام شبکه می‌آید و از روی رزولوشنی نوشته می‌شود که واقعاً
 روی استریم اندازه گرفته شده، نه از روی ادعای خود شبکه. الان ترکیب این‌طور است:
-۱ 4K، ۵۹ FHD، ۳۸ HD، ۸۱ کیفیت معمولی، ۱۳ نامشخص.
+۱ 4K، ۶۲ FHD، ۴۰ HD، ۸۲ کیفیت معمولی، ۱۵ نامشخص.
 
-لوگوی ۱۳۴ شبکه داخل همین مخزن نگه داشته می‌شود و از جای دیگری لینک
+لوگوی ۱۳۹ شبکه داخل همین مخزن نگه داشته می‌شود و از جای دیگری لینک
 نمی‌شود، تا هر کجا باشید درست بارگذاری شود. آدرس جدول پخش (EPG) هم با `x-tvg-url` داخل
 فایل هست و برنامه‌هایی که پشتیبانی می‌کنند خودشان آن را می‌گیرند.
 
@@ -531,7 +539,7 @@ If you hold the rights to a channel listed here and want it removed,
 
 ## فهرست شبکه‌ها
 
-۱۹۲ شبکه در ۱۴ دسته، از ۶۳۵ استریم سالم.
+۲۰۰ شبکه در ۱۴ دسته، از ۶۴۹ استریم سالم.
 
 <details>
 <summary><b>شبکه‌های سراسری سیما</b> &nbsp; ۲۴ شبکه</summary>
@@ -559,7 +567,7 @@ If you hold the rights to a channel listed here and want it removed,
 | شبکه یک پلاس | IRIB TV1 + | 1080p | همه‌جا |
 | شبکه فراگیر (UHD) | IRIB UHD | 2160p | همه‌جا |
 | شبکه ورزش | IRIB Varzesh | 1082p | همه‌جا |
-| شبکه خبر | IRINN | 1080p | همه‌جا |
+| شبکه خبر | IRINN | 576p | همه‌جا |
 | شبکه خبر ۲ | IRINN 2 | 1080p | همه‌جا |
 | شبکه رویا | Roya | 720p | همه‌جا |
 
@@ -651,7 +659,7 @@ If you hold the rights to a channel listed here and want it removed,
 </details>
 
 <details>
-<summary><b>ماهواره‌ای · سرگرمی</b> &nbsp; ۲۲ شبکه</summary>
+<summary><b>ماهواره‌ای · سرگرمی</b> &nbsp; ۲۳ شبکه</summary>
 
 | نام فارسی | نام انگلیسی | کیفیت | در دسترس |
 |:--|:--|:--|:--|
@@ -677,6 +685,7 @@ If you hold the rights to a channel listed here and want it removed,
 | تپش ایران | Tapesh Iran | 1080p | همه‌جا |
 | تپش تی‌وی | Tapesh TV | 1080p | همه‌جا |
 | تین تی‌وی | Tin TV | 720p | همه‌جا |
+| یورتایم تی‌وی | YourTime TV | 576p | همه‌جا |
 
 </details>
 
@@ -710,13 +719,15 @@ If you hold the rights to a channel listed here and want it removed,
 </details>
 
 <details>
-<summary><b>ماهواره‌ای · خبری</b> &nbsp; ۱۴ شبکه</summary>
+<summary><b>ماهواره‌ای · خبری</b> &nbsp; ۱۶ شبکه</summary>
 
 | نام فارسی | نام انگلیسی | کیفیت | در دسترس |
 |:--|:--|:--|:--|
 | بی‌بی‌سی فارسی | BBC News Persian | 720p | همه‌جا |
 | دیدگاه | Didgah TV | 486p | همه‌جا |
+| ایران ایندیپندنت | Iran Independent | نامشخص | همه‌جا |
 | ایران اینترنشنال | Iran International | 1080p | همه‌جا |
+| تلویزیون انقلاب ملی ایران | Iran National Revolution TV | 720p | همه‌جا |
 | ایران فردا | Irane Farda | نامشخص | همه‌جا |
 | ایران‌وایر | IranWire | نامشخص | همه‌جا |
 | تلویزیون ایرنا | IRNA TV | نامشخص | همه‌جا |
@@ -732,7 +743,7 @@ If you hold the rights to a channel listed here and want it removed,
 </details>
 
 <details>
-<summary><b>ماهواره‌ای · موسیقی</b> &nbsp; ۱۳ شبکه</summary>
+<summary><b>ماهواره‌ای · موسیقی</b> &nbsp; ۱۴ شبکه</summary>
 
 | نام فارسی | نام انگلیسی | کیفیت | در دسترس |
 |:--|:--|:--|:--|
@@ -748,6 +759,7 @@ If you hold the rights to a channel listed here and want it removed,
 | پی‌ام‌سی | PMC | 576p | همه‌جا |
 | پی‌ام‌سی رویال | PMC Royale | 576p | همه‌جا |
 | آر‌جی تی‌وی | RJTV | 480p | همه‌جا |
+| سان موزیک | Sun Music | نامشخص | همه‌جا |
 | تی۲ تی‌وی | T2 TV | 576p | همه‌جا |
 
 </details>
@@ -786,7 +798,7 @@ If you hold the rights to a channel listed here and want it removed,
 </details>
 
 <details>
-<summary><b>مذهبی · اسلامی</b> &nbsp; ۱۴ شبکه</summary>
+<summary><b>مذهبی · اسلامی</b> &nbsp; ۱۷ شبکه</summary>
 
 | نام فارسی | نام انگلیسی | کیفیت | در دسترس |
 |:--|:--|:--|:--|
@@ -794,6 +806,9 @@ If you hold the rights to a channel listed here and want it removed,
 | شبکه المهدی | Al-Mahdi TV | 1080p | همه‌جا |
 | شبکه الصراط | Assirat TV | 1080p | همه‌جا |
 | شبکه حبیب | Habib TV | 720p | همه‌جا |
+| شبکه هادی | Hadi TV | 1080p | همه‌جا |
+| امام حسین ۱ | Imam Hussein TV 1 | 1080p | همه‌جا |
+| امام حسین ۶ | Imam Hussein TV 6 | 1080p | همه‌جا |
 | شبکه لبیک | Labbayk TV | 720p | همه‌جا |
 | شبکه مرجعیت | Marjaeyat TV Persian | 1080p | همه‌جا |
 | شبکه نور (امارات) | Nour TV | 576p | همه‌جا |
@@ -827,12 +842,13 @@ If you hold the rights to a channel listed here and want it removed,
 </details>
 
 <details>
-<summary><b>مذهبی · سایر ادیان و معنوی</b> &nbsp; ۳ شبکه</summary>
+<summary><b>مذهبی · سایر ادیان و معنوی</b> &nbsp; ۴ شبکه</summary>
 
 | نام فارسی | نام انگلیسی | کیفیت | در دسترس |
 |:--|:--|:--|:--|
 | عرفان حلقه | Erfan Halgheh TV | 480p | همه‌جا |
 | گنج حضور | Ganj-e Hozour | 1080p | همه‌جا |
+| تلویزیون یهودیان ایرانی | Iran Jewish TV | 720p | همه‌جا |
 | انسان خردمند | Wise Human TV | 1080p | همه‌جا |
 
 </details>
