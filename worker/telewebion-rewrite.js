@@ -2,19 +2,29 @@
  * Telewebion manifest rewriter, for players that cannot handle the original.
  *
  * WHY THIS EXISTS
- * Telewebion publishes IRIB's channels, and it is the only source for them reachable
- * from outside Iran. Its media playlists are valid HLS but unusual in two ways that stop
- * the HLS parsers built into smart TVs:
+ * Telewebion publishes IRIB's channels, and it is the only source for them reachable from
+ * outside Iran. Its media playlists are valid HLS, and one number in them is more than a
+ * television can hold:
  *
- *   1. EXT-X-MEDIA-SEQUENCE is sixteen digits, for example 1786395804195022. That is
- *      415,000 times larger than an unsigned 32 bit counter can hold, so a parser that
- *      keeps the sequence in a 32 bit integer loses track of which segment comes next.
- *   2. The playlist carries a one hour window: 1800 segments with 170 character names,
- *      about 318 KB, re-fetched every two seconds.
+ *   EXT-X-MEDIA-SEQUENCE is sixteen digits, for example 1786395804195022, because the
+ *   packager derives it from a microsecond timestamp. Samsung's AVPlay keeps that field in
+ *   a SIGNED 32 bit integer, so anything above 2,147,483,647 overflows and its window
+ *   arithmetic collapses. Telewebion's value is about 831,000 times the limit.
  *
- * Desktop players cope with both. Several TV apps load one segment, show a frame, and
- * then stall. Rewriting fixes both: the sequence is reduced to nine digits and the window
- * is trimmed to about a minute, which is roughly 110 times smaller.
+ * Measured on a Samsung QE55S90D running Tizen 9.0, one property changed at a time, by
+ * serving AVPlay manifests built from this same stream:
+ *
+ *   sequence 2,147,483,000 (just under 2^31)  ->  plays, window reported correctly
+ *   sequence 2,147,484,000 (just over 2^31)   ->  reports the stream as 2000ms, one frame
+ *   sequence 4,294,966,000 (just under 2^32)  ->  same failure, so it is signed, not unsigned
+ *
+ * THE WINDOW IS NOT THE PROBLEM, AND THAT MATTERS
+ * The same test says the size of the playlist is fine: 3600 segments and 813KB parsed
+ * correctly and played, as did 600 and 120. So trimming is not what fixes anything, and a
+ * shorter window on its own would not have helped. Trimming stays because it is what keeps
+ * this Worker's CPU and egress small, which is a cost decision rather than a fix. Anyone
+ * tempted to raise SEQUENCE_MODULUS to fit "32 bits" should read the table above first:
+ * four billion is not a safe number here, two billion is.
  *
  * COST CONTROL, THE POINT OF THE DESIGN
  * Only the media playlist passes through this Worker. Segment URLs are rewritten to
@@ -22,22 +32,37 @@
  * majority of the traffic. Cloudflare bills a Worker per incoming request. fetch()
  * subrequests and the Cache API are free and do not count.
  *
- * A player reloads a live playlist about once per EXT-X-TARGETDURATION. Telewebion
- * declares 2 seconds, which would be 1800 requests per viewer-hour. TARGETDURATION is an
- * upper bound rather than a promise, so declaring a larger value is legal as long as it is
- * at least the longest segment, and it slows the reload loop proportionally:
+ * How often a player comes back was assumed here and is now measured. AVPlay reloads at
+ * about HALF the declared TARGETDURATION, not once per target, and it starts playback about
+ * three targets behind the live edge. Counted over 64 seconds of real playback:
  *
- *   target 2s  -> 1800 requests/viewer-hour ->    55 viewer-hours/day on the free plan
- *   target 12s ->  300 requests/viewer-hour ->   333 viewer-hours/day
- *   target 20s ->  180 requests/viewer-hour ->   555 viewer-hours/day
+ *   target 12s -> reload every 6.4s -> 562 requests/viewer-hour -> 178 viewer-hours/day
+ *   target 20s -> reload every 9.1s -> 394 requests/viewer-hour -> 253 viewer-hours/day
+ *   target 30s -> reload every 12.8s -> 281 requests/viewer-hour -> 355 viewer-hours/day
  *
- * The default below is 12 seconds with a 60 second window, so the player always holds
- * about five reload intervals of buffer.
+ * The right hand column is the free plan's 100,000 requests a day. The old comment here
+ * claimed 300 requests per viewer-hour at a 12 second target, which was half the truth and
+ * therefore twice the capacity.
  *
- * The rewritten playlist is also cached at the edge for a few seconds. That does not
- * reduce billed requests, but it means a hundred people watching the same channel cause
- * one origin fetch rather than a hundred, and most invocations return from cache using
- * almost no CPU. Parsing costs well under the free plan's 10ms limit either way.
+ * Two things that would have decoupled the request rate from the latency do not work, and
+ * both were tried on the set rather than reasoned about:
+ *
+ *   EXT-X-START:TIME-OFFSET   ignored. Playback began 33.6s behind the edge with and
+ *                             without it, which is three times the target either way.
+ *   Cache-Control: max-age    ignored for playlist reloads. Ten requests in 64 seconds
+ *                             with max-age=10, and ten with no-cache.
+ *
+ * So the only lever is TARGETDURATION, and it buys fewer requests with more delay behind
+ * live. 20 seconds is the default below: a third fewer requests than before, and a viewer
+ * about a minute behind the broadcast, which nobody notices on a channel and everybody
+ * notices during a football match.
+ *
+ * DESKTOP PLAYERS ARE SENT AWAY, WHICH IS THE OTHER HALF OF THE SAVING
+ * VLC, ffmpeg, mpv and Kodi read Telewebion's original manifest perfectly well, so they are
+ * redirected to it and stop costing anything at all. Browsers are deliberately not, because
+ * Telewebion allows one origin and a page would be refused: hls.js needs this Worker's
+ * Access-Control-Allow-Origin. Anything unrecognised gets the rewrite, which is the safe
+ * default. AVPlay identifies itself as "samsung-agent/1.1".
  *
  * DEPLOY
  *   npx wrangler deploy
@@ -48,13 +73,26 @@
  */
 
 const ORIGIN = "https://ncdn.telewebion.ir";
-const TARGET_DURATION = 12;   // what we advertise, throttles the player's reload loop
-const WINDOW_SECONDS = 60;    // how much content to list, comfortably over the reload gap
-const EDGE_CACHE_SECONDS = 4; // collapses concurrent viewers into one origin fetch
-const SEQUENCE_MODULUS = 1_000_000_000;   // nine digits, safely inside 32 bits
+const TARGET_DURATION = 20;   // what we advertise, halved is how often a player returns
+const WINDOW_SECONDS = 150;   // three targets of start latency, plus 90s of margin
+const EDGE_CACHE_SECONDS = 8; // collapses concurrent viewers into one origin fetch
+/**
+ * Nine digits, and the ceiling is 2^31 rather than 2^32: see the table at the top. Nine
+ * digits also means the number a player sees never grows past this, whatever Telewebion's
+ * does, and it advances by one per segment exactly as the original does.
+ */
+const SEQUENCE_MODULUS = 1_000_000_000;
 
 const SLUG = /^[a-z0-9_-]{1,40}$/i;
 const RENDITION = /^(\d{3,4}p)$/;
+/**
+ * Players that read the original without help, and are therefore not this Worker's problem.
+ *
+ * Browsers are absent on purpose. hls.js copes with the sixteen digit sequence, being
+ * JavaScript, but Telewebion's Access-Control-Allow-Origin names one site, so a page has to
+ * come through here for the header this Worker adds.
+ */
+const READS_THE_ORIGINAL = /vlc|libvlc|lavf|ffmpeg|mpv|kodi|gstreamer|mplayer/i;
 
 export default {
   async fetch(request, env, ctx) {
@@ -65,18 +103,33 @@ export default {
       return new Response("usage: /<channel>/<rendition>, e.g. /tv1/1080p\n", { status: 400 });
     }
     const quality = RENDITION.test(rendition || "") ? rendition : "1080p";
+    const source = `${ORIGIN}/${slug}/live/${quality}/index.m3u8`;
+
+    /*
+     * A player that can read the original is sent to it, and stops costing anything.
+     *
+     * Temporary rather than permanent, so nothing caches the decision: the day Telewebion
+     * changes its addresses, this Worker is the only thing that has to know. If a player
+     * follows the redirect but keeps asking here on every reload, the cost is this branch
+     * rather than a fetch and a parse, so the worst case is still cheaper than before.
+     */
+    if (READS_THE_ORIGINAL.test(request.headers.get("user-agent") ?? "")) {
+      return Response.redirect(source, 302);
+    }
 
     const cache = caches.default;
     const cacheKey = new Request(`${url.origin}/${slug}/${quality}`, { method: "GET" });
     const cached = await cache.match(cacheKey);
     if (cached) return cached;
 
-    const source = `${ORIGIN}/${slug}/live/${quality}/index.m3u8`;
     let upstream;
     try {
       upstream = await fetch(source, {
         headers: { "User-Agent": "VLC/3.0.20 LibVLC/3.0.20", Accept: "*/*" },
-        cf: { cacheTtl: 2, cacheEverything: true },
+        // Four seconds rather than two. A player now returns every nine seconds or so, and
+        // two segments of staleness against a 150 second window is nothing, so this halves
+        // the origin fetches for a channel with several viewers.
+        cf: { cacheTtl: 4, cacheEverything: true },
       });
     } catch {
       return new Response("upstream unreachable\n", { status: 502 });
@@ -106,10 +159,16 @@ export default {
 };
 
 function rewrite(body, finalUrl) {
-  // Upstream lists an hour of segments and we publish about a minute of them, so the
-  // hot path must stay cheap: count in a single pass, keep only the tail, and resolve
-  // URLs for that tail alone. Building a URL object per line costs roughly 8ms across
-  // 1800 entries, which would sit right on the free plan's 10ms CPU ceiling.
+  /*
+   * Upstream lists two hours of segments and we publish two and a half minutes of them, so
+   * the hot path must stay cheap: count in a single pass, keep only the tail in a ring
+   * buffer, and resolve URLs for that tail alone. Building a URL object per line would cost
+   * roughly 8ms across 1800 entries, which is where the free plan's 10ms CPU ceiling is.
+   *
+   * That headroom is worth watching rather than trusting, because the upstream window has
+   * already doubled once: it was 1800 segments and 318KB when this was written and it is
+   * 3600 and 651KB today, so the single pass walks twice the lines it used to.
+   */
   const base = new URL(finalUrl);
   const baseDir = base.href.slice(0, base.href.lastIndexOf("/") + 1);
   const lines = body.split("\n");

@@ -5,3 +5,6 @@ __pycache__/
 
 # Pure intermediates, regenerated from scratch on every run.
 build/
+
+# Wrangler's local state and cache for the Worker.
+.wrangler/
