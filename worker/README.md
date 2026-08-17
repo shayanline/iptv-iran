@@ -39,9 +39,9 @@ The upstream figures are today's. They were 1,800 segments and 318KB when this w
 so Telewebion doubled its window at some point without telling anybody.
 
 VLC, ffmpeg, mpv and Kodi read the original perfectly well, so they are redirected to it
-rather than served a rewrite, and stop costing anything. Browsers are deliberately not:
-hls.js copes with the long sequence, being JavaScript, but Telewebion's
-`Access-Control-Allow-Origin` names one site, so a page needs the header this Worker adds.
+rather than served a rewrite, and stop costing anything. Native browser media requests are
+redirected too, which keeps the manifest and its segments on Telewebion's origin. Browser hls.js
+requests receive the rewrite and the `Access-Control-Allow-Origin` header this Worker adds.
 
 ## Cost
 

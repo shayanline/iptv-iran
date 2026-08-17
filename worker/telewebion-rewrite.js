@@ -57,12 +57,12 @@
  * about a minute behind the broadcast, which nobody notices on a channel and everybody
  * notices during a football match.
  *
- * DESKTOP PLAYERS ARE SENT AWAY, WHICH IS THE OTHER HALF OF THE SAVING
+ * PLAYERS THAT CAN READ THE ORIGINAL ARE SENT AWAY
  * VLC, ffmpeg, mpv and Kodi read Telewebion's original manifest perfectly well, so they are
- * redirected to it and stop costing anything at all. Browsers are deliberately not, because
- * Telewebion allows one origin and a page would be refused: hls.js needs this Worker's
- * Access-Control-Allow-Origin. Anything unrecognised gets the rewrite, which is the safe
- * default. AVPlay identifies itself as "samsung-agent/1.1".
+ * redirected to it and stop costing anything at all. Native browser media requests are also
+ * redirected, because their direct manifest and segments share one origin. Browser XHR requests
+ * still receive the rewrite and its Access-Control-Allow-Origin header. AVPlay identifies itself
+ * as "samsung-agent/1.1" and stays on the rewritten path.
  *
  * DEPLOY
  *   npx wrangler deploy
@@ -85,12 +85,15 @@ const SEQUENCE_MODULUS = 1_000_000_000;
 
 const SLUG = /^[a-z0-9_-]{1,40}$/i;
 const RENDITION = /^(\d{3,4}p)$/;
+
+export function isNativeMediaRequest(request) {
+  return request.headers.get("range") === "bytes=0-"
+    && !/samsung-agent/i.test(request.headers.get("user-agent") ?? "");
+}
+
 /**
- * Players that read the original without help, and are therefore not this Worker's problem.
- *
- * Browsers are absent on purpose. hls.js copes with the sixteen digit sequence, being
- * JavaScript, but Telewebion's Access-Control-Allow-Origin names one site, so a page has to
- * come through here for the header this Worker adds.
+ * Desktop players that read the original without help, and are therefore not this Worker's
+ * problem. Browsers use the range based branch above when native media playback is selected.
  */
 const READS_THE_ORIGINAL = /vlc|libvlc|lavf|ffmpeg|mpv|kodi|gstreamer|mplayer/i;
 
@@ -104,6 +107,10 @@ export default {
     }
     const quality = RENDITION.test(rendition || "") ? rendition : "1080p";
     const source = `${ORIGIN}/${slug}/live/${quality}/index.m3u8`;
+
+    if (isNativeMediaRequest(request)) {
+      return Response.redirect(source, 302);
+    }
 
     /*
      * A player that can read the original is sent to it, and stops costing anything.
