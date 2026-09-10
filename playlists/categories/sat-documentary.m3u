@@ -1,0 +1,19 @@
+#EXTM3U
+# Satellite · Knowledge & Lifestyle only.
+# generated 2026-09-10 02:41 UTC by shayanline/iptv-iran
+#EXTINF:-1 tvg-id="CafeTradeTV.ir" tvg-name="Cafe Trade TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/CafeTradeTV.ir.png" group-title="Satellite · Knowledge & Lifestyle | ماهواره‌ای · دانش و سبک زندگی" tvg-language="fas" tvg-quality="SD",Cafe Trade TV | کافه ترید
+https://cafetradehls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="HomePlus.ir" tvg-name="HomePlus" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/HomePlus.ir.jpg" group-title="Satellite · Knowledge & Lifestyle | ماهواره‌ای · دانش و سبک زندگی" tvg-language="fas" tvg-quality="HD",HomePlus | هوم پلاس
+https://homeplushls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PayamJavanTV.us" tvg-name="Payam Javan TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PayamJavanTV.us.png" group-title="Satellite · Knowledge & Lifestyle | ماهواره‌ای · دانش و سبک زندگی" tvg-language="fas" tvg-quality="HD",Payam Javan TV | پیام جوان
+https://uni01rtmp.tulix.tv/kensecure/pjtv.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="PersianaDocs.fr" tvg-name="Persiana Docs" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaDocs.fr.png" group-title="Satellite · Knowledge & Lifestyle | ماهواره‌ای · دانش و سبک زندگی" tvg-language="fas" tvg-quality="HD",Persiana Docs | پرشیانا مستند
+https://scihls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PersianaMedical.fr" tvg-name="Persiana Medical" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaMedical.fr.png" group-title="Satellite · Knowledge & Lifestyle | ماهواره‌ای · دانش و سبک زندگی" tvg-language="fas" tvg-quality="HD",Persiana Medical | پرشیانا مدیکال
+https://phd2hls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PersianaTravel.fr" tvg-name="Persiana Travel" tvg-logo="" group-title="Satellite · Knowledge & Lifestyle | ماهواره‌ای · دانش و سبک زندگی" tvg-language="fas" tvg-quality="HD",Persiana Travel | پرشیانا تراول
+https://ptravelhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PersianaVoyage.fr" tvg-name="Persiana Voyage" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaVoyage.fr.png" group-title="Satellite · Knowledge & Lifestyle | ماهواره‌ای · دانش و سبک زندگی" tvg-language="fas",Persiana Voyage | پرشیانا وُیاژ
+https://voyhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="WomanTV.us" tvg-name="Woman TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/WomanTV.us.jpg" group-title="Satellite · Knowledge & Lifestyle | ماهواره‌ای · دانش و سبک زندگی" tvg-language="fas",Woman TV | شبکه زن
+https://wmtvhls.wns.live/hls/stream.m3u8

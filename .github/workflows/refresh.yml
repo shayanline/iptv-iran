@@ -1,0 +1,123 @@
+# Fortnightly maintenance of every generated file in the repository.
+#
+#   sources.py   read the public sources and the provider templates in discover.py,
+#                writing every candidate stream to build/candidates.json
+#   probe.py     walk each stream's HLS chain down to a media segment and merge the
+#                verdict into data/status.json, which keeps first seen, last working,
+#                consecutive failures and a running uptime ratio per URL
+#   logos.py     mirror channel logos into assets/logos so they do not depend on a
+#                third party host that may be geo-blocked
+#   build.py     score the streams, pick one per channel, and regenerate the playlists,
+#                data/channels.json, the README and the channel catalogues
+#   validate.py  refuse to publish a tree whose playlists disagree with the channel data
+#                they were supposedly built from
+#
+# A stream must fail three consecutive runs, about six weeks, before it is dropped, and a
+# stream that only refuses this runner's location is published as domestic rather than
+# deleted. See the module docstrings for the detail behind each step.
+name: Refresh playlists
+
+on:
+  schedule:
+    # 04:10 UTC on the 1st and 15th of every month, so roughly fortnightly.
+    - cron: "10 4 1,15 * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "data/curated.json"
+      - ".github/workflows/refresh.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.13"
+
+      # Before the twenty minute probe, so a broken change fails in seconds.
+      - name: Test the scoring, matching and parsing rules
+        run: python -m unittest discover -b
+
+      - name: Test the manifest Worker
+        run: node --test tests/test_worker.mjs
+
+      - name: Harvest candidate streams from the public sources
+        env:
+          PRIVATE_BLOCKED_HOSTS: ${{ secrets.PRIVATE_BLOCKED_HOSTS }}
+        run: python scripts/sources.py
+
+      - name: Probe every stream
+        run: python scripts/probe.py
+
+      - name: Verify channel logos
+        run: python scripts/logos.py --mirror
+
+      - name: Rebuild playlists and README
+        run: python scripts/build.py
+
+      # Nothing else looks at what this job publishes, so the tree is checked against its
+      # own channel data before it is committed. This is the step that refuses to publish
+      # a playlist assembled from more than one run.
+      - name: Check the generated tree
+        run: python scripts/validate.py
+
+      - name: Summarise the run
+        run: python scripts/summarise.py >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit the changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          generated=(README.md CHANNELS.md CHANNELS.fa.md playlists data/channels.json data/status.json assets)
+          git add "${generated[@]}"
+          if git diff --cached --quiet; then
+            echo "Nothing changed, no commit."
+            exit 0
+          fi
+          git commit -m "chore(data): refresh playlists $(date -u +%Y-%m-%d)"
+          refresh_commit=$(git rev-parse HEAD)
+
+          # Someone pushing while this ran leaves the push rejected and an entire
+          # refresh discarded, so a race is retried rather than abandoned. It must never
+          # be retried by merging. A refresh rewrites every published file from one
+          # channel list, so two runs produce two complete and mutually exclusive
+          # versions of the same artifacts, and a three way merge splices them into a
+          # tree that belongs to neither run. That is not hypothetical: it put three
+          # language variants of one playlist on main carrying 666, 667 and 667 streams
+          # while data/channels.json described 662.
+          #
+          # Resetting to the latest commit and restoring only generated paths preserves
+          # source and configuration changes from the concurrent push. The other run's
+          # probe results are replaced as one unit, so generated files remain coherent.
+          for attempt in 1 2 3; do
+            if git push; then
+              echo "pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "push rejected, replanting this run on the latest main (attempt $attempt)"
+            git fetch origin main || { echo "fetch failed"; exit 1; }
+            git reset --hard FETCH_HEAD
+            git restore --source="$refresh_commit" -- "${generated[@]}"
+            git add "${generated[@]}"
+            if git diff --cached --quiet; then
+              echo "the other run published an identical tree, nothing left to add."
+              exit 0
+            fi
+            git commit -m "chore(data): refresh playlists $(date -u +%Y-%m-%d)"
+            refresh_commit=$(git rev-parse HEAD)
+          done
+          echo "could not push after 3 attempts"
+          exit 1
