@@ -1,14 +1,17 @@
 #EXTM3U
 # For smart TV apps and other limited players. Only streams whose manifests stay within what a basic HLS parser handles.
-# generated 2026-09-10 15:33 UTC by shayanline/iptv-iran
-#EXTINF:-1 tvg-id="iFilmPersian.ir" tvg-name="iFilm" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/iFilmPersian.ir.png" group-title="شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",آی‌فیلم
-https://live.presstv.co.uk/hls/ifilmfa_4_482/index.m3u8
+# generated 2026-09-10 15:37 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="IRINN.ir" tvg-name="IRINN" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRINN.ir.png" group-title="شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",شبکه خبر
 http://185.9.2.18/chid_926/index.m3u8
+#EXTINF:-1 tvg-id="HispanTV.ir" tvg-name="HispanTV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/HispanTV.ir.jpg" group-title="شبکه‌های برون‌مرزی" tvg-language="spa" tvg-quality="SD",هیسپان تی‌وی
+https://live.presstv.co.uk/hls/hispantv_4_482/index.m3u8
+#EXTINF:-1 tvg-id="iFilmEnglish.ir" tvg-name="iFilm English" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/iFilmEnglish.ir.png" group-title="شبکه‌های برون‌مرزی" tvg-language="eng" tvg-quality="SD",آی‌فیلم انگلیسی
+https://live.presstv.co.uk/hls/ifilmen_4_482/index.m3u8
 #EXTINF:-1 tvg-id="IranPress.ir" tvg-name="Iran Press" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IranPress.ir.jpg" group-title="شبکه‌های برون‌مرزی" tvg-language="fas;eng" tvg-quality="SD",ایران پرس
 https://ip2stream.iranpress.com/hls/ip2.m3u8
 #EXTINF:-1 tvg-id="PressTV.ir" tvg-name="Press TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PressTV.ir.png" group-title="شبکه‌های برون‌مرزی" tvg-language="eng" tvg-quality="HD",پرس تی‌وی
-https://live.presstv.co.uk/hls/presstv.m3u8
+#EXTVLCOPT:http-referrer=https://odysee.com/
+https://cloud.odysee.live/content/26bcbcc342a5b143578f27dbfaf000201f06e417/master.m3u8
 #EXTINF:-1 tvg-id="PressTVFrench.ir" tvg-name="Press TV French" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PressTVFrench.ir.png" group-title="شبکه‌های برون‌مرزی" tvg-language="fra" tvg-quality="FHD",پرس تی‌وی فرانسه
 https://live4.presstv.ir/live/mp4:presstvfr/playlist.m3u8
 #EXTINF:-1 tvg-id="ArkoTV.ir" tvg-name="Arko TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ArkoTV.ir.png" group-title="ماهواره‌ای · عمومی و متنوع" tvg-language="fas" tvg-quality="HD",آرکو
@@ -165,6 +168,8 @@ https://4kuhls.persiana.live/hls/stream.m3u8
 https://bozztv.com/1gbw5/tintv2/tintv2/playlist.m3u8
 #EXTINF:-1 tvg-id="AvangTV.us" tvg-name="Avang TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AvangTV.us.png" group-title="ماهواره‌ای · موسیقی" tvg-language="fas" tvg-quality="SD",آونگ
 https://hls.avang.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="HighVisionTV.us" tvg-name="High Vision TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/HighVisionTV.us.png" group-title="ماهواره‌ای · موسیقی" tvg-language="fas" tvg-quality="SD",های ویژن
+https://streamer1.connectto.com/HIGHVISION_WEB_1205/playlist.m3u8
 #EXTINF:-1 tvg-id="NavahangTV.fi" tvg-name="Navahang TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/NavahangTV.fi.png" group-title="ماهواره‌ای · موسیقی" tvg-language="fas" tvg-quality="SD",نواهنگ
 https://hls.navahang.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PersianaFolk.fr" tvg-name="Persiana Folk" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaFolk.fr.png" group-title="ماهواره‌ای · موسیقی" tvg-language="fas" tvg-quality="HD",پرشیانا سنتی
@@ -216,13 +221,13 @@ https://softverse.b-cdn.net/Assirat/assiratobs/playlist.m3u8
 #EXTINF:-1 tvg-id="ImamHusseinTV1.iq" tvg-name="Imam Hussein TV 1" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ImamHusseinTV1.iq.png" group-title="مذهبی · اسلامی" tvg-language="fas" tvg-quality="FHD",امام حسین ۱
 https://live.imamhossaintv.com/live/ih1.m3u8
 #EXTINF:-1 tvg-id="ImamHusseinTV6.iq" tvg-name="Imam Hussein TV 6" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ImamHusseinTV6.iq.png" group-title="مذهبی · اسلامی" tvg-language="fas" tvg-quality="FHD",امام حسین ۶
-https://live.imamhossaintv.com/live/ih6.m3u8
+https://ak.imamhussein.live/imhtv6live/imhtv6.smil/imhtv6publish/imhtv6_source/chunks.m3u8
 #EXTINF:-1 tvg-id="MarjaeyatTVPersian.iq" tvg-name="Marjaeyat TV Persian" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/MarjaeyatTVPersian.iq.png" group-title="مذهبی · اسلامی" tvg-language="fas" tvg-quality="FHD",شبکه مرجعیت
 https://livefa.marjaeyattv.com/mtv_fa/playlist.m3u8
 #EXTINF:-1 tvg-id="PayameArameshTV.us" tvg-name="Payam-e Aramesh" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PayameArameshTV.us.png" group-title="مذهبی · اسلامی" tvg-language="fas" tvg-quality="SD",پیام آرامش
 https://hls.keshishhamid.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PayvandTV.ir" tvg-name="Payvand TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PayvandTV.ir.png" group-title="مذهبی · اسلامی" tvg-language="fas" tvg-quality="HD",شبکه پیوند
-https://tgn.bozztv.com/cus01/ucur1/Payvand/playlist.m3u8
+https://uni6rtmp.tulix.tv/ucur1/Payvand/playlist.m3u8
 #EXTINF:-1 tvg-id="RasoulallahTv.ir" tvg-name="Rasoulallah TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/RasoulallahTv.ir.png" group-title="مذهبی · اسلامی" tvg-language="fas" tvg-quality="FHD",شبکه رسول‌الله
 https://avr.host247.net/live/rasoulallahtv/playlist.m3u8
 #EXTINF:-1 tvg-id="VelayatTVNetwork.us" tvg-name="Velayat TV Network" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/VelayatTVNetwork.us.png" group-title="مذهبی · اسلامی" tvg-language="fas" tvg-quality="SD",شبکه ولایت (آمریکا)

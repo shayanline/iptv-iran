@@ -1,6 +1,6 @@
 #EXTM3U
 # Satellite · Film & Series only.
-# generated 2026-09-10 15:33 UTC by shayanline/iptv-iran
+# generated 2026-09-10 15:37 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="247BoxTV.ir" tvg-name="247 Box TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/247BoxTV.ir.png" group-title="Satellite · Film & Series | ماهواره‌ای · فیلم و سریال" tvg-language="fas" tvg-quality="SD",247 Box TV | ۲۴۷ باکس
 https://hls.247box.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="4UFamily.tr" tvg-name="4U Family" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/4UFamily.tr.png" group-title="Satellite · Film & Series | ماهواره‌ای · فیلم و سریال" tvg-language="fas" tvg-quality="HD",4U Family | فور یو خانواده

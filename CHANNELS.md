@@ -26,7 +26,7 @@ This catalogue contains 203 channels in 13 categories. The playlist links are ge
 | IRIB Tamasha | شبکه تماشا | 1080p | Worldwide |
 | IRIB TV1 + | شبکه یک پلاس | 1080p | Worldwide |
 | IRIB UHD | شبکه فراگیر (UHD) | 2160p | Worldwide |
-| IRIB Varzesh | شبکه ورزش | 1082p | Iran only |
+| IRIB Varzesh | شبکه ورزش | 1082p | Worldwide |
 | IRINN | شبکه خبر | 576p | Worldwide |
 | IRINN 2 | شبکه خبر ۲ | 1080p | Worldwide |
 | Roya | شبکه رویا | 720p | Worldwide |
@@ -81,10 +81,10 @@ This catalogue contains 203 channels in 13 categories. The playlist links are ge
 | Channel | Persian name | Quality | Available |
 |:--|:--|:--|:--|
 | Al-Kawthar TV | شبکه الکوثر | 576p | Worldwide |
-| HispanTV | هیسپان تی‌وی | 576p | Rechecking |
+| HispanTV | هیسپان تی‌وی | 576p | Worldwide |
 | iFilm 2 | آی‌فیلم ۲ | 576p | Rechecking |
 | iFilm Arabic | آی‌فیلم عربی | 576p | Rechecking |
-| iFilm English | آی‌فیلم انگلیسی | 576p | Rechecking |
+| iFilm English | آی‌فیلم انگلیسی | 576p | Worldwide |
 | Iran Press | ایران پرس | 576p | Worldwide |
 | Palestine TV | شبکه فلسطین | 720p | Worldwide |
 | Press TV | پرس تی‌وی | 720p | Worldwide |
@@ -202,7 +202,7 @@ This catalogue contains 203 channels in 13 categories. The playlist links are ge
 | 4 Kurd | فور کورد | 576p | Worldwide |
 | AFN TV | ای‌اف‌ان | 720p | Worldwide |
 | Avang TV | آونگ | 480p | Worldwide |
-| High Vision TV | های ویژن | 480p | Rechecking |
+| High Vision TV | های ویژن | 576p | Worldwide |
 | Navahang TV | نواهنگ | 576p | Worldwide |
 | Persiana Folk | پرشیانا سنتی | 720p | Worldwide |
 | Persiana Music | پرشیانا موسیقی | 576p | Worldwide |
