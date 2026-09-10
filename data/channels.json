@@ -15676,7 +15676,7 @@
   {
     "id": "ArkoTV.ir",
     "name_en": "Arko TV",
-    "name_fa": "آرکو تی‌وی",
+    "name_fa": "آرکو",
     "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ArkoTV.ir.png",
     "country": "IR",
     "languages": [
@@ -16253,7 +16253,7 @@
   {
     "id": "KhaterehTV.us",
     "name_en": "Khatereh TV",
-    "name_fa": "شبکه خاطره",
+    "name_fa": "خاطره",
     "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/KhaterehTV.us.png",
     "country": "US",
     "languages": [
@@ -16476,7 +16476,7 @@
   {
     "id": "NetTV.us",
     "name_en": "Net TV",
-    "name_fa": "نت تی‌وی",
+    "name_fa": "نت",
     "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/NetTV.us.png",
     "country": "US",
     "languages": [
@@ -16584,7 +16584,7 @@
   {
     "id": "NovinTV.ir",
     "name_en": "Novin TV",
-    "name_fa": "نوین تی‌وی",
+    "name_fa": "نوین",
     "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/NovinTV.ir.png",
     "country": "IR",
     "languages": [
@@ -16810,7 +16810,7 @@
   {
     "id": "OXIRTV.ir",
     "name_en": "Oxir TV",
-    "name_fa": "اکسیر تی‌وی",
+    "name_fa": "اکسیر",
     "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/OXIRTV.ir.png",
     "country": "IR",
     "languages": [
@@ -17370,7 +17370,7 @@
   {
     "id": "PBCTapeshTV.us",
     "name_en": "Tapesh TV",
-    "name_fa": "تپش تی‌وی",
+    "name_fa": "تپش",
     "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PBCTapeshTV.us.png",
     "country": "US",
     "languages": [
@@ -17515,7 +17515,7 @@
   {
     "id": "TinTV.us",
     "name_en": "Tin TV",
-    "name_fa": "تین تی‌وی",
+    "name_fa": "تین",
     "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/TinTV.us.png",
     "country": "US",
     "languages": [
@@ -17656,7 +17656,7 @@
   {
     "id": "YourTimeTV.ir",
     "name_en": "YourTime TV",
-    "name_fa": "یورتایم تی‌وی",
+    "name_fa": "یورتایم",
     "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/YourTimeTV.ir.png",
     "country": "IR",
     "languages": [
@@ -17886,7 +17886,7 @@
   {
     "id": "4UFamily.tr",
     "name_en": "4U Family",
-    "name_fa": "فور یو فمیلی",
+    "name_fa": "فور یو خانواده",
     "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/4UFamily.tr.png",
     "country": "TR",
     "languages": [
@@ -17994,7 +17994,7 @@
   {
     "id": "4UTV.tr",
     "name_en": "4U TV",
-    "name_fa": "فور یو تی‌وی",
+    "name_fa": "فور یو",
     "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/4UTV.tr.png",
     "country": "TR",
     "languages": [
@@ -18230,7 +18230,7 @@
   {
     "id": "AraxTV.ir",
     "name_en": "Arax TV",
-    "name_fa": "آراکس تی‌وی",
+    "name_fa": "آراکس",
     "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AraxTV.ir.png",
     "country": "IR",
     "languages": [
@@ -18699,7 +18699,7 @@
   {
     "id": "ClassicTV.ir",
     "name_en": "Classic TV",
-    "name_fa": "کلاسیک تی‌وی",
+    "name_fa": "کلاسیک",
     "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ClassicTV.ir.png",
     "country": "IR",
     "languages": [
@@ -19053,7 +19053,7 @@
   {
     "id": "GrandCinema.tr",
     "name_en": "Grand Cinema",
-    "name_fa": "گراند سینما",
+    "name_fa": "گرند سینما",
     "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/GrandCinema.tr.png",
     "country": "TR",
     "languages": [
@@ -19289,7 +19289,7 @@
   {
     "id": "MaahTV.my",
     "name_en": "Maah TV",
-    "name_fa": "ماه تی‌وی",
+    "name_fa": "ماه",
     "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/MaahTV.my.png",
     "country": "MY",
     "languages": [
@@ -21072,7 +21072,7 @@
   {
     "id": "AzadiTV.ir",
     "name_en": "Azadi TV",
-    "name_fa": "تلویزیون آزادی",
+    "name_fa": "آزادی",
     "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AzadiTV.ir.png",
     "country": "IR",
     "languages": [
@@ -21726,7 +21726,7 @@
   {
     "id": "DejTV.ir",
     "name_en": "Dej TV",
-    "name_fa": "دژ تی‌وی",
+    "name_fa": "دژ",
     "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/DejTV.ir.png",
     "country": "IR",
     "languages": [
@@ -22173,7 +22173,7 @@
   {
     "id": "IranNationalRevolutionTV.us",
     "name_en": "Iran National Revolution TV",
-    "name_fa": "تلویزیون انقلاب ملی ایران",
+    "name_fa": "انقلاب ملی ایران",
     "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IranNationalRevolutionTV.us.png",
     "country": "US",
     "languages": [
@@ -22629,7 +22629,7 @@
   {
     "id": "IRNATV.ir",
     "name_en": "IRNA TV",
-    "name_fa": "تلویزیون ایرنا",
+    "name_fa": "ایرنا",
     "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRNATV.ir.png",
     "country": "IR",
     "languages": [
@@ -23072,7 +23072,7 @@
   {
     "id": "MihanTV.ir",
     "name_en": "Mihan TV",
-    "name_fa": "میهن تی‌وی",
+    "name_fa": "میهن",
     "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/MihanTV.ir.png",
     "country": "IR",
     "languages": [
@@ -23298,7 +23298,7 @@
   {
     "id": "NationalIranianCongressTV.us",
     "name_en": "National Iranian Congress TV",
-    "name_fa": "تلویزیون کنگره ملی ایرانیان",
+    "name_fa": "کنگره ملی ایرانیان",
     "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/NationalIranianCongressTV.us.png",
     "country": "US",
     "languages": [
@@ -23416,7 +23416,7 @@
   {
     "id": "ParsTV.us",
     "name_en": "Pars TV",
-    "name_fa": "پارس تی‌وی",
+    "name_fa": "پارس",
     "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ParsTV.us.png",
     "country": "US",
     "languages": [
@@ -24325,7 +24325,7 @@
   {
     "id": "ZedTV.ir",
     "name_en": "Zed TV",
-    "name_fa": "زد تی‌وی",
+    "name_fa": "زد",
     "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ZedTV.ir.png",
     "country": "IR",
     "languages": [
@@ -24554,7 +24554,7 @@
   {
     "id": "AFNTV.ir",
     "name_en": "AFN TV",
-    "name_fa": "ای‌اف‌ان تی‌وی",
+    "name_fa": "ای‌اف‌ان",
     "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AFNTV.ir.png",
     "country": "IR",
     "languages": [
@@ -24886,7 +24886,7 @@
       "fas"
     ],
     "website": "",
-    "category": "sat-music",
+    "category": "sat-news",
     "province_en": "",
     "province_fa": "",
     "note_en": "",
@@ -25102,7 +25102,7 @@
   {
     "id": "PersianaFolk.fr",
     "name_en": "Persiana Folk",
-    "name_fa": "سنتی",
+    "name_fa": "پرشیانا سنتی",
     "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaFolk.fr.png",
     "country": "FR",
     "languages": [
@@ -25917,8 +25917,8 @@
   },
   {
     "id": "RJTV.us",
-    "name_en": "RJTV",
-    "name_fa": "آر‌جی تی‌وی",
+    "name_en": "Radio Javan",
+    "name_fa": "رادیو جوان",
     "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/RJTV.us.png",
     "country": "US",
     "languages": [
@@ -26144,7 +26144,7 @@
   {
     "id": "T2TV.ir",
     "name_en": "T2 TV",
-    "name_fa": "تی۲ تی‌وی",
+    "name_fa": "تی۲",
     "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/T2TV.ir.png",
     "country": "IR",
     "languages": [
@@ -27810,7 +27810,7 @@
   {
     "id": "PersianaVoyage.fr",
     "name_en": "Persiana Voyage",
-    "name_fa": "پرشیانا وُیاژ",
+    "name_fa": "پرشیانا سیاحت",
     "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaVoyage.fr.png",
     "country": "FR",
     "languages": [
@@ -27918,7 +27918,7 @@
   {
     "id": "TMTV.us",
     "name_en": "TM TV",
-    "name_fa": "تی‌ام تی‌وی",
+    "name_fa": "تی‌ام",
     "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/TMTV.us.png",
     "country": "US",
     "languages": [
@@ -28263,7 +28263,7 @@
   {
     "id": "AsilTV.ir",
     "name_en": "Asil TV",
-    "name_fa": "اصیل تی‌وی",
+    "name_fa": "اصیل",
     "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AsilTV.ir.png",
     "country": "IR",
     "languages": [
@@ -31123,7 +31123,7 @@
   {
     "id": "LoveWorldPersia.ng",
     "name_en": "LoveWorld Persia",
-    "name_fa": "لاوورلد پرشیا",
+    "name_fa": "لاو ورلد پرشیا",
     "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/LoveWorldPersia.ng.png",
     "country": "NG",
     "languages": [
@@ -31992,7 +31992,7 @@
   {
     "id": "IranJewishTV.ir",
     "name_en": "Iran Jewish TV",
-    "name_fa": "تلویزیون یهودیان ایرانی",
+    "name_fa": "یهودیان ایرانی",
     "logo": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IranJewishTV.ir.png",
     "country": "IR",
     "languages": [

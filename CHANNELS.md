@@ -101,24 +101,24 @@ This catalogue contains 204 channels in 13 categories. The playlist links are ge
 
 | Channel | Persian name | Quality | Available |
 |:--|:--|:--|:--|
-| Arko TV | آرکو تی‌وی | 720p | Worldwide |
+| Arko TV | آرکو | 720p | Worldwide |
 | GEM Pixel | جم پیکسل | 576p | Worldwide |
 | HomePlus | هوم پلاس | 720p | Worldwide |
 | Iran Independent | ایران ایندیپندنت | n/a | Worldwide |
 | ITN | آی‌تی‌ان | 576p | Worldwide |
-| Khatereh TV | شبکه خاطره | n/a | Worldwide |
+| Khatereh TV | خاطره | n/a | Worldwide |
 | MTC | ام‌تی‌سی | 720p | Worldwide |
-| Net TV | نت تی‌وی | n/a | Worldwide |
-| Novin TV | نوین تی‌وی | 720p | Worldwide |
+| Net TV | نت | n/a | Worldwide |
+| Novin TV | نوین | 720p | Worldwide |
 | Omid-e Iran | امید ایران | 480p | Worldwide |
-| Oxir TV | اکسیر تی‌وی | 576p | Worldwide |
+| Oxir TV | اکسیر | 576p | Worldwide |
 | Porchooneh TV | پرچونه | n/a | Worldwide |
 | Ravi TV | راوی | n/a | Worldwide |
 | Royal TV | رویال | n/a | Worldwide |
 | Tapesh Iran | تپش ایران | 1080p | Worldwide |
-| Tapesh TV | تپش تی‌وی | 1080p | Worldwide |
-| Tin TV | تین تی‌وی | 720p | Worldwide |
-| YourTime TV | یورتایم تی‌وی | 576p | Worldwide |
+| Tapesh TV | تپش | 1080p | Worldwide |
+| Tin TV | تین | 720p | Worldwide |
+| YourTime TV | یورتایم | 576p | Worldwide |
 
 </details>
 
@@ -128,19 +128,19 @@ This catalogue contains 204 channels in 13 categories. The playlist links are ge
 | Channel | Persian name | Quality | Available |
 |:--|:--|:--|:--|
 | 247 Box TV | ۲۴۷ باکس | 576p | Worldwide |
-| 4U Family | فور یو فمیلی | n/a | Worldwide |
-| 4U TV | فور یو تی‌وی | 576p | Worldwide |
+| 4U Family | فور یو خانواده | n/a | Worldwide |
+| 4U TV | فور یو | 576p | Worldwide |
 | Afra Film | افرا فیلم | 720p | Worldwide |
-| Arax TV | آراکس تی‌وی | 720p | Worldwide |
+| Arax TV | آراکس | 720p | Worldwide |
 | AVA Family | آوا فامیلی | 576p | Worldwide |
 | AVA Series | آوا سریال | 576p | Worldwide |
 | Cafe Film | کافه فیلم | 720p | Worldwide |
-| Classic TV | کلاسیک تی‌وی | 720p | Worldwide |
+| Classic TV | کلاسیک | 720p | Worldwide |
 | FX 1 | اف‌ایکس ۱ | 576p | Worldwide |
 | Gold Star | گلد استار | 720p | Worldwide |
-| Grand Cinema | گراند سینما | 576p | Worldwide |
+| Grand Cinema | گرند سینما | 576p | Worldwide |
 | ICC Plus | آی‌سی‌سی پلاس | 576p | Worldwide |
-| Maah TV | ماه تی‌وی | 576p | Worldwide |
+| Maah TV | ماه | 576p | Worldwide |
 | MBC Persia | ام‌بی‌سی پرشیا | 1080p | Worldwide |
 | Meta Film TV | متا فیلم | 576p | Worldwide |
 | Persiana China | پرشیانا چین | n/a | Worldwide |
@@ -159,29 +159,29 @@ This catalogue contains 204 channels in 13 categories. The playlist links are ge
 </details>
 
 <details>
-<summary><b>Satellite · News & Current Affairs</b> &nbsp; 27 channels</summary>
+<summary><b>Satellite · News & Current Affairs</b> &nbsp; 28 channels</summary>
 
 | Channel | Persian name | Quality | Available |
 |:--|:--|:--|:--|
-| Azadi TV | تلویزیون آزادی | n/a | Worldwide |
+| Azadi TV | آزادی | n/a | Worldwide |
 | BBC News Persian | بی‌بی‌سی فارسی | 720p | Worldwide |
 | Channel One | شبکه یک (لس‌آنجلس) | 720p | Worldwide |
 | Cheshmeh Oghab | چشم عقاب | n/a | Worldwide |
-| Dej TV | دژ تی‌وی | 720p | Worldwide |
+| Dej TV | دژ | 720p | Worldwide |
 | GordAfarid TV | گردآفرید | n/a | Worldwide |
 | Iran International | ایران اینترنشنال | 1080p | Worldwide |
-| Iran National Revolution TV | تلویزیون انقلاب ملی ایران | 720p | Worldwide |
+| Iran National Revolution TV | انقلاب ملی ایران | 720p | Worldwide |
 | Irane Aryaee TV | ایران آریایی | 576p | Worldwide |
 | IraneFarda TV | ایران فردا | 720p | Worldwide |
 | IranWire | ایران‌وایر | n/a | Worldwide |
-| IRNA TV | تلویزیون ایرنا | n/a | Worldwide |
+| IRNA TV | ایرنا | n/a | Worldwide |
 | Israel Pars TV | اسرائیل پارس | 360p | Worldwide |
 | Kanal Jadid | کانال جدید | 576p | Worldwide |
 | MelliG TV | ملی‌گرا | n/a | Worldwide |
-| Mihan TV | میهن تی‌وی | 1080p | Worldwide |
+| Mihan TV | میهن | 1080p | Worldwide |
 | Nahade Azadi | نهاد آزادی | n/a | Worldwide |
-| National Iranian Congress TV | تلویزیون کنگره ملی ایرانیان | 720p | Worldwide |
-| Pars TV | پارس تی‌وی | 720p | Worldwide |
+| National Iranian Congress TV | کنگره ملی ایرانیان | 720p | Worldwide |
+| Pars TV | پارس | 720p | Worldwide |
 | Project Leon | پروژه لئون | n/a | Worldwide |
 | Pulse Media | پالس مدیا | n/a | Worldwide |
 | Radio Farda TV | رادیو فردا | 576p | Worldwide |
@@ -189,31 +189,31 @@ This catalogue contains 204 channels in 13 categories. The playlist links are ge
 | Shorai TV | تلویزیون دمکراسی شورایی | 1080p | Worldwide |
 | Simaye Azadi | سیمای آزادی | 1080p | Worldwide |
 | VOA Persian | صدای آمریکا فارسی | 1080p | Worldwide |
-| Zed TV | زد تی‌وی | 720p | Worldwide |
+| Zed TV | زد | 720p | Worldwide |
+| Iran TV Israel | ایران تی‌وی اسرائیل | n/a | Worldwide |
 
 </details>
 
 <details>
-<summary><b>Satellite · Music</b> &nbsp; 16 channels</summary>
+<summary><b>Satellite · Music</b> &nbsp; 15 channels</summary>
 
 | Channel | Persian name | Quality | Available |
 |:--|:--|:--|:--|
 | 4 Kurd | فور کورد | 576p | Worldwide |
-| AFN TV | ای‌اف‌ان تی‌وی | 720p | Worldwide |
+| AFN TV | ای‌اف‌ان | 720p | Worldwide |
 | Avang TV | آونگ | 480p | Worldwide |
 | High Vision TV | های ویژن | 480p | Rechecking |
-| Iran TV Israel | ایران تی‌وی اسرائیل | n/a | Worldwide |
 | Navahang TV | نواهنگ | 576p | Worldwide |
-| Persiana Folk | سنتی | 720p | Worldwide |
+| Persiana Folk | پرشیانا سنتی | 720p | Worldwide |
 | Persiana Music | پرشیانا موسیقی | 576p | Worldwide |
 | Persiana Nostalgia | پرشیانا نوستالژی | 576p | Worldwide |
 | Persiana Rap | پرشیانا رپ | 576p | Worldwide |
 | Persiana SetMix | پرشیانا ست‌میکس | n/a | Worldwide |
 | PMC | پی‌ام‌سی | 576p | Worldwide |
 | PMC Royale | پی‌ام‌سی رویال | 576p | Worldwide |
-| RJTV | آر‌جی تی‌وی | 480p | Worldwide |
+| Radio Javan | رادیو جوان | 480p | Worldwide |
 | Sun Music | سان موزیک | n/a | Worldwide |
-| T2 TV | تی۲ تی‌وی | 576p | Worldwide |
+| T2 TV | تی۲ | 576p | Worldwide |
 
 </details>
 
@@ -248,8 +248,8 @@ This catalogue contains 204 channels in 13 categories. The playlist links are ge
 | Persiana Docs | پرشیانا مستند | 720p | Worldwide |
 | Persiana Podcast | پرشیانا پادکست | n/a | Worldwide |
 | Persiana Travel | پرشیانا سفر | 720p | Worldwide |
-| Persiana Voyage | پرشیانا وُیاژ | n/a | Worldwide |
-| TM TV | تی‌ام تی‌وی | 480p | Worldwide |
+| Persiana Voyage | پرشیانا سیاحت | n/a | Worldwide |
+| TM TV | تی‌ام | 480p | Worldwide |
 
 </details>
 
@@ -260,7 +260,7 @@ This catalogue contains 204 channels in 13 categories. The playlist links are ge
 |:--|:--|:--|:--|
 | Al Wilayah | شبکه الولایه | 576p | Worldwide |
 | Al-Mahdi TV | شبکه المهدی | 1080p | Worldwide |
-| Asil TV | اصیل تی‌وی | 576p | Worldwide |
+| Asil TV | اصیل | 576p | Worldwide |
 | Assirat TV | شبکه الصراط | 1080p | Worldwide |
 | Habib TV | شبکه حبیب | 720p | Worldwide |
 | Hadi TV | شبکه هادی | 1080p | Worldwide |
@@ -289,7 +289,7 @@ This catalogue contains 204 channels in 13 categories. The playlist links are ge
 | ICnet 2 | آی‌سی‌نت ۲ | 480p | Worldwide |
 | ICnet 3 | آی‌سی‌نت ۳ | 720p | Worldwide |
 | Kalemeh TV | شبکه کلمه | 1080p | Worldwide |
-| LoveWorld Persia | لاوورلد پرشیا | 720p | Worldwide |
+| LoveWorld Persia | لاو ورلد پرشیا | 720p | Worldwide |
 | Mohabat TV | شبکه محبت | 480p | Worldwide |
 | Omid Javedan | امید جاودان | 480p | Rechecking |
 | SAT-7 Pars | ست سون پارس | 576p | Worldwide |
@@ -305,7 +305,7 @@ This catalogue contains 204 channels in 13 categories. The playlist links are ge
 |:--|:--|:--|:--|
 | Erfan Halgheh TV | عرفان حلقه | 480p | Worldwide |
 | Ganj-e Hozour | گنج حضور | 1080p | Worldwide |
-| Iran Jewish TV | تلویزیون یهودیان ایرانی | 720p | Worldwide |
+| Iran Jewish TV | یهودیان ایرانی | 720p | Worldwide |
 | Wise Human TV | انسان عاقل | 1080p | Worldwide |
 
 </details>

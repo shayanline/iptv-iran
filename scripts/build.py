@@ -110,7 +110,7 @@ def collect():
     candidates = read_json(CANDIDATES, [])
     status = (read_json(DATA / "status.json", {}) or {}).get("streams", {})
     curated = read_json(DATA / "curated.json", {})
-    overrides = curated.get("channels", {})
+    overrides = {**curated.get("local_channels", {}), **curated.get("channels", {})}
     # Logos are mirrored into the repository by scripts/logos.py and served from the same
     # origin as the playlists, so the mapping is simply whatever is on disk.
     logos = mirrored_logos()
@@ -346,13 +346,18 @@ def published_channels():
 
     data/channels.json carries every field the writers read, and `best` is simply the
     first stream, since collect() sorts them by score before storing them. Hand maintained
-    category overrides are reapplied so taxonomy corrections can be published without a
-    network harvest or probe.
+    category overrides and display names are reapplied so taxonomy and naming corrections
+    can be published without a network harvest or probe.
     """
     channels = read_json(DATA / "channels.json", [])
-    overrides = read_json(DATA / "curated.json", {}).get("category_overrides", {})
+    curated = read_json(DATA / "curated.json", {})
+    overrides = curated.get("category_overrides", {})
+    named = {**curated.get("local_channels", {}), **curated.get("channels", {})}
     for channel in channels:
+        curation = named.get(channel["id"], {})
         channel["category"] = overrides.get(channel["id"], channel["category"])
+        channel["name_en"] = curation.get("en") or channel["name_en"]
+        channel["name_fa"] = curation.get("fa") or channel["name_fa"]
         channel["best"] = next((s for s in channel["streams"]
                                 if not s.get("unlisted_only")), channel["streams"][0])
     return channels

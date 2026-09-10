@@ -207,7 +207,7 @@ class PublishedChannels(unittest.TestCase):
             "PersianaDocs.fr": "پرشیانا مستند",
             "PersianaFamily.fr": "پرشیانا خانواده",
             "PersianaFight.fr": "پرشیانا رزمی",
-            "PersianaFolk.fr": "سنتی",
+            "PersianaFolk.fr": "پرشیانا سنتی",
             "PersianaJunior.fr": "پرشیانا کودک",
             "PersianaMedical.fr": "پرشیانا پزشکی",
             "PersianaMusic.fr": "پرشیانا موسیقی",
@@ -217,10 +217,56 @@ class PublishedChannels(unittest.TestCase):
         self.assertEqual({channel_id: channels[channel_id]["name_fa"]
                           for channel_id in expected}, expected)
 
+    def test_rjtv_uses_its_radio_javan_brand_name(self):
+        channels = {channel["id"]: channel for channel in build.published_channels()}
+        self.assertEqual(channels["RJTV.us"]["name_en"], "Radio Javan")
+        self.assertEqual(channels["RJTV.us"]["name_fa"], "رادیو جوان")
+
+    def test_curated_names_are_reapplied_when_rerendering(self):
+        channels = {channel["id"]: channel for channel in build.published_channels()}
+        self.assertEqual(channels["MihanTV.ir"]["name_fa"], "میهن")
+        self.assertEqual(channels["KhaterehTV.us"]["name_fa"], "خاطره")
+
+    def test_local_curated_names_are_applied_during_collection(self):
+        url = "https://example.com/nima.m3u8"
+        candidate = {"url": url, "db": {"id": "NimaTV.us", "name": "Nima TV",
+                                      "country": "US", "languages": ["fas"],
+                                      "categories": ["general"], "local": True}}
+        status = {"streams": {url: {"state": "ok", "final_url": url,
+                                    "resolution": "1280x720", "checks": 2,
+                                    "uptime": 1.0, "variants": 1, "ms": 10}}}
+        curated = {"channels": {}, "local_channels": {
+            "NimaTV.us": {"en": "Nima TV", "fa": "نیما"}}}
+
+        def fake_read_json(path, default):
+            if path == build.CANDIDATES:
+                return [candidate]
+            if path == build.DATA / "status.json":
+                return status
+            if path == build.DATA / "curated.json":
+                return curated
+            return default
+
+        with mock.patch.object(build, "read_json", side_effect=fake_read_json), \
+                mock.patch.object(build, "mirrored_logos", return_value={}):
+            channels = build.collect()
+        self.assertEqual(channels[0]["name_fa"], "نیما")
+
     def test_every_generated_channel_has_a_persian_name(self):
         missing = [channel["id"] for channel in build.published_channels()
                    if not channel["name_fa"]]
         self.assertEqual(missing, [])
+
+    def test_persian_channel_names_drop_the_trailing_tv_word(self):
+        branded = {"PressTV.ir", "PressTVFrench.ir", "HispanTV.ir", "ShoraiTV.us",
+                   "IranTVIsrael.il", "PTV1.us", "IRTV.us"}
+        curated = build.read_json(build.DATA / "curated.json", {})
+        offenders = sorted({channel_id
+                            for section in ("channels", "local_channels")
+                            for channel_id, row in curated[section].items()
+                            if channel_id not in branded
+                            and ("تی‌وی" in row["fa"] or "تلویزیون" in row["fa"])})
+        self.assertEqual(offenders, [])
 
 
 class ValidationMetadata(unittest.TestCase):

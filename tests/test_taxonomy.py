@@ -113,7 +113,7 @@ class Classify(unittest.TestCase):
             "GordAfaridTV.us": "sat-news",
             "HomePlus.ir": "sat-general",
             "IranIndependent.us": "sat-general",
-            "IranTVIsrael.il": "sat-music",
+            "IranTVIsrael.il": "sat-news",
             "MaahTV.my": "sat-movies",
             "NovinTV.ir": "sat-general",
             "ParsTV.us": "sat-news",

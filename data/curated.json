@@ -853,19 +853,19 @@
     },
     "MihanTV.ir": {
       "en": "Mihan TV",
-      "fa": "میهن تی‌وی"
+      "fa": "میهن"
     },
     "ParsTV.us": {
       "en": "Pars TV",
-      "fa": "پارس تی‌وی"
+      "fa": "پارس"
     },
     "NationalIranianCongressTV.us": {
       "en": "National Iranian Congress TV",
-      "fa": "تلویزیون کنگره ملی ایرانیان"
+      "fa": "کنگره ملی ایرانیان"
     },
     "IranNationalRevolutionTV.us": {
       "en": "Iran National Revolution TV",
-      "fa": "تلویزیون انقلاب ملی ایران"
+      "fa": "انقلاب ملی ایران"
     },
     "KanalJadid.uk": {
       "en": "Kanal Jadid",
@@ -873,11 +873,11 @@
     },
     "GEMTV.tr": {
       "en": "GEM TV",
-      "fa": "جم تی‌وی"
+      "fa": "جم"
     },
     "GEMTVPlus.tr": {
       "en": "GEM TV +",
-      "fa": "جم تی‌وی پلاس"
+      "fa": "جم پلاس"
     },
     "GEMFilm.tr": {
       "en": "GEM Film",
@@ -885,7 +885,7 @@
     },
     "GEMDrama.tr": {
       "en": "GEM Drama",
-      "fa": "جم دراما"
+      "fa": "جم درام"
     },
     "GEMClassic.tr": {
       "en": "GEM Classic",
@@ -909,15 +909,15 @@
     },
     "GEMFood.tr": {
       "en": "GEM Food",
-      "fa": "جم فود"
+      "fa": "جم غذا"
     },
     "GEMLife.tr": {
       "en": "GEM Life",
-      "fa": "جم لایف"
+      "fa": "جم زندگی"
     },
     "GEMNature.tr": {
       "en": "GEM Nature",
-      "fa": "جم نیچر"
+      "fa": "جم طبیعت"
     },
     "GEMFit.tr": {
       "en": "GEM Fit",
@@ -941,7 +941,7 @@
     },
     "PBCTapeshTV.us": {
       "en": "Tapesh TV",
-      "fa": "تپش تی‌وی"
+      "fa": "تپش"
     },
     "Tapesh2.us": {
       "en": "Tapesh 2",
@@ -960,8 +960,8 @@
       "fa": "های ویژن"
     },
     "RJTV.us": {
-      "en": "RJTV",
-      "fa": "آر‌جی تی‌وی"
+      "en": "Radio Javan",
+      "fa": "رادیو جوان"
     },
     "4Music.fr": {
       "en": "4 Music",
@@ -973,7 +973,7 @@
     },
     "4UTV.tr": {
       "en": "4U TV",
-      "fa": "فور یو تی‌وی"
+      "fa": "فور یو"
     },
     "OmideIranTV.us": {
       "en": "Omid-e Iran",
@@ -985,7 +985,7 @@
     },
     "TinTV.us": {
       "en": "Tin TV",
-      "fa": "تین تی‌وی"
+      "fa": "تین"
     },
     "SetarehTV.uk": {
       "en": "Setareh TV",
@@ -993,11 +993,11 @@
     },
     "GrandCinema.tr": {
       "en": "Grand Cinema",
-      "fa": "گراند سینما"
+      "fa": "گرند سینما"
     },
     "MaahTV.my": {
       "en": "Maah TV",
-      "fa": "ماه تی‌وی"
+      "fa": "ماه"
     },
     "MohabatTV.us": {
       "en": "Mohabat TV",
@@ -1013,7 +1013,7 @@
     },
     "LoveWorldPersia.ng": {
       "en": "LoveWorld Persia",
-      "fa": "لاوورلد پرشیا"
+      "fa": "لاو ورلد پرشیا"
     },
     "KalemehTV.uk": {
       "en": "Kalemeh TV",
@@ -1033,7 +1033,7 @@
     },
     "IranJewishTV.ir": {
       "en": "Iran Jewish TV",
-      "fa": "تلویزیون یهودیان ایرانی"
+      "fa": "یهودیان ایرانی"
     },
     "ErfanHalghehTV.ca": {
       "en": "Erfan Halgheh TV",
@@ -1116,37 +1116,37 @@
       "fa": "انسان عاقل"
     },
     "AraxTV.ir": {
-      "fa": "آراکس تی‌وی"
+      "fa": "آراکس"
     },
     "ArkoTV.ir": {
-      "fa": "آرکو تی‌وی"
+      "fa": "آرکو"
     },
     "ArvanTV.ir": {
-      "fa": "آروان تی‌وی"
+      "fa": "آروان"
     },
     "AsilTV.ir": {
-      "fa": "اصیل تی‌وی"
+      "fa": "اصیل"
     },
     "AtrinaTV.ir": {
-      "fa": "آترینا تی‌وی"
+      "fa": "آترینا"
     },
     "CafeTradeTV.ir": {
       "fa": "کافه ترید"
     },
     "DejTV.ir": {
-      "fa": "دژ تی‌وی"
+      "fa": "دژ"
     },
     "KhalijTV.ir": {
-      "fa": "خلیج تی‌وی"
+      "fa": "خلیج"
     },
     "MTC.us": {
       "fa": "ام‌تی‌سی"
     },
     "TMTV.us": {
-      "fa": "تی‌ام تی‌وی"
+      "fa": "تی‌ام"
     },
     "ZedTV.ir": {
-      "fa": "زد تی‌وی"
+      "fa": "زد"
     },
     "247BoxTV.ir": {
       "en": "247 Box TV",
@@ -1160,7 +1160,7 @@
     },
     "OXIRTV.ir": {
       "en": "Oxir TV",
-      "fa": "اکسیر تی‌وی"
+      "fa": "اکسیر"
     },
     "PersianaComedy.fr": {
       "fa": "پرشیانا کمدی"
@@ -1172,7 +1172,7 @@
       "fa": "پرشیانا ترکیه"
     },
     "YourTimeTV.ir": {
-      "fa": "یورتایم تی‌وی"
+      "fa": "یورتایم"
     },
     "AfraFilm.ir": {
       "fa": "افرا فیلم"
@@ -1187,7 +1187,7 @@
       "fa": "کافه فیلم"
     },
     "ClassicTV.ir": {
-      "fa": "کلاسیک تی‌وی"
+      "fa": "کلاسیک"
     },
     "GEMPixel.tr": {
       "en": "GEM Pixel",
@@ -1238,10 +1238,10 @@
     },
     "AFNTV.ir": {
       "en": "AFN TV",
-      "fa": "ای‌اف‌ان تی‌وی"
+      "fa": "ای‌اف‌ان"
     },
     "PersianaFolk.fr": {
-      "fa": "سنتی"
+      "fa": "پرشیانا سنتی"
     },
     "PersianaNostalgia.fr": {
       "fa": "پرشیانا نوستالژی"
@@ -1251,7 +1251,7 @@
     },
     "T2TV.ir": {
       "en": "T2 TV",
-      "fa": "تی۲ تی‌وی"
+      "fa": "تی۲"
     },
     "EPlanetTV.ir": {
       "en": "E Planet TV",
@@ -1284,7 +1284,7 @@
     },
     "IRNATV.ir": {
       "en": "IRNA TV",
-      "fa": "تلویزیون ایرنا"
+      "fa": "ایرنا"
     },
     "IraneFarda.us": {
       "en": "Irane Farda",
@@ -1300,11 +1300,11 @@
     },
     "AzadiTV.ir": {
       "en": "Azadi TV",
-      "fa": "تلویزیون آزادی"
+      "fa": "آزادی"
     },
     "NetTV.us": {
       "en": "Net TV",
-      "fa": "نت تی‌وی"
+      "fa": "نت"
     },
     "GordAfaridTV.us": {
       "en": "GordAfarid TV",
@@ -1352,7 +1352,7 @@
     },
     "4UFamily.tr": {
       "en": "4U Family",
-      "fa": "فور یو فمیلی"
+      "fa": "فور یو خانواده"
     },
     "IRIB1Plus.ir": {
       "en": "IRIB TV1 +",
@@ -1360,7 +1360,7 @@
     },
     "NovinTV.ir": {
       "en": "Novin TV",
-      "fa": "نوین تی‌وی"
+      "fa": "نوین"
     },
     "DerakhteZendegiTV.us": {
       "en": "Derakhte Zendegi TV",
@@ -1424,11 +1424,11 @@
     },
     "AyenehTV.us": {
       "en": "Ayeneh TV",
-      "fa": "تلویزیون آینه"
+      "fa": "شبکه آینه"
     },
     "DatisTV.ir": {
       "en": "Datis TV",
-      "fa": "داتیس تی‌وی"
+      "fa": "داتیس"
     },
     "GEMOnyx.tr": {
       "en": "GEM Onyx",
@@ -1460,19 +1460,19 @@
     },
     "ITCTV.ca": {
       "en": "ITC TV",
-      "fa": "آی‌تی‌سی تی‌وی"
+      "fa": "آی‌تی‌سی"
     },
     "RoyalTimeTelevision.us": {
       "en": "Royal Time TV",
-      "fa": "رویال تایم تی‌وی"
+      "fa": "رویال تایم"
     },
     "TODAYTV.us": {
       "en": "TODAY TV",
-      "fa": "تودی تی‌وی"
+      "fa": "شبکه امروز"
     },
     "AzStarTV.ca": {
       "en": "Az Star TV",
-      "fa": "آز استار تی‌وی"
+      "fa": "آز استار"
     },
     "PersianaSports.fr": {
       "en": "Persiana Sports",
@@ -1492,7 +1492,7 @@
     },
     "HealthMediaTV.us": {
       "en": "Health Media TV",
-      "fa": "هلث مدیا تی‌وی"
+      "fa": "هلث مدیا"
     },
     "T2Movies.ir": {
       "en": "T2 Movies",
@@ -1500,23 +1500,23 @@
     },
     "SepanjTV.ir": {
       "en": "Sepanj TV",
-      "fa": "سپنج تی‌وی"
+      "fa": "سپنج"
     },
     "FarsiTV.us": {
       "en": "Farsi TV",
-      "fa": "فارسی تی‌وی"
+      "fa": "فارسی"
     },
     "GEMSeries.tr": {
       "en": "GEM Series",
-      "fa": "جم سریز"
+      "fa": "جم سریال"
     },
     "GEMSport.tr": {
       "en": "GEM Sport",
-      "fa": "جم اسپورت"
+      "fa": "جم ورزش"
     },
     "GEMEntertainment.tr": {
       "en": "GEM Entertainment",
-      "fa": "جم اینترتینمنت"
+      "fa": "جم سرگرمی"
     }
   },
   "category_overrides": {
@@ -1561,7 +1561,7 @@
     "IranInternational.uk": "sat-news",
     "IranJewishTV.ir": "religious-other",
     "IranNationalRevolutionTV.us": "sat-news",
-    "IranTVIsrael.il": "sat-music",
+    "IranTVIsrael.il": "sat-news",
     "IranWire.us": "sat-news",
     "IraneAryaeeTV.ir": "sat-news",
     "IraneFarda.us": "sat-news",
@@ -1820,7 +1820,7 @@
     },
     "IRNATV.ir": {
       "en": "IRNA TV",
-      "fa": "تلویزیون ایرنا",
+      "fa": "ایرنا",
       "country": "IR",
       "languages": [
         "fas"
@@ -1868,7 +1868,7 @@
     },
     "AzadiTV.ir": {
       "en": "Azadi TV",
-      "fa": "تلویزیون آزادی",
+      "fa": "آزادی",
       "country": "IR",
       "languages": [
         "fas"
@@ -1881,7 +1881,7 @@
     },
     "NetTV.us": {
       "en": "Net TV",
-      "fa": "نت تی‌وی",
+      "fa": "نت",
       "country": "US",
       "languages": [
         "fas"
@@ -2025,7 +2025,7 @@
     },
     "4UFamily.tr": {
       "en": "4U Family",
-      "fa": "فور یو فمیلی",
+      "fa": "فور یو خانواده",
       "country": "TR",
       "languages": [
         "fas"
@@ -2221,7 +2221,7 @@
     },
     "PersianaVoyage.fr": {
       "en": "Persiana Voyage",
-      "fa": "پرشیانا وُیاژ",
+      "fa": "پرشیانا سیاحت",
       "country": "FR",
       "languages": [
         "fas"
@@ -2259,7 +2259,7 @@
     },
     "AyenehTV.us": {
       "en": "Ayeneh TV",
-      "fa": "تلویزیون آینه",
+      "fa": "شبکه آینه",
       "country": "US",
       "languages": [
         "fas"
@@ -2272,7 +2272,7 @@
     },
     "KhaterehTV.us": {
       "en": "Khatereh TV",
-      "fa": "شبکه خاطره",
+      "fa": "خاطره",
       "country": "US",
       "languages": [
         "fas"
@@ -2284,7 +2284,7 @@
     },
     "GEMTravel.tr": {
       "en": "GEM Travel",
-      "fa": "جم تراول",
+      "fa": "جم سفر",
       "country": "TR",
       "languages": [
         "fas"
@@ -2344,7 +2344,7 @@
     },
     "IranProudSeriesPlus.us": {
       "en": "Iran Proud Series Plus",
-      "fa": "ایران پرود سریز پلاس",
+      "fa": "ایران پرود سریال پلاس",
       "country": "US",
       "languages": [
         "fas"
@@ -2356,7 +2356,7 @@
     },
     "GrandTV.tr": {
       "en": "Grand TV",
-      "fa": "گرند تی‌وی",
+      "fa": "گرند",
       "country": "TR",
       "languages": [
         "fas"
@@ -2404,7 +2404,7 @@
     },
     "HambastegiTV.us": {
       "en": "Hambastegi TV",
-      "fa": "تلویزیون همبستگی",
+      "fa": "همبستگی",
       "country": "US",
       "languages": [
         "fas"
@@ -2500,7 +2500,7 @@
     },
     "RonixTV.ir": {
       "en": "Ronix TV",
-      "fa": "رونیکس تی‌وی",
+      "fa": "رونیکس",
       "country": "IR",
       "languages": [
         "fas"
@@ -2512,7 +2512,7 @@
     },
     "PenTV.us": {
       "en": "PEN TV",
-      "fa": "پِن تی‌وی",
+      "fa": "پن",
       "country": "US",
       "languages": [
         "fas"
@@ -2524,7 +2524,7 @@
     },
     "TahourTV.us": {
       "en": "Tahour TV",
-      "fa": "طهور تی‌وی",
+      "fa": "طهور",
       "country": "US",
       "languages": [
         "fas"
@@ -2536,7 +2536,7 @@
     },
     "ArtTalentTV.ir": {
       "en": "Art Talent TV",
-      "fa": "آرت تلنت تی‌وی",
+      "fa": "آرت تلنت",
       "country": "IR",
       "languages": [
         "fas"
@@ -2548,7 +2548,7 @@
     },
     "DidanihaTV.ir": {
       "en": "Didaniha TV",
-      "fa": "دیدنی‌ها تی‌وی",
+      "fa": "دیدنی‌ها",
       "country": "IR",
       "languages": [
         "fas"
@@ -2560,7 +2560,7 @@
     },
     "NimaTV.us": {
       "en": "Nima TV",
-      "fa": "نیما تی‌وی",
+      "fa": "نیما",
       "country": "US",
       "languages": [
         "fas"
@@ -2584,7 +2584,7 @@
     },
     "GrandSport.tr": {
       "en": "Grand Sport",
-      "fa": "گرند اسپورت",
+      "fa": "گرند ورزش",
       "country": "TR",
       "languages": [
         "fas"
@@ -2596,7 +2596,7 @@
     },
     "GrandSeries.tr": {
       "en": "Grand Series",
-      "fa": "گرند سریز",
+      "fa": "گرند سریال",
       "country": "TR",
       "languages": [
         "fas"
@@ -2608,7 +2608,7 @@
     },
     "GrandToon.tr": {
       "en": "Grand Toon",
-      "fa": "گرند تون",
+      "fa": "گرند کارتون",
       "country": "TR",
       "languages": [
         "fas"

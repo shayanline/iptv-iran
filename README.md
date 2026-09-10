@@ -63,8 +63,8 @@ Keep the remote URL in your player when it supports URL based playlists. The pla
 | IRIB International Services | 13 | [Open playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/irib-international.m3u) |
 | Satellite · General & Variety | 18 | [Open playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-general.m3u) |
 | Satellite · Film & Series | 28 | [Open playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-movies.m3u) |
-| Satellite · News & Current Affairs | 27 | [Open playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-news.m3u) |
-| Satellite · Music | 16 | [Open playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-music.m3u) |
+| Satellite · News & Current Affairs | 28 | [Open playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-news.m3u) |
+| Satellite · Music | 15 | [Open playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-music.m3u) |
 | Satellite · Children | 1 | [Open playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-kids.m3u) |
 | Satellite · Sports | 4 | [Open playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-sports.m3u) |
 | Satellite · Factual, Culture & Lifestyle | 7 | [Open playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-documentary.m3u) |
@@ -239,8 +239,8 @@ The code and curated data use the [MIT License](LICENSE). Channel names, logos, 
 | شبکه‌های برون‌مرزی | ۱۳ | [باز کردن پلی‌لیست](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/irib-international.m3u) |
 | ماهواره‌ای · عمومی و متنوع | ۱۸ | [باز کردن پلی‌لیست](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-general.m3u) |
 | ماهواره‌ای · فیلم و سریال | ۲۸ | [باز کردن پلی‌لیست](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-movies.m3u) |
-| ماهواره‌ای · خبر و امور جاری | ۲۷ | [باز کردن پلی‌لیست](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-news.m3u) |
-| ماهواره‌ای · موسیقی | ۱۶ | [باز کردن پلی‌لیست](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-music.m3u) |
+| ماهواره‌ای · خبر و امور جاری | ۲۸ | [باز کردن پلی‌لیست](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-news.m3u) |
+| ماهواره‌ای · موسیقی | ۱۵ | [باز کردن پلی‌لیست](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-music.m3u) |
 | ماهواره‌ای · کودک | ۱ | [باز کردن پلی‌لیست](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-kids.m3u) |
 | ماهواره‌ای · ورزش | ۴ | [باز کردن پلی‌لیست](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-sports.m3u) |
 | ماهواره‌ای · مستند، فرهنگ و سبک زندگی | ۷ | [باز کردن پلی‌لیست](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-documentary.m3u) |
