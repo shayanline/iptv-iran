@@ -1,6 +1,6 @@
 #EXTM3U
 # For smart TV apps and other limited players. Only streams whose manifests stay within what a basic HLS parser handles.
-# generated 2026-09-10 03:08 UTC by shayanline/iptv-iran
+# generated 2026-09-10 03:12 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="iFilmPersian.ir" tvg-name="iFilm" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/iFilmPersian.ir.png" group-title="IRIB National Networks | شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",iFilm | آی‌فیلم
 https://live.presstv.co.uk/hls/ifilmfa_4_482/index.m3u8
 #EXTINF:-1 tvg-id="IRINN.ir" tvg-name="IRINN" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRINN.ir.png" group-title="IRIB National Networks | شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",IRINN | شبکه خبر
@@ -121,8 +121,6 @@ https://livestream.5centscdn.com/channelonehd/0d0dd9d8b4933ea5f0a3a9495707c004.s
 https://choghls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="DejTV.ir" tvg-name="Dej TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/DejTV.ir.jpg" group-title="News & Current Affairs | خبر و امور جاری" tvg-language="fas" tvg-quality="HD",Dej TV | دژ تی‌وی
 https://rdejhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="DidgahTV.us" tvg-name="Didgah TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/DidgahTV.us.png" group-title="News & Current Affairs | خبر و امور جاری" tvg-language="fas" tvg-quality="SD",Didgah TV | دیدگاه
-https://media.streambrothers.com:1936/8276/8276/playlist.m3u8
 #EXTINF:-1 tvg-id="GordAfaridTV.us" tvg-name="GordAfarid TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/GordAfaridTV.us.jpg" group-title="News & Current Affairs | خبر و امور جاری" tvg-language="fas",GordAfarid TV | گردآفرید
 https://gatvhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="IranInternational.uk" tvg-name="Iran International" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IranInternational.uk.png" group-title="News & Current Affairs | خبر و امور جاری" tvg-language="fas" tvg-quality="FHD",Iran International | ایران اینترنشنال
@@ -231,8 +229,6 @@ https://ak.imamhussein.live/imhtv6live/imhtv6.smil/imhtv6publish/imhtv6_source/c
 https://livefa.marjaeyattv.com/mtv_fa/playlist05/index.m3u8
 #EXTINF:-1 tvg-id="PayameArameshTV.us" tvg-name="Payam-e Aramesh" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PayameArameshTV.us.png" group-title="Religious · Islamic | مذهبی · اسلامی" tvg-language="fas" tvg-quality="SD",Payam-e Aramesh | پیام آرامش
 https://hls.keshishhamid.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PayvandTV.ir" tvg-name="Payvand TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PayvandTV.ir.png" group-title="Religious · Islamic | مذهبی · اسلامی" tvg-language="fas" tvg-quality="HD",Payvand TV | شبکه پیوند
-https://tgn.bozztv.com/cus01/ucur1/Payvand/playlist.m3u8
 #EXTINF:-1 tvg-id="RasoulallahTv.ir" tvg-name="Rasoulallah TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/RasoulallahTv.ir.png" group-title="Religious · Islamic | مذهبی · اسلامی" tvg-language="fas" tvg-quality="FHD",Rasoulallah TV | شبکه رسول‌الله
 https://avr.host247.net/live/rasoulallahtv/playlist.m3u8
 #EXTINF:-1 tvg-id="VelayatTVNetwork.us" tvg-name="Velayat TV Network" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/VelayatTVNetwork.us.png" group-title="Religious · Islamic | مذهبی · اسلامی" tvg-language="fas" tvg-quality="SD",Velayat TV Network | شبکه ولایت (آمریکا)

@@ -1,6 +1,6 @@
 # Channel catalogue
 
-This catalogue contains 204 channels in 13 categories. The playlist links are generated from the same published channel data.
+This catalogue contains 203 channels in 13 categories. The playlist links are generated from the same published channel data.
 
 <details>
 <summary><b>IRIB National Networks</b> &nbsp; 23 channels</summary>
@@ -168,7 +168,7 @@ This catalogue contains 204 channels in 13 categories. The playlist links are ge
 | Channel One | شبکه یک (لس‌آنجلس) | 720p | Worldwide |
 | Cheshmeh Oghab | چشم عقاب | n/a | Worldwide |
 | Dej TV | دژ تی‌وی | 720p | Worldwide |
-| Didgah TV | دیدگاه | 486p | Worldwide |
+| Didgah TV | دیدگاه | 486p | Rechecking |
 | GordAfarid TV | گردآفرید | n/a | Worldwide |
 | Iran International | ایران اینترنشنال | 1080p | Worldwide |
 | Iran National Revolution TV | تلویزیون انقلاب ملی ایران | 720p | Worldwide |
@@ -254,7 +254,7 @@ This catalogue contains 204 channels in 13 categories. The playlist links are ge
 </details>
 
 <details>
-<summary><b>Religious · Islamic</b> &nbsp; 18 channels</summary>
+<summary><b>Religious · Islamic</b> &nbsp; 17 channels</summary>
 
 | Channel | Persian name | Quality | Available |
 |:--|:--|:--|:--|
@@ -270,10 +270,9 @@ This catalogue contains 204 channels in 13 categories. The playlist links are ge
 | Marjaeyat TV Persian | شبکه مرجعیت | 1080p | Worldwide |
 | Nour TV | شبکه نور (امارات) | 576p | Worldwide |
 | Payam-e Aramesh | پیام آرامش | 480p | Worldwide |
-| Payvand TV | شبکه پیوند | 720p | Worldwide |
+| Payvand TV | شبکه پیوند | 720p | Rechecking |
 | Rasoulallah TV | شبکه رسول‌الله | 1080p | Worldwide |
 | Razavi TV | شبکه رضوی | 720p | Worldwide |
-| Tekye Madahi | تکیه مداحی | 720p | Rechecking |
 | Velayat TV | شبکه ولایت | 720p | Worldwide |
 | Velayat TV Network | شبکه ولایت (آمریکا) | 480p | Worldwide |
 

@@ -1,6 +1,6 @@
 #EXTM3U
 # Every channel, one stream each. [IR] needs an Iranian IP address.
-# generated 2026-09-10 03:08 UTC by shayanline/iptv-iran
+# generated 2026-09-10 03:12 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="IRIB1.ir" tvg-name="IRIB TV1" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRIB1.ir.png" group-title="IRIB National Networks | شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",IRIB TV1 | شبکه یک
 https://live-aburayhan1108.telewebion.ir/ek/tv1/live/1080p/index.m3u8
 #EXTINF:-1 tvg-id="IRIB2.ir" tvg-name="IRIB TV2" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRIB2.ir.png" group-title="IRIB National Networks | شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",IRIB TV2 | شبکه دو
@@ -38,7 +38,7 @@ https://live-aburayhan1105.telewebion.ir/ek/hdtest/live/1080p/index.m3u8
 #EXTINF:-1 tvg-id="IRIB1Plus.ir" tvg-name="IRIB TV1 +" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRIB1Plus.ir.png" group-title="IRIB National Networks | شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",IRIB TV1 + | شبکه یک پلاس
 https://live-aburayhan1105.telewebion.ir/na/tv1plus/live/1080p/index.m3u8
 #EXTINF:-1 tvg-id="IRIBUHD.ir" tvg-name="IRIB UHD" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRIBUHD.ir.png" group-title="IRIB National Networks | شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="4K",IRIB UHD | شبکه فراگیر (UHD)
-https://live-aburayhan1111.telewebion.ir/ek/faratar/live/1440p/index.m3u8
+https://live-aburayhan1104.telewebion.ir/ek/faratar/live/2160p/index.m3u8
 #EXTINF:-1 tvg-id="VarzeshTV.ir" tvg-name="IRIB Varzesh" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/VarzeshTV.ir.png" group-title="IRIB National Networks | شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",IRIB Varzesh | شبکه ورزش
 https://live-aburayhan1113.telewebion.ir/ek/varzesh/live/108050p/index.m3u8
 #EXTINF:-1 tvg-id="IRINN.ir" tvg-name="IRINN" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRINN.ir.png" group-title="IRIB National Networks | شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",IRINN | شبکه خبر
@@ -373,8 +373,6 @@ https://tgn.bozztv.com/cus01/ucur1/Payvand/playlist.m3u8
 https://avr.host247.net/live/rasoulallahtv/playlist.m3u8
 #EXTINF:-1 tvg-id="RazaviTV.ir" tvg-name="Razavi TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/RazaviTV.ir.png" group-title="Religious · Islamic | مذهبی · اسلامی" tvg-language="fas" tvg-quality="HD",Razavi TV | شبکه رضوی
 https://live-aburayhan1112.telewebion.ir/ek/razavi/live/720p/index.m3u8
-#EXTINF:-1 tvg-id="Tekyemadahi.ir" tvg-name="Tekye Madahi" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/Tekyemadahi.ir.png" group-title="Religious · Islamic | مذهبی · اسلامی" tvg-language="fas" tvg-quality="HD",Tekye Madahi | تکیه مداحی
-https://live-aburayhan1111.telewebion.net/ek/tekyemadahi/live/720p/index.m3u8
 #EXTINF:-1 tvg-id="VelayatTV.ir" tvg-name="Velayat TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/VelayatTV.ir.png" group-title="Religious · Islamic | مذهبی · اسلامی" tvg-language="fas" tvg-quality="HD",Velayat TV | شبکه ولایت
 https://live-aburayhan1109.telewebion.net/ek/velayat/live/720p/index.m3u8
 #EXTINF:-1 tvg-id="VelayatTVNetwork.us" tvg-name="Velayat TV Network" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/VelayatTVNetwork.us.png" group-title="Religious · Islamic | مذهبی · اسلامی" tvg-language="fas" tvg-quality="SD",Velayat TV Network | شبکه ولایت (آمریکا)

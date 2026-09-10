@@ -1,6 +1,6 @@
 #EXTM3U
 # General & Variety only.
-# generated 2026-09-10 03:08 UTC by shayanline/iptv-iran
+# generated 2026-09-10 03:12 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="ArkoTV.ir" tvg-name="Arko TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ArkoTV.ir.jpg" group-title="General & Variety | عمومی و متنوع" tvg-language="fas" tvg-quality="HD",Arko TV | آرکو تی‌وی
 https://arkhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="GEMPixel.tr" tvg-name="GEM Pixel" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/GEMPixel.tr.png" group-title="General & Variety | عمومی و متنوع" tvg-language="fas" tvg-quality="SD",GEM Pixel | جم پیکسل
