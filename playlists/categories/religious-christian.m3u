@@ -1,6 +1,6 @@
 #EXTM3U
 # Religious · Christian only.
-# generated 2026-09-10 13:18 UTC by shayanline/iptv-iran
+# generated 2026-09-10 14:51 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="DerakhteZendegiTV.us" tvg-name="Derakhte Zendegi TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/DerakhteZendegiTV.us.png" group-title="Religious · Christian | مذهبی · مسیحی" tvg-language="fas;heb" tvg-quality="SD",Derakhte Zendegi TV | درخت زندگی
 https://derakhtzhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ICnet1.ca" tvg-name="ICnet 1" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ICnet1.ca.png" group-title="Religious · Christian | مذهبی · مسیحی" tvg-language="fas" tvg-quality="SD",ICnet 1 | آی‌سی‌نت ۱
@@ -15,7 +15,7 @@ https://player.kalemeh.tv/live/ngrp:kalemeh_all/playlist.m3u8
 https://cdn3.wowza.com/5/aVJETlF0UFdmYTFu/LWPP/ngrp:persia.stream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="MohabatTV.us" tvg-name="Mohabat TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/MohabatTV.us.png" group-title="Religious · Christian | مذهبی · مسیحی" tvg-language="fas" tvg-quality="SD",Mohabat TV | شبکه محبت
 https://mohabathls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="OmidJavedan.us" tvg-name="Omid Javedan" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/OmidJavedan.us.png" group-title="Religious · Christian | مذهبی · مسیحی" tvg-language="fas;eng" tvg-quality="HD",Omid Javedan | امید جاودان
+#EXTINF:-1 tvg-id="OmidJavedan.us" tvg-name="Omid Javedan" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/OmidJavedan.us.png" group-title="Religious · Christian | مذهبی · مسیحی" tvg-language="fas;eng" tvg-quality="SD",Omid Javedan | امید جاودان
 https://livestream.5centscdn.com/pwocchurchweb1/cebac1e921182acff008ab1222f0c916.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="Sat7Pars.cy" tvg-name="SAT-7 Pars" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/Sat7Pars.cy.png" group-title="Religious · Christian | مذهبی · مسیحی" tvg-language="fas" tvg-quality="SD",SAT-7 Pars | ست سون پارس
 https://sat7phls.wns.live/hls/stream.m3u8

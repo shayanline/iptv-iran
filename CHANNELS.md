@@ -106,7 +106,7 @@ This catalogue contains 204 channels in 13 categories. The playlist links are ge
 | HomePlus | هوم پلاس | 720p | Worldwide |
 | Iran Independent | ایران ایندیپندنت | n/a | Worldwide |
 | ITN | آی‌تی‌ان | 576p | Worldwide |
-| Khatereh TV | شبکه خاطره | n/a | Rechecking |
+| Khatereh TV | شبکه خاطره | n/a | Worldwide |
 | MTC | ام‌تی‌سی | 720p | Worldwide |
 | Net TV | نت تی‌وی | n/a | Worldwide |
 | Novin TV | نوین تی‌وی | 720p | Worldwide |
@@ -201,7 +201,7 @@ This catalogue contains 204 channels in 13 categories. The playlist links are ge
 | 4 Kurd | فور کورد | 576p | Worldwide |
 | AFN TV | ای‌اف‌ان تی‌وی | 720p | Worldwide |
 | Avang TV | آونگ | 480p | Worldwide |
-| High Vision TV | های ویژن | 576p | Rechecking |
+| High Vision TV | های ویژن | 480p | Rechecking |
 | Iran TV Israel | ایران تی‌وی اسرائیل | n/a | Worldwide |
 | Navahang TV | نواهنگ | 576p | Worldwide |
 | Persiana Folk | سنتی | 720p | Worldwide |
@@ -273,7 +273,7 @@ This catalogue contains 204 channels in 13 categories. The playlist links are ge
 | Payvand TV | شبکه پیوند | 720p | Worldwide |
 | Rasoulallah TV | شبکه رسول‌الله | 1080p | Worldwide |
 | Razavi TV | شبکه رضوی | 720p | Worldwide |
-| Tekye Madahi | تکیه مداحی | 720p | Worldwide |
+| Tekye Madahi | تکیه مداحی | 576p | Rechecking |
 | Velayat TV | شبکه ولایت | 720p | Worldwide |
 | Velayat TV Network | شبکه ولایت (آمریکا) | 480p | Worldwide |
 
@@ -291,7 +291,7 @@ This catalogue contains 204 channels in 13 categories. The playlist links are ge
 | Kalemeh TV | شبکه کلمه | 1080p | Worldwide |
 | LoveWorld Persia | لاوورلد پرشیا | 720p | Worldwide |
 | Mohabat TV | شبکه محبت | 480p | Worldwide |
-| Omid Javedan | امید جاودان | 720p | Rechecking |
+| Omid Javedan | امید جاودان | 480p | Rechecking |
 | SAT-7 Pars | ست سون پارس | 576p | Worldwide |
 | Shabakeh 7 | شبکه ۷ | 480p | Worldwide |
 | TBN Nejat TV | شبکه نجات | 576p | Worldwide |

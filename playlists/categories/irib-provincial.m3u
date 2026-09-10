@@ -1,6 +1,6 @@
 #EXTM3U
 # IRIB Provincial Networks only.
-# generated 2026-09-10 13:18 UTC by shayanline/iptv-iran
+# generated 2026-09-10 14:51 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="AbadanTV.ir" tvg-name="Abadan" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AbadanTV.ir.png" group-title="IRIB Provincial Networks | شبکه‌های استانی" tvg-language="fas" tvg-quality="SD",Abadan | شبکه آبادان
 https://live-aburayhan1109.telewebion.net/ek/abadan/live/576p/index.m3u8
 #EXTINF:-1 tvg-id="AflakTV.ir" tvg-name="Aflak" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AflakTV.ir.png" group-title="IRIB Provincial Networks | شبکه‌های استانی" tvg-language="fas" tvg-quality="SD",Aflak | شبکه افلاک
