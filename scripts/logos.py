@@ -175,11 +175,10 @@ def existing_asset(channel_id):
 def mirror(work, preserve=()):
     """Refresh assets/logos from the sources.
 
-    A mirrored logo is permanent. Once an image has been captured it is only ever
-    replaced by another valid image, never deleted because the URL it came from has since
-    broken. Sources rot constantly, and a channel that still works should not silently
-    lose its logo just because a host went away. Existing assets are never deleted
-    automatically, even when a channel disappears from every source.
+    A mirrored logo is permanent. Once an image has been captured it stays unchanged
+    until a maintainer replaces or removes it after review. Sources rot constantly, and a
+    channel that still works should not silently lose its logo or receive a different mark
+    because an upstream host changed. Existing assets are never deleted automatically.
     """
     ASSETS.mkdir(parents=True, exist_ok=True)
     rejected = []
@@ -200,6 +199,9 @@ def mirror(work, preserve=()):
     with ThreadPoolExecutor(WORKERS) as pool:
         for channel_id, body, kind in pool.map(handle, sorted(work.items())):
             current = existing_asset(channel_id)
+            if current and channel_id in preserve:
+                kept += 1
+                continue
             if not body:
                 # Nothing usable this run. Whatever is already committed stays.
                 kept += 1 if current else 0
@@ -235,8 +237,7 @@ def main():
         install_public_dns()
         work = {cid: candidates_for(cid, records, curated) for cid, records in by_channel.items()}
         work = {cid: urls for cid, urls in work.items() if urls}
-        preserve = {cid for name, ids in curated.get("sets", {}).items()
-                    if name.startswith("irib_") for cid in ids}
+        preserve = {path.stem for path in ASSETS.glob("*.*")}
         log(f"mirroring logos for {len(work)} channels")
         mirror(work, preserve)
     else:

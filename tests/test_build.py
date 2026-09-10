@@ -362,7 +362,7 @@ class LogoOptimisation(unittest.TestCase):
             with Image.open(output) as image:
                 self.assertEqual(image.size, (512, 256))
 
-    def test_mirror_preserves_selected_original_logo_bytes(self):
+    def test_mirror_preserves_selected_existing_logo_bytes(self):
         source = io.BytesIO()
         Image.new("RGB", (1200, 600), (20, 80, 160)).save(source, "JPEG")
         self.assertIn("preserve", inspect.signature(logos.mirror).parameters)
@@ -370,11 +370,14 @@ class LogoOptimisation(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temporary, \
                 mock.patch.object(logos, "ASSETS", pathlib.Path(temporary)), \
                 mock.patch.object(logos, "evaluate", return_value=(source.getvalue(), "jpg", "ok")):
+            output = pathlib.Path(temporary) / "ExampleTV.ir.png"
+            output.write_bytes(b"audited logo")
             logos.mirror({"ExampleTV.ir": ["https://example.com/logo.jpg"]},
                          preserve={"ExampleTV.ir"})
-            output = pathlib.Path(temporary) / "ExampleTV.ir.jpg"
 
-            self.assertEqual(output.read_bytes(), source.getvalue())
+            self.assertTrue(output.exists())
+            self.assertEqual(output.read_bytes(), b"audited logo")
+            self.assertFalse((output.parent / "ExampleTV.ir.jpg").exists())
 
 
 if __name__ == "__main__":

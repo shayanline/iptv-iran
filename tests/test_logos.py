@@ -16,9 +16,10 @@ class LogoRetention(unittest.TestCase):
                     mock.patch.object(sys, "argv", ["logos.py", "--mirror"]), \
                     mock.patch.object(logos, "read_json", side_effect=([], {})), \
                     mock.patch.object(logos, "install_public_dns"), \
-                    mock.patch.object(logos, "mirror"):
+                    mock.patch.object(logos, "mirror") as mirror:
                 logos.main()
             self.assertTrue(asset.exists())
+            self.assertIn("PrivateChannel", mirror.call_args.args[1])
 
 
 if __name__ == "__main__":
