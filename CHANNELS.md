@@ -1,6 +1,6 @@
 # Channel catalogue
 
-This catalogue contains 203 channels in 13 categories. The playlist links are generated from the same published channel data.
+This catalogue contains 204 channels in 13 categories. The playlist links are generated from the same published channel data.
 
 <details>
 <summary><b>IRIB National Networks</b> &nbsp; 23 channels</summary>
@@ -26,7 +26,7 @@ This catalogue contains 203 channels in 13 categories. The playlist links are ge
 | IRIB Tamasha | شبکه تماشا | 1080p | Worldwide |
 | IRIB TV1 + | شبکه یک پلاس | 1080p | Worldwide |
 | IRIB UHD | شبکه فراگیر (UHD) | 2160p | Worldwide |
-| IRIB Varzesh | شبکه ورزش | 1082p | Worldwide |
+| IRIB Varzesh | شبکه ورزش | 1082p | Iran only |
 | IRINN | شبکه خبر | 576p | Worldwide |
 | IRINN 2 | شبکه خبر ۲ | 1080p | Worldwide |
 | Roya | شبکه رویا | 720p | Worldwide |
@@ -201,7 +201,7 @@ This catalogue contains 203 channels in 13 categories. The playlist links are ge
 | 4 Kurd | فور کورد | 576p | Worldwide |
 | AFN TV | ای‌اف‌ان تی‌وی | 720p | Worldwide |
 | Avang TV | آونگ | 480p | Worldwide |
-| High Vision TV | های ویژن | 576p | Worldwide |
+| High Vision TV | های ویژن | 576p | Rechecking |
 | Iran TV Israel | ایران تی‌وی اسرائیل | n/a | Worldwide |
 | Navahang TV | نواهنگ | 576p | Worldwide |
 | Persiana Folk | سنتی | 720p | Worldwide |
@@ -254,7 +254,7 @@ This catalogue contains 203 channels in 13 categories. The playlist links are ge
 </details>
 
 <details>
-<summary><b>Religious · Islamic</b> &nbsp; 17 channels</summary>
+<summary><b>Religious · Islamic</b> &nbsp; 18 channels</summary>
 
 | Channel | Persian name | Quality | Available |
 |:--|:--|:--|:--|
@@ -273,6 +273,7 @@ This catalogue contains 203 channels in 13 categories. The playlist links are ge
 | Payvand TV | شبکه پیوند | 720p | Worldwide |
 | Rasoulallah TV | شبکه رسول‌الله | 1080p | Worldwide |
 | Razavi TV | شبکه رضوی | 720p | Worldwide |
+| Tekye Madahi | تکیه مداحی | 720p | Worldwide |
 | Velayat TV | شبکه ولایت | 720p | Worldwide |
 | Velayat TV Network | شبکه ولایت (آمریکا) | 480p | Worldwide |
 
