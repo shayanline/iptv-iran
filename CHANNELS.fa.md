@@ -267,7 +267,7 @@
 | شبکه حبیب | Habib TV | 720p | همه‌جا |
 | شبکه هادی | Hadi TV | 1080p | همه‌جا |
 | امام حسین ۱ | Imam Hussein TV 1 | 1080p | همه‌جا |
-| امام حسین ۶ | Imam Hussein TV 6 | 1080p | همه‌جا |
+| امام حسین ۶ | Imam Hussein TV 6 | 240p | همه‌جا |
 | شبکه لبیک | Labbayk TV | 720p | همه‌جا |
 | شبکه مرجعیت | Marjaeyat TV Persian | 1080p | همه‌جا |
 | شبکه نور (امارات) | Nour TV | 576p | همه‌جا |

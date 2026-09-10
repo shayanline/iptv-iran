@@ -1,6 +1,6 @@
 #EXTM3U
 # Satellite · Factual, Culture & Lifestyle only.
-# generated 2026-09-10 04:59 UTC by shayanline/iptv-iran
+# generated 2026-09-10 08:04 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="CafeTradeTV.ir" tvg-name="Cafe Trade TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/CafeTradeTV.ir.png" group-title="Satellite · Factual, Culture & Lifestyle | ماهواره‌ای · مستند، فرهنگ و سبک زندگی" tvg-language="fas" tvg-quality="SD",Cafe Trade TV | کافه ترید
 https://cafetradehls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PayamJavanTV.us" tvg-name="Payam Javan TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PayamJavanTV.us.png" group-title="Satellite · Factual, Culture & Lifestyle | ماهواره‌ای · مستند، فرهنگ و سبک زندگی" tvg-language="fas" tvg-quality="HD",Payam Javan TV | پیام جوان

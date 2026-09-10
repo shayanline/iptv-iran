@@ -178,8 +178,8 @@ def mirror(work, preserve=()):
     A mirrored logo is permanent. Once an image has been captured it is only ever
     replaced by another valid image, never deleted because the URL it came from has since
     broken. Sources rot constantly, and a channel that still works should not silently
-    lose its logo just because a host went away. Assets are only removed when the channel
-    itself disappears from every source, which is handled by the caller.
+    lose its logo just because a host went away. Existing assets are never deleted
+    automatically, even when a channel disappears from every source.
     """
     ASSETS.mkdir(parents=True, exist_ok=True)
     rejected = []
@@ -239,19 +239,6 @@ def main():
                     if name.startswith("irib_") for cid in ids}
         log(f"mirroring logos for {len(work)} channels")
         mirror(work, preserve)
-        # A few logos are committed directly rather than fetched, because no host serves
-        # them. IRNA TV only publishes its mark inside a favicon bundle. Makran and Iran
-        # Comedy are carried by no logo library at all, so their on air marks were lifted
-        # from the video: many frames were reduced to a per pixel minimum, which keeps a
-        # static overlay and cancels the moving picture behind it. Those channels
-        # contribute no candidate url, so the loop above skips them and their committed
-        # file is left alone.
-        # The only reason to delete an asset: the channel is gone from every source.
-        known = set(by_channel)
-        for path in ASSETS.glob("*.*"):
-            if path.stem not in known:
-                path.unlink()
-                log(f"  removed {path.name}, channel no longer in any source")
     else:
         log("reusing committed logos, pass --mirror to refresh them from the sources")
 
