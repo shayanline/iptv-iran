@@ -2,11 +2,11 @@
 
 # IPTV Iran
 
-IPTV Iran provides 204 curated Iranian and Persian language television channels as remote M3U playlists. Add a playlist URL to a compatible player, with no project account or project software to install.
+IPTV Iran provides 203 curated Iranian and Persian language television channels as remote M3U playlists. Add a playlist URL to a compatible player, with no project account or project software to install.
 
-[![Refresh playlists](https://github.com/shayanline/iptv-iran/actions/workflows/refresh.yml/badge.svg)](https://github.com/shayanline/iptv-iran/actions/workflows/refresh.yml) ![Channels](https://img.shields.io/badge/channels-204-1f6feb) ![Checked](https://img.shields.io/badge/last%20checked-10%20September%202026-2da44e) [![License: MIT](https://img.shields.io/github/license/shayanline/iptv-iran)](LICENSE)
+[![Refresh playlists](https://github.com/shayanline/iptv-iran/actions/workflows/refresh.yml/badge.svg)](https://github.com/shayanline/iptv-iran/actions/workflows/refresh.yml) ![Channels](https://img.shields.io/badge/channels-203-1f6feb) ![Checked](https://img.shields.io/badge/last%20checked-10%20September%202026-2da44e) [![License: MIT](https://img.shields.io/github/license/shayanline/iptv-iran)](LICENSE)
 
-> **Status:** This community maintained project checks streams twice each month. Availability can change between checks, and 3 channels in the main playlist are currently being rechecked during the six week grace period.
+> **Status:** This community maintained project checks streams twice each month. Availability can change between checks, and 6 channels in the main playlist are currently being rechecked during the six week grace period.
 
 **[راهنمای فارسی](#persian)**
 
@@ -25,11 +25,11 @@ IPTV Iran provides 204 curated Iranian and Persian language television channels 
 
 | Playlist | Use it when | Contents | Link |
 |:--|:--|--:|:--|
-| **Main playlist** | You want one entry for every channel. | 204 channels | [Open the main playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran.m3u) |
-| **With backups** | You want alternate entries for a channel. | 625 streams | [Open the backup playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-all-streams.m3u) |
-| **Smart TV safe** | Your player shows one frame and then stops. | 131 channels | [Open the compatibility playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-compat.m3u) |
+| **Main playlist** | You want one entry for every channel. | 203 channels | [Open the main playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran.m3u) |
+| **With backups** | You want alternate entries for a channel. | 622 streams | [Open the backup playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-all-streams.m3u) |
+| **Smart TV safe** | Your player shows one frame and then stops. | 127 channels | [Open the compatibility playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-compat.m3u) |
 
-The **Main playlist** contains every channel, including 3 channels that are being rechecked during the grace period. Entries marked `[IR]` require an Iranian connection.
+The **Main playlist** contains every channel, including 6 channels that are being rechecked during the grace period. Entries marked `[IR]` require an Iranian connection.
 
 The backup playlist lists alternate entries separately. It does not switch streams automatically.
 
@@ -69,7 +69,7 @@ Keep the remote URL in your player when it supports URL based playlists. The pla
 | Satellite · Sports | 4 | [Open playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-sports.m3u) |
 | Satellite · Factual, Culture & Lifestyle | 7 | [Open playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-documentary.m3u) |
 | Religious · Islamic | 18 | [Open playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/religious-islamic.m3u) |
-| Religious · Christian | 11 | [Open playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/religious-christian.m3u) |
+| Religious · Christian | 10 | [Open playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/religious-christian.m3u) |
 | Religious · Other Faiths & Spiritual | 4 | [Open playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/religious-other.m3u) |
 
 </details>
@@ -86,15 +86,15 @@ The main playlist has bilingual, English, and Persian naming variants. Use the m
 | English | `IRIB TV1` | [Open the English playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/en/iran.m3u) |
 | Persian | `شبکه یک` | [Open the Persian playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/fa/iran.m3u) |
 
-Each entry can include a measured `tvg-quality` value of `SD`, `HD`, `FHD`, or `4K`. The current channel mix is 1 4K, 52 FHD, 38 HD, 91 SD, 22 unknown.
+Each entry can include a measured `tvg-quality` value of `SD`, `HD`, `FHD`, or `4K`. The current channel mix is 1 4K, 52 FHD, 38 HD, 90 SD, 22 unknown.
 
-The project stores logos for 204 channels in this repository to avoid dependence on logo hosts that may block some regions. Programme data is currently unavailable because the previous external guide feed was retired. Players may still accept a separately configured guide.
+The project stores logos for 203 channels in this repository to avoid dependence on logo hosts that may block some regions. Programme data is currently unavailable because the previous external guide feed was retired. Players may still accept a separately configured guide.
 
 <a id="smart-tv-playback"></a>
 
 ## Smart TV playback
 
-Use the **Smart TV safe** playlist when a channel displays one frame and then stops, or when a television reports an HLS manifest error. It contains the 131 channels whose public streams avoid manifest shapes known to break limited players.
+Use the **Smart TV safe** playlist when a channel displays one frame and then stops, or when a television reports an HLS manifest error. It contains the 127 channels whose public streams avoid manifest shapes known to break limited players.
 
 Some streams in the backup playlist require the public `User-Agent` or `Referer` header included in `#EXTVLCOPT` lines. Players that ignore these lines may fail on those streams even when VLC can play them.
 
@@ -128,7 +128,7 @@ Stream availability, regional restrictions, and broadcaster rights can change wi
 
 ## Channel catalogue
 
-The current publication contains 204 channels in 13 categories from 625 tracked working or grace period streams. Read the [English channel catalogue](CHANNELS.md) or the [Persian channel catalogue](CHANNELS.fa.md).
+The current publication contains 203 channels in 13 categories from 622 tracked working or grace period streams. Read the [English channel catalogue](CHANNELS.md) or the [Persian channel catalogue](CHANNELS.fa.md).
 
 <a id="troubleshooting"></a>
 
@@ -180,9 +180,9 @@ The code and curated data use the [MIT License](LICENSE). Channel names, logos, 
 
 # IPTV ایران
 
-این پروژه ۲۰۴ شبکه تلویزیونی ایرانی و فارسی‌زبان را در قالب پلی‌لیست‌های M3U ارائه می‌کند. لینک یکی از پلی‌لیست‌ها را در یک برنامه پخش سازگار وارد کنید تا شبکه‌ها در دسترس شما قرار بگیرند. استفاده از این پلی‌لیست‌ها به حساب کاربری یا نصب نرم‌افزار جداگانه‌ای از طرف پروژه نیاز ندارد.
+این پروژه ۲۰۳ شبکه تلویزیونی ایرانی و فارسی‌زبان را در قالب پلی‌لیست‌های M3U ارائه می‌کند. لینک یکی از پلی‌لیست‌ها را در یک برنامه پخش سازگار وارد کنید تا شبکه‌ها در دسترس شما قرار بگیرند. استفاده از این پلی‌لیست‌ها به حساب کاربری یا نصب نرم‌افزار جداگانه‌ای از طرف پروژه نیاز ندارد.
 
-> **وضعیت پروژه:** این پروژه به‌صورت داوطلبانه نگهداری می‌شود و لینک‌های پخش ماهی دو بار بررسی می‌شوند. ممکن است وضعیت یک شبکه در فاصله میان دو بررسی تغییر کند. در حال حاضر، ۳ شبکه از پلی‌لیست اصلی دوباره بررسی می‌شوند و تا شش هفته برای بازگشت آن‌ها صبر می‌کنیم.
+> **وضعیت پروژه:** این پروژه به‌صورت داوطلبانه نگهداری می‌شود و لینک‌های پخش ماهی دو بار بررسی می‌شوند. ممکن است وضعیت یک شبکه در فاصله میان دو بررسی تغییر کند. در حال حاضر، ۶ شبکه از پلی‌لیست اصلی دوباره بررسی می‌شوند و تا شش هفته برای بازگشت آن‌ها صبر می‌کنیم.
 
 **[راهنمای انگلیسی](#english)**
 
@@ -201,11 +201,11 @@ The code and curated data use the [MIT License](LICENSE). Channel names, logos, 
 
 | پلی‌لیست | چه زمانی از آن استفاده کنیم؟ | محتوا | لینک |
 |:--|:--|--:|:--|
-| **پلی‌لیست اصلی** | برای هر شبکه فقط یک لینک پخش می‌خواهید. | ۲۰۴ شبکه | [باز کردن پلی‌لیست اصلی](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/fa/iran.m3u) |
-| **پلی‌لیست پشتیبان** | لینک‌های جایگزین هر شبکه را هم می‌خواهید. | ۶۲۵ استریم | [باز کردن پلی‌لیست پشتیبان](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/fa/iran-all-streams.m3u) |
-| **نسخه سازگار با تلویزیون هوشمند** | تصویر شبکه نمایش داده می‌شود، اما پخش ادامه پیدا نمی‌کند. | ۱۳۱ شبکه | [باز کردن نسخه سازگار](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/fa/iran-compat.m3u) |
+| **پلی‌لیست اصلی** | برای هر شبکه فقط یک لینک پخش می‌خواهید. | ۲۰۳ شبکه | [باز کردن پلی‌لیست اصلی](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/fa/iran.m3u) |
+| **پلی‌لیست پشتیبان** | لینک‌های جایگزین هر شبکه را هم می‌خواهید. | ۶۲۲ استریم | [باز کردن پلی‌لیست پشتیبان](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/fa/iran-all-streams.m3u) |
+| **نسخه سازگار با تلویزیون هوشمند** | تصویر شبکه نمایش داده می‌شود، اما پخش ادامه پیدا نمی‌کند. | ۱۲۷ شبکه | [باز کردن نسخه سازگار](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/fa/iran-compat.m3u) |
 
-**پلی‌لیست اصلی** شامل همه شبکه‌هاست. در حال حاضر، ۳ شبکه از این فهرست دوباره بررسی می‌شوند. شبکه‌های دارای نشان `[IR]` فقط با آی‌پی ایران در دسترس هستند.
+**پلی‌لیست اصلی** شامل همه شبکه‌هاست. در حال حاضر، ۶ شبکه از این فهرست دوباره بررسی می‌شوند. شبکه‌های دارای نشان `[IR]` فقط با آی‌پی ایران در دسترس هستند.
 
 پلی‌لیست پشتیبان، لینک‌های جایگزین را به‌صورت ورودی‌های جداگانه نشان می‌دهد. اگر یک استریم قطع شود، پلی‌لیست به‌تنهایی نمی‌تواند استریم دیگری را جایگزین کند.
 
@@ -245,7 +245,7 @@ The code and curated data use the [MIT License](LICENSE). Channel names, logos, 
 | ماهواره‌ای · ورزش | ۴ | [باز کردن پلی‌لیست](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-sports.m3u) |
 | ماهواره‌ای · مستند، فرهنگ و سبک زندگی | ۷ | [باز کردن پلی‌لیست](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-documentary.m3u) |
 | مذهبی · اسلامی | ۱۸ | [باز کردن پلی‌لیست](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/religious-islamic.m3u) |
-| مذهبی · مسیحی | ۱۱ | [باز کردن پلی‌لیست](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/religious-christian.m3u) |
+| مذهبی · مسیحی | ۱۰ | [باز کردن پلی‌لیست](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/religious-christian.m3u) |
 | مذهبی · سایر ادیان و معنوی | ۴ | [باز کردن پلی‌لیست](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/religious-other.m3u) |
 
 </details>
@@ -262,15 +262,15 @@ The code and curated data use the [MIT License](LICENSE). Channel names, logos, 
 | انگلیسی | `IRIB TV1` | [باز کردن نسخه انگلیسی](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/en/iran.m3u) |
 | فارسی | `شبکه یک` | [باز کردن نسخه فارسی](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/fa/iran.m3u) |
 
-اگر کیفیت یک شبکه قابل تشخیص باشد، مقدار `tvg-quality` آن با یکی از گزینه‌های `SD`، `HD`، `FHD` یا `4K` ثبت می‌شود. وضعیت فعلی شامل ۱ شبکه با کیفیت 4K، ۵۲ شبکه با کیفیت FHD، ۳۸ شبکه با کیفیت HD، ۹۱ شبکه با کیفیت SD، ۲۲ شبکه با کیفیت نامشخص است.
+اگر کیفیت یک شبکه قابل تشخیص باشد، مقدار `tvg-quality` آن با یکی از گزینه‌های `SD`، `HD`، `FHD` یا `4K` ثبت می‌شود. وضعیت فعلی شامل ۱ شبکه با کیفیت 4K، ۵۲ شبکه با کیفیت FHD، ۳۸ شبکه با کیفیت HD، ۹۰ شبکه با کیفیت SD، ۲۲ شبکه با کیفیت نامشخص است.
 
-لوگوی ۲۰۴ شبکه داخل همین مخزن قرار دارد تا نمایش لوگوها به سایت‌هایی وابسته نباشد که ممکن است در بعضی کشورها باز نشوند. اطلاعات راهنمای برنامه‌ها یا EPG فعلاً در پلی‌لیست‌ها وجود ندارد، چون منبع قبلی دیگر فعال نیست. اگر منبع معتبر دیگری دارید، می‌توانید آن را جداگانه در برنامه پخش خود وارد کنید.
+لوگوی ۲۰۳ شبکه داخل همین مخزن قرار دارد تا نمایش لوگوها به سایت‌هایی وابسته نباشد که ممکن است در بعضی کشورها باز نشوند. اطلاعات راهنمای برنامه‌ها یا EPG فعلاً در پلی‌لیست‌ها وجود ندارد، چون منبع قبلی دیگر فعال نیست. اگر منبع معتبر دیگری دارید، می‌توانید آن را جداگانه در برنامه پخش خود وارد کنید.
 
 <a id="fa-smart-tv"></a>
 
 ## پخش در تلویزیون هوشمند
 
-اگر تصویر یک شبکه فقط برای لحظه‌ای نمایش داده می‌شود، یا تلویزیون خطای مانیفست HLS نشان می‌دهد، **نسخه سازگار با تلویزیون هوشمند** را امتحان کنید. این پلی‌لیست شامل ۱۳۱ شبکه است که ساختار استریم آن‌ها روی پخش‌کننده‌های محدود بهتر کار می‌کند.
+اگر تصویر یک شبکه فقط برای لحظه‌ای نمایش داده می‌شود، یا تلویزیون خطای مانیفست HLS نشان می‌دهد، **نسخه سازگار با تلویزیون هوشمند** را امتحان کنید. این پلی‌لیست شامل ۱۲۷ شبکه است که ساختار استریم آن‌ها روی پخش‌کننده‌های محدود بهتر کار می‌کند.
 
 بعضی استریم‌های پلی‌لیست پشتیبان به هدر `User-Agent` یا `Referer` نیاز دارند. این هدرها در خطوط `#EXTVLCOPT` نوشته شده‌اند. برنامه‌ای که این خطوط را نادیده بگیرد ممکن است نتواند استریمی را باز کند که در VLC بدون مشکل پخش می‌شود.
 
@@ -304,7 +304,7 @@ The code and curated data use the [MIT License](LICENSE). Channel names, logos, 
 
 ## فهرست شبکه‌ها
 
-نسخه فعلی شامل ۲۰۴ شبکه در ۱۳ دسته‌بندی است. این شبکه‌ها از میان ۶۲۵ استریم فعال و استریم‌هایی که موقتاً دوباره بررسی می‌شوند انتخاب شده‌اند. برای دیدن جزئیات، [فهرست فارسی شبکه‌ها](CHANNELS.fa.md) یا [فهرست انگلیسی شبکه‌ها](CHANNELS.md) را باز کنید.
+نسخه فعلی شامل ۲۰۳ شبکه در ۱۳ دسته‌بندی است. این شبکه‌ها از میان ۶۲۲ استریم فعال و استریم‌هایی که موقتاً دوباره بررسی می‌شوند انتخاب شده‌اند. برای دیدن جزئیات، [فهرست فارسی شبکه‌ها](CHANNELS.fa.md) یا [فهرست انگلیسی شبکه‌ها](CHANNELS.md) را باز کنید.
 
 <a id="fa-troubleshooting"></a>
 

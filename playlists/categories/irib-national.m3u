@@ -1,6 +1,6 @@
 #EXTM3U
 # IRIB National Networks only.
-# generated 2026-09-10 15:13 UTC by shayanline/iptv-iran
+# generated 2026-09-10 15:17 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="IRIB1.ir" tvg-name="IRIB TV1" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRIB1.ir.png" group-title="IRIB National Networks | شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",IRIB TV1 | شبکه یک
 https://live-aburayhan1108.telewebion.ir/ek/tv1/live/1080p/index.m3u8
 #EXTINF:-1 tvg-id="IRIB2.ir" tvg-name="IRIB TV2" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRIB2.ir.png" group-title="IRIB National Networks | شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",IRIB TV2 | شبکه دو
@@ -20,7 +20,7 @@ https://live-aburayhan1103.telewebion.ir/ek/amouzesh/live/576p/index.m3u8
 #EXTINF:-1 tvg-id="IRIBMostanad.ir" tvg-name="IRIB Mostanad" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRIBMostanad.ir.png" group-title="IRIB National Networks | شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",IRIB Mostanad | شبکه مستند
 https://live-aburayhan1104.telewebion.ir/ek/mostanad/live/1080p/index.m3u8
 #EXTINF:-1 tvg-id="NamayeshTV.ir" tvg-name="IRIB Namayesh" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/NamayeshTV.ir.png" group-title="IRIB National Networks | شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",IRIB Namayesh | شبکه نمایش
-https://live-aburayhan1105.telewebion.ir/ek/namayesh/live/1080p/index.m3u8
+https://live-aburayhan1110.telewebion.net/ek/namayesh/live/1080p/index.m3u8
 #EXTINF:-1 tvg-id="Nasim.ir" tvg-name="IRIB Nasim" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/Nasim.ir.png" group-title="IRIB National Networks | شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",IRIB Nasim | شبکه نسیم
 https://live-aburayhan1110.telewebion.ir/ek/nasim/live/1080p/index.m3u8
 #EXTINF:-1 tvg-id="OfoghTV.ir" tvg-name="IRIB Ofogh" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/OfoghTV.ir.png" group-title="IRIB National Networks | شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",IRIB Ofogh | شبکه افق
@@ -38,9 +38,9 @@ https://live-aburayhan1105.telewebion.ir/ek/hdtest/live/1080p/index.m3u8
 #EXTINF:-1 tvg-id="IRIB1Plus.ir" tvg-name="IRIB TV1 +" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRIB1Plus.ir.png" group-title="IRIB National Networks | شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",IRIB TV1 + | شبکه یک پلاس
 https://live-aburayhan1105.telewebion.ir/na/tv1plus/live/1080p/index.m3u8
 #EXTINF:-1 tvg-id="IRIBUHD.ir" tvg-name="IRIB UHD" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRIBUHD.ir.png" group-title="IRIB National Networks | شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="4K",IRIB UHD | شبکه فراگیر (UHD)
-https://live-aburayhan1111.telewebion.ir/ek/faratar/live/1440p/index.m3u8
+https://live-aburayhan1104.telewebion.ir/ek/faratar/live/2160p/index.m3u8
 #EXTINF:-1 tvg-id="VarzeshTV.ir" tvg-name="IRIB Varzesh" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/VarzeshTV.ir.png" group-title="IRIB National Networks | شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",IRIB Varzesh | شبکه ورزش [IR]
-https://live-aburayhan1112.telewebion.net/ek/varzesh/live/108050p/index.m3u8
+https://live-aburayhan1102.telewebion.net/ek/varzesh/live/108050p/index.m3u8
 #EXTINF:-1 tvg-id="IRINN.ir" tvg-name="IRINN" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRINN.ir.png" group-title="IRIB National Networks | شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",IRINN | شبکه خبر
 https://live-aburayhan1111.telewebion.ir/ek/irinn/live/1080p/index.m3u8
 #EXTINF:-1 tvg-id="IRINN2.ir" tvg-name="IRINN 2" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRINN2.ir.png" group-title="IRIB National Networks | شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",IRINN 2 | شبکه خبر ۲

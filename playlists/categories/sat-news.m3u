@@ -1,6 +1,6 @@
 #EXTM3U
 # Satellite · News & Current Affairs only.
-# generated 2026-09-10 15:13 UTC by shayanline/iptv-iran
+# generated 2026-09-10 15:17 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="AzadiTV.ir" tvg-name="Azadi TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AzadiTV.ir.png" group-title="Satellite · News & Current Affairs | ماهواره‌ای · خبر و امور جاری" tvg-language="fas",Azadi TV | آزادی
 https://wmtvhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="BBCPersian.uk" tvg-name="BBC News Persian" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/BBCPersian.uk.png" group-title="Satellite · News & Current Affairs | ماهواره‌ای · خبر و امور جاری" tvg-language="fas" tvg-quality="HD",BBC News Persian | بی‌بی‌سی فارسی
@@ -17,6 +17,8 @@ https://gatvhls.wns.live/hls/stream.m3u8
 https://hlspackager.akamaized.net/live/DB/IRAN_INTERNATIONAL/HLS/IRAN_INTERNATIONAL.m3u8
 #EXTINF:-1 tvg-id="IranNationalRevolutionTV.us" tvg-name="Iran National Revolution TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IranNationalRevolutionTV.us.png" group-title="Satellite · News & Current Affairs | ماهواره‌ای · خبر و امور جاری" tvg-language="fas" tvg-quality="HD",Iran National Revolution TV | انقلاب ملی ایران
 https://hls.irannrtv.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="IranTVIsrael.il" tvg-name="Iran TV Israel" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IranTVIsrael.il.png" group-title="Satellite · News & Current Affairs | ماهواره‌ای · خبر و امور جاری" tvg-language="fas",Iran TV Israel | ایران تی‌وی اسرائیل
+https://streaminglive.co.il:3730/live/raniamranilive.m3u8
 #EXTINF:-1 tvg-id="IraneAryaeeTV.ir" tvg-name="Irane Aryaee TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IraneAryaeeTV.ir.png" group-title="Satellite · News & Current Affairs | ماهواره‌ای · خبر و امور جاری" tvg-language="fas" tvg-quality="SD",Irane Aryaee TV | ایران آریایی
 https://iranaryai.pahlavimonarchy.online/iranearyaeesd/index.m3u8
 #EXTINF:-1 tvg-id="IraneFardaTV.uk" tvg-name="IraneFarda TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IraneFardaTV.uk.png" group-title="Satellite · News & Current Affairs | ماهواره‌ای · خبر و امور جاری" tvg-language="fas" tvg-quality="HD",IraneFarda TV | ایران فردا
@@ -55,5 +57,3 @@ https://simaytv.akamaized.net/hls/live/a162cb6c-3be1-4e57-87dc-a75a50b3b8d9/sima
 https://voa-ingest.akamaized.net/hls/live/2033876/tvmc07/playlist.m3u8
 #EXTINF:-1 tvg-id="ZedTV.ir" tvg-name="Zed TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ZedTV.ir.png" group-title="Satellite · News & Current Affairs | ماهواره‌ای · خبر و امور جاری" tvg-language="fas" tvg-quality="HD",Zed TV | زد
 https://zedhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="IranTVIsrael.il" tvg-name="Iran TV Israel" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IranTVIsrael.il.png" group-title="Satellite · News & Current Affairs | ماهواره‌ای · خبر و امور جاری" tvg-language="fas",Iran TV Israel | ایران تی‌وی اسرائیل
-https://streaminglive.co.il:3730/live/raniamranilive.m3u8
