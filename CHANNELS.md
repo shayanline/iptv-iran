@@ -87,7 +87,7 @@ This catalogue contains 203 channels in 13 categories. The playlist links are ge
 | iFilm English | آی‌فیلم انگلیسی | 576p | Worldwide |
 | Iran Press | ایران پرس | 576p | Worldwide |
 | Palestine TV | شبکه فلسطین | 720p | Worldwide |
-| Press TV | پرس تی‌وی | 1080p | Worldwide |
+| Press TV | پرس تی‌وی | 720p | Worldwide |
 | Press TV French | پرس تی‌وی فرانسه | 1080p | Worldwide |
 | Sahar TV Azeri | سحر آذری | 576p | Iran only |
 | Sahar TV Balkan | سحر بالکان | 576p | Iran only |
@@ -106,7 +106,7 @@ This catalogue contains 203 channels in 13 categories. The playlist links are ge
 | HomePlus | هوم پلاس | 720p | Worldwide |
 | Iran Independent | ایران ایندیپندنت | n/a | Worldwide |
 | ITN | آی‌تی‌ان | 576p | Worldwide |
-| Khatereh TV | شبکه خاطره | n/a | Worldwide |
+| Khatereh TV | شبکه خاطره | n/a | Rechecking |
 | MTC | ام‌تی‌سی | 720p | Worldwide |
 | Net TV | نت تی‌وی | n/a | Worldwide |
 | Novin TV | نوین تی‌وی | 720p | Worldwide |
@@ -159,7 +159,7 @@ This catalogue contains 203 channels in 13 categories. The playlist links are ge
 </details>
 
 <details>
-<summary><b>Satellite · News & Current Affairs</b> &nbsp; 28 channels</summary>
+<summary><b>Satellite · News & Current Affairs</b> &nbsp; 27 channels</summary>
 
 | Channel | Persian name | Quality | Available |
 |:--|:--|:--|:--|
@@ -168,7 +168,6 @@ This catalogue contains 203 channels in 13 categories. The playlist links are ge
 | Channel One | شبکه یک (لس‌آنجلس) | 720p | Worldwide |
 | Cheshmeh Oghab | چشم عقاب | n/a | Worldwide |
 | Dej TV | دژ تی‌وی | 720p | Worldwide |
-| Didgah TV | دیدگاه | 486p | Rechecking |
 | GordAfarid TV | گردآفرید | n/a | Worldwide |
 | Iran International | ایران اینترنشنال | 1080p | Worldwide |
 | Iran National Revolution TV | تلویزیون انقلاب ملی ایران | 720p | Worldwide |
@@ -195,13 +194,14 @@ This catalogue contains 203 channels in 13 categories. The playlist links are ge
 </details>
 
 <details>
-<summary><b>Satellite · Music</b> &nbsp; 15 channels</summary>
+<summary><b>Satellite · Music</b> &nbsp; 16 channels</summary>
 
 | Channel | Persian name | Quality | Available |
 |:--|:--|:--|:--|
 | 4 Kurd | فور کورد | 576p | Worldwide |
 | AFN TV | ای‌اف‌ان تی‌وی | 720p | Worldwide |
 | Avang TV | آونگ | 480p | Worldwide |
+| High Vision TV | های ویژن | 576p | Worldwide |
 | Iran TV Israel | ایران تی‌وی اسرائیل | n/a | Worldwide |
 | Navahang TV | نواهنگ | 576p | Worldwide |
 | Persiana Folk | سنتی | 720p | Worldwide |
@@ -265,7 +265,7 @@ This catalogue contains 203 channels in 13 categories. The playlist links are ge
 | Habib TV | شبکه حبیب | 720p | Worldwide |
 | Hadi TV | شبکه هادی | 1080p | Worldwide |
 | Imam Hussein TV 1 | امام حسین ۱ | 1080p | Worldwide |
-| Imam Hussein TV 6 | امام حسین ۶ | 240p | Worldwide |
+| Imam Hussein TV 6 | امام حسین ۶ | 1080p | Worldwide |
 | Labbayk TV | شبکه لبیک | 720p | Worldwide |
 | Marjaeyat TV Persian | شبکه مرجعیت | 1080p | Worldwide |
 | Nour TV | شبکه نور (امارات) | 576p | Worldwide |
@@ -290,7 +290,7 @@ This catalogue contains 203 channels in 13 categories. The playlist links are ge
 | Kalemeh TV | شبکه کلمه | 1080p | Worldwide |
 | LoveWorld Persia | لاوورلد پرشیا | 720p | Worldwide |
 | Mohabat TV | شبکه محبت | 480p | Worldwide |
-| Omid Javedan | امید جاودان | 720p | Worldwide |
+| Omid Javedan | امید جاودان | 720p | Rechecking |
 | SAT-7 Pars | ست سون پارس | 576p | Worldwide |
 | Shabakeh 7 | شبکه ۷ | 480p | Worldwide |
 | TBN Nejat TV | شبکه نجات | 576p | Worldwide |
