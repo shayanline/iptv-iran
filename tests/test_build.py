@@ -1,11 +1,17 @@
 """Publishing decisions: which streams survive, how they are ranked, and how an entry is
 written. The scoring comments in build.py state an order of preference, so the tests assert
 that order rather than any particular number, which is free to be retuned."""
+import inspect
+import io
 import pathlib
 import tempfile
 import unittest
+from unittest import mock
+
+from PIL import Image
 
 import build
+import logos
 import readme
 import validate
 
@@ -197,8 +203,19 @@ class PublishedChannels(unittest.TestCase):
 
     def test_new_persiana_channels_have_persian_names(self):
         channels = {channel["id"]: channel for channel in build.published_channels()}
-        self.assertEqual(channels["PersianaMusic.fr"]["name_fa"], "پرشیانا موزیک")
-        self.assertEqual(channels["PersianaRap.fr"]["name_fa"], "پرشیانا رپ")
+        expected = {
+            "PersianaDocs.fr": "پرشیانا مستند",
+            "PersianaFamily.fr": "پرشیانا خانواده",
+            "PersianaFight.fr": "پرشیانا رزمی",
+            "PersianaFolk.fr": "سنتی",
+            "PersianaJunior.fr": "پرشیانا کودک",
+            "PersianaMedical.fr": "پرشیانا پزشکی",
+            "PersianaMusic.fr": "پرشیانا موسیقی",
+            "PersianaRap.fr": "پرشیانا رپ",
+            "PersianaTravel.fr": "پرشیانا سفر",
+        }
+        self.assertEqual({channel_id: channels[channel_id]["name_fa"]
+                          for channel_id in expected}, expected)
 
     def test_every_generated_channel_has_a_persian_name(self):
         missing = [channel["id"] for channel in build.published_channels()
@@ -295,6 +312,69 @@ class ConsumerGuidance(unittest.TestCase):
         text = readme.render_catalog([self.item], "en")
         self.assertIn("# Channel catalogue", text)
         self.assertIn("IRIB TV1", text)
+
+
+class LogoOptimisation(unittest.TestCase):
+    def test_logo_is_resized_to_a_television_safe_png(self):
+        source = io.BytesIO()
+        Image.new("RGBA", (1200, 600), (20, 80, 160, 255)).save(source, "PNG")
+
+        optimiser = getattr(logos, "optimise_image", None)
+        self.assertIsNotNone(optimiser)
+        body = optimiser(source.getvalue())
+
+        with Image.open(io.BytesIO(body)) as image:
+            self.assertEqual(image.format, "PNG")
+            self.assertEqual(image.size, (512, 256))
+        self.assertLess(len(body), len(source.getvalue()))
+
+    def test_logo_is_upscaled_for_crisp_4k_interfaces(self):
+        source = io.BytesIO()
+        Image.new("RGBA", (120, 60), (20, 80, 160, 255)).save(source, "PNG")
+
+        body = logos.optimise_image(source.getvalue())
+
+        with Image.open(io.BytesIO(body)) as image:
+            self.assertEqual(image.size, (512, 256))
+
+    def test_transparent_padding_is_removed_before_resizing(self):
+        source = Image.new("RGBA", (1200, 1200), (0, 0, 0, 0))
+        source.paste((20, 80, 160, 255), (100, 350, 1100, 850))
+        encoded = io.BytesIO()
+        source.save(encoded, "PNG")
+
+        body = logos.optimise_image(encoded.getvalue())
+
+        with Image.open(io.BytesIO(body)) as image:
+            self.assertEqual(image.size, (512, 256))
+
+    def test_mirror_optimises_a_downloaded_logo(self):
+        source = io.BytesIO()
+        Image.new("RGB", (1200, 600), (20, 80, 160)).save(source, "JPEG")
+
+        with tempfile.TemporaryDirectory() as temporary, \
+                mock.patch.object(logos, "ASSETS", pathlib.Path(temporary)), \
+                mock.patch.object(logos, "evaluate", return_value=(source.getvalue(), "jpg", "ok")):
+            logos.mirror({"ExampleTV.ir": ["https://example.com/logo.jpg"]})
+            output = pathlib.Path(temporary) / "ExampleTV.ir.png"
+
+            self.assertTrue(output.exists())
+            with Image.open(output) as image:
+                self.assertEqual(image.size, (512, 256))
+
+    def test_mirror_preserves_selected_original_logo_bytes(self):
+        source = io.BytesIO()
+        Image.new("RGB", (1200, 600), (20, 80, 160)).save(source, "JPEG")
+        self.assertIn("preserve", inspect.signature(logos.mirror).parameters)
+
+        with tempfile.TemporaryDirectory() as temporary, \
+                mock.patch.object(logos, "ASSETS", pathlib.Path(temporary)), \
+                mock.patch.object(logos, "evaluate", return_value=(source.getvalue(), "jpg", "ok")):
+            logos.mirror({"ExampleTV.ir": ["https://example.com/logo.jpg"]},
+                         preserve={"ExampleTV.ir"})
+            output = pathlib.Path(temporary) / "ExampleTV.ir.jpg"
+
+            self.assertEqual(output.read_bytes(), source.getvalue())
 
 
 if __name__ == "__main__":

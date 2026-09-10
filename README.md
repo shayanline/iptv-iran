@@ -88,7 +88,7 @@ The main playlist has bilingual, English, and Persian naming variants. Use the m
 
 Each entry can include a measured `tvg-quality` value of `SD`, `HD`, `FHD`, or `4K`. The current channel mix is 1 4K, 53 FHD, 38 HD, 89 SD, 22 unknown.
 
-The project stores logos for 199 channels in this repository to avoid dependence on logo hosts that may block some regions. Programme data is currently unavailable because the previous external guide feed was retired. Players may still accept a separately configured guide.
+The project stores logos for 203 channels in this repository to avoid dependence on logo hosts that may block some regions. Programme data is currently unavailable because the previous external guide feed was retired. Players may still accept a separately configured guide.
 
 <a id="smart-tv-playback"></a>
 
@@ -264,7 +264,7 @@ The code and curated data use the [MIT License](LICENSE). Channel names, logos, 
 
 اگر کیفیت یک شبکه قابل تشخیص باشد، مقدار `tvg-quality` آن با یکی از گزینه‌های `SD`، `HD`، `FHD` یا `4K` ثبت می‌شود. وضعیت فعلی شامل ۱ شبکه با کیفیت 4K، ۵۳ شبکه با کیفیت FHD، ۳۸ شبکه با کیفیت HD، ۸۹ شبکه با کیفیت SD، ۲۲ شبکه با کیفیت نامشخص است.
 
-لوگوی ۱۹۹ شبکه داخل همین مخزن قرار دارد تا نمایش لوگوها به سایت‌هایی وابسته نباشد که ممکن است در بعضی کشورها باز نشوند. اطلاعات راهنمای برنامه‌ها یا EPG فعلاً در پلی‌لیست‌ها وجود ندارد، چون منبع قبلی دیگر فعال نیست. اگر منبع معتبر دیگری دارید، می‌توانید آن را جداگانه در برنامه پخش خود وارد کنید.
+لوگوی ۲۰۳ شبکه داخل همین مخزن قرار دارد تا نمایش لوگوها به سایت‌هایی وابسته نباشد که ممکن است در بعضی کشورها باز نشوند. اطلاعات راهنمای برنامه‌ها یا EPG فعلاً در پلی‌لیست‌ها وجود ندارد، چون منبع قبلی دیگر فعال نیست. اگر منبع معتبر دیگری دارید، می‌توانید آن را جداگانه در برنامه پخش خود وارد کنید.
 
 <a id="fa-smart-tv"></a>
 

@@ -27,6 +27,7 @@ on:
     paths:
       - "scripts/**"
       - "data/curated.json"
+      - "requirements.txt"
       - ".github/workflows/refresh.yml"
 
 permissions:
@@ -46,6 +47,9 @@ jobs:
       - uses: actions/setup-python@v7
         with:
           python-version: "3.13"
+
+      - name: Install image tooling
+        run: python -m pip install --disable-pip-version-check -r requirements.txt
 
       # Before the twenty minute probe, so a broken change fails in seconds.
       - name: Test the scoring, matching and parsing rules

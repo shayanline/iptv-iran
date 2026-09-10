@@ -17,6 +17,7 @@ because a contributor behind a geo-block would otherwise re-download error cards
 good images.
 """
 import hashlib
+import io
 import sys
 import threading
 import time
@@ -25,6 +26,8 @@ import urllib.parse
 import urllib.request
 from collections import Counter, defaultdict
 from concurrent.futures import ThreadPoolExecutor
+
+from PIL import Image
 
 from lib import CANDIDATES, DATA, HERE, SSL_CTX, install_public_dns, log, read_json
 
@@ -80,6 +83,19 @@ TERMINATORS = {
 def is_complete(body, kind):
     check = TERMINATORS.get(kind)
     return check(body) if check else True
+
+
+def optimise_image(body):
+    with Image.open(io.BytesIO(body)) as source:
+        source.seek(0)
+        image = source.convert("RGBA")
+    if bounds := image.getchannel("A").getbbox():
+        image = image.crop(bounds)
+    scale = 512 / max(image.size)
+    image = image.resize(tuple(round(side * scale) for side in image.size), Image.Resampling.LANCZOS)
+    output = io.BytesIO()
+    image.save(output, "PNG", optimize=True, compress_level=9)
+    return output.getvalue()
 
 
 def image_kind(body):
@@ -156,7 +172,7 @@ def existing_asset(channel_id):
     return None
 
 
-def mirror(work):
+def mirror(work, preserve=()):
     """Refresh assets/logos from the sources.
 
     A mirrored logo is permanent. Once an image has been captured it is only ever
@@ -174,7 +190,8 @@ def mirror(work):
         for url in urls:
             body, kind, detail = evaluate(url)
             if body:
-                return channel_id, body, kind
+                return (channel_id, body, kind) if channel_id in preserve else \
+                    (channel_id, optimise_image(body), "png")
             with lock:
                 rejected.append((channel_id, url, detail))
         return channel_id, b"", None
@@ -218,8 +235,10 @@ def main():
         install_public_dns()
         work = {cid: candidates_for(cid, records, curated) for cid, records in by_channel.items()}
         work = {cid: urls for cid, urls in work.items() if urls}
+        preserve = {cid for name, ids in curated.get("sets", {}).items()
+                    if name.startswith("irib_") for cid in ids}
         log(f"mirroring logos for {len(work)} channels")
-        mirror(work)
+        mirror(work, preserve)
         # A few logos are committed directly rather than fetched, because no host serves
         # them. IRNA TV only publishes its mark inside a favicon bundle. Makran and Iran
         # Comedy are carried by no logo library at all, so their on air marks were lifted

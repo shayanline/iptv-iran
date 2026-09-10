@@ -12,7 +12,7 @@ Contributions can improve channel metadata, stream sources, playlist generation,
 ## Requirements
 
 - Git is required to work with the repository.
-- Python 3.13 is the version used by the refresh workflow. The Python scripts use only the standard library, so there is no dependency installation step.
+- Python 3.13 is the version used by the refresh workflow. Install the pinned image dependency with `python3 -m pip install -r requirements.txt` before running the logo mirror or Python tests.
 - A current Node.js release with the built in test runner and Fetch API globals is required only for changes under `worker/` or `tests/test_worker.mjs`.
 - A Cloudflare account and Wrangler are required only when you intentionally deploy your own Worker.
 

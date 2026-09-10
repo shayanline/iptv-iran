@@ -421,6 +421,20 @@
       "IranPress.ir",
       "Palestinetv.ir"
     ],
+    "irib_logo_preserve": [
+      "AraTV.ir",
+      "HabibTV.ir",
+      "IRIB1Plus.ir",
+      "LabbaykTV.ir",
+      "NamaTV.ir",
+      "PooyaTVPlus.ir",
+      "SepehrTV.ir",
+      "TVANava.ir",
+      "Tekyemadahi.ir",
+      "TelewebionSport1.ir",
+      "TelewebionSport2.ir",
+      "TelewebionSport3.ir"
+    ],
     "religious_christian": [
       "DerakhteZendegiTV.us",
       "ICnet1.ca",
@@ -1005,7 +1019,7 @@
     },
     "Sat7Pars.cy": {
       "en": "SAT-7 Pars",
-      "fa": "ست‌۷ پارس"
+      "fa": "ست سون پارس"
     },
     "TBNNejatTV.ir": {
       "en": "TBN Nejat TV",
@@ -1113,7 +1127,7 @@
     },
     "WiseHumanTv.ir": {
       "en": "Wise Human TV",
-      "fa": "انسان خردمند"
+      "fa": "انسان عاقل"
     },
     "AraxTV.ir": {
       "fa": "آراکس تی‌وی"
@@ -1175,7 +1189,7 @@
       "fa": "یورتایم تی‌وی"
     },
     "AfraFilm.ir": {
-      "fa": "آفرا فیلم"
+      "fa": "افرا فیلم"
     },
     "AVASeries.ir": {
       "fa": "آوا سریال"
@@ -1213,7 +1227,7 @@
       "fa": "پرشیانا سینما"
     },
     "PersianaFamily.fr": {
-      "fa": "پرشیانا فمیلی"
+      "fa": "پرشیانا خانواده"
     },
     "PersianaIranian.fr": {
       "fa": "پرشیانا ایرانیان"
@@ -1241,7 +1255,7 @@
       "fa": "ای‌اف‌ان تی‌وی"
     },
     "PersianaFolk.fr": {
-      "fa": "پرشیانا فولک"
+      "fa": "سنتی"
     },
     "PersianaNostalgia.fr": {
       "fa": "پرشیانا نوستالژی"
@@ -1264,13 +1278,13 @@
       "fa": "پرشیانا مستند"
     },
     "PersianaMedical.fr": {
-      "fa": "پرشیانا مدیکال"
+      "fa": "پرشیانا پزشکی"
     },
     "PersianaJunior.fr": {
-      "fa": "پرشیانا جونیور"
+      "fa": "پرشیانا کودک"
     },
     "PersianaFight.fr": {
-      "fa": "پرشیانا فایت"
+      "fa": "پرشیانا رزمی"
     },
     "MakranTV.ir": {
       "en": "Makran",
@@ -1324,7 +1338,7 @@
     },
     "ShoraiTV.us": {
       "en": "Shorai TV",
-      "fa": "شورای تی‌وی"
+      "fa": "تلویزیون دمکراسی شورایی"
     },
     "HadiTV.uk": {
       "en": "Hadi TV",
@@ -1332,7 +1346,7 @@
     },
     "IsraelParsTV.il": {
       "en": "Israel Pars TV",
-      "fa": "ایسرائل پارس"
+      "fa": "اسرائیل پارس"
     },
     "TapeshIran.us": {
       "en": "Tapesh Iran",
@@ -1376,15 +1390,15 @@
     },
     "TelewebionSport1.ir": {
       "en": "Telewebion Sport 1",
-      "fa": "تلوبیون ورزشی 1"
+      "fa": "تلوبیون ورزشی ۱"
     },
     "TelewebionSport2.ir": {
       "en": "Telewebion Sport 2",
-      "fa": "تلوبیون ورزشی 2"
+      "fa": "تلوبیون ورزشی ۲"
     },
     "TelewebionSport3.ir": {
       "en": "Telewebion Sport 3",
-      "fa": "تلوبیون ورزشی 3"
+      "fa": "تلوبیون ورزشی ۳"
     },
     "RoyalTV.ir": {
       "en": "Royal TV",
@@ -1416,7 +1430,7 @@
     },
     "PersianaMusic.fr": {
       "en": "Persiana Music",
-      "fa": "پرشیانا موزیک"
+      "fa": "پرشیانا موسیقی"
     },
     "PersianaRap.fr": {
       "en": "Persiana Rap",
@@ -1452,11 +1466,11 @@
     },
     "PersianaTravel.fr": {
       "en": "Persiana Travel",
-      "fa": "پرشیانا تراول"
+      "fa": "پرشیانا سفر"
     },
     "EkranMovies.ir": {
       "en": "Ekran Movies",
-      "fa": "اکران موویز"
+      "fa": "اکران فیلم"
     },
     "ITCTV.ca": {
       "en": "ITC TV",
@@ -1476,19 +1490,19 @@
     },
     "PersianaSports.fr": {
       "en": "Persiana Sports",
-      "fa": "پرشیانا اسپورت"
+      "fa": "پرشیانا ورزش"
     },
     "PersianaSports2.fr": {
       "en": "Persiana Sports 2",
-      "fa": "پرشیانا اسپورت ۲"
+      "fa": "پرشیانا ورزش ۲"
     },
     "PersianaSports3.fr": {
       "en": "Persiana Sports 3",
-      "fa": "پرشیانا اسپورت ۳"
+      "fa": "پرشیانا ورزش ۳"
     },
     "PersianaSports4.fr": {
       "en": "Persiana Sports 4",
-      "fa": "پرشیانا اسپورت ۴"
+      "fa": "پرشیانا ورزش ۴"
     },
     "HealthMediaTV.us": {
       "en": "Health Media TV",
@@ -1496,7 +1510,7 @@
     },
     "T2Movies.ir": {
       "en": "T2 Movies",
-      "fa": "تی۲ موویز"
+      "fa": "تی۲ فیلم"
     },
     "SepanjTV.ir": {
       "en": "Sepanj TV",
@@ -1941,7 +1955,7 @@
     },
     "ShoraiTV.us": {
       "en": "Shorai TV",
-      "fa": "شورای تی‌وی",
+      "fa": "تلویزیون دمکراسی شورایی",
       "country": "US",
       "languages": [
         "fas"
@@ -1965,7 +1979,7 @@
     },
     "IsraelParsTV.il": {
       "en": "Israel Pars TV",
-      "fa": "ایسرائل پارس",
+      "fa": "اسرائیل پارس",
       "country": "IL",
       "languages": [
         "fas"
@@ -2049,7 +2063,7 @@
     },
     "TelewebionSport1.ir": {
       "en": "Telewebion Sport 1",
-      "fa": "تلوبیون ورزشی 1",
+      "fa": "تلوبیون ورزشی ۱",
       "country": "IR",
       "languages": [
         "fas"
@@ -2061,7 +2075,7 @@
     },
     "TelewebionSport2.ir": {
       "en": "Telewebion Sport 2",
-      "fa": "تلوبیون ورزشی 2",
+      "fa": "تلوبیون ورزشی ۲",
       "country": "IR",
       "languages": [
         "fas"
@@ -2073,7 +2087,7 @@
     },
     "TelewebionSport3.ir": {
       "en": "Telewebion Sport 3",
-      "fa": "تلوبیون ورزشی 3",
+      "fa": "تلوبیون ورزشی ۳",
       "country": "IR",
       "languages": [
         "fas"
@@ -2169,7 +2183,7 @@
     },
     "PersianaMusic.fr": {
       "en": "Persiana Music",
-      "fa": "پرشیانا موزیک",
+      "fa": "پرشیانا موسیقی",
       "country": "FR",
       "languages": [
         "fas"
@@ -2234,7 +2248,7 @@
     },
     "PersianaSports.fr": {
       "en": "Persiana Sports",
-      "fa": "پرشیانا اسپورت",
+      "fa": "پرشیانا ورزش",
       "country": "FR",
       "languages": [
         "fas"
@@ -2320,7 +2334,7 @@
     },
     "EkranKids.ir": {
       "en": "Ekran Kids",
-      "fa": "اکران کیدز",
+      "fa": "اکران کودک",
       "country": "IR",
       "languages": [
         "fas"
@@ -2416,7 +2430,7 @@
     },
     "EshareTV.ir": {
       "en": "Eshare TV",
-      "fa": "ای‌شِیر تی‌وی",
+      "fa": "اشاره",
       "country": "IR",
       "languages": [
         "fas"
@@ -2621,15 +2635,17 @@
   },
   "_proxy_note": "Third party full media proxies are restricted to unlisted playlists. Public playlists use only direct broadcaster and direct CDN streams.",
   "logos": {
-    "4Kurd.fr": "https://www.parsatv.com/index_files/channels/4kurd.png",
-    "4Music.fr": "https://www.persianagroup.tv/assets/logos/music.png",
+    "4Kurd.fr": "https://www.persianagroup.tv/assets/logos/kurd4.png",
+    "4Music.fr": "https://www.parsatv.com/index_files/channels/4music.png",
     "4UFamily.tr": "https://4utv.tv/wp-content/uploads/2025/02/4U-Family-Red-copy.png.webp",
     "AVAFamily.ir": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/avafamily.png",
-    "AfraFilm.ir": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/afrafilm.jpg",
+    "AbalfadhlTV.ir": "https://static.abalfadhl.tv/upload/images/logo.png",
+    "AfraFilm.ir": "https://www.afratv.com/images/Logo3.png",
     "AlAlam.ir": "https://www.parsatv.com/index_files/channels/alalam.jpg",
     "AraxTV.ir": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/araxtv.png",
     "ArkoTV.ir": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/arkotv.jpg",
-    "BBCPersian.uk": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/BBC_Persian_logo_2021.svg/960px-BBC_Persian_logo_2021.svg.png",
+    "AzadiTV.ir": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AzadiTV.ir.png",
+    "BBCPersian.uk": "https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/BBCPersian.uk.png",
     "CafeFilm.ir": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/cafefilm.png",
     "CheshmehOghab.ir": "https://www.parsatv.com/index_files/channels/cheshmehoghab.png",
     "ClassicTV.ir": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/classictv.png",
@@ -2637,49 +2653,101 @@
     "EPlanetTV.ir": "https://eplanet.tv/wp-content/uploads/2025/08/unnamed.png",
     "FX1.ir": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/fx1.png",
     "FX2.ir": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/fx2.png",
+    "GEM24B.tr": "https://www.gemgroup.tv/assets/images/channels/icon_2.png",
+    "GEMBollywood.tr": "https://www.gemgroup.tv/assets/images/channels/icon_6.png",
+    "GEMClassic.tr": "https://www.gemgroup.tv/assets/images/channels/icon_12.png",
+    "GEMComedy.tr": "https://www.gemgroup.tv/assets/images/channels/icon_13.png",
+    "GEMDrama.tr": "https://www.gemgroup.tv/assets/images/channels/icon_36.png",
+    "GEMDramaPlus.tr": "https://www.gemgroup.tv/assets/images/channels/icon_7.png",
+    "GEMEntertainment.tr": "https://www.gemgroup.tv/assets/images/channels/icon_8.png",
+    "GEMFilm.tr": "https://www.gemgroup.tv/assets/images/channels/icon_15.png",
+    "GEMFit.tr": "https://www.gemgroup.tv/assets/images/channels/icon_5.png",
+    "GEMFood.tr": "https://www.gemgroup.tv/assets/images/channels/icon_9.png",
+    "GEMJunior.tr": "https://www.gemgroup.tv/assets/images/channels/icon_18.png",
+    "GEMKids.tr": "https://www.gemgroup.tv/assets/images/channels/icon_19.png",
+    "GEMLife.tr": "https://www.gemgroup.tv/assets/images/channels/icon_21.png",
+    "GEMMifa.tr": "https://www.gemgroup.tv/assets/images/channels/icon_22.png",
+    "GEMMifaPlus.tr": "https://www.gemgroup.tv/assets/images/channels/icon_37.png",
+    "GEMNature.tr": "https://www.gemgroup.tv/assets/images/channels/icon_25.png",
+    "GEMOnyx.tr": "https://www.gemgroup.tv/assets/images/channels/icon_26.png",
     "GEMPixel.tr": "https://www.gemgroup.tv/assets/images/channels/icon_27.png",
+    "GEMRiver.tr": "https://www.gemgroup.tv/assets/images/channels/icon_28.png",
+    "GEMRiverPlus.tr": "https://www.gemgroup.tv/assets/images/channels/icon_29.png",
+    "GEMRubix.tr": "https://www.gemgroup.tv/assets/images/channels/icon_30.png",
+    "GEMRubixPlus.tr": "https://www.gemgroup.tv/assets/images/channels/icon_31.png",
+    "GEMSeriesPlus.tr": "https://www.gemgroup.tv/assets/images/channels/icon_33.png",
+    "GEMSport.tr": "https://www.gemgroup.tv/assets/images/channels/icon_34.png",
+    "GEMTV.tr": "https://www.gemgroup.tv/assets/images/channels/icon_16.png",
+    "GEMTVPlus.tr": "https://www.gemgroup.tv/assets/images/channels/icon_17.png",
     "GoldStar.ir": "https://www.parsatv.com/index_files/channels/goldstar.png",
     "GolkhaneTv.ir": "https://www.parsatv.com/index_files/channels/golkhane.png",
     "GordAfaridTV.us": "https://www.parsatv.com/index_files/channels/gordafaridtv.jpg",
     "GrandCinema.tr": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/grandcinema.png",
-    "HomePlus.ir": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/homeplus.jpg",
+    "HomePlus.ir": "https://homeplustv.com/image/catalog/homeplus/homeplus-logo.png",
     "ICCplus.us": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/icc.png",
     "IRIB1Plus.ir": "https://lb-cdn.sepehrtv.ir/img/channel/logo/Logo1plus.png",
     "IRINN.ir": "https://upload.wikimedia.org/wikipedia/commons/7/74/IRIB_IRINN_2025.png",
     "IranIndependent.us": "https://www.parsatv.com/index_files/channels/iranindependent.jpg",
     "IranInternational.uk": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Iran_International.svg/960px-Iran_International.svg.png",
+    "IranJewishTV.ir": "http://iran620.com/images/logo.png",
     "IranTVIsrael.il": "https://www.parsatv.com/index_files/channels/irantvisrael.jpg",
     "IranWire.us": "https://www.parsatv.com/index_files/channels/iranwiretv.png",
     "IraneAryaeeTV.ir": "https://www.parsatv.com/index_files/channels/iranearyaee.jpg",
     "IraneFarda.us": "https://www.parsatv.com/index_files/channels/iranefarda.png",
+    "IraneFardaTV.uk": "https://iranefardalive.com/wp-content/uploads/2026/02/logo-main-iranefarda.png",
+    "KanalJadid.uk": "https://kanaljadid.com/wp-content/uploads/2026/04/لوگوی-بالای-سایت-کانال-جدید.jpg",
+    "KhaterehTV.us": "https://t.me/i/userpic/320/khaterehtvma.jpg",
     "LabbaykTV.ir": "https://www.parsatv.com/index_files/channels/labbayk.png",
+    "LoveWorldPersia.ng": "https://loveworldpersia.org/wp-content/uploads/2022/04/loveworldpersia.png",
     "MBCPersia.ae": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/MBC_Persia_Logo.svg/960px-MBC_Persia_Logo.svg.png",
     "Manoto.uk": "https://upload.wikimedia.org/wikipedia/commons/e/ee/LOGO_Manoto-Rebrand_2018.png",
     "MelliGTV.us": "https://www.parsatv.com/index_files/channels/melligtv.jpg",
     "MetaFilmTV.ir": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/metafilm.jpg",
-    "NahadeAzadi.us": "https://www.parsatv.com/index_files/channels/nahadeazadi.jpg",
+    "MihanTV.ir": "https://mihantv.com/wp-content/themes/mihantv/images/logo.png",
+    "MohabatTV.us": "https://mohabat.tv/wp-content/uploads/2026/01/Logo-Footer.webp",
+    "NahadeAzadi.us": "http://nahadeazadi.com/wp-content/uploads/2025/03/logo.png",
+    "NationalIranianCongressTV.us": "https://iraniancongress.com/en/wp-content/uploads/2024/10/logo.png",
     "NetTV.us": "https://www.parsatv.com/index_files/channels/nettv.png",
+    "NovinTV.ir": "https://novin.live/logo.png",
     "PMCRoyale.ae": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/pmcroyale.png",
+    "PayamJavanTV.us": "https://payamjavan.com/wp-content/uploads/2021/01/logo-Payam-Javan-.png",
+    "PersianaChina.fr": "https://www.persianagroup.tv/assets/logos/china.png",
+    "PersianaCinema.fr": "https://www.persianagroup.tv/assets/logos/cinema.png",
+    "PersianaComedy.fr": "https://www.persianagroup.tv/assets/logos/comedy.png",
     "PersianaDocs.fr": "https://www.persianagroup.tv/assets/logos/docs.png",
+    "PersianaFamily.fr": "https://www.persianagroup.tv/assets/logos/family.png",
     "PersianaFight.fr": "https://www.persianagroup.tv/assets/logos/fight.png",
     "PersianaFolk.fr": "https://www.persianagroup.tv/assets/logos/folk.png",
+    "PersianaIranian.fr": "https://www.persianagroup.tv/assets/logos/iranian.png",
+    "PersianaJunior.fr": "https://www.persianagroup.tv/assets/logos/junior.png",
+    "PersianaKorea.fr": "https://www.persianagroup.tv/assets/logos/korea.png",
     "PersianaLatino.fr": "https://www.parsatv.com/index_files/channels/persianalatino.png",
     "PersianaMedical.fr": "https://www.persianagroup.tv/assets/logos/medical.png",
+    "PersianaMusic.fr": "https://www.persianagroup.tv/assets/logos/music.png",
+    "PersianaNostalgia.fr": "https://www.persianagroup.tv/assets/logos/nostalgia.png",
+    "PersianaPlus.fr": "https://www.persianagroup.tv/assets/logos/plus.png",
+    "PersianaPodcast.fr": "https://www.persianagroup.tv/assets/logos/podcast.png",
+    "PersianaRap.fr": "https://www.persianagroup.tv/assets/logos/rap.png",
     "PersianaReality.fr": "https://www.persianagroup.tv/assets/logos/reality.png",
     "PersianaSeries.fr": "https://www.persianagroup.tv/assets/logos/series.png",
     "PersianaSetMix.fr": "https://www.persianagroup.tv/assets/logos/setmix.png",
+    "PersianaTravel.fr": "https://www.persianagroup.tv/assets/logos/travel.png",
     "PersianaTurkiye.fr": "https://www.persianagroup.tv/assets/logos/turkey.png",
+    "PersianaVoyage.fr": "https://www.persianagroup.tv/assets/logos/voyage.png",
     "PorchoonehTV.us": "https://www.parsatv.com/index_files/channels/porchooneh.jpg",
     "ProjectLeon.us": "https://www.parsatv.com/index_files/channels/projectleon.jpg",
     "PulseMedia.us": "https://www.parsatv.com/index_files/channels/pulsemedia.jpg",
     "RadioFardaTV.us": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Radio_Farda_logo.png",
+    "RJTV.us": "https://t.me/i/userpic/320/RJTVOfficial.jpg",
     "RaheNejatTV.us": "https://www.parsatv.com/index_files/channels/rahenejat.jpg",
     "RaviTV.us": "https://www.parsatv.com/index_files/channels/ravitv.png",
     "RazaviTV.ir": "https://lb-cdn.sepehrtv.ir/img/channel/razavi.png",
     "RoyaTV.ir": "https://lb-cdn.sepehrtv.ir/img/channel/rooyatv.png",
     "RoyalTV.ir": "https://www.parsatv.com/index_files/channels/royaltv.png",
     "SetarehTV.uk": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/setarehtv.png",
+    "Shabakeh7.us": "https://shabakeh7.com/logo/logo-navbar.png",
     "ShoraiTV.us": "https://tvshora.com/wp-content/uploads/2022/09/cropped-newlogo.png",
+    "SNNTV.ir": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/SNN_Logo.svg/960px-SNN_Logo.svg.png",
     "SunMusic.us": "https://www.parsatv.com/index_files/channels/sunmusic.png",
     "TapeshIran.us": "https://www.parsatv.com/index_files/channels/tapesh.png",
     "Tekyemadahi.ir": "https://www.parsatv.com/index_files/channels/tekyemadahi.png",
@@ -2687,10 +2755,11 @@
     "TelewebionSport2.ir": "https://www.parsatv.com/index_files/channels/telewebionvarzeshi2.png",
     "TelewebionSport3.ir": "https://www.parsatv.com/index_files/channels/telewebionvarzeshi3.png",
     "VelayatTV.ir": "https://www.parsatv.com/index_files/channels/velayat.png",
-    "ZedTV.ir": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/zedtvpersian.jpg",
+    "WiseHumanTv.ir": "https://wisehuman.net/wp-content/uploads/2025/02/انسان-عاقل-ی-e1738958652554.png",
+    "ZedTV.ir": "https://zed-tv.com/wp-content/uploads/2026/03/ZED-LOGO-Eng.png",
     "icnet3.ca": "https://cdn.jsdelivr.net/gh/Samhouston010/persian-tv@master/logos/icnet3.png"
   },
-  "_logos_note": "Logo sources for channels the upstream database has none for. Anything listed here is mirrored into assets/logos by scripts/logos.py and served from this repository, so a viewer never depends on the original host.",
+  "_logos_note": "Logo sources selected during a manual channel identity audit. These entries override upstream metadata and are mirrored into assets/logos, so a viewer never depends on the original host.",
   "order": [
     "IRIB1.ir",
     "IRIB2.ir",
