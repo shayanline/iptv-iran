@@ -197,6 +197,9 @@ def harvest():
                     "broadcast_area": [], "format": entry.get("format"),
                     "local": True,
                 }
+        entry = local.get(cid) if cid else local.get(local_id)
+        if entry and entry.get("known_height"):
+            rec["known_height"] = entry["known_height"]
         records.append(rec)
 
     records.sort(key=lambda r: r["url"])

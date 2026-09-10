@@ -252,6 +252,12 @@ class PublishedChannels(unittest.TestCase):
             channels = build.collect()
         self.assertEqual(channels[0]["name_fa"], "نیما")
 
+    def test_curated_quality_hints_are_reapplied_when_rerendering(self):
+        channels = {channel["id"]: channel for channel in build.published_channels()}
+        self.assertEqual(channels["PersianaVoyage.fr"]["quality"], "HD")
+        self.assertEqual(channels["PersianaVoyage.fr"]["streams"][0]["height"], 720)
+        self.assertEqual(channels["KhaterehTV.us"]["quality"], "FHD")
+
     def test_every_generated_channel_has_a_persian_name(self):
         missing = [channel["id"] for channel in build.published_channels()
                    if not channel["name_fa"]]

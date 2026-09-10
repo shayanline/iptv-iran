@@ -106,15 +106,15 @@ This catalogue contains 203 channels in 13 categories. The playlist links are ge
 | HomePlus | هوم پلاس | 720p | Worldwide |
 | Iran Independent | ایران ایندیپندنت | n/a | Worldwide |
 | ITN | آی‌تی‌ان | 576p | Worldwide |
-| Khatereh TV | خاطره | n/a | Worldwide |
+| Khatereh TV | خاطره | 1080p | Worldwide |
 | MTC | ام‌تی‌سی | 720p | Worldwide |
 | Net TV | نت | n/a | Worldwide |
 | Novin TV | نوین | 720p | Worldwide |
 | Omid-e Iran | امید ایران | 480p | Worldwide |
 | Oxir TV | اکسیر | 576p | Worldwide |
 | Porchooneh TV | پرچونه | n/a | Worldwide |
-| Ravi TV | راوی | n/a | Worldwide |
-| Royal TV | رویال | n/a | Worldwide |
+| Ravi TV | راوی | 720p | Worldwide |
+| Royal TV | رویال | 720p | Worldwide |
 | Tapesh Iran | تپش ایران | 1080p | Worldwide |
 | Tapesh TV | تپش | 1080p | Worldwide |
 | Tin TV | تین | 720p | Worldwide |
@@ -128,7 +128,7 @@ This catalogue contains 203 channels in 13 categories. The playlist links are ge
 | Channel | Persian name | Quality | Available |
 |:--|:--|:--|:--|
 | 247 Box TV | ۲۴۷ باکس | 576p | Worldwide |
-| 4U Family | فور یو خانواده | n/a | Worldwide |
+| 4U Family | فور یو خانواده | 720p | Worldwide |
 | 4U TV | فور یو | 576p | Worldwide |
 | Afra Film | افرا فیلم | 720p | Worldwide |
 | Arax TV | آراکس | 720p | Worldwide |
@@ -143,7 +143,7 @@ This catalogue contains 203 channels in 13 categories. The playlist links are ge
 | Maah TV | ماه | 576p | Worldwide |
 | MBC Persia | ام‌بی‌سی پرشیا | 1080p | Worldwide |
 | Meta Film TV | متا فیلم | 576p | Worldwide |
-| Persiana China | پرشیانا چین | n/a | Worldwide |
+| Persiana China | پرشیانا چین | 720p | Worldwide |
 | Persiana Cinema | پرشیانا سینما | 576p | Worldwide |
 | Persiana Comedy | پرشیانا کمدی | 576p | Worldwide |
 | Persiana Family | پرشیانا خانواده | 576p | Worldwide |
@@ -163,27 +163,27 @@ This catalogue contains 203 channels in 13 categories. The playlist links are ge
 
 | Channel | Persian name | Quality | Available |
 |:--|:--|:--|:--|
-| Azadi TV | آزادی | n/a | Worldwide |
+| Azadi TV | آزادی | 720p | Worldwide |
 | BBC News Persian | بی‌بی‌سی فارسی | 720p | Worldwide |
 | Channel One | شبکه یک (لس‌آنجلس) | 720p | Worldwide |
-| Cheshmeh Oghab | چشم عقاب | n/a | Worldwide |
+| Cheshmeh Oghab | چشم عقاب | 720p | Worldwide |
 | Dej TV | دژ | 720p | Worldwide |
-| GordAfarid TV | گردآفرید | n/a | Worldwide |
+| GordAfarid TV | گردآفرید | 720p | Worldwide |
 | Iran International | ایران اینترنشنال | 1080p | Worldwide |
 | Iran National Revolution TV | انقلاب ملی ایران | 720p | Worldwide |
-| Iran TV Israel | ایران تی‌وی اسرائیل | n/a | Worldwide |
+| Iran TV Israel | ایران تی‌وی اسرائیل | 720p | Worldwide |
 | Irane Aryaee TV | ایران آریایی | 576p | Worldwide |
 | IraneFarda TV | ایران فردا | 720p | Worldwide |
-| IranWire | ایران‌وایر | n/a | Worldwide |
+| IranWire | ایران‌وایر | 720p | Worldwide |
 | IRNA TV | ایرنا | n/a | Worldwide |
 | Israel Pars TV | اسرائیل پارس | 360p | Worldwide |
 | Kanal Jadid | کانال جدید | 576p | Worldwide |
-| MelliG TV | ملی‌گرا | n/a | Worldwide |
+| MelliG TV | ملی‌گرا | 720p | Worldwide |
 | Mihan TV | میهن | 1080p | Worldwide |
-| Nahade Azadi | نهاد آزادی | n/a | Worldwide |
+| Nahade Azadi | نهاد آزادی | 720p | Worldwide |
 | National Iranian Congress TV | کنگره ملی ایرانیان | 720p | Worldwide |
 | Pars TV | پارس | 720p | Worldwide |
-| Project Leon | پروژه لئون | n/a | Worldwide |
+| Project Leon | پروژه لئون | 720p | Worldwide |
 | Pulse Media | پالس مدیا | n/a | Worldwide |
 | Radio Farda TV | رادیو فردا | 576p | Worldwide |
 | Setareh TV | ستاره | 576p | Worldwide |
@@ -208,7 +208,7 @@ This catalogue contains 203 channels in 13 categories. The playlist links are ge
 | Persiana Music | پرشیانا موسیقی | 576p | Worldwide |
 | Persiana Nostalgia | پرشیانا نوستالژی | 576p | Worldwide |
 | Persiana Rap | پرشیانا رپ | 576p | Worldwide |
-| Persiana SetMix | پرشیانا ست‌میکس | n/a | Worldwide |
+| Persiana SetMix | پرشیانا ست‌میکس | 1080p | Worldwide |
 | PMC | پی‌ام‌سی | 576p | Worldwide |
 | PMC Royale | پی‌ام‌سی رویال | 576p | Worldwide |
 | Radio Javan | رادیو جوان | 480p | Worldwide |
@@ -246,9 +246,9 @@ This catalogue contains 203 channels in 13 categories. The playlist links are ge
 | Cafe Trade TV | کافه ترید | 480p | Worldwide |
 | Payam Javan TV | پیام جوان | 720p | Worldwide |
 | Persiana Docs | پرشیانا مستند | 720p | Worldwide |
-| Persiana Podcast | پرشیانا پادکست | n/a | Worldwide |
+| Persiana Podcast | پرشیانا پادکست | 720p | Worldwide |
 | Persiana Travel | پرشیانا سفر | 720p | Worldwide |
-| Persiana Voyage | پرشیانا سیاحت | n/a | Worldwide |
+| Persiana Voyage | پرشیانا سیاحت | 720p | Worldwide |
 | TM TV | تی‌ام | 480p | Worldwide |
 
 </details>

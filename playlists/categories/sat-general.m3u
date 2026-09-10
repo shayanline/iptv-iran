@@ -1,6 +1,6 @@
 #EXTM3U
 # Satellite · General & Variety only.
-# generated 2026-09-10 15:17 UTC by shayanline/iptv-iran
+# generated 2026-09-10 15:33 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="ArkoTV.ir" tvg-name="Arko TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ArkoTV.ir.png" group-title="Satellite · General & Variety | ماهواره‌ای · عمومی و متنوع" tvg-language="fas" tvg-quality="HD",Arko TV | آرکو
 https://arkhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="GEMPixel.tr" tvg-name="GEM Pixel" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/GEMPixel.tr.png" group-title="Satellite · General & Variety | ماهواره‌ای · عمومی و متنوع" tvg-language="fas" tvg-quality="SD",GEM Pixel | جم پیکسل
@@ -11,7 +11,7 @@ https://homeplushls.wns.live/hls/stream.m3u8
 https://mediamtx.elitelatrade.com/live/stream/main_stream.m3u8
 #EXTINF:-1 tvg-id="TVITN.ir" tvg-name="ITN" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/TVITN.ir.png" group-title="Satellite · General & Variety | ماهواره‌ای · عمومی و متنوع" tvg-language="fas" tvg-quality="SD",ITN | آی‌تی‌ان
 https://itnhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="KhaterehTV.us" tvg-name="Khatereh TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/KhaterehTV.us.png" group-title="Satellite · General & Variety | ماهواره‌ای · عمومی و متنوع" tvg-language="fas",Khatereh TV | خاطره
+#EXTINF:-1 tvg-id="KhaterehTV.us" tvg-name="Khatereh TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/KhaterehTV.us.png" group-title="Satellite · General & Variety | ماهواره‌ای · عمومی و متنوع" tvg-language="fas" tvg-quality="FHD",Khatereh TV | خاطره
 https://radio.khatereh.online:5443/LiveApp/streams/jWF37YKCgZ0FSYTR863687974499636.m3u8
 #EXTINF:-1 tvg-id="MTC.us" tvg-name="MTC" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/MTC.us.png" group-title="Satellite · General & Variety | ماهواره‌ای · عمومی و متنوع" tvg-language="fas" tvg-quality="HD",MTC | ام‌تی‌سی
 https://mtchls.wns.live/hls/stream.m3u8
@@ -25,9 +25,9 @@ https://oitnhls.wns.live/hls/stream.m3u8
 https://hls.oxir.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PorchoonehTV.us" tvg-name="Porchooneh TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PorchoonehTV.us.png" group-title="Satellite · General & Variety | ماهواره‌ای · عمومی و متنوع" tvg-language="fas",Porchooneh TV | پرچونه
 http://porchooneh.com/hls/live1/stream1.m3u8
-#EXTINF:-1 tvg-id="RaviTV.us" tvg-name="Ravi TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/RaviTV.us.png" group-title="Satellite · General & Variety | ماهواره‌ای · عمومی و متنوع" tvg-language="fas",Ravi TV | راوی
+#EXTINF:-1 tvg-id="RaviTV.us" tvg-name="Ravi TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/RaviTV.us.png" group-title="Satellite · General & Variety | ماهواره‌ای · عمومی و متنوع" tvg-language="fas" tvg-quality="HD",Ravi TV | راوی
 https://hls.ravitv.com/hls/stream.m3u8
-#EXTINF:-1 tvg-id="RoyalTV.ir" tvg-name="Royal TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/RoyalTV.ir.png" group-title="Satellite · General & Variety | ماهواره‌ای · عمومی و متنوع" tvg-language="fas",Royal TV | رویال
+#EXTINF:-1 tvg-id="RoyalTV.ir" tvg-name="Royal TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/RoyalTV.ir.png" group-title="Satellite · General & Variety | ماهواره‌ای · عمومی و متنوع" tvg-language="fas" tvg-quality="HD",Royal TV | رویال
 https://arvhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="TapeshIran.us" tvg-name="Tapesh Iran" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/TapeshIran.us.png" group-title="Satellite · General & Variety | ماهواره‌ای · عمومی و متنوع" tvg-language="fas" tvg-quality="FHD",Tapesh Iran | تپش ایران
 https://iptv.tapesh.tv/tapeshiran/playlist.m3u8

@@ -16059,7 +16059,7 @@
         "url": "https://radio.khatereh.online:5443/LiveApp/streams/jWF37YKCgZ0FSYTR863687974499636.m3u8",
         "state": "ok",
         "resolution": null,
-        "height": 0,
+        "height": 1080,
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
@@ -16084,9 +16084,9 @@
     ],
     "public": true,
     "reach": "global",
-    "height": 0,
+    "height": 1080,
     "resolution": null,
-    "quality": "",
+    "quality": "FHD",
     "compat": {
       "url": "https://radio.khatereh.online:5443/LiveApp/streams/jWF37YKCgZ0FSYTR863687974499636.m3u8",
       "state": "ok",
@@ -16143,6 +16143,7 @@
       "satellite",
       "general",
       "worldwide",
+      "fhd",
       "fas"
     ]
   },
@@ -16842,7 +16843,7 @@
         "url": "https://hls.ravitv.com/hls/stream.m3u8",
         "state": "ok",
         "resolution": null,
-        "height": 0,
+        "height": 720,
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
@@ -16867,9 +16868,9 @@
     ],
     "public": true,
     "reach": "global",
-    "height": 0,
+    "height": 720,
     "resolution": null,
-    "quality": "",
+    "quality": "HD",
     "compat": {
       "url": "https://hls.ravitv.com/hls/stream.m3u8",
       "state": "ok",
@@ -16926,6 +16927,7 @@
       "satellite",
       "general",
       "worldwide",
+      "hd",
       "fas"
     ]
   },
@@ -16950,7 +16952,7 @@
         "url": "https://arvhls.wns.live/hls/stream.m3u8",
         "state": "ok",
         "resolution": null,
-        "height": 0,
+        "height": 720,
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
@@ -16978,9 +16980,9 @@
     ],
     "public": true,
     "reach": "global",
-    "height": 0,
+    "height": 720,
     "resolution": null,
-    "quality": "",
+    "quality": "HD",
     "compat": {
       "url": "https://arvhls.wns.live/hls/stream.m3u8",
       "state": "ok",
@@ -17043,6 +17045,7 @@
       "satellite",
       "general",
       "worldwide",
+      "hd",
       "fas"
     ]
   },
@@ -17692,7 +17695,7 @@
         "url": "https://familyhls.4utv.live/hls/stream.m3u8",
         "state": "ok",
         "resolution": null,
-        "height": 0,
+        "height": 720,
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
@@ -17717,9 +17720,9 @@
     ],
     "public": true,
     "reach": "global",
-    "height": 0,
+    "height": 720,
     "resolution": null,
-    "quality": "",
+    "quality": "HD",
     "compat": {
       "url": "https://familyhls.4utv.live/hls/stream.m3u8",
       "state": "ok",
@@ -17776,6 +17779,7 @@
       "satellite",
       "movies",
       "worldwide",
+      "hd",
       "fas"
     ]
   },
@@ -19474,7 +19478,7 @@
         "url": "https://chinahls.persiana.live/hls/stream.m3u8",
         "state": "ok",
         "resolution": null,
-        "height": 0,
+        "height": 720,
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
@@ -19499,9 +19503,9 @@
     ],
     "public": true,
     "reach": "global",
-    "height": 0,
+    "height": 720,
     "resolution": null,
-    "quality": "",
+    "quality": "HD",
     "compat": {
       "url": "https://chinahls.persiana.live/hls/stream.m3u8",
       "state": "ok",
@@ -19558,6 +19562,7 @@
       "satellite",
       "movies",
       "worldwide",
+      "hd",
       "fas"
     ]
   },
@@ -20878,7 +20883,7 @@
         "url": "https://wmtvhls.wns.live/hls/stream.m3u8",
         "state": "ok",
         "resolution": null,
-        "height": 0,
+        "height": 720,
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
@@ -20903,9 +20908,9 @@
     ],
     "public": true,
     "reach": "global",
-    "height": 0,
+    "height": 720,
     "resolution": null,
-    "quality": "",
+    "quality": "HD",
     "compat": {
       "url": "https://wmtvhls.wns.live/hls/stream.m3u8",
       "state": "ok",
@@ -20962,6 +20967,7 @@
       "satellite",
       "news",
       "worldwide",
+      "hd",
       "fas"
     ]
   },
@@ -21424,7 +21430,7 @@
         "url": "https://choghls.wns.live/hls/stream.m3u8",
         "state": "ok",
         "resolution": null,
-        "height": 0,
+        "height": 720,
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
@@ -21449,9 +21455,9 @@
     ],
     "public": true,
     "reach": "global",
-    "height": 0,
+    "height": 720,
     "resolution": null,
-    "quality": "",
+    "quality": "HD",
     "compat": {
       "url": "https://choghls.wns.live/hls/stream.m3u8",
       "state": "ok",
@@ -21508,6 +21514,7 @@
       "satellite",
       "news",
       "worldwide",
+      "hd",
       "fas"
     ]
   },
@@ -21644,7 +21651,7 @@
         "url": "https://gatvhls.wns.live/hls/stream.m3u8",
         "state": "ok",
         "resolution": null,
-        "height": 0,
+        "height": 720,
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
@@ -21669,9 +21676,9 @@
     ],
     "public": true,
     "reach": "global",
-    "height": 0,
+    "height": 720,
     "resolution": null,
-    "quality": "",
+    "quality": "HD",
     "compat": {
       "url": "https://gatvhls.wns.live/hls/stream.m3u8",
       "state": "ok",
@@ -21728,6 +21735,7 @@
       "satellite",
       "news",
       "worldwide",
+      "hd",
       "fas"
     ]
   },
@@ -22097,7 +22105,7 @@
         "url": "https://streaminglive.co.il:3730/live/raniamranilive.m3u8",
         "state": "ok",
         "resolution": null,
-        "height": 0,
+        "height": 720,
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
@@ -22122,9 +22130,9 @@
     ],
     "public": true,
     "reach": "global",
-    "height": 0,
+    "height": 720,
     "resolution": null,
-    "quality": "",
+    "quality": "HD",
     "compat": {
       "url": "https://streaminglive.co.il:3730/live/raniamranilive.m3u8",
       "state": "ok",
@@ -22181,6 +22189,7 @@
       "satellite",
       "news",
       "worldwide",
+      "hd",
       "fas"
     ]
   },
@@ -22435,7 +22444,7 @@
         "url": "https://irwhls.wns.live/hls/stream.m3u8",
         "state": "ok",
         "resolution": null,
-        "height": 0,
+        "height": 720,
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
@@ -22460,9 +22469,9 @@
     ],
     "public": true,
     "reach": "global",
-    "height": 0,
+    "height": 720,
     "resolution": null,
-    "quality": "",
+    "quality": "HD",
     "compat": {
       "url": "https://irwhls.wns.live/hls/stream.m3u8",
       "state": "ok",
@@ -22519,6 +22528,7 @@
       "satellite",
       "news",
       "worldwide",
+      "hd",
       "fas"
     ]
   },
@@ -22878,7 +22888,7 @@
         "url": "https://mellihls.wns.live/hls/stream.m3u8",
         "state": "ok",
         "resolution": null,
-        "height": 0,
+        "height": 720,
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
@@ -22903,9 +22913,9 @@
     ],
     "public": true,
     "reach": "global",
-    "height": 0,
+    "height": 720,
     "resolution": null,
-    "quality": "",
+    "quality": "HD",
     "compat": {
       "url": "https://mellihls.wns.live/hls/stream.m3u8",
       "state": "ok",
@@ -22962,6 +22972,7 @@
       "satellite",
       "news",
       "worldwide",
+      "hd",
       "fas"
     ]
   },
@@ -23104,7 +23115,7 @@
         "url": "https://livestream.5centscdn.com/nahadeazadi/14a66ff6dca989d3a2eb0dc8cdb50892.sdp/chunks.m3u8",
         "state": "ok",
         "resolution": null,
-        "height": 0,
+        "height": 720,
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
@@ -23129,9 +23140,9 @@
     ],
     "public": true,
     "reach": "global",
-    "height": 0,
+    "height": 720,
     "resolution": null,
-    "quality": "",
+    "quality": "HD",
     "compat": {
       "url": "https://livestream.5centscdn.com/nahadeazadi/14a66ff6dca989d3a2eb0dc8cdb50892.sdp/chunks.m3u8",
       "state": "ok",
@@ -23188,6 +23199,7 @@
       "satellite",
       "news",
       "worldwide",
+      "hd",
       "fas"
     ]
   },
@@ -23469,7 +23481,7 @@
         "url": "https://pleonhls.wns.live/hls/stream.m3u8",
         "state": "ok",
         "resolution": null,
-        "height": 0,
+        "height": 720,
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
@@ -23494,9 +23506,9 @@
     ],
     "public": true,
     "reach": "global",
-    "height": 0,
+    "height": 720,
     "resolution": null,
-    "quality": "",
+    "quality": "HD",
     "compat": {
       "url": "https://pleonhls.wns.live/hls/stream.m3u8",
       "state": "ok",
@@ -23553,6 +23565,7 @@
       "satellite",
       "news",
       "worldwide",
+      "hd",
       "fas"
     ]
   },
@@ -25386,7 +25399,7 @@
         "url": "https://setmixhls.persiana.live/hls/stream.m3u8",
         "state": "ok",
         "resolution": null,
-        "height": 0,
+        "height": 1080,
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
@@ -25411,9 +25424,9 @@
     ],
     "public": true,
     "reach": "global",
-    "height": 0,
+    "height": 1080,
     "resolution": null,
-    "quality": "",
+    "quality": "FHD",
     "compat": {
       "url": "https://setmixhls.persiana.live/hls/stream.m3u8",
       "state": "ok",
@@ -25470,6 +25483,7 @@
       "satellite",
       "music",
       "worldwide",
+      "fhd",
       "fas"
     ]
   },
@@ -27332,7 +27346,7 @@
         "url": "https://podhls.persiana.live/hls/stream.m3u8",
         "state": "ok",
         "resolution": null,
-        "height": 0,
+        "height": 720,
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
@@ -27357,9 +27371,9 @@
     ],
     "public": true,
     "reach": "global",
-    "height": 0,
+    "height": 720,
     "resolution": null,
-    "quality": "",
+    "quality": "HD",
     "compat": {
       "url": "https://podhls.persiana.live/hls/stream.m3u8",
       "state": "ok",
@@ -27416,6 +27430,7 @@
       "satellite",
       "documentary",
       "worldwide",
+      "hd",
       "fas"
     ]
   },
@@ -27558,7 +27573,7 @@
         "url": "https://voyhls.persiana.live/hls/stream.m3u8",
         "state": "ok",
         "resolution": null,
-        "height": 0,
+        "height": 720,
         "bandwidth": null,
         "variants": null,
         "kind": "hls",
@@ -27583,9 +27598,9 @@
     ],
     "public": true,
     "reach": "global",
-    "height": 0,
+    "height": 720,
     "resolution": null,
-    "quality": "",
+    "quality": "HD",
     "compat": {
       "url": "https://voyhls.persiana.live/hls/stream.m3u8",
       "state": "ok",
@@ -27642,6 +27657,7 @@
       "satellite",
       "documentary",
       "worldwide",
+      "hd",
       "fas"
     ]
   },

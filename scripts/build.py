@@ -110,7 +110,7 @@ def collect():
     candidates = read_json(CANDIDATES, [])
     status = (read_json(DATA / "status.json", {}) or {}).get("streams", {})
     curated = read_json(DATA / "curated.json", {})
-    overrides = {**curated.get("local_channels", {}), **curated.get("channels", {})}
+    overrides = {**curated.get("channels", {}), **curated.get("local_channels", {})}
     # Logos are mirrored into the repository by scripts/logos.py and served from the same
     # origin as the playlists, so the mapping is simply whatever is on disk.
     logos = mirrored_logos()
@@ -352,12 +352,18 @@ def published_channels():
     channels = read_json(DATA / "channels.json", [])
     curated = read_json(DATA / "curated.json", {})
     overrides = curated.get("category_overrides", {})
-    named = {**curated.get("local_channels", {}), **curated.get("channels", {})}
+    named = {**curated.get("channels", {}), **curated.get("local_channels", {})}
     for channel in channels:
         curation = named.get(channel["id"], {})
         channel["category"] = overrides.get(channel["id"], channel["category"])
         channel["name_en"] = curation.get("en") or channel["name_en"]
         channel["name_fa"] = curation.get("fa") or channel["name_fa"]
+        if curation.get("known_height"):
+            for stream in channel["streams"]:
+                stream["height"] = max(stream.get("height") or 0, curation["known_height"])
+            channel["height"] = max(channel["height"], curation["known_height"])
+            channel["quality"] = taxonomy.quality_tag(channel["height"])
+            channel["tags"] = taxonomy.tags(channel)
         channel["best"] = next((s for s in channel["streams"]
                                 if not s.get("unlisted_only")), channel["streams"][0])
     return channels

@@ -1,6 +1,6 @@
 #EXTM3U
 # Satellite · Music only.
-# generated 2026-09-10 15:17 UTC by shayanline/iptv-iran
+# generated 2026-09-10 15:33 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="4Kurd.fr" tvg-name="4 Kurd" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/4Kurd.fr.png" group-title="Satellite · Music | ماهواره‌ای · موسیقی" tvg-language="kur;fas" tvg-quality="SD",4 Kurd | فور کورد
 https://4kuhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AFNTV.ir" tvg-name="AFN TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AFNTV.ir.png" group-title="Satellite · Music | ماهواره‌ای · موسیقی" tvg-language="fas" tvg-quality="HD",AFN TV | ای‌اف‌ان
@@ -19,7 +19,7 @@ https://musichls.persiana.live/hls/stream.m3u8
 https://noshls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PersianaRap.fr" tvg-name="Persiana Rap" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaRap.fr.png" group-title="Satellite · Music | ماهواره‌ای · موسیقی" tvg-language="fas" tvg-quality="SD",Persiana Rap | پرشیانا رپ
 https://raphls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PersianaSetMix.fr" tvg-name="Persiana SetMix" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaSetMix.fr.png" group-title="Satellite · Music | ماهواره‌ای · موسیقی" tvg-language="fas",Persiana SetMix | پرشیانا ست‌میکس
+#EXTINF:-1 tvg-id="PersianaSetMix.fr" tvg-name="Persiana SetMix" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaSetMix.fr.png" group-title="Satellite · Music | ماهواره‌ای · موسیقی" tvg-language="fas" tvg-quality="FHD",Persiana SetMix | پرشیانا ست‌میکس
 https://setmixhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PMC.ae" tvg-name="PMC" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PMC.ae.png" group-title="Satellite · Music | ماهواره‌ای · موسیقی" tvg-language="fas" tvg-quality="SD",PMC | پی‌ام‌سی
 https://pmchls.wns.live/hls/stream.m3u8
