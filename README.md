@@ -61,13 +61,13 @@ Keep the remote URL in your player when it supports URL based playlists. The pla
 | IRIB National Networks | 23 | [Open playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/irib-national.m3u) |
 | IRIB Provincial Networks | 34 | [Open playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/irib-provincial.m3u) |
 | IRIB International Services | 13 | [Open playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/irib-international.m3u) |
-| General & Variety | 18 | [Open playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-general.m3u) |
-| Film & Series | 28 | [Open playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-movies.m3u) |
-| News & Current Affairs | 28 | [Open playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-news.m3u) |
-| Music | 15 | [Open playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-music.m3u) |
-| Children | 1 | [Open playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-kids.m3u) |
-| Sports | 4 | [Open playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-sports.m3u) |
-| Factual, Culture & Lifestyle | 7 | [Open playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-documentary.m3u) |
+| Satellite · General & Variety | 18 | [Open playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-general.m3u) |
+| Satellite · Film & Series | 28 | [Open playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-movies.m3u) |
+| Satellite · News & Current Affairs | 28 | [Open playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-news.m3u) |
+| Satellite · Music | 15 | [Open playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-music.m3u) |
+| Satellite · Children | 1 | [Open playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-kids.m3u) |
+| Satellite · Sports | 4 | [Open playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-sports.m3u) |
+| Satellite · Factual, Culture & Lifestyle | 7 | [Open playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-documentary.m3u) |
 | Religious · Islamic | 17 | [Open playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/religious-islamic.m3u) |
 | Religious · Christian | 11 | [Open playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/religious-christian.m3u) |
 | Religious · Other Faiths & Spiritual | 4 | [Open playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/religious-other.m3u) |
@@ -237,13 +237,13 @@ The code and curated data use the [MIT License](LICENSE). Channel names, logos, 
 | شبکه‌های سراسری سیما | ۲۳ | [باز کردن پلی‌لیست](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/irib-national.m3u) |
 | شبکه‌های استانی | ۳۴ | [باز کردن پلی‌لیست](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/irib-provincial.m3u) |
 | شبکه‌های برون‌مرزی | ۱۳ | [باز کردن پلی‌لیست](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/irib-international.m3u) |
-| عمومی و متنوع | ۱۸ | [باز کردن پلی‌لیست](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-general.m3u) |
-| فیلم و سریال | ۲۸ | [باز کردن پلی‌لیست](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-movies.m3u) |
-| خبر و امور جاری | ۲۸ | [باز کردن پلی‌لیست](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-news.m3u) |
-| موسیقی | ۱۵ | [باز کردن پلی‌لیست](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-music.m3u) |
-| کودک | ۱ | [باز کردن پلی‌لیست](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-kids.m3u) |
-| ورزش | ۴ | [باز کردن پلی‌لیست](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-sports.m3u) |
-| مستند، فرهنگ و سبک زندگی | ۷ | [باز کردن پلی‌لیست](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-documentary.m3u) |
+| ماهواره‌ای · عمومی و متنوع | ۱۸ | [باز کردن پلی‌لیست](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-general.m3u) |
+| ماهواره‌ای · فیلم و سریال | ۲۸ | [باز کردن پلی‌لیست](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-movies.m3u) |
+| ماهواره‌ای · خبر و امور جاری | ۲۸ | [باز کردن پلی‌لیست](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-news.m3u) |
+| ماهواره‌ای · موسیقی | ۱۵ | [باز کردن پلی‌لیست](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-music.m3u) |
+| ماهواره‌ای · کودک | ۱ | [باز کردن پلی‌لیست](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-kids.m3u) |
+| ماهواره‌ای · ورزش | ۴ | [باز کردن پلی‌لیست](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-sports.m3u) |
+| ماهواره‌ای · مستند، فرهنگ و سبک زندگی | ۷ | [باز کردن پلی‌لیست](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/sat-documentary.m3u) |
 | مذهبی · اسلامی | ۱۷ | [باز کردن پلی‌لیست](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/religious-islamic.m3u) |
 | مذهبی · مسیحی | ۱۱ | [باز کردن پلی‌لیست](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/religious-christian.m3u) |
 | مذهبی · سایر ادیان و معنوی | ۴ | [باز کردن پلی‌لیست](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/categories/religious-other.m3u) |

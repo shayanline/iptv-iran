@@ -97,7 +97,7 @@ This catalogue contains 203 channels in 13 categories. The playlist links are ge
 </details>
 
 <details>
-<summary><b>General & Variety</b> &nbsp; 18 channels</summary>
+<summary><b>Satellite · General & Variety</b> &nbsp; 18 channels</summary>
 
 | Channel | Persian name | Quality | Available |
 |:--|:--|:--|:--|
@@ -123,7 +123,7 @@ This catalogue contains 203 channels in 13 categories. The playlist links are ge
 </details>
 
 <details>
-<summary><b>Film & Series</b> &nbsp; 28 channels</summary>
+<summary><b>Satellite · Film & Series</b> &nbsp; 28 channels</summary>
 
 | Channel | Persian name | Quality | Available |
 |:--|:--|:--|:--|
@@ -159,7 +159,7 @@ This catalogue contains 203 channels in 13 categories. The playlist links are ge
 </details>
 
 <details>
-<summary><b>News & Current Affairs</b> &nbsp; 28 channels</summary>
+<summary><b>Satellite · News & Current Affairs</b> &nbsp; 28 channels</summary>
 
 | Channel | Persian name | Quality | Available |
 |:--|:--|:--|:--|
@@ -195,7 +195,7 @@ This catalogue contains 203 channels in 13 categories. The playlist links are ge
 </details>
 
 <details>
-<summary><b>Music</b> &nbsp; 15 channels</summary>
+<summary><b>Satellite · Music</b> &nbsp; 15 channels</summary>
 
 | Channel | Persian name | Quality | Available |
 |:--|:--|:--|:--|
@@ -218,7 +218,7 @@ This catalogue contains 203 channels in 13 categories. The playlist links are ge
 </details>
 
 <details>
-<summary><b>Children</b> &nbsp; 1 channels</summary>
+<summary><b>Satellite · Children</b> &nbsp; 1 channels</summary>
 
 | Channel | Persian name | Quality | Available |
 |:--|:--|:--|:--|
@@ -227,7 +227,7 @@ This catalogue contains 203 channels in 13 categories. The playlist links are ge
 </details>
 
 <details>
-<summary><b>Sports</b> &nbsp; 4 channels</summary>
+<summary><b>Satellite · Sports</b> &nbsp; 4 channels</summary>
 
 | Channel | Persian name | Quality | Available |
 |:--|:--|:--|:--|
@@ -239,7 +239,7 @@ This catalogue contains 203 channels in 13 categories. The playlist links are ge
 </details>
 
 <details>
-<summary><b>Factual, Culture & Lifestyle</b> &nbsp; 7 channels</summary>
+<summary><b>Satellite · Factual, Culture & Lifestyle</b> &nbsp; 7 channels</summary>
 
 | Channel | Persian name | Quality | Available |
 |:--|:--|:--|:--|

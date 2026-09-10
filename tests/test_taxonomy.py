@@ -76,15 +76,15 @@ class Classify(unittest.TestCase):
         self.assertEqual(taxonomy.classify("X.ir", ["general"], {}), "sat-general")
         self.assertEqual(taxonomy.classify("X.ir", ["nothing-we-map"], {}), "sat-general")
 
-    def test_content_categories_do_not_claim_a_distribution_method(self):
+    def test_content_categories_keep_visible_satellite_prefixes(self):
         expected = {
-            "sat-general": ("General & Variety", "عمومی و متنوع"),
-            "sat-movies": ("Film & Series", "فیلم و سریال"),
-            "sat-news": ("News & Current Affairs", "خبر و امور جاری"),
-            "sat-music": ("Music", "موسیقی"),
-            "sat-kids": ("Children", "کودک"),
-            "sat-sports": ("Sports", "ورزش"),
-            "sat-documentary": ("Factual, Culture & Lifestyle", "مستند، فرهنگ و سبک زندگی"),
+            "sat-general": ("Satellite · General & Variety", "ماهواره‌ای · عمومی و متنوع"),
+            "sat-movies": ("Satellite · Film & Series", "ماهواره‌ای · فیلم و سریال"),
+            "sat-news": ("Satellite · News & Current Affairs", "ماهواره‌ای · خبر و امور جاری"),
+            "sat-music": ("Satellite · Music", "ماهواره‌ای · موسیقی"),
+            "sat-kids": ("Satellite · Children", "ماهواره‌ای · کودک"),
+            "sat-sports": ("Satellite · Sports", "ماهواره‌ای · ورزش"),
+            "sat-documentary": ("Satellite · Factual, Culture & Lifestyle", "ماهواره‌ای · مستند، فرهنگ و سبک زندگی"),
         }
         self.assertEqual({cid: (taxonomy.LABELS[cid]["en"], taxonomy.LABELS[cid]["fa"])
                           for cid in expected}, expected)
