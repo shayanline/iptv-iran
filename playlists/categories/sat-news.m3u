@@ -1,6 +1,6 @@
 #EXTM3U
 # Satellite · News & Current Affairs only.
-# generated 2026-09-10 03:31 UTC by shayanline/iptv-iran
+# generated 2026-09-10 03:36 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="AzadiTV.ir" tvg-name="Azadi TV" tvg-logo="" group-title="Satellite · News & Current Affairs | ماهواره‌ای · خبر و امور جاری" tvg-language="fas",Azadi TV | تلویزیون آزادی
 https://wmtvhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="BBCPersian.uk" tvg-name="BBC News Persian" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/BBCPersian.uk.png" group-title="Satellite · News & Current Affairs | ماهواره‌ای · خبر و امور جاری" tvg-language="fas" tvg-quality="HD",BBC News Persian | بی‌بی‌سی فارسی

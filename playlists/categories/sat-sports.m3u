@@ -1,6 +1,6 @@
 #EXTM3U
 # Satellite · Sports only.
-# generated 2026-09-10 03:31 UTC by shayanline/iptv-iran
+# generated 2026-09-10 03:36 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="PersianaFight.fr" tvg-name="Persiana Fight" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaFight.fr.png" group-title="Satellite · Sports | ماهواره‌ای · ورزش" tvg-language="fas" tvg-quality="HD",Persiana Fight | پرشیانا فایت
 https://fighthls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="TelewebionSport1.ir" tvg-name="Telewebion Sport 1" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/TelewebionSport1.ir.png" group-title="Satellite · Sports | ماهواره‌ای · ورزش" tvg-language="fas" tvg-quality="FHD",Telewebion Sport 1 | تلوبیون ورزشی 1

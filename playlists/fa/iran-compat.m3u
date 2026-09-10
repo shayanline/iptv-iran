@@ -1,6 +1,6 @@
 #EXTM3U
 # For smart TV apps and other limited players. Only streams whose manifests stay within what a basic HLS parser handles.
-# generated 2026-09-10 03:31 UTC by shayanline/iptv-iran
+# generated 2026-09-10 03:36 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="iFilmPersian.ir" tvg-name="iFilm" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/iFilmPersian.ir.png" group-title="شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",آی‌فیلم
 https://live.presstv.co.uk/hls/ifilmfa_4_482/index.m3u8
 #EXTINF:-1 tvg-id="IRINN.ir" tvg-name="IRINN" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IRINN.ir.png" group-title="شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",شبکه خبر
@@ -229,6 +229,8 @@ https://ak.imamhussein.live/imhtv6live/imhtv6.smil/imhtv6publish/imhtv6_source/c
 https://livefa.marjaeyattv.com/mtv_fa/playlist05/index.m3u8
 #EXTINF:-1 tvg-id="PayameArameshTV.us" tvg-name="Payam-e Aramesh" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PayameArameshTV.us.png" group-title="مذهبی · اسلامی" tvg-language="fas" tvg-quality="SD",پیام آرامش
 https://hls.keshishhamid.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PayvandTV.ir" tvg-name="Payvand TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PayvandTV.ir.png" group-title="مذهبی · اسلامی" tvg-language="fas" tvg-quality="HD",شبکه پیوند
+https://tgn.bozztv.com/cus01/ucur1/Payvand/playlist.m3u8
 #EXTINF:-1 tvg-id="RasoulallahTv.ir" tvg-name="Rasoulallah TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/RasoulallahTv.ir.png" group-title="مذهبی · اسلامی" tvg-language="fas" tvg-quality="FHD",شبکه رسول‌الله
 https://avr.host247.net/live/rasoulallahtv/playlist.m3u8
 #EXTINF:-1 tvg-id="VelayatTVNetwork.us" tvg-name="Velayat TV Network" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/VelayatTVNetwork.us.png" group-title="مذهبی · اسلامی" tvg-language="fas" tvg-quality="SD",شبکه ولایت (آمریکا)

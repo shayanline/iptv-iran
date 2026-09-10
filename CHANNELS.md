@@ -270,7 +270,7 @@ This catalogue contains 203 channels in 13 categories. The playlist links are ge
 | Marjaeyat TV Persian | شبکه مرجعیت | 1080p | Worldwide |
 | Nour TV | شبکه نور (امارات) | 576p | Worldwide |
 | Payam-e Aramesh | پیام آرامش | 480p | Worldwide |
-| Payvand TV | شبکه پیوند | 720p | Rechecking |
+| Payvand TV | شبکه پیوند | 720p | Worldwide |
 | Rasoulallah TV | شبکه رسول‌الله | 1080p | Worldwide |
 | Razavi TV | شبکه رضوی | 720p | Worldwide |
 | Velayat TV | شبکه ولایت | 720p | Worldwide |
