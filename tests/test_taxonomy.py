@@ -66,13 +66,28 @@ class Classify(unittest.TestCase):
         self.assertEqual(taxonomy.classify("X.ir", ["unmapped", "movies", "news"], {}),
                          "sat-movies")
 
+    def test_family_means_broad_programming_instead_of_children(self):
+        self.assertEqual(taxonomy.classify("X.ir", ["family"], {}), "sat-general")
+
+    def test_business_belongs_with_factual_programming(self):
+        self.assertEqual(taxonomy.classify("X.ir", ["business"], {}), "sat-documentary")
+
     def test_general_and_unknown_channels_use_general(self):
         self.assertEqual(taxonomy.classify("X.ir", ["general"], {}), "sat-general")
         self.assertEqual(taxonomy.classify("X.ir", ["nothing-we-map"], {}), "sat-general")
 
-    def test_general_replaces_redundant_entertainment(self):
-        self.assertIn("sat-general", taxonomy.LABELS)
-        self.assertNotIn("sat-entertainment", taxonomy.LABELS)
+    def test_content_categories_do_not_claim_a_distribution_method(self):
+        expected = {
+            "sat-general": ("General & Variety", "عمومی و متنوع"),
+            "sat-movies": ("Film & Series", "فیلم و سریال"),
+            "sat-news": ("News & Current Affairs", "خبر و امور جاری"),
+            "sat-music": ("Music", "موسیقی"),
+            "sat-kids": ("Children", "کودک"),
+            "sat-sports": ("Sports", "ورزش"),
+            "sat-documentary": ("Factual, Culture & Lifestyle", "مستند، فرهنگ و سبک زندگی"),
+        }
+        self.assertEqual({cid: (taxonomy.LABELS[cid]["en"], taxonomy.LABELS[cid]["fa"])
+                          for cid in expected}, expected)
 
     def test_every_category_a_rule_can_produce_is_declared(self):
         produced = ({c for _, c in taxonomy.SET_RULES} | set(taxonomy.GENRE_MAP.values())
@@ -88,14 +103,31 @@ class Classify(unittest.TestCase):
     def test_researched_corrections_override_upstream_genres(self):
         curated = json.loads((DATA / "curated.json").read_text(encoding="utf-8"))
         expected = {
+            "4UTV.tr": "sat-movies",
             "AraxTV.ir": "sat-movies",
             "AsilTV.ir": "religious-islamic",
+            "AzadiTV.ir": "sat-news",
             "CafeTradeTV.ir": "sat-documentary",
+            "DejTV.ir": "sat-news",
             "FX2.ir": "sat-kids",
+            "GordAfaridTV.us": "sat-news",
+            "HomePlus.ir": "sat-general",
             "IranIndependent.us": "sat-general",
+            "IranTVIsrael.il": "sat-music",
+            "MaahTV.my": "sat-movies",
+            "NovinTV.ir": "sat-general",
+            "ParsTV.us": "sat-news",
+            "PayamJavanTV.us": "sat-documentary",
+            "PersianaChina.fr": "sat-movies",
+            "PersianaMedical.fr": "sat-movies",
+            "PersianaPodcast.fr": "sat-documentary",
             "ProjectLeon.us": "sat-news",
+            "RaviTV.us": "sat-general",
+            "SetarehTV.uk": "sat-news",
             "Shabakeh7.us": "religious-christian",
-            "ZedTV.ir": "sat-general",
+            "SimayeAzadi.uk": "sat-news",
+            "TMTV.us": "sat-documentary",
+            "ZedTV.ir": "sat-news",
         }
         self.assertEqual({cid: curated["category_overrides"].get(cid) for cid in expected}, expected)
 
@@ -120,7 +152,7 @@ class Classify(unittest.TestCase):
             "KhaterehTV.us": "sat-general",
             "PersianaChina.fr": "sat-movies",
             "PersianaMusic.fr": "sat-music",
-            "PersianaPodcast.fr": "sat-general",
+            "PersianaPodcast.fr": "sat-documentary",
             "PersianaRap.fr": "sat-music",
             "PersianaVoyage.fr": "sat-documentary",
         }
@@ -134,6 +166,15 @@ class Classify(unittest.TestCase):
             "https://musichls.persiana.live/hls/stream.m3u8"), "PersianaMusic.fr")
         self.assertEqual(curated["relabelled"].get(
             "https://raphls.persiana.live/hls/stream.m3u8"), "PersianaRap.fr")
+
+    def test_woman_tv_stream_is_reassigned_to_azadi_tv(self):
+        curated = json.loads((DATA / "curated.json").read_text(encoding="utf-8"))
+        url = "https://wmtvhls.wns.live/hls/stream.m3u8"
+        stream = next(stream for stream in curated["streams"] if stream["url"] == url)
+        self.assertEqual(stream["channel"], "AzadiTV.ir")
+        self.assertEqual(curated["relabelled"].get(url), "AzadiTV.ir")
+        self.assertIn("AzadiTV.ir", curated["local_channels"])
+        self.assertNotIn("WomanTV.us", curated["local_channels"])
 
 
 class Tags(unittest.TestCase):
