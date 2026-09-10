@@ -286,6 +286,9 @@ def probe_once(record):
         result["defects"] = defects
 
     playlist_url, playlist_body = final, body
+    external_audio = any(line.startswith("#EXT-X-MEDIA:") and "TYPE=AUDIO" in line and
+                         "URI=" in line
+                         for line in body.decode("utf-8", "replace").splitlines())
     variants = parse_variants(body, final)
     if variants:
         result["variants"] = len(variants)
@@ -294,8 +297,8 @@ def probe_once(record):
         # failing on the first variant alone would wrongly condemn a working channel.
         # Every rendition is checked, not just until one answers. A master can serve its
         # top rendition and 404 the lower ones, which looks healthy until a client
-        # downshifts on a bandwidth dip and stalls. Whenever any rendition is missing the
-        # best working one is pinned, trading adaptive bitrate for reliable playback.
+        # downshifts on a bandwidth dip and stalls. The best working one is pinned unless
+        # the master carries audio separately, because a video rendition would be silent.
         broken = []
         chosen = None
         failure = None
@@ -324,7 +327,9 @@ def probe_once(record):
         if bandwidth:
             result["bandwidth"] = bandwidth
         if broken:
-            result.update(broken_variants=len(broken), variant_url=variant_url)
+            result["broken_variants"] = len(broken)
+            if not external_audio:
+                result["variant_url"] = variant_url
         if kind == "direct":
             return {**result, "state": "ok", "kind": "hls"}
         playlist_url, playlist_body = vfinal, vbody
@@ -426,6 +431,10 @@ def main():
     for result in results:
         entry = streams.setdefault(result["url"],
                                    {"first_seen": timestamp, "fails": 0, "checks": 0, "oks": 0})
+        history = {key: entry[key] for key in ("first_seen", "fails", "checks", "oks", "last_ok")
+                   if key in entry}
+        entry.clear()
+        entry.update(history)
         entry.update({k: v for k, v in result.items() if k != "url"})
         entry["last_checked"] = timestamp
         # `checks` and `oks` accumulate across every run. Their ratio is the uptime record

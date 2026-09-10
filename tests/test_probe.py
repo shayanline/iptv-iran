@@ -3,6 +3,7 @@ in the playlists, and the costly mistake is calling a working stream dead, so th
 real world shapes each rule exists for are pinned down here."""
 import ssl
 import unittest
+from unittest import mock
 
 import probe
 
@@ -128,6 +129,36 @@ class ParseVariants(unittest.TestCase):
         self.assertEqual(probe.parse_variants(b"#EXTM3U\n#EXTINF:2,\nseg.ts\n", "https://a/m"), [])
 
 
+class ExternalAudio(unittest.TestCase):
+    def test_a_master_with_separate_audio_is_not_replaced_by_a_video_rendition(self):
+        master_url = "https://example.com/index.m3u8"
+        high_url = "https://example.com/video/high.m3u8"
+        low_url = "https://example.com/video/low.m3u8"
+        segment_url = "https://example.com/video/segment.ts"
+        master = (b'#EXTM3U\n#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio",LANGUAGE="ar",'
+                  b'URI="audio/audio.m3u8"\n'
+                  b'#EXT-X-STREAM-INF:BANDWIDTH=2000000,RESOLUTION=1920x1080,AUDIO="audio"\n'
+                  b'video/high.m3u8\n'
+                  b'#EXT-X-STREAM-INF:BANDWIDTH=500000,RESOLUTION=640x360,AUDIO="audio"\n'
+                  b'video/low.m3u8\n')
+        media = b"#EXTM3U\n#EXTINF:2,\nsegment.ts\n"
+        responses = {
+            master_url: (200, {"Content-Type": "application/vnd.apple.mpegurl"}, master,
+                         master_url),
+            high_url: (200, {"Content-Type": "application/vnd.apple.mpegurl"}, media, high_url),
+            low_url: (404, {}, b"", low_url),
+            segment_url: (200, {"Content-Type": "video/mp2t"}, b"\x47" + b"x" * 9000,
+                          segment_url),
+        }
+
+        with mock.patch.object(probe, "fetch", side_effect=lambda url, *args, **kwargs:
+                               responses[url]):
+            result = probe.probe_once({"url": master_url})
+
+        self.assertEqual(result["broken_variants"], 1)
+        self.assertNotIn("variant_url", result)
+
+
 class ParseSegments(unittest.TestCase):
     def test_relative_segments_are_resolved(self):
         body = b"#EXTM3U\n#EXTINF:2,\nseg1.ts\n#EXTINF:2,\nseg2.ts\n"
@@ -178,6 +209,40 @@ class Retire(unittest.TestCase):
         streams = {"https://live": {"state": "ok", "last_ok": "2020-01-01T00:00:00+00:00"}}
         probe.retire(streams, {"https://live"}, self.NOW)
         self.assertIn("https://live", streams)
+
+
+class StatusUpdates(unittest.TestCase):
+    def test_current_probe_fields_replace_stale_failure_details(self):
+        url = "https://example.com/master.m3u8"
+        stored = {
+            "first_seen": "2026-08-01T00:00:00+00:00",
+            "fails": 0,
+            "checks": 5,
+            "oks": 4,
+            "last_ok": "2026-08-15T00:00:00+00:00",
+            "reason": "variant:404",
+            "broken_variants": 1,
+            "variant_url": "https://example.com/video.m3u8",
+        }
+        reads = iter(([{"url": url}], {"streams": {url: stored}}))
+        current = {"url": url, "state": "ok", "kind": "hls", "ms": 100}
+
+        with mock.patch.object(probe, "install_public_dns"), \
+                mock.patch.object(probe.sys, "argv", ["probe.py", "1"]), \
+                mock.patch.object(probe, "read_json", side_effect=lambda *args: next(reads)), \
+                mock.patch.object(probe, "probe", return_value=current), \
+                mock.patch.object(probe, "now", return_value="2026-09-10T00:00:00+00:00"), \
+                mock.patch.object(probe, "write_json") as write_json:
+            probe.main()
+
+        updated = write_json.call_args.args[1]["streams"][url]
+        self.assertNotIn("reason", updated)
+        self.assertNotIn("broken_variants", updated)
+        self.assertNotIn("variant_url", updated)
+        self.assertEqual(updated["first_seen"], "2026-08-01T00:00:00+00:00")
+        self.assertEqual(updated["checks"], 6)
+        self.assertEqual(updated["oks"], 5)
+        self.assertEqual(updated["uptime"], 0.833)
 
 
 class ReportTarget(unittest.TestCase):
