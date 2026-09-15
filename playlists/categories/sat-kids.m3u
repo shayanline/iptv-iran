@@ -1,5 +1,7 @@
 #EXTM3U
 # Satellite · Children only.
-# generated 2026-09-15 12:23 UTC by shayanline/iptv-iran
+# generated 2026-09-15 13:49 UTC by shayanline/iptv-iran
+#EXTINF:-1 tvg-id="FX2.ir" tvg-name="FX 2" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/FX2.ir.png" group-title="Satellite · Children | ماهواره‌ای · کودک" tvg-language="fas" tvg-quality="SD",FX 2 | اف‌ایکس ۲
+https://toonixhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PersianaJunior.fr" tvg-name="Persiana Junior" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaJunior.fr.png" group-title="Satellite · Children | ماهواره‌ای · کودک" tvg-language="fas" tvg-quality="SD",Persiana Junior | پرشیانا کودک
 https://junhls.persiana.live/hls/stream.m3u8
