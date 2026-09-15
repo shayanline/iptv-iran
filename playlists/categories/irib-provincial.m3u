@@ -1,6 +1,6 @@
 #EXTM3U
 # IRIB Provincial Networks only.
-# generated 2026-09-10 15:37 UTC by shayanline/iptv-iran
+# generated 2026-09-15 12:23 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="AbadanTV.ir" tvg-name="Abadan" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AbadanTV.ir.png" group-title="IRIB Provincial Networks | شبکه‌های استانی" tvg-language="fas" tvg-quality="SD",Abadan | شبکه آبادان
 https://live-aburayhan1109.telewebion.net/ek/abadan/live/576p/index.m3u8
 #EXTINF:-1 tvg-id="AflakTV.ir" tvg-name="Aflak" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AflakTV.ir.png" group-title="IRIB Provincial Networks | شبکه‌های استانی" tvg-language="fas" tvg-quality="SD",Aflak | شبکه افلاک
@@ -19,8 +19,8 @@ https://live-aburayhan1103.telewebion.net/ek/bushehr/live/576p/index.m3u8
 https://live-aburayhan1110.telewebion.ir/ek/dena/live/1080p/index.m3u8
 #EXTINF:-1 tvg-id="EshraghNetwork.ir" tvg-name="Eshragh" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/EshraghNetwork.ir.jpg" group-title="IRIB Provincial Networks | شبکه‌های استانی" tvg-language="fas" tvg-quality="FHD",Eshragh | شبکه اشراق
 https://live-aburayhan1112.telewebion.ir/ek/eshragh/live/1080p/index.m3u8
-#EXTINF:-1 tvg-id="FarsTV.ir" tvg-name="Fars" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/FarsTV.ir.png" group-title="IRIB Provincial Networks | شبکه‌های استانی" tvg-language="fas" tvg-quality="SD",Fars | شبکه فارس
-https://live-aburayhan1107.telewebion.net/ek/fars/live/576p/index.m3u8
+#EXTINF:-1 tvg-id="FarsTV.ir" tvg-name="Fars" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/FarsTV.ir.png" group-title="IRIB Provincial Networks | شبکه‌های استانی" tvg-language="fas" tvg-quality="FHD",Fars | شبکه فارس
+https://live-aburayhan1107.telewebion.net/ek/fars/live/1080p/index.m3u8
 #EXTINF:-1 tvg-id="HamedanTV.ir" tvg-name="Hamedan" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/HamedanTV.ir.png" group-title="IRIB Provincial Networks | شبکه‌های استانی" tvg-language="fas" tvg-quality="SD",Hamedan | شبکه همدان
 https://live-aburayhan1110.telewebion.ir/ek/sina/live/576p/index.m3u8
 #EXTINF:-1 tvg-id="HamoonTV.ir" tvg-name="Hamoon" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/HamoonTV.ir.png" group-title="IRIB Provincial Networks | شبکه‌های استانی" tvg-language="fas" tvg-quality="FHD",Hamoon | شبکه هامون
