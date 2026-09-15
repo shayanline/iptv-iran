@@ -1,3 +1,4 @@
 {
-    "devin.defaultModel": "gpt-5-6-sol-high"
+    "devin.defaultModel": "gpt-5-6-luna-xhigh",
+    "devin.implicitContext.enabled": false
 }
