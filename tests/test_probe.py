@@ -216,7 +216,8 @@ class StatusUpdates(unittest.TestCase):
         url = "https://example.com/master.m3u8"
         stored = {
             "first_seen": "2026-08-01T00:00:00+00:00",
-            "fails": 0,
+            "first_failed": "2026-09-01T00:00:00+00:00",
+            "fails": 3,
             "checks": 5,
             "oks": 4,
             "last_ok": "2026-08-15T00:00:00+00:00",
@@ -239,10 +240,55 @@ class StatusUpdates(unittest.TestCase):
         self.assertNotIn("reason", updated)
         self.assertNotIn("broken_variants", updated)
         self.assertNotIn("variant_url", updated)
+        self.assertNotIn("first_failed", updated)
+        self.assertEqual(updated["fails"], 0)
         self.assertEqual(updated["first_seen"], "2026-08-01T00:00:00+00:00")
         self.assertEqual(updated["checks"], 6)
         self.assertEqual(updated["oks"], 5)
         self.assertEqual(updated["uptime"], 0.833)
+
+    def test_first_failure_time_is_recorded_once(self):
+        url = "https://example.com/master.m3u8"
+        current = {"url": url, "state": "dead", "reason": "http404"}
+        cases = (
+            ({"first_seen": "2026-08-01T00:00:00+00:00", "fails": 0,
+              "checks": 1, "oks": 1, "last_ok": "2026-08-01T00:00:00+00:00"},
+             "2026-09-10T00:00:00+00:00"),
+            ({"first_seen": "2026-08-01T00:00:00+00:00", "fails": 2,
+              "checks": 3, "oks": 1, "last_ok": "2026-08-01T00:00:00+00:00",
+              "first_failed": "2026-09-01T00:00:00+00:00"},
+             "2026-09-01T00:00:00+00:00"),
+        )
+        for stored, expected in cases:
+            with self.subTest(expected=expected):
+                reads = iter(([{"url": url}], {"streams": {url: stored}}))
+                with mock.patch.object(probe, "install_public_dns"), \
+                        mock.patch.object(probe.sys, "argv", ["probe.py", "1"]), \
+                        mock.patch.object(probe, "read_json", side_effect=lambda *args: next(reads)), \
+                        mock.patch.object(probe, "probe", return_value=current), \
+                        mock.patch.object(probe, "now", return_value="2026-09-10T00:00:00+00:00"), \
+                        mock.patch.object(probe, "write_json") as write_json:
+                    probe.main()
+                updated = write_json.call_args.args[1]["streams"][url]
+                self.assertEqual(updated["first_failed"], expected)
+
+    def test_iran_only_clears_the_failure_streak(self):
+        url = "https://example.com/master.m3u8"
+        stored = {"first_seen": "2026-08-01T00:00:00+00:00", "fails": 2,
+                  "checks": 3, "oks": 1, "last_ok": "2026-08-01T00:00:00+00:00",
+                  "first_failed": "2026-09-01T00:00:00+00:00"}
+        reads = iter(([{"url": url}], {"streams": {url: stored}}))
+        current = {"url": url, "state": "iran_only", "reason": "http451"}
+        with mock.patch.object(probe, "install_public_dns"), \
+                mock.patch.object(probe.sys, "argv", ["probe.py", "1"]), \
+                mock.patch.object(probe, "read_json", side_effect=lambda *args: next(reads)), \
+                mock.patch.object(probe, "probe", return_value=current), \
+                mock.patch.object(probe, "now", return_value="2026-09-10T00:00:00+00:00"), \
+                mock.patch.object(probe, "write_json") as write_json:
+            probe.main()
+        updated = write_json.call_args.args[1]["streams"][url]
+        self.assertNotIn("first_failed", updated)
+        self.assertEqual(updated["fails"], 0)
 
 
 class ReportTarget(unittest.TestCase):

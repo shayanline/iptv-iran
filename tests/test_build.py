@@ -39,22 +39,27 @@ class Usable(unittest.TestCase):
         # It is refusing this checker's location, not reporting that it has stopped.
         self.assertTrue(build.usable({"state": "iran_only", "fails": 99}))
 
-    def test_a_recent_failure_is_kept_through_the_grace_period(self):
-        entry = {"state": "dead", "fails": build.GRACE_FAILS, "last_ok": "2026-08-01T00:00:00+00:00"}
+    def test_a_failure_younger_than_thirty_days_is_kept(self):
+        entry = {"state": "dead", "fails": 99, "last_ok": "2026-08-01T00:00:00+00:00",
+                 "first_failed": "2026-09-01T00:00:00+00:00",
+                 "last_checked": "2026-09-30T23:59:59+00:00"}
         self.assertTrue(build.usable(entry))
 
-    def test_a_tls_failure_is_excluded_immediately(self):
+    def test_a_recent_tls_failure_uses_the_grace_period(self):
         for reason in ("tls", "variant:tls", "segment:tls"):
             entry = {"state": "dead", "reason": reason, "fails": 1,
-                     "last_ok": "2026-08-01T00:00:00+00:00"}
-            self.assertFalse(build.usable(entry))
+                     "last_ok": "2026-08-01T00:00:00+00:00",
+                     "first_failed": "2026-09-01T00:00:00+00:00",
+                     "last_checked": "2026-09-02T00:00:00+00:00"}
+            self.assertTrue(build.usable(entry))
 
     def test_a_recovered_stream_ignores_an_old_tls_reason(self):
         self.assertTrue(build.usable({"state": "ok", "reason": "tls"}))
 
-    def test_it_is_dropped_once_the_grace_period_runs_out(self):
-        entry = {"state": "dead", "fails": build.GRACE_FAILS + 1,
-                 "last_ok": "2026-08-01T00:00:00+00:00"}
+    def test_a_failure_is_dropped_at_thirty_days(self):
+        entry = {"state": "dead", "fails": 1, "last_ok": "2026-08-01T00:00:00+00:00",
+                 "first_failed": "2026-09-01T00:00:00+00:00",
+                 "last_checked": "2026-10-01T00:00:00+00:00"}
         self.assertFalse(build.usable(entry))
 
     def test_a_stream_that_never_worked_is_never_published(self):
@@ -281,13 +286,25 @@ class ValidationMetadata(unittest.TestCase):
 
 
 class RefreshWorkflow(unittest.TestCase):
-    def test_race_recovery_preserves_non_generated_files(self):
-        workflow = (build.HERE / ".github" / "workflows" / "refresh.yml").read_text(
+    def workflow(self):
+        return (build.HERE / ".github" / "workflows" / "refresh.yml").read_text(
             encoding="utf-8")
+
+    def test_race_recovery_preserves_non_generated_files(self):
+        workflow = self.workflow()
         self.assertNotIn("git reset --soft FETCH_HEAD", workflow)
         self.assertIn('git restore --source="$refresh_commit"', workflow)
         self.assertIn("data/channels.json data/status.json", workflow)
         self.assertNotIn("playlists data assets", workflow)
+
+    def test_scheduled_refresh_runs_every_monday(self):
+        self.assertIn('- cron: "10 4 * * 1"', self.workflow())
+
+    def test_transient_push_failures_wait_and_retry_five_times(self):
+        workflow = self.workflow()
+        self.assertIn("for attempt in 1 2 3 4 5", workflow)
+        self.assertIn("sleep $((15 * 2 ** (attempt - 1)))", workflow)
+        self.assertIn("could not push after 5 attempts", workflow)
 
 
 class ReadmeMetadata(unittest.TestCase):

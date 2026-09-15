@@ -1,10 +1,10 @@
-# Fortnightly maintenance of every generated file in the repository.
+# Weekly maintenance of every generated file in the repository.
 #
 #   sources.py   read the public sources and the provider templates in discover.py,
 #                writing every candidate stream to build/candidates.json
 #   probe.py     walk each stream's HLS chain down to a media segment and merge the
 #                verdict into data/status.json, which keeps first seen, last working,
-#                consecutive failures and a running uptime ratio per URL
+#                first failure and a running uptime ratio per URL
 #   logos.py     mirror channel logos into assets/logos so they do not depend on a
 #                third party host that may be geo-blocked
 #   build.py     score the streams, pick one per channel, and regenerate the playlists,
@@ -12,15 +12,15 @@
 #   validate.py  refuse to publish a tree whose playlists disagree with the channel data
 #                they were supposedly built from
 #
-# A stream must fail three consecutive runs, about six weeks, before it is dropped, and a
-# stream that only refuses this runner's location is published as domestic rather than
-# deleted. See the module docstrings for the detail behind each step.
+# A stream must fail for thirty days before it is dropped, and a stream that only refuses
+# this runner's location is published as domestic rather than deleted. See the module
+# docstrings for the detail behind each step.
 name: Refresh playlists
 
 on:
   schedule:
-    # 04:10 UTC on the 1st and 15th of every month, so roughly fortnightly.
-    - cron: "10 4 1,15 * *"
+    # 04:10 UTC every Monday.
+    - cron: "10 4 * * 1"
   workflow_dispatch:
   push:
     branches: [main]
@@ -106,12 +106,16 @@ jobs:
           # Resetting to the latest commit and restoring only generated paths preserves
           # source and configuration changes from the concurrent push. The other run's
           # probe results are replaced as one unit, so generated files remain coherent.
-          for attempt in 1 2 3; do
+          for attempt in 1 2 3 4 5; do
             if git push; then
               echo "pushed on attempt $attempt"
               exit 0
             fi
-            echo "push rejected, replanting this run on the latest main (attempt $attempt)"
+            if [ "$attempt" -eq 5 ]; then
+              break
+            fi
+            echo "push rejected, waiting before replanting this run (attempt $attempt)"
+            sleep $((15 * 2 ** (attempt - 1)))
             git fetch origin main || { echo "fetch failed"; exit 1; }
             git reset --hard FETCH_HEAD
             git restore --source="$refresh_commit" -- "${generated[@]}"
@@ -123,5 +127,5 @@ jobs:
             git commit -m "chore(data): refresh playlists $(date -u +%Y-%m-%d)"
             refresh_commit=$(git rev-parse HEAD)
           done
-          echo "could not push after 3 attempts"
+          echo "could not push after 5 attempts"
           exit 1

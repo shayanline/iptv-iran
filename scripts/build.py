@@ -22,9 +22,9 @@ def mirrored_logos():
         return {}
     return {path.stem: f"{LOGO_BASE}/{path.name}" for path in sorted(folder.glob("*.*"))}
 
-# The probe runs fortnightly, so a stream has to fail three consecutive runs, roughly six
-# weeks, before it is dropped. One bad night on a CDN must not delete a working channel.
-GRACE_FAILS = 3
+# One bad period on a CDN must not delete a working channel. A failed stream stays
+# published for thirty days from its first consecutive failure.
+GRACE_PERIOD = dt.timedelta(days=30)
 PLAYLISTS = HERE / "playlists"
 PERSIAN = re.compile(r"[\u0600-\u06FF]")
 
@@ -40,9 +40,11 @@ def usable(entry):
     state = entry.get("state")
     if state in ("ok", "iran_only"):
         return True
-    if str(entry.get("reason") or "").split(":")[-1] == "tls":
+    if state == "gone" or not all(entry.get(key) for key in
+                                   ("last_ok", "first_failed", "last_checked")):
         return False
-    return state != "gone" and entry.get("fails", 99) <= GRACE_FAILS and bool(entry.get("last_ok"))
+    return (dt.datetime.fromisoformat(entry["last_checked"])
+            - dt.datetime.fromisoformat(entry["first_failed"])) < GRACE_PERIOD
 
 
 def compatible_stream(stream):

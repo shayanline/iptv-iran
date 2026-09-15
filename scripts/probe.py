@@ -5,9 +5,9 @@ segment) and only reports `ok` when real media bytes come back, so a stale manif
 no longer has segments behind it is not mistaken for a live channel.
 
 Results are merged into data/status.json rather than overwriting it. Every URL keeps a
-first_seen date, a last_ok date and a consecutive failure count, which is what lets
-build.py wait for repeated failures before dropping a channel instead of reacting to one
-bad night on a CDN.
+first_seen date, a last_ok date and the start of its current failure period, which lets
+build.py wait thirty days before dropping a channel instead of reacting to one bad night
+on a CDN.
 """
 import datetime as dt
 import re
@@ -431,7 +431,8 @@ def main():
     for result in results:
         entry = streams.setdefault(result["url"],
                                    {"first_seen": timestamp, "fails": 0, "checks": 0, "oks": 0})
-        history = {key: entry[key] for key in ("first_seen", "fails", "checks", "oks", "last_ok")
+        history = {key: entry[key] for key in
+                   ("first_seen", "first_failed", "fails", "checks", "oks", "last_ok")
                    if key in entry}
         entry.clear()
         entry.update(history)
@@ -442,10 +443,13 @@ def main():
         # newcomer that merely happens to answer today.
         entry["checks"] = entry.get("checks", 0) + 1
         entry["oks"] = entry.get("oks", 0) + (1 if result["state"] in ("ok", "iran_only") else 0)
-        if result["state"] == "ok":
-            entry["last_ok"] = timestamp
+        if result["state"] in ("ok", "iran_only"):
+            if result["state"] == "ok":
+                entry["last_ok"] = timestamp
             entry["fails"] = 0
+            entry.pop("first_failed", None)
         else:
+            entry.setdefault("first_failed", timestamp)
             entry["fails"] = entry.get("fails", 0) + 1
         entry["uptime"] = round(entry["oks"] / entry["checks"], 3)
 
