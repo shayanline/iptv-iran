@@ -197,7 +197,7 @@ This catalogue contains 217 channels in 13 categories. The playlist links are ge
 | Setareh TV | ستاره | 576p | Worldwide |
 | Shorai TV | تلویزیون دمکراسی شورایی | 1080p | Worldwide |
 | Simaye Azadi | سیمای آزادی | 1080p | Worldwide |
-| SNN TV | n/a | 576p | Rechecking |
+| SNN TV | اس‌ان‌ان | 576p | Rechecking |
 | VOA Persian | صدای آمریکا فارسی | 1080p | Worldwide |
 | Zed TV | زد | 720p | Worldwide |
 
