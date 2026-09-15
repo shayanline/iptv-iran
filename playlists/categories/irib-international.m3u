@@ -1,6 +1,6 @@
 #EXTM3U
 # IRIB International Services only.
-# generated 2026-09-15 13:49 UTC by shayanline/iptv-iran
+# generated 2026-09-15 18:05 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="AlAlam.ir" tvg-name="Al Alam" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AlAlam.ir.png" group-title="IRIB International Services | شبکه‌های برون‌مرزی" tvg-language="ara" tvg-quality="SD",Al Alam | العالم
 https://live2.alalam.ir/live/Alalam/index.m3u8
 #EXTINF:-1 tvg-id="AlKawtharTV.ir" tvg-name="Al-Kawthar TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AlKawtharTV.ir.png" group-title="IRIB International Services | شبکه‌های برون‌مرزی" tvg-language="ara" tvg-quality="SD",Al-Kawthar TV | شبکه الکوثر

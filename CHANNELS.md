@@ -26,7 +26,7 @@ This catalogue contains 217 channels in 13 categories. The playlist links are ge
 | IRIB Tamasha | شبکه تماشا | 1080p | Worldwide |
 | IRIB TV1 + | شبکه یک پلاس | 1080p | Worldwide |
 | IRIB UHD | شبکه فراگیر (UHD) | 2160p | Worldwide |
-| IRIB Varzesh | شبکه ورزش | 1082p | Worldwide |
+| IRIB Varzesh | شبکه ورزش | 1082p | Iran only |
 | IRINN | شبکه خبر | 576p | Worldwide |
 | IRINN 2 | شبکه خبر ۲ | 1080p | Worldwide |
 | Roya | شبکه رویا | 720p | Worldwide |
@@ -212,7 +212,7 @@ This catalogue contains 217 channels in 13 categories. The playlist links are ge
 | 4 Music | فور موزیک | 720p | Rechecking |
 | AFN TV | ای‌اف‌ان | 720p | Worldwide |
 | Avang TV | آونگ | 480p | Worldwide |
-| High Vision TV | های ویژن | 480p | Rechecking |
+| High Vision TV | های ویژن | 576p | Worldwide |
 | Navahang TV | نواهنگ | 576p | Worldwide |
 | Persiana Folk | پرشیانا سنتی | 720p | Worldwide |
 | Persiana Music | پرشیانا موسیقی | 576p | Worldwide |
@@ -277,7 +277,7 @@ This catalogue contains 217 channels in 13 categories. The playlist links are ge
 | Habib TV | شبکه حبیب | 720p | Worldwide |
 | Hadi TV | شبکه هادی | 1080p | Worldwide |
 | Imam Hussein TV 1 | امام حسین ۱ | 1080p | Worldwide |
-| Imam Hussein TV 6 | امام حسین ۶ | 480p | Worldwide |
+| Imam Hussein TV 6 | امام حسین ۶ | 1080p | Worldwide |
 | Labbayk TV | شبکه لبیک | 720p | Worldwide |
 | Marjaeyat TV Persian | شبکه مرجعیت | 1080p | Worldwide |
 | Nour TV | شبکه نور (امارات) | 576p | Worldwide |
@@ -285,7 +285,7 @@ This catalogue contains 217 channels in 13 categories. The playlist links are ge
 | Payvand TV | شبکه پیوند | 720p | Worldwide |
 | Rasoulallah TV | شبکه رسول‌الله | 1080p | Worldwide |
 | Razavi TV | شبکه رضوی | 720p | Worldwide |
-| Tekye Madahi | تکیه مداحی | 720p | Worldwide |
+| Tekye Madahi | تکیه مداحی | 576p | Rechecking |
 | Velayat TV | شبکه ولایت | 720p | Worldwide |
 | Velayat TV Network | شبکه ولایت (آمریکا) | 480p | Worldwide |
 
@@ -303,7 +303,7 @@ This catalogue contains 217 channels in 13 categories. The playlist links are ge
 | Kalemeh TV | شبکه کلمه | 1080p | Worldwide |
 | LoveWorld Persia | لاو ورلد پرشیا | 720p | Worldwide |
 | Mohabat TV | شبکه محبت | 1080p | Worldwide |
-| Omid Javedan | امید جاودان | 480p | Rechecking |
+| Omid Javedan | امید جاودان | 720p | Worldwide |
 | Rahe Nejat TV | راه نجات | 480p | Rechecking |
 | SAT-7 Pars | ست سون پارس | 576p | Worldwide |
 | Shabakeh 7 | شبکه ۷ | 480p | Worldwide |
