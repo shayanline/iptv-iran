@@ -4,9 +4,9 @@
 
 IPTV Iran provides 217 curated Iranian and Persian language television channels as remote M3U playlists. Add a playlist URL to a compatible player, with no project account or project software to install.
 
-[![Refresh playlists](https://github.com/shayanline/iptv-iran/actions/workflows/refresh.yml/badge.svg)](https://github.com/shayanline/iptv-iran/actions/workflows/refresh.yml) ![Channels](https://img.shields.io/badge/channels-217-1f6feb) ![Checked](https://img.shields.io/badge/last%20checked-15%20September%202026-2da44e) [![License: MIT](https://img.shields.io/github/license/shayanline/iptv-iran)](LICENSE)
+[![Refresh playlists](https://github.com/shayanline/iptv-iran/actions/workflows/refresh.yml/badge.svg)](https://github.com/shayanline/iptv-iran/actions/workflows/refresh.yml) ![Channels](https://img.shields.io/badge/channels-217-1f6feb) ![Checked](https://img.shields.io/badge/last%20checked-21%20September%202026-2da44e) [![License: MIT](https://img.shields.io/github/license/shayanline/iptv-iran)](LICENSE)
 
-> **Status:** This community maintained project checks streams twice each month. Availability can change between checks, and 16 channels in the main playlist are currently being rechecked during the six week grace period.
+> **Status:** This community maintained project checks streams twice each month. Availability can change between checks, and 15 channels in the main playlist are currently being rechecked during the six week grace period.
 
 **[راهنمای فارسی](#persian)**
 
@@ -26,10 +26,10 @@ IPTV Iran provides 217 curated Iranian and Persian language television channels 
 | Playlist | Use it when | Contents | Link |
 |:--|:--|--:|:--|
 | **Main playlist** | You want one entry for every channel. | 217 channels | [Open the main playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran.m3u) |
-| **With backups** | You want alternate entries for a channel. | 656 streams | [Open the backup playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-all-streams.m3u) |
+| **With backups** | You want alternate entries for a channel. | 658 streams | [Open the backup playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-all-streams.m3u) |
 | **Smart TV safe** | Your player shows one frame and then stops. | 131 channels | [Open the compatibility playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/iran-compat.m3u) |
 
-The **Main playlist** contains every channel, including 16 channels that are being rechecked during the grace period. Entries marked `[IR]` require an Iranian connection.
+The **Main playlist** contains every channel, including 15 channels that are being rechecked during the grace period. Entries marked `[IR]` require an Iranian connection.
 
 The backup playlist lists alternate entries separately. It does not switch streams automatically.
 
@@ -86,7 +86,7 @@ The main playlist has bilingual, English, and Persian naming variants. Use the m
 | English | `IRIB TV1` | [Open the English playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/en/iran.m3u) |
 | Persian | `شبکه یک` | [Open the Persian playlist](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/fa/iran.m3u) |
 
-Each entry can include a measured `tvg-quality` value of `SD`, `HD`, `FHD`, or `4K`. The current channel mix is 1 4K, 56 FHD, 57 HD, 95 SD, 8 unknown.
+Each entry can include a measured `tvg-quality` value of `SD`, `HD`, `FHD`, or `4K`. The current channel mix is 1 4K, 53 FHD, 59 HD, 96 SD, 8 unknown.
 
 The project stores logos for 216 channels in this repository to avoid dependence on logo hosts that may block some regions. Programme data is currently unavailable because the previous external guide feed was retired. Players may still accept a separately configured guide.
 
@@ -128,7 +128,7 @@ Stream availability, regional restrictions, and broadcaster rights can change wi
 
 ## Channel catalogue
 
-The current publication contains 217 channels in 13 categories from 656 tracked working or grace period streams. Read the [English channel catalogue](CHANNELS.md) or the [Persian channel catalogue](CHANNELS.fa.md).
+The current publication contains 217 channels in 13 categories from 658 tracked working or grace period streams. Read the [English channel catalogue](CHANNELS.md) or the [Persian channel catalogue](CHANNELS.fa.md).
 
 <a id="troubleshooting"></a>
 
@@ -182,7 +182,7 @@ The code and curated data use the [MIT License](LICENSE). Channel names, logos, 
 
 این پروژه ۲۱۷ شبکه تلویزیونی ایرانی و فارسی‌زبان را در قالب پلی‌لیست‌های M3U ارائه می‌کند. لینک یکی از پلی‌لیست‌ها را در یک برنامه پخش سازگار وارد کنید تا شبکه‌ها در دسترس شما قرار بگیرند. استفاده از این پلی‌لیست‌ها به حساب کاربری یا نصب نرم‌افزار جداگانه‌ای از طرف پروژه نیاز ندارد.
 
-> **وضعیت پروژه:** این پروژه به‌صورت داوطلبانه نگهداری می‌شود و لینک‌های پخش ماهی دو بار بررسی می‌شوند. ممکن است وضعیت یک شبکه در فاصله میان دو بررسی تغییر کند. در حال حاضر، ۱۶ شبکه از پلی‌لیست اصلی دوباره بررسی می‌شوند و تا شش هفته برای بازگشت آن‌ها صبر می‌کنیم.
+> **وضعیت پروژه:** این پروژه به‌صورت داوطلبانه نگهداری می‌شود و لینک‌های پخش ماهی دو بار بررسی می‌شوند. ممکن است وضعیت یک شبکه در فاصله میان دو بررسی تغییر کند. در حال حاضر، ۱۵ شبکه از پلی‌لیست اصلی دوباره بررسی می‌شوند و تا شش هفته برای بازگشت آن‌ها صبر می‌کنیم.
 
 **[راهنمای انگلیسی](#english)**
 
@@ -202,10 +202,10 @@ The code and curated data use the [MIT License](LICENSE). Channel names, logos, 
 | پلی‌لیست | چه زمانی از آن استفاده کنیم؟ | محتوا | لینک |
 |:--|:--|--:|:--|
 | **پلی‌لیست اصلی** | برای هر شبکه فقط یک لینک پخش می‌خواهید. | ۲۱۷ شبکه | [باز کردن پلی‌لیست اصلی](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/fa/iran.m3u) |
-| **پلی‌لیست پشتیبان** | لینک‌های جایگزین هر شبکه را هم می‌خواهید. | ۶۵۶ استریم | [باز کردن پلی‌لیست پشتیبان](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/fa/iran-all-streams.m3u) |
+| **پلی‌لیست پشتیبان** | لینک‌های جایگزین هر شبکه را هم می‌خواهید. | ۶۵۸ استریم | [باز کردن پلی‌لیست پشتیبان](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/fa/iran-all-streams.m3u) |
 | **نسخه سازگار با تلویزیون هوشمند** | تصویر شبکه نمایش داده می‌شود، اما پخش ادامه پیدا نمی‌کند. | ۱۳۱ شبکه | [باز کردن نسخه سازگار](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/fa/iran-compat.m3u) |
 
-**پلی‌لیست اصلی** شامل همه شبکه‌هاست. در حال حاضر، ۱۶ شبکه از این فهرست دوباره بررسی می‌شوند. شبکه‌های دارای نشان `[IR]` فقط با آی‌پی ایران در دسترس هستند.
+**پلی‌لیست اصلی** شامل همه شبکه‌هاست. در حال حاضر، ۱۵ شبکه از این فهرست دوباره بررسی می‌شوند. شبکه‌های دارای نشان `[IR]` فقط با آی‌پی ایران در دسترس هستند.
 
 پلی‌لیست پشتیبان، لینک‌های جایگزین را به‌صورت ورودی‌های جداگانه نشان می‌دهد. اگر یک استریم قطع شود، پلی‌لیست به‌تنهایی نمی‌تواند استریم دیگری را جایگزین کند.
 
@@ -262,7 +262,7 @@ The code and curated data use the [MIT License](LICENSE). Channel names, logos, 
 | انگلیسی | `IRIB TV1` | [باز کردن نسخه انگلیسی](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/en/iran.m3u) |
 | فارسی | `شبکه یک` | [باز کردن نسخه فارسی](https://raw.githubusercontent.com/shayanline/iptv-iran/main/playlists/fa/iran.m3u) |
 
-اگر کیفیت یک شبکه قابل تشخیص باشد، مقدار `tvg-quality` آن با یکی از گزینه‌های `SD`، `HD`، `FHD` یا `4K` ثبت می‌شود. وضعیت فعلی شامل ۱ شبکه با کیفیت 4K، ۵۶ شبکه با کیفیت FHD، ۵۷ شبکه با کیفیت HD، ۹۵ شبکه با کیفیت SD، ۸ شبکه با کیفیت نامشخص است.
+اگر کیفیت یک شبکه قابل تشخیص باشد، مقدار `tvg-quality` آن با یکی از گزینه‌های `SD`، `HD`، `FHD` یا `4K` ثبت می‌شود. وضعیت فعلی شامل ۱ شبکه با کیفیت 4K، ۵۳ شبکه با کیفیت FHD، ۵۹ شبکه با کیفیت HD، ۹۶ شبکه با کیفیت SD، ۸ شبکه با کیفیت نامشخص است.
 
 لوگوی ۲۱۶ شبکه داخل همین مخزن قرار دارد تا نمایش لوگوها به سایت‌هایی وابسته نباشد که ممکن است در بعضی کشورها باز نشوند. اطلاعات راهنمای برنامه‌ها یا EPG فعلاً در پلی‌لیست‌ها وجود ندارد، چون منبع قبلی دیگر فعال نیست. اگر منبع معتبر دیگری دارید، می‌توانید آن را جداگانه در برنامه پخش خود وارد کنید.
 
@@ -304,7 +304,7 @@ The code and curated data use the [MIT License](LICENSE). Channel names, logos, 
 
 ## فهرست شبکه‌ها
 
-نسخه فعلی شامل ۲۱۷ شبکه در ۱۳ دسته‌بندی است. این شبکه‌ها از میان ۶۵۶ استریم فعال و استریم‌هایی که موقتاً دوباره بررسی می‌شوند انتخاب شده‌اند. برای دیدن جزئیات، [فهرست فارسی شبکه‌ها](CHANNELS.fa.md) یا [فهرست انگلیسی شبکه‌ها](CHANNELS.md) را باز کنید.
+نسخه فعلی شامل ۲۱۷ شبکه در ۱۳ دسته‌بندی است. این شبکه‌ها از میان ۶۵۸ استریم فعال و استریم‌هایی که موقتاً دوباره بررسی می‌شوند انتخاب شده‌اند. برای دیدن جزئیات، [فهرست فارسی شبکه‌ها](CHANNELS.fa.md) یا [فهرست انگلیسی شبکه‌ها](CHANNELS.md) را باز کنید.
 
 <a id="fa-troubleshooting"></a>
 
