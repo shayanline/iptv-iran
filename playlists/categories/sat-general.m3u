@@ -1,6 +1,6 @@
 #EXTM3U
 # Satellite · General & Variety only.
-# generated 2026-09-21 09:54 UTC by shayanline/iptv-iran
+# generated 2026-09-28 10:51 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="ArkoTV.ir" tvg-name="Arko TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ArkoTV.ir.png" group-title="Satellite · General & Variety | ماهواره‌ای · عمومی و متنوع" tvg-language="fas" tvg-quality="HD",Arko TV | آرکو
 https://arkhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="DatisTV.ir" tvg-name="Datis TV" tvg-logo="" group-title="Satellite · General & Variety | ماهواره‌ای · عمومی و متنوع" tvg-language="fas" tvg-quality="HD",Datis TV | داتیس
@@ -35,11 +35,11 @@ http://porchooneh.com/hls/live1/stream1.m3u8
 https://hls.ravitv.com/hls/stream.m3u8
 #EXTINF:-1 tvg-id="RoyalTV.ir" tvg-name="Royal TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/RoyalTV.ir.png" group-title="Satellite · General & Variety | ماهواره‌ای · عمومی و متنوع" tvg-language="fas" tvg-quality="HD",Royal TV | رویال
 https://arvhls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="TapeshIran.us" tvg-name="Tapesh Iran" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/TapeshIran.us.png" group-title="Satellite · General & Variety | ماهواره‌ای · عمومی و متنوع" tvg-language="fas" tvg-quality="FHD",Tapesh Iran | تپش ایران
+#EXTINF:-1 tvg-id="TapeshIran.us" tvg-name="Tapesh Iran" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/TapeshIran.us.png" group-title="Satellite · General & Variety | ماهواره‌ای · عمومی و متنوع" tvg-language="fas",Tapesh Iran | تپش ایران
 https://iptv.tapesh.tv/tapeshiran/playlist.m3u8
-#EXTINF:-1 tvg-id="PBCTapeshTV.us" tvg-name="Tapesh TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PBCTapeshTV.us.png" group-title="Satellite · General & Variety | ماهواره‌ای · عمومی و متنوع" tvg-language="fas" tvg-quality="SD",Tapesh TV | تپش
-https://hls.tapeshtv.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="PBCTapeshTV.us" tvg-name="Tapesh TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PBCTapeshTV.us.png" group-title="Satellite · General & Variety | ماهواره‌ای · عمومی و متنوع" tvg-language="fas" tvg-quality="FHD",Tapesh TV | تپش
+https://iptv.tapesh.tv/tapesh/playlist.m3u8
 #EXTINF:-1 tvg-id="TinTV.us" tvg-name="Tin TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/TinTV.us.png" group-title="Satellite · General & Variety | ماهواره‌ای · عمومی و متنوع" tvg-language="fas" tvg-quality="HD",Tin TV | تین
-https://tulixcdn.akamaized.net/tintv6/tintv/tintv/playlist.m3u8
+https://bozztv.com/1gbw5/tintv/tintv/playlist.m3u8
 #EXTINF:-1 tvg-id="YourTimeTV.ir" tvg-name="YourTime TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/YourTimeTV.ir.png" group-title="Satellite · General & Variety | ماهواره‌ای · عمومی و متنوع" tvg-language="fas" tvg-quality="SD",YourTime TV | یورتایم
 https://live.yourtime.tv/hls/stream.m3u8

@@ -108,7 +108,7 @@ This catalogue contains 217 channels in 13 categories. The playlist links are ge
 | HomePlus | هوم پلاس | 720p | Worldwide |
 | Iran Independent | ایران ایندیپندنت | n/a | Worldwide |
 | ITN | آی‌تی‌ان | 576p | Worldwide |
-| Khatereh TV | خاطره | 1080p | Worldwide |
+| Khatereh TV | خاطره | 1080p | Rechecking |
 | MTC | ام‌تی‌سی | 720p | Worldwide |
 | Navid TV | نوید | n/a | Rechecking |
 | Net TV | نت | n/a | Worldwide |
@@ -119,8 +119,8 @@ This catalogue contains 217 channels in 13 categories. The playlist links are ge
 | Porchooneh TV | پرچونه | n/a | Worldwide |
 | Ravi TV | راوی | 720p | Worldwide |
 | Royal TV | رویال | 720p | Worldwide |
-| Tapesh Iran | تپش ایران | 1080p | Worldwide |
-| Tapesh TV | تپش | 480p | Worldwide |
+| Tapesh Iran | تپش ایران | n/a | Rechecking |
+| Tapesh TV | تپش | 1080p | Worldwide |
 | Tin TV | تین | 720p | Worldwide |
 | YourTime TV | یورتایم | 576p | Worldwide |
 
@@ -144,7 +144,7 @@ This catalogue contains 217 channels in 13 categories. The playlist links are ge
 | FX 1 | اف‌ایکس ۱ | 576p | Worldwide |
 | Gold Star | گلد استار | 720p | Worldwide |
 | Grand Cinema | گرند سینما | 576p | Worldwide |
-| ICC Plus | آی‌سی‌سی پلاس | 576p | Worldwide |
+| ICC Plus | آی‌سی‌سی پلاس | 576p | Rechecking |
 | Iran Comedy | ایران کمدی | n/a | Rechecking |
 | Maah TV | ماه | 576p | Worldwide |
 | MBC Persia | ام‌بی‌سی پرشیا | 1080p | Worldwide |
@@ -186,7 +186,7 @@ This catalogue contains 217 channels in 13 categories. The playlist links are ge
 | IRNA TV | ایرنا | n/a | Worldwide |
 | Israel Pars TV | اسرائیل پارس | 360p | Worldwide |
 | Kanal Jadid | کانال جدید | 576p | Worldwide |
-| MelliG TV | ملی‌گرا | 720p | Worldwide |
+| MelliG TV | ملی‌گرا | 720p | Rechecking |
 | Mihan TV | میهن | 1080p | Worldwide |
 | Nahade Azadi | نهاد آزادی | 720p | Worldwide |
 | National Iranian Congress TV | کنگره ملی ایرانیان | 720p | Worldwide |
@@ -281,11 +281,11 @@ This catalogue contains 217 channels in 13 categories. The playlist links are ge
 | Labbayk TV | شبکه لبیک | 720p | Worldwide |
 | Marjaeyat TV Persian | شبکه مرجعیت | 1080p | Worldwide |
 | Nour TV | شبکه نور (امارات) | 576p | Worldwide |
-| Payam-e Aramesh | پیام آرامش | 480p | Worldwide |
+| Payam-e Aramesh | پیام آرامش | 480p | Rechecking |
 | Payvand TV | شبکه پیوند | 720p | Worldwide |
 | Rasoulallah TV | شبکه رسول‌الله | 1080p | Worldwide |
 | Razavi TV | شبکه رضوی | 720p | Worldwide |
-| Tekye Madahi | تکیه مداحی | 720p | Worldwide |
+| Tekye Madahi | تکیه مداحی | 576p | Rechecking |
 | Velayat TV | شبکه ولایت | 720p | Worldwide |
 | Velayat TV Network | شبکه ولایت (آمریکا) | 480p | Worldwide |
 
@@ -296,7 +296,7 @@ This catalogue contains 217 channels in 13 categories. The playlist links are ge
 
 | Channel | Persian name | Quality | Available |
 |:--|:--|:--|:--|
-| Derakhte Zendegi TV | درخت زندگی | 480p | Worldwide |
+| Derakhte Zendegi TV | درخت زندگی | 480p | Rechecking |
 | ICnet 1 | آی‌سی‌نت ۱ | 480p | Worldwide |
 | ICnet 2 | آی‌سی‌نت ۲ | 480p | Worldwide |
 | ICnet 3 | آی‌سی‌نت ۳ | 720p | Worldwide |
