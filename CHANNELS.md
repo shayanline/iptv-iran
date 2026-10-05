@@ -26,7 +26,7 @@ This catalogue contains 217 channels in 13 categories. The playlist links are ge
 | IRIB Tamasha | شبکه تماشا | 1080p | Worldwide |
 | IRIB TV1 + | شبکه یک پلاس | 1080p | Worldwide |
 | IRIB UHD | شبکه فراگیر (UHD) | 2160p | Worldwide |
-| IRIB Varzesh | شبکه ورزش | 1082p | Iran only |
+| IRIB Varzesh | شبکه ورزش | 1082p | Worldwide |
 | IRINN | شبکه خبر | 576p | Worldwide |
 | IRINN 2 | شبکه خبر ۲ | 1080p | Worldwide |
 | Roya | شبکه رویا | 720p | Worldwide |
@@ -40,7 +40,7 @@ This catalogue contains 217 channels in 13 categories. The playlist links are ge
 |:--|:--|:--|:--|:--|
 | Abadan | شبکه آبادان | Abadan | 576p | Worldwide |
 | Aflak | شبکه افلاک | Lorestan | 576p | Worldwide |
-| Aftab | شبکه آفتاب | Markazi | 1080p | Worldwide |
+| Aftab | شبکه آفتاب | Markazi | 576p | Worldwide |
 | Alborz | شبکه البرز | Alborz | 1080p | Worldwide |
 | Atrak | شبکه اترک | North Khorasan | 576p | Worldwide |
 | Baran | شبکه باران | Gilan | 1080p | Worldwide |
@@ -104,11 +104,11 @@ This catalogue contains 217 channels in 13 categories. The playlist links are ge
 |:--|:--|:--|:--|
 | Arko TV | آرکو | 720p | Worldwide |
 | Datis TV | داتیس | 720p | Rechecking |
-| GEM Pixel | جم پیکسل | 576p | Worldwide |
-| HomePlus | هوم پلاس | 720p | Worldwide |
+| GEM Pixel | جم پیکسل | 576p | Rechecking |
+| HomePlus | هوم پلاس | 720p | Rechecking |
 | Iran Independent | ایران ایندیپندنت | n/a | Worldwide |
 | ITN | آی‌تی‌ان | 576p | Worldwide |
-| Khatereh TV | خاطره | 1080p | Rechecking |
+| Khatereh TV | خاطره | 1080p | Worldwide |
 | MTC | ام‌تی‌سی | 720p | Worldwide |
 | Navid TV | نوید | n/a | Rechecking |
 | Net TV | نت | n/a | Worldwide |
@@ -172,7 +172,7 @@ This catalogue contains 217 channels in 13 categories. The playlist links are ge
 |:--|:--|:--|:--|
 | Azadi TV | آزادی | 720p | Worldwide |
 | BBC News Persian | بی‌بی‌سی فارسی | 720p | Worldwide |
-| Channel One | شبکه یک (لس‌آنجلس) | 720p | Worldwide |
+| Channel One | شبکه یک (لس‌آنجلس) | 480p | Rechecking |
 | Cheshmeh Oghab | چشم عقاب | 720p | Worldwide |
 | Dej TV | دژ | 720p | Worldwide |
 | Didgah TV | دیدگاه | 486p | Worldwide |
@@ -186,7 +186,7 @@ This catalogue contains 217 channels in 13 categories. The playlist links are ge
 | IRNA TV | ایرنا | n/a | Worldwide |
 | Israel Pars TV | اسرائیل پارس | 360p | Worldwide |
 | Kanal Jadid | کانال جدید | 576p | Worldwide |
-| MelliG TV | ملی‌گرا | 720p | Rechecking |
+| MelliG TV | ملی‌گرا | 720p | Worldwide |
 | Mihan TV | میهن | 1080p | Worldwide |
 | Nahade Azadi | نهاد آزادی | 720p | Worldwide |
 | National Iranian Congress TV | کنگره ملی ایرانیان | 720p | Worldwide |
@@ -281,7 +281,7 @@ This catalogue contains 217 channels in 13 categories. The playlist links are ge
 | Labbayk TV | شبکه لبیک | 720p | Worldwide |
 | Marjaeyat TV Persian | شبکه مرجعیت | 1080p | Worldwide |
 | Nour TV | شبکه نور (امارات) | 576p | Worldwide |
-| Payam-e Aramesh | پیام آرامش | 480p | Rechecking |
+| Payam-e Aramesh | پیام آرامش | 480p | Worldwide |
 | Payvand TV | شبکه پیوند | 720p | Worldwide |
 | Rasoulallah TV | شبکه رسول‌الله | 1080p | Worldwide |
 | Razavi TV | شبکه رضوی | 720p | Worldwide |
@@ -296,7 +296,7 @@ This catalogue contains 217 channels in 13 categories. The playlist links are ge
 
 | Channel | Persian name | Quality | Available |
 |:--|:--|:--|:--|
-| Derakhte Zendegi TV | درخت زندگی | 480p | Rechecking |
+| Derakhte Zendegi TV | درخت زندگی | 480p | Worldwide |
 | ICnet 1 | آی‌سی‌نت ۱ | 480p | Worldwide |
 | ICnet 2 | آی‌سی‌نت ۲ | 480p | Worldwide |
 | ICnet 3 | آی‌سی‌نت ۳ | 720p | Worldwide |
@@ -319,6 +319,6 @@ This catalogue contains 217 channels in 13 categories. The playlist links are ge
 | Erfan Halgheh TV | عرفان حلقه | 480p | Worldwide |
 | Ganj-e Hozour | گنج حضور | 1080p | Worldwide |
 | Iran Jewish TV | یهودیان ایرانی | 720p | Worldwide |
-| Wise Human TV | انسان عاقل | 1080p | Worldwide |
+| Wise Human TV | انسان عاقل | 1080p | Rechecking |
 
 </details>

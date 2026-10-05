@@ -1,11 +1,11 @@
 #EXTM3U
 # Satellite · News & Current Affairs only.
-# generated 2026-09-28 10:51 UTC by shayanline/iptv-iran
+# generated 2026-10-05 11:26 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="AzadiTV.ir" tvg-name="Azadi TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/AzadiTV.ir.png" group-title="Satellite · News & Current Affairs | ماهواره‌ای · خبر و امور جاری" tvg-language="fas" tvg-quality="HD",Azadi TV | آزادی
 https://wmtvhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="BBCPersian.uk" tvg-name="BBC News Persian" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/BBCPersian.uk.png" group-title="Satellite · News & Current Affairs | ماهواره‌ای · خبر و امور جاری" tvg-language="fas" tvg-quality="HD",BBC News Persian | بی‌بی‌سی فارسی
 https://vs-hls-pushb-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_persian_tv/mobile_wifi_main_hd_abr_v2.m3u8
-#EXTINF:-1 tvg-id="ChannelOne.us" tvg-name="Channel One" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ChannelOne.us.png" group-title="Satellite · News & Current Affairs | ماهواره‌ای · خبر و امور جاری" tvg-language="fas" tvg-quality="HD",Channel One | شبکه یک (لس‌آنجلس)
+#EXTINF:-1 tvg-id="ChannelOne.us" tvg-name="Channel One" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ChannelOne.us.png" group-title="Satellite · News & Current Affairs | ماهواره‌ای · خبر و امور جاری" tvg-language="fas" tvg-quality="SD",Channel One | شبکه یک (لس‌آنجلس)
 https://livestream.5centscdn.com/channelonehd/0d0dd9d8b4933ea5f0a3a9495707c004.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="CheshmehOghab.ir" tvg-name="Cheshmeh Oghab" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/CheshmehOghab.ir.png" group-title="Satellite · News & Current Affairs | ماهواره‌ای · خبر و امور جاری" tvg-language="fas" tvg-quality="HD",Cheshmeh Oghab | چشم عقاب
 https://choghls.wns.live/hls/stream.m3u8
