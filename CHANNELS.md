@@ -25,7 +25,7 @@ This catalogue contains 217 channels in 13 categories. The playlist links are ge
 | IRIB Salamat | شبکه سلامت | 576p | Worldwide |
 | IRIB Tamasha | شبکه تماشا | 1080p | Worldwide |
 | IRIB TV1 + | شبکه یک پلاس | 1080p | Worldwide |
-| IRIB UHD | شبکه فراگیر (UHD) | 2160p | Worldwide |
+| IRIB UHD | شبکه فراگیر (UHD) | 1440p | Worldwide |
 | IRIB Varzesh | شبکه ورزش | 1082p | Worldwide |
 | IRINN | شبکه خبر | 576p | Worldwide |
 | IRINN 2 | شبکه خبر ۲ | 1080p | Worldwide |
@@ -47,7 +47,7 @@ This catalogue contains 217 channels in 13 categories. The playlist links are ge
 | Bushehr | شبکه بوشهر | Bushehr | 576p | Worldwide |
 | Dena | شبکه دنا | Kohgiluyeh & Boyer-Ahmad | 1080p | Worldwide |
 | Eshragh | شبکه اشراق | Zanjan | 1080p | Worldwide |
-| Fars | شبکه فارس | Fars | 1080p | Worldwide |
+| Fars | شبکه فارس | Fars | 576p | Worldwide |
 | Hamedan | شبکه همدان | Hamadan | 576p | Worldwide |
 | Hamoon | شبکه هامون | Sistan & Baluchestan | 1080p | Worldwide |
 | Ilam | شبکه ایلام | Ilam | 576p | Worldwide |
@@ -108,7 +108,7 @@ This catalogue contains 217 channels in 13 categories. The playlist links are ge
 | HomePlus | هوم پلاس | 720p | Rechecking |
 | Iran Independent | ایران ایندیپندنت | n/a | Worldwide |
 | ITN | آی‌تی‌ان | 576p | Worldwide |
-| Khatereh TV | خاطره | 1080p | Worldwide |
+| Khatereh TV | خاطره | 1080p | Rechecking |
 | MTC | ام‌تی‌سی | 720p | Worldwide |
 | Navid TV | نوید | n/a | Rechecking |
 | Net TV | نت | n/a | Worldwide |
@@ -116,10 +116,10 @@ This catalogue contains 217 channels in 13 categories. The playlist links are ge
 | Omid-e Iran | امید ایران | 480p | Worldwide |
 | Oxir TV | اکسیر | 576p | Worldwide |
 | Persiana Reality | پرشیانا ریالیتی | 720p | Rechecking |
-| Porchooneh TV | پرچونه | n/a | Worldwide |
+| Porchooneh TV | پرچونه | n/a | Rechecking |
 | Ravi TV | راوی | 720p | Worldwide |
 | Royal TV | رویال | 720p | Worldwide |
-| Tapesh Iran | تپش ایران | n/a | Rechecking |
+| Tapesh Iran | تپش ایران | 1080p | Worldwide |
 | Tapesh TV | تپش | 1080p | Worldwide |
 | Tin TV | تین | 720p | Worldwide |
 | YourTime TV | یورتایم | 576p | Worldwide |
@@ -212,7 +212,7 @@ This catalogue contains 217 channels in 13 categories. The playlist links are ge
 | 4 Music | فور موزیک | 720p | Rechecking |
 | AFN TV | ای‌اف‌ان | 720p | Worldwide |
 | Avang TV | آونگ | 480p | Worldwide |
-| High Vision TV | های ویژن | 576p | Worldwide |
+| High Vision TV | های ویژن | 480p | Rechecking |
 | Navahang TV | نواهنگ | 576p | Worldwide |
 | Persiana Folk | پرشیانا سنتی | 720p | Worldwide |
 | Persiana Music | پرشیانا موسیقی | 576p | Worldwide |
@@ -256,7 +256,7 @@ This catalogue contains 217 channels in 13 categories. The playlist links are ge
 |:--|:--|:--|:--|
 | Cafe Trade TV | کافه ترید | 480p | Rechecking |
 | E Planet TV | ای‌پلنت | 720p | Rechecking |
-| Payam Javan TV | پیام جوان | 720p | Worldwide |
+| Payam Javan TV | پیام جوان | 480p | Rechecking |
 | Persiana Docs | پرشیانا مستند | 720p | Worldwide |
 | Persiana Podcast | پرشیانا پادکست | 720p | Worldwide |
 | Persiana Travel | پرشیانا سفر | 720p | Worldwide |
@@ -271,7 +271,7 @@ This catalogue contains 217 channels in 13 categories. The playlist links are ge
 | Channel | Persian name | Quality | Available |
 |:--|:--|:--|:--|
 | Al Wilayah | شبکه الولایه | 576p | Worldwide |
-| Al-Mahdi TV | شبکه المهدی | 1080p | Worldwide |
+| Al-Mahdi TV | شبکه المهدی | 480p | Rechecking |
 | Asil TV | اصیل | 576p | Worldwide |
 | Assirat TV | شبکه الصراط | 1080p | Worldwide |
 | Habib TV | شبکه حبیب | 720p | Worldwide |
@@ -319,6 +319,6 @@ This catalogue contains 217 channels in 13 categories. The playlist links are ge
 | Erfan Halgheh TV | عرفان حلقه | 480p | Worldwide |
 | Ganj-e Hozour | گنج حضور | 1080p | Worldwide |
 | Iran Jewish TV | یهودیان ایرانی | 720p | Worldwide |
-| Wise Human TV | انسان عاقل | 1080p | Rechecking |
+| Wise Human TV | انسان عاقل | 1080p | Worldwide |
 
 </details>
