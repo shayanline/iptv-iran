@@ -26,7 +26,7 @@ This catalogue contains 204 channels in 13 categories. The playlist links are ge
 | IRIB Tamasha | شبکه تماشا | 1080p | Worldwide |
 | IRIB TV1 + | شبکه یک پلاس | 1080p | Worldwide |
 | IRIB UHD | شبکه فراگیر (UHD) | 1440p | Worldwide |
-| IRIB Varzesh | شبکه ورزش | 1082p | Worldwide |
+| IRIB Varzesh | شبکه ورزش | 1082p | Iran only |
 | IRINN | شبکه خبر | 576p | Worldwide |
 | IRINN 2 | شبکه خبر ۲ | 1080p | Worldwide |
 | Roya | شبکه رویا | 720p | Worldwide |
@@ -76,7 +76,7 @@ This catalogue contains 204 channels in 13 categories. The playlist links are ge
 </details>
 
 <details>
-<summary><b>IRIB International Services</b> &nbsp; 13 channels</summary>
+<summary><b>IRIB International Services</b> &nbsp; 12 channels</summary>
 
 | Channel | Persian name | Quality | Available |
 |:--|:--|:--|:--|
@@ -86,9 +86,8 @@ This catalogue contains 204 channels in 13 categories. The playlist links are ge
 | iFilm Arabic | آی‌فیلم عربی | 576p | Worldwide |
 | iFilm English | آی‌فیلم انگلیسی | 576p | Worldwide |
 | Iran Press | ایران پرس | 576p | Worldwide |
-| Palestine TV | شبکه فلسطین | 720p | Rechecking |
+| Palestine TV | شبکه فلسطین | 720p | Worldwide |
 | Press TV | پرس تی‌وی | 720p | Worldwide |
-| Press TV French | پرس تی‌وی فرانسه | 576p | Rechecking |
 | Sahar TV Azeri | سحر آذری | 576p | Iran only |
 | Sahar TV Balkan | سحر بالکان | 576p | Iran only |
 | Sahar TV Kurdish | سحر کردی | 576p | Iran only |
@@ -97,7 +96,7 @@ This catalogue contains 204 channels in 13 categories. The playlist links are ge
 </details>
 
 <details>
-<summary><b>Satellite · General & Variety</b> &nbsp; 18 channels</summary>
+<summary><b>Satellite · General & Variety</b> &nbsp; 19 channels</summary>
 
 | Channel | Persian name | Quality | Available |
 |:--|:--|:--|:--|
@@ -106,13 +105,14 @@ This catalogue contains 204 channels in 13 categories. The playlist links are ge
 | HomePlus | هوم پلاس | 720p | Rechecking |
 | Iran Independent | ایران ایندیپندنت | n/a | Worldwide |
 | ITN | آی‌تی‌ان | 576p | Worldwide |
+| Karoon TV | n/a | 576p | Worldwide |
 | Khatereh TV | خاطره | 1080p | Worldwide |
 | MTC | ام‌تی‌سی | 720p | Worldwide |
 | Net TV | نت | n/a | Worldwide |
 | Novin TV | نوین | 720p | Worldwide |
 | Omid-e Iran | امید ایران | 480p | Worldwide |
 | Oxir TV | اکسیر | 576p | Worldwide |
-| Porchooneh TV | پرچونه | n/a | Worldwide |
+| Porchooneh TV | پرچونه | n/a | Rechecking |
 | Ravi TV | راوی | 720p | Worldwide |
 | Royal TV | رویال | 720p | Worldwide |
 | Tapesh Iran | تپش ایران | 1080p | Worldwide |
@@ -159,7 +159,7 @@ This catalogue contains 204 channels in 13 categories. The playlist links are ge
 </details>
 
 <details>
-<summary><b>Satellite · News & Current Affairs</b> &nbsp; 29 channels</summary>
+<summary><b>Satellite · News & Current Affairs</b> &nbsp; 28 channels</summary>
 
 | Channel | Persian name | Quality | Available |
 |:--|:--|:--|:--|
@@ -173,7 +173,6 @@ This catalogue contains 204 channels in 13 categories. The playlist links are ge
 | Iran International | ایران اینترنشنال | 1080p | Worldwide |
 | Iran National Revolution TV | انقلاب ملی ایران | 720p | Worldwide |
 | Iran TV Israel | ایران تی‌وی اسرائیل | 720p | Worldwide |
-| Irane Aryaee TV | ایران آریایی | 576p | Rechecking |
 | IraneFarda TV | ایران فردا | 720p | Worldwide |
 | IranWire | ایران‌وایر | 720p | Worldwide |
 | IRNA TV | ایرنا | n/a | Worldwide |
@@ -229,14 +228,15 @@ This catalogue contains 204 channels in 13 categories. The playlist links are ge
 </details>
 
 <details>
-<summary><b>Satellite · Sports</b> &nbsp; 4 channels</summary>
+<summary><b>Satellite · Sports</b> &nbsp; 5 channels</summary>
 
 | Channel | Persian name | Quality | Available |
 |:--|:--|:--|:--|
+| GEM Sport | جم ورزش | 576p | Worldwide |
 | Persiana Fight | پرشیانا رزمی | 720p | Worldwide |
 | Telewebion Sport 1 | تلوبیون ورزشی ۱ | 1082p | Worldwide |
 | Telewebion Sport 2 | تلوبیون ورزشی ۲ | 1082p | Worldwide |
-| Telewebion Sport 3 | تلوبیون ورزشی ۳ | 1080p | Worldwide |
+| Telewebion Sport 3 | تلوبیون ورزشی ۳ | 1082p | Worldwide |
 
 </details>
 
@@ -304,7 +304,7 @@ This catalogue contains 204 channels in 13 categories. The playlist links are ge
 | Channel | Persian name | Quality | Available |
 |:--|:--|:--|:--|
 | Erfan Halgheh TV | عرفان حلقه | 480p | Worldwide |
-| Ganj-e Hozour | گنج حضور | 1080p | Worldwide |
+| Ganj-e Hozour | گنج حضور | 480p | Rechecking |
 | Iran Jewish TV | یهودیان ایرانی | 720p | Worldwide |
 | Wise Human TV | انسان عاقل | 1080p | Worldwide |
 

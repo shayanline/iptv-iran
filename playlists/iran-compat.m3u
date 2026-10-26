@@ -1,6 +1,6 @@
 #EXTM3U
 # For smart TV apps and other limited players. Only streams whose manifests stay within what a basic HLS parser handles.
-# generated 2026-10-19 09:52 UTC by shayanline/iptv-iran
+# generated 2026-10-26 10:04 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="iFilmPersian.ir" tvg-name="iFilm" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/iFilmPersian.ir.png" group-title="IRIB National Networks | شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",iFilm | آی‌فیلم
 https://live.presstv.co.uk/hls/ifilmfa_4_482/index.m3u8
 #EXTINF:-1 tvg-id="PooyaTV.ir" tvg-name="IRIB Pooya & Nahal" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PooyaTV.ir.png" group-title="IRIB National Networks | شبکه‌های سراسری سیما" tvg-language="fas" tvg-quality="FHD",IRIB Pooya & Nahal | شبکه پویا و نهال
@@ -37,8 +37,6 @@ https://stream.novin.live/hls/playlist.m3u8
 https://oitnhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="OXIRTV.ir" tvg-name="Oxir TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/OXIRTV.ir.png" group-title="Satellite · General & Variety | ماهواره‌ای · عمومی و متنوع" tvg-language="fas" tvg-quality="SD",Oxir TV | اکسیر
 https://hls.oxir.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PorchoonehTV.us" tvg-name="Porchooneh TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PorchoonehTV.us.png" group-title="Satellite · General & Variety | ماهواره‌ای · عمومی و متنوع" tvg-language="fas",Porchooneh TV | پرچونه
-http://porchooneh.com/hls/live1/stream1.m3u8
 #EXTINF:-1 tvg-id="RaviTV.us" tvg-name="Ravi TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/RaviTV.us.png" group-title="Satellite · General & Variety | ماهواره‌ای · عمومی و متنوع" tvg-language="fas" tvg-quality="HD",Ravi TV | راوی
 https://hls.ravitv.com/hls/stream.m3u8
 #EXTINF:-1 tvg-id="RoyalTV.ir" tvg-name="Royal TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/RoyalTV.ir.png" group-title="Satellite · General & Variety | ماهواره‌ای · عمومی و متنوع" tvg-language="fas" tvg-quality="HD",Royal TV | رویال
@@ -193,6 +191,8 @@ https://t2hls.wns.live/hls/stream.m3u8
 https://toonixhls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PersianaJunior.fr" tvg-name="Persiana Junior" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaJunior.fr.png" group-title="Satellite · Children | ماهواره‌ای · کودک" tvg-language="fas" tvg-quality="SD",Persiana Junior | پرشیانا کودک
 https://junhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="GEMSport.tr" tvg-name="GEM Sport" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/GEMSport.tr.png" group-title="Satellite · Sports | ماهواره‌ای · ورزش" tvg-language="fas" tvg-quality="SD",GEM Sport | جم ورزش
+https://steep-wildflower-284d.nhhwkiszzzvcuojxdo.workers.dev/?url=https://gg.hls2.xyz/live/IR+-+GEM+Sport/chunks.m3u8
 #EXTINF:-1 tvg-id="PersianaFight.fr" tvg-name="Persiana Fight" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaFight.fr.png" group-title="Satellite · Sports | ماهواره‌ای · ورزش" tvg-language="fas" tvg-quality="HD",Persiana Fight | پرشیانا رزمی
 https://fighthls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PersianaDocs.fr" tvg-name="Persiana Docs" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaDocs.fr.png" group-title="Satellite · Factual, Culture & Lifestyle | ماهواره‌ای · مستند، فرهنگ و سبک زندگی" tvg-language="fas" tvg-quality="HD",Persiana Docs | پرشیانا مستند
@@ -249,8 +249,6 @@ https://sh7hls.wns.live/hls/stream.m3u8
 https://hls.nejat.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ErfanHalghehTV.ca" tvg-name="Erfan Halgheh TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/ErfanHalghehTV.ca.png" group-title="Religious · Other Faiths & Spiritual | مذهبی · سایر ادیان و معنوی" tvg-language="fas" tvg-quality="SD",Erfan Halgheh TV | عرفان حلقه
 https://hls.erfanhalgheh.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="GanjeHozourTV.us" tvg-name="Ganj-e Hozour" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/GanjeHozourTV.us.png" group-title="Religious · Other Faiths & Spiritual | مذهبی · سایر ادیان و معنوی" tvg-language="fas" tvg-quality="FHD",Ganj-e Hozour | گنج حضور
-https://media.parvizshahbazi.com/ganjehozour/Main_tv/playlist.m3u8
 #EXTINF:-1 tvg-id="IranJewishTV.ir" tvg-name="Iran Jewish TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/IranJewishTV.ir.png" group-title="Religious · Other Faiths & Spiritual | مذهبی · سایر ادیان و معنوی" tvg-language="fas" tvg-quality="HD",Iran Jewish TV | یهودیان ایرانی
 http://iran620.com:1935/live/IranJewishTv/playlist.m3u8
 #EXTINF:-1 tvg-id="WiseHumanTv.ir" tvg-name="Wise Human TV" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/WiseHumanTv.ir.png" group-title="Religious · Other Faiths & Spiritual | مذهبی · سایر ادیان و معنوی" tvg-language="far" tvg-quality="FHD",Wise Human TV | انسان عاقل
