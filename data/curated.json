@@ -647,6 +647,10 @@
       "province_en": "Chaharmahal & Bakhtiari",
       "province_fa": "چهارمحال و بختیاری"
     },
+    "KaroonTV.ir": {
+      "en": "Karoon TV",
+      "fa": "کارون"
+    },
     "KermanTV.ir": {
       "en": "Kerman",
       "fa": "شبکه کرمان",
@@ -1572,6 +1576,7 @@
     "IraneFardaTV.uk": "sat-news",
     "IsraelParsTV.il": "sat-news",
     "KanalJadid.uk": "sat-news",
+    "KaroonTV.ir": "sat-general",
     "MBCPersia.ae": "sat-movies",
     "MTC.us": "sat-general",
     "MaahTV.my": "sat-movies",
