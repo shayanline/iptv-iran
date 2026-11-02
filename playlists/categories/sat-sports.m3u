@@ -1,13 +1,13 @@
 #EXTM3U
 # Satellite · Sports only.
-# generated 2026-10-26 10:04 UTC by shayanline/iptv-iran
+# generated 2026-11-02 16:21 UTC by shayanline/iptv-iran
 #EXTINF:-1 tvg-id="GEMSport.tr" tvg-name="GEM Sport" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/GEMSport.tr.png" group-title="Satellite · Sports | ماهواره‌ای · ورزش" tvg-language="fas" tvg-quality="SD",GEM Sport | جم ورزش
 https://steep-wildflower-284d.nhhwkiszzzvcuojxdo.workers.dev/?url=https://gg.hls2.xyz/live/IR+-+GEM+Sport/chunks.m3u8
 #EXTINF:-1 tvg-id="PersianaFight.fr" tvg-name="Persiana Fight" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/PersianaFight.fr.png" group-title="Satellite · Sports | ماهواره‌ای · ورزش" tvg-language="fas" tvg-quality="HD",Persiana Fight | پرشیانا رزمی
 https://fighthls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="TelewebionSport1.ir" tvg-name="Telewebion Sport 1" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/TelewebionSport1.ir.png" group-title="Satellite · Sports | ماهواره‌ای · ورزش" tvg-language="fas" tvg-quality="FHD",Telewebion Sport 1 | تلوبیون ورزشی ۱
-https://live-aburayhan1105.telewebion.net/ek/sport1/live/108050p/index.m3u8
+https://live-aburayhan1101.telewebion.ir/ek/sport1/live/108050p/index.m3u8
 #EXTINF:-1 tvg-id="TelewebionSport2.ir" tvg-name="Telewebion Sport 2" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/TelewebionSport2.ir.png" group-title="Satellite · Sports | ماهواره‌ای · ورزش" tvg-language="fas" tvg-quality="FHD",Telewebion Sport 2 | تلوبیون ورزشی ۲
-https://live-aburayhan1112.telewebion.net/ek/sport2/live/108050p/index.m3u8
+https://live-aburayhan1106.telewebion.ir/ek/sport2/live/108050p/index.m3u8
 #EXTINF:-1 tvg-id="TelewebionSport3.ir" tvg-name="Telewebion Sport 3" tvg-logo="https://raw.githubusercontent.com/shayanline/iptv-iran/main/assets/logos/TelewebionSport3.ir.png" group-title="Satellite · Sports | ماهواره‌ای · ورزش" tvg-language="fas" tvg-quality="FHD",Telewebion Sport 3 | تلوبیون ورزشی ۳
-https://live-aburayhan1113.telewebion.net/ek/sport3/live/108050p/index.m3u8
+https://live-aburayhan1111.telewebion.ir/ek/sport3/live/108050p/index.m3u8
