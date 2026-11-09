@@ -1,6 +1,6 @@
 # Channel catalogue
 
-This catalogue contains 202 channels in 13 categories. The playlist links are generated from the same published channel data.
+This catalogue contains 199 channels in 13 categories. The playlist links are generated from the same published channel data.
 
 <details>
 <summary><b>IRIB National Networks</b> &nbsp; 23 channels</summary>
@@ -52,10 +52,10 @@ This catalogue contains 202 channels in 13 categories. The playlist links are ge
 | Hamoon | شبکه هامون | Sistan & Baluchestan | 576p | Worldwide |
 | Ilam | شبکه ایلام | Ilam | 576p | Worldwide |
 | Isfahan | شبکه اصفهان | Isfahan | 576p | Worldwide |
-| Jahanbin | شبکه جهان‌بین | Chaharmahal & Bakhtiari | 1080p | Worldwide |
-| Kerman | شبکه کرمان | Kerman | 1080p | Worldwide |
+| Jahanbin | شبکه جهان‌بین | Chaharmahal & Bakhtiari | 576p | Worldwide |
+| Kerman | شبکه کرمان | Kerman | 576p | Worldwide |
 | Khalij-e Fars | شبکه خلیج فارس | Hormozgan | 576p | Worldwide |
-| Khavaran | شبکه خاوران | South Khorasan | 1080p | Worldwide |
+| Khavaran | شبکه خاوران | South Khorasan | 576p | Worldwide |
 | Khorasan Razavi | شبکه خراسان رضوی | Khorasan Razavi | 1080p | Worldwide |
 | Khuzestan | شبکه خوزستان | Khuzestan | 1080p | Worldwide |
 | Kish | شبکه کیش | Kish | 576p | Worldwide |
@@ -65,7 +65,7 @@ This catalogue contains 202 channels in 13 categories. The playlist links are ge
 | Noor | شبکه نور | Qom | 1080p | Worldwide |
 | Qazvin | شبکه قزوین | Qazvin | 576p | Worldwide |
 | Sabalan | شبکه سبلان | Ardabil | 576p | Worldwide |
-| Sabz | شبکه سبز | Golestan | 1080p | Worldwide |
+| Sabz | شبکه سبز | Golestan | 576p | Worldwide |
 | Sahand | شبکه سهند | East Azerbaijan | 1080p | Worldwide |
 | Semnan | شبکه سمنان | Semnan | 1080p | Worldwide |
 | Tabarestan | شبکه تبرستان | Mazandaran | 1080p | Worldwide |
@@ -96,13 +96,11 @@ This catalogue contains 202 channels in 13 categories. The playlist links are ge
 </details>
 
 <details>
-<summary><b>Satellite · General & Variety</b> &nbsp; 19 channels</summary>
+<summary><b>Satellite · General & Variety</b> &nbsp; 17 channels</summary>
 
 | Channel | Persian name | Quality | Available |
 |:--|:--|:--|:--|
 | Arko TV | آرکو | 720p | Worldwide |
-| GEM Pixel | جم پیکسل | 576p | Rechecking |
-| HomePlus | هوم پلاس | 720p | Rechecking |
 | Iran Independent | ایران ایندیپندنت | n/a | Worldwide |
 | ITN | آی‌تی‌ان | 576p | Worldwide |
 | Karoon TV | کارون | 576p | Worldwide |
@@ -110,9 +108,9 @@ This catalogue contains 202 channels in 13 categories. The playlist links are ge
 | MTC | ام‌تی‌سی | 720p | Worldwide |
 | Net TV | نت | n/a | Worldwide |
 | Novin TV | نوین | 720p | Worldwide |
-| Omid-e Iran | امید ایران | 480p | Worldwide |
+| Omid-e Iran | امید ایران | 480p | Rechecking |
 | Oxir TV | اکسیر | 576p | Worldwide |
-| Porchooneh TV | پرچونه | n/a | Rechecking |
+| Porchooneh TV | پرچونه | n/a | Worldwide |
 | Ravi TV | راوی | 720p | Worldwide |
 | Royal TV | رویال | 720p | Worldwide |
 | Tapesh Iran | تپش ایران | 1080p | Worldwide |
@@ -158,13 +156,12 @@ This catalogue contains 202 channels in 13 categories. The playlist links are ge
 </details>
 
 <details>
-<summary><b>Satellite · News & Current Affairs</b> &nbsp; 28 channels</summary>
+<summary><b>Satellite · News & Current Affairs</b> &nbsp; 27 channels</summary>
 
 | Channel | Persian name | Quality | Available |
 |:--|:--|:--|:--|
 | Azadi TV | آزادی | 720p | Worldwide |
 | BBC News Persian | بی‌بی‌سی فارسی | 720p | Worldwide |
-| Channel One | شبکه یک (لس‌آنجلس) | 480p | Rechecking |
 | Cheshmeh Oghab | چشم عقاب | 720p | Worldwide |
 | Dej TV | دژ | 720p | Worldwide |
 | Didgah TV | دیدگاه | 480p | Rechecking |
@@ -179,7 +176,7 @@ This catalogue contains 202 channels in 13 categories. The playlist links are ge
 | Kanal Jadid | کانال جدید | 576p | Worldwide |
 | MelliG TV | ملی‌گرا | 720p | Worldwide |
 | Mihan TV | میهن | 1080p | Worldwide |
-| Nahade Azadi | نهاد آزادی | 720p | Rechecking |
+| Nahade Azadi | نهاد آزادی | 720p | Worldwide |
 | National Iranian Congress TV | کنگره ملی ایرانیان | 720p | Worldwide |
 | Pars TV | پارس | 720p | Worldwide |
 | Project Leon | پروژه لئون | 720p | Worldwide |
@@ -199,7 +196,7 @@ This catalogue contains 202 channels in 13 categories. The playlist links are ge
 | Channel | Persian name | Quality | Available |
 |:--|:--|:--|:--|
 | 4 Kurd | فور کورد | 576p | Worldwide |
-| AFN TV | ای‌اف‌ان | 720p | Worldwide |
+| AFN TV | ای‌اف‌ان | 576p | Rechecking |
 | Avang TV | آونگ | 480p | Worldwide |
 | High Vision TV | های ویژن | 576p | Worldwide |
 | Navahang TV | نواهنگ | 576p | Worldwide |
@@ -258,7 +255,7 @@ This catalogue contains 202 channels in 13 categories. The playlist links are ge
 | Channel | Persian name | Quality | Available |
 |:--|:--|:--|:--|
 | Al Wilayah | شبکه الولایه | 576p | Worldwide |
-| Al-Mahdi TV | شبکه المهدی | 1080p | Worldwide |
+| Al-Mahdi TV | شبکه المهدی | 480p | Rechecking |
 | Asil TV | اصیل | 576p | Worldwide |
 | Assirat TV | شبکه الصراط | 1080p | Worldwide |
 | Habib TV | شبکه حبیب | 720p | Worldwide |
